@@ -19,6 +19,7 @@ from config import IBM_QUEUE_FOLDER # Local temp folder for queuing audio files 
 from config import TMP_CONVERTED, TMP_CONVERTED_GOOGLE # Local temp folder for converted audio files
 from config import GS_BUCKET  # Google Storage folder for uploaded audio, e.g., gs://<bucketname>/<folder>/<subfolder>/
 
+
 __doc__ = "Basic wrapper for IBM Watson and Google Cloud speech-to-text APIs."
 
 DEFAULT_NARROWBAND_MODEL = "en-US_NarrowbandModel"
@@ -228,7 +229,8 @@ def process_ibm(audio_filepath, sttclient_location, full_output_folder, args, sk
     temp_fp = tempfile.NamedTemporaryFile(prefix="ibm_tempq_", dir=IBM_QUEUE_FOLDER, mode='w+t')
     temp_fp.write(converted_filepath)
     temp_fp.flush()
-    logging.info("Wrote '%s' to %s", converted_filepath, temp_fp.name)
+    logging.info("Wrote '%s' to temp file %s", converted_filepath, temp_fp.name)
+
 
     try:
         print
@@ -284,8 +286,7 @@ def process_ibm(audio_filepath, sttclient_location, full_output_folder, args, sk
                 logging.info("ReSubmitting audio file using narrowband model")
                 print
                 command,logpath = get_submit_command(sttclient_location, DEFAULT_NARROWBAND_MODEL, audio_format,
-                                             full_output_folder, args,
-                                             queue_file=IBM_QUEUE_FOLDER, threads=8)
+                                                     full_output_folder, args, temp_fp.name, threads=8)
                 if os.path.isfile(logpath):
                     logging.warning("Removing previous log: %s", logpath)
                     os.remove(logpath)
@@ -479,7 +480,7 @@ if __name__ == '__main__':
     start_time = time.time()
 
     # parse command line parameters
-    parser = argparse.ArgumentParser(description='IBM STT Batcher')
+    parser = argparse.ArgumentParser(description='Speech to text batcher')
 
     parser.add_argument('--infolder','-i', action='store', default='.', help='folder containing audio files')
     parser.add_argument('--outfolder','-o', action='store', default='./output', help='output directory')

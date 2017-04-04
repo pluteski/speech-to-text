@@ -9,10 +9,14 @@ provided by IBM and Google.
 
 Settings in config.py file point to python executables provided by
 IBM Watson and Google Cloud for submitting audio files to their
-speech-to-text cloud API:
+speech-to-text cloud API.
+
+# Cloud API Wrapper Dependencies:
 
 STTCLIENT = '<path>/speech-to-text-websockets-python/sttClient.py'
+
 GOOGLE_STTCLIENT = "<path>/gcloud/python-docs-samples/speech/grpc/transcribe_async.py"
+
 
 # Contact
 mark.plutowski@gmail.com

@@ -19,6 +19,6 @@ GOOGLE_STTCLIENT = "<path>/gcloud/python-docs-samples/speech/grpc/transcribe_asy
 
 
 # Contact
-mark.plutowski@gmail.com
+pluteski@gmail.com
 
 

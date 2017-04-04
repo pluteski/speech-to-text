@@ -19,6 +19,11 @@ IBM_PATH = "ibm_stt/"
 BASE_PATH = "/temp/stt/AudioJournals/"
 
 """
+Run Dependencies:
+- text2stats.py
+- tally_audio.py
+
+
 Compares IBM vs Google on the basis of the following summary stats :
 - Number of transcripts generated
 - Portion of IBM transcripts that have Google transcript, and vice versa.

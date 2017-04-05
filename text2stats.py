@@ -10,18 +10,7 @@ import json
 import logging
 import sys
 logging.basicConfig(format='%(asctime)s %(message)s', level=logging.INFO)
-
 from speech2text import log_kv
-
-IBM_TRANSCRIPT_STATS_FILENAME = "file_stats.json"
-GOOGLE_TRANSCRIPT_STATS_FILENAME = "gfile_stats.json"
-IBM_PROCESSED_STATS_FILENAME = "processed.json"
-GOOGLE_PROCESSED_STATS_FILENAME = "gprocessed.json"
-
-TRANSCRIPTION_FILENAMES = ['hypotheses.txt','hypotheses.txt.dictated']
-GOOGLE_TRANSCRIPTION_FILENAMES = ['transcript.txt','transcript.txt.dictated']
-PROCESSED_FILENAME = "sttclient.log"
-
 
 """
 What it does:
@@ -37,6 +26,15 @@ Calculates average word count and average character count
 Estimates transcription processing time
 
 """
+
+IBM_TRANSCRIPT_STATS_FILENAME = "file_stats.json" # transcript stats for ibm
+GOOGLE_TRANSCRIPT_STATS_FILENAME = "gfile_stats.json" # transcript stats for google
+IBM_PROCESSED_STATS_FILENAME = "processed.json" # transcribe time for ibm
+GOOGLE_PROCESSED_STATS_FILENAME = "gprocessed.json" # transcribe time for google
+TRANSCRIPTION_FILENAMES = ['hypotheses.txt','hypotheses.txt.dictated']
+GOOGLE_TRANSCRIPTION_FILENAMES = ['transcript.txt','transcript.txt.dictated']
+PROCESSED_FILENAME = "sttclient.log"
+
 def get_uniques(filename, set_, pref='.dictated'):
     """
     Add unique X.txt or X.txt.dictated,

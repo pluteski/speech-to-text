@@ -22,6 +22,21 @@ TRANSCRIPTION_FILENAMES = ['hypotheses.txt','hypotheses.txt.dictated']
 GOOGLE_TRANSCRIPTION_FILENAMES = ['transcript.txt','transcript.txt.dictated']
 PROCESSED_FILENAME = "sttclient.log"
 
+
+"""
+What it does:
+
+Counts number of :
+- transcripts (including dictated as well as raw)
+- dictated transcripts
+- unique transcripts
+- transcripts that were already analyzed previously
+
+Calculates average word count and average character count
+
+Estimates transcription processing time
+
+"""
 def get_uniques(filename, set_, pref='.dictated'):
     """
     Add unique X.txt or X.txt.dictated,
@@ -53,7 +68,6 @@ def get_uniques(filename, set_, pref='.dictated'):
 
 
 def calc_transcription_counts(filepath, basepath, args):
-
     word_count = 0
     char_count = 0
     subpath = filepath.replace(basepath, '')

@@ -294,14 +294,12 @@ if __name__ == '__main__':
     # result = run_query(con, cur, "select path from audio_stats where size_mb is null ")
     # log_kv("len(result)", len(result))
 
+
     result = run_query(con, cur, query2)
     log_kv("result", result)
 
     result = run_query(con, cur, query3)
     log_kv("result", result)
-
-
-
 
 
     con.close()
@@ -313,11 +311,5 @@ if __name__ == '__main__':
 
 
 
-# Runs a query, displays the count
-# result = run_query(con, cur, query6);print len(result)
 
-
-# Pretty prints a result having a path, 2 strings, and a float.
-# for x in result[:22]:
-#     print "%-75s %5s %5s %.2f" % x
 

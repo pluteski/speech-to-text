@@ -213,7 +213,10 @@ def analyze_transcribe_time(inpath, basepath, outpath, ext=".out", logname="sttc
         if args.keep and id in result:
             prev += 1
             count += 1
-            cumulative_time += result[id]["transcribe_seconds"]
+            try:
+                cumulative_time += result[id]["transcribe_seconds"]
+            except Exception as e:
+                ValueError("Missing field transcribe_seconds : %s", yy)
             continue
         unixmtime = os.path.getmtime(xx)
         birthtime = os.stat(xx).st_birthtime

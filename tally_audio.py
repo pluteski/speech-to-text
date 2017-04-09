@@ -54,17 +54,19 @@ def get_audio_metadata(filepath):
         duration_bitrate = duration_bitrate[1]
         duration = duration_bitrate.split(",")
         duration = duration[0].strip() if duration and type(duration) is list and len(duration) > 0 else None
-        result["duration"] = duration
+        result['duration'] = duration
         bitrate = duration_bitrate.split("bitrate: ")
         bitrate = bitrate[1] if bitrate and type(bitrate) is list and len(bitrate) > 1 else None
         bitrate = bitrate.split("\n")
         bitrate = bitrate[0].strip() if bitrate and type(bitrate) is list and len(bitrate) > 0 else None
-        result["bitrate"] = bitrate
+        result['bitrate'] = bitrate
         audio = duration_bitrate.split("Audio: ")
         audio = audio[1] if audio and type(audio) is list and len(audio) > 1 else None
         audio = audio.split("\n")
         audio = audio[0] if audio and type(audio) is list and len(audio) > 0 else None
         result["audio"] = audio.strip()
+    else:
+        raise ValueError("Missing bitrate for : %s", filepath)
     return result
 
 def load_json_file(filepath):
@@ -129,7 +131,7 @@ def time_string_to_decimal_minutes(time_string):
         minutes = fields[1] if len(fields) > 1 else 0.0
         seconds = fields[2] if len(fields) > 2 else 0.0
         minutes = (int(hours) * 60.0) + float(int(minutes)) + (float(seconds) / 60.0)
-        if minutes <= 0.01:
+        if minutes <= 0.005:
             logging.warn("Short duration: %.3f minutes. Time string: %s", minutes, time_string)
     except Exception as e:
         logging.error("time_string_to_decimal_minutes : %s : while converting time string: %s", time_string, e)
@@ -190,13 +192,18 @@ def dump_to_tsv(path, results):
         format = row['audio'] if 'audio' in row else ''
         short_format = get_short_format(format) if format else ''
         extension = row['extension'] if 'extension' in row else ''
-        bitrate_string = row['bitrate']
+        if 'bitrate' in row:
+            bitrate_string = row['bitrate']
+        else:
+            raise ValueError("Missing bitrate for key: %s" % key)
         bitrate_int = get_bitrate_int(row['bitrate'])
         duration = row['duration'] if 'duration' in row else ''
         duration_min = get_duration_min(duration) if duration else ''
         if not duration_min:
             logging.warn("No duration for audio file: %s", key)
             count_warnings += 1
+        elif duration_min < 0.005:
+            logging.warn("Short duration (%r) for audio file: %s", duration_min, key)
         size_mb = str(row['size_mb']) if 'size_mb' in row else ''
         unixmtime = str(row['unixmtime']) if 'unixmtime' in row else ''
         localtime = str(row['localtime']) if 'localtime' in row else ''
@@ -249,8 +256,8 @@ if __name__ == '__main__':
     make_dir(outpath)
 
     logging.info("Loading previous audio stats file: %s", result_filepath)
-    results = load_json_file(result_filepath)
-    log_kv("Count(loaded)", len(results))
+    previous = load_json_file(result_filepath)
+    log_kv("Count(loaded)", len(previous))
 
     logging.info("Searching for audio files")
     audio_files = walk_files(inpath, basepath, ext='')
@@ -262,47 +269,43 @@ if __name__ == '__main__':
         logging.info("")
 
     for fullpath, relative_path  in audio_files:
-        if args.keep and relative_path in results and results.get('size_mb'):
+        if args.keep and relative_path in previous and previous.get('size_mb'):
             continue
 
-        if relative_path not in results:
-            results[relative_path] = {}
+        if relative_path not in previous:
+            previous[relative_path] = {}
 
-        results[relative_path]['size_mb'] = os.path.getsize(fullpath)
+        previous[relative_path]['size_mb'] = os.path.getsize(fullpath)
 
-        if args.keep and relative_path not in results:
+       if args.keep and relative_path not in previous:
             unixmtime = os.path.getmtime(fullpath)
             localtime_readable = time.ctime(unixmtime)
             localtime = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(unixmtime))
             day_of_week = localtime_readable.split()[0] \
                 if localtime_readable and len(localtime_readable.split()) > 0 \
                 else None
-            results[relative_path]['unixmtime'] = unixmtime
-            results[relative_path]['day'] = day_of_week
-            results[relative_path]['localtime'] = localtime
+            previous[relative_path]['unixmtime'] = unixmtime
+            previous[relative_path]['day'] = day_of_week
+            previous[relative_path]['localtime'] = localtime
             if day_of_week is None:
                 logging.error("Day of week is none! unixtime: %s  localtime: %s ", unixmtime, localtime_readable)
-
             format_data = get_audio_metadata(fullpath)
             audio_shortened = format_data.get("audio").split()[0] if format_data.get("audio") and format_data.get("audio").split() else None
-
             if args.verbose:
                 logging.info("%-4s  %19s   %3s  %11s  %9s  %9s   %s",
                              day_of_week, localtime, format_data.get("extension"), format_data.get("duration"),
                              format_data.get("bitrate"), audio_shortened, relative_path)
-
             for k,v in format_data.items():
-                results[relative_path][k] = v
-
+                previous[relative_path][k] = v
         anydone = True
 
     if args.verbose :
         logging.info("")
     if anydone:
-        logging.info("Writing %d results to : %s", len(results), result_filepath)
+        logging.info("Writing %d results to : %s", len(previous), result_filepath)
         with open(result_filepath, 'w') as file:
-            json.dump(results, file, indent=2)
-        dump_to_tsv(os.path.join(outpath,TSV_FILENAME), results)
+            json.dump(previous, file, indent=2)
+        dump_to_tsv(os.path.join(outpath,TSV_FILENAME), previous)
     else:
         logging.info("Nothing new here")
 

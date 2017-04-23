@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>STTBlog</title><link href="http://pluteski.github.io/speech-to-text/" rel="alternate"></link><link href="http://pluteski.github.io/speech-to-text/feeds/all.atom.xml" rel="self"></link><id>http://pluteski.github.io/speech-to-text/</id><updated>2017-04-22T00:00:00-07:00</updated><entry><title>| A speech-to-text batch tool</title><link href="http://pluteski.github.io/speech-to-text/a-speech-to-text-batch-tool.html" rel="alternate"></link><published>2017-04-22T00:00:00-07:00</published><updated>2017-04-22T00:00:00-07:00</updated><author><name>Mark Plutowski</name></author><id>tag:pluteski.github.io,2017-04-22:/speech-to-text/a-speech-to-text-batch-tool.html</id><summary type="html">&lt;h1&gt;Introducing&lt;/h1&gt;
+&lt;p&gt;Introducing a speech-to-text cloud api wrapper
+for google cloud speech to text api and ibm watson speech to text api.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/pluteski/speech-to-text/wiki/Background"&gt;Background&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Introducing&lt;/h1&gt;
+&lt;p&gt;Introducing a speech-to-text cloud api wrapper
+for google cloud speech to text api and ibm watson speech to text api.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/pluteski/speech-to-text/wiki/Background"&gt;Background&lt;/a&gt;&lt;/p&gt;</content></entry></feed>

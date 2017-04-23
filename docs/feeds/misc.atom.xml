@@ -69,13 +69,20 @@ whole sentences much less serve as document of record.&lt;/p&gt;
 to make them more amenable to search. I do expect that they
 will be adequately informative to support meaningful textmining and trend
 analysis.&lt;/p&gt;
-&lt;p&gt;It is interesting just how easy it is for a badly transcribed
-sequence of just a few words in a row to turn an entire sentence
-into complete gibberish. We humans are pretty amazing in how well
-we can actually understanding each other's speech despite the noise
+&lt;p&gt;Upon reviewing this batch of results it is fascinating
+to me how a badly transcribed
+sequence of just a few words in a row can turn large swaths of text
+into complete gibberish. If you tell a linguist you intend to
+"recognize speech" they might bid you luck, but if you tell a
+surfer you intend to "wreck a nice beach" they might wish you harm.&lt;/p&gt;
+&lt;p&gt;We humans are pretty amazing in our ability
+to understand each other's muffled speech despite the
+poor connection quality noise and
 cocktail party din much less the hearing loss and tinnitus and what have you.&lt;/p&gt;
 &lt;p&gt;Nonetheless, be that as it may, I am hopeful.  I see a future where
-it will be possible to attain human level accuracy even from the low bit rate
+it will be possible to attain human level accuracy
+for arbitrary speakers without prior training
+from the low bit rate
 and high noise level recordings that are to be had from our mobile devices.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;.
 .

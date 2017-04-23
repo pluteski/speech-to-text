@@ -11,7 +11,7 @@ Settings in config.py file point to python executables provided by
 IBM Watson and Google Cloud for submitting audio files to their
 speech-to-text cloud API.
 
-For additional documentation see [the wiki](wiki).
+For additional documentation see [the wiki](http://github.com/pluteski/speech-to-text/wiki).
 
 # Cloud API Wrapper Dependencies:
 

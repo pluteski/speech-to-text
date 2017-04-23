@@ -57,15 +57,22 @@ intriguing visuals and wrapped in witty yet insightful prose. Promise.&lt;/p&gt;
 extract useful text from my recordings.  These cloud APIs cannot be
 trained on my voice, and so as yet do not have the same quality as
 do personalized devices.
-The text they generate is largely recognizable to me
-although the error rates are still high
+The text they generate is largely recognizable to me, although
+that is often in the same way as my handwriting is recognizable to me
+because I vaguely remember generating it.
+The error rates are still too high
 for these transcripts to allow me to reliably parse meaningful
 whole sentences much less serve as document of record.&lt;/p&gt;
 &lt;p&gt;However, I think they may be suitable for indexing the audio files
-to make them more amenable to search; and for textmining and trend
-analysis. It is interesting how easy it is for a badly transcribed
-sequence of words to turn an entire sentence into complete gibberish.
-Nonetheless, be that as it may, I am hopeful.  I see a future where
+to make them more amenable to search. I do expect that they
+will be adequately informative to support meaningful textmining and trend
+analysis.&lt;/p&gt;
+&lt;p&gt;It is interesting just how easy it is for a badly transcribed
+sequence of just a few words in a row to turn an entire sentence
+into complete gibberish. We humans are pretty amazing in how well
+we can actually understanding each other's speech despite the noise
+cocktail party din much less the hearing loss and tinnitus and what have you.&lt;/p&gt;
+&lt;p&gt;Nonetheless, be that as it may, I am hopeful.  I see a future where
 it will be possible to attain human level accuracy even from the low bit rate
 and high noise level recordings that are to be had from our mobile devices.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;.

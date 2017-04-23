@@ -11,6 +11,8 @@ Settings in config.py file point to python executables provided by
 IBM Watson and Google Cloud for submitting audio files to their
 speech-to-text cloud API.
 
+For additional documentation see [the wiki](wiki).
+
 # Cloud API Wrapper Dependencies:
 
 STTCLIENT = '<path>/speech-to-text-websockets-python/sttClient.py'

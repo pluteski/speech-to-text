@@ -50,18 +50,33 @@ batches of files using those just aforementioned tools.
 There do exist commercially available alternatives, which will gladly
 take those batches of audio files off your hands and return
 high quality text. But these are still rather
-human labor intensive, which means that they remain
-unaffordable to the typical consumer who is a tad long-winded,
+human labor intensive, which means that they remain expensive.
+The typical going rate is about a $1/minute, although with a bit
+of nontrivial coding effort and slicing and farming bits of work out
+to mechanical turk then resplicing it back together
+you can bring the price down to a somewhat more
+affordable 70 cents/minute. (The slicing and resplicing is needed
+for quality assurance as well as to assure higher privacy and security.)
+That 70 cents a minute is still rather unaffordable to the typical consumer who is a tad long-winded,
 much less the odd sort who just happens to have a boat load of such files.</p>
-<p>Fortunately, an affordable alternative is emerging, if
-you're willing to write a bit of code.
+<p>Fortunately, an affordable alternative is emerging, that is,
+if you're willing to write a bit of code.
 The hyperscale cloud api providers are making their deep
-learning models available for a small fraction of the dollar cost and
-effortlessly handling large batches in a single bound.
-Although there is still that small issue of having to write some code
-in order to get this amazing cost and time reduction.</p>
-<p>Although generally available,
-there is a still a ways to go before these APIs are generally useful
+learning models available for a small fraction of the dollar cost of
+the aforementioned human-corrected transcription services.
+Currently you can get cloud api based speech transcription
+for prices ranging from 2 to 2.4 cents per minute.
+Moreover, they effortlessly handle large batches in a single bound.
+You upload your files to the cloud, offloading the
+processing from your laptop. Where your desktop software or even
+embedded operating system software would slow your entire machine down
+to a crawl you could be processing batches of said files in parallel
+up in said cloud.</p>
+<p>Although there is still that small issue of having to write some code
+in order to get this amazing cost and time reduction.
+<a href="https://github.com/pluteski/speech-to-text">I went and wrote said code.</a></p>
+<p>Although generally available at a reasonable price,
+there is a still a ways to go before these APIs are reliably useful
 for converting conversational audio recorded in the wild using
 mobile phones amidst noisy ambient sounds.
 Nonetheless, the results are good enough
@@ -99,8 +114,9 @@ analysis.</p>
 to me how a badly transcribed
 sequence of just a few words in a row can turn large swaths of text
 into complete gibberish. If you tell a linguist you intend to
-"recognize speech" they might bid you luck, but if you tell a
-surfer you intend to "wreck a nice beach" they might wish you harm.</p>
+"recognize speech" they might bid you luck, but an evesdropping
+surfer taking that to mean instead
+that you intend to "wreck a nice beach" might wish you harm.</p>
 <p>We humans are pretty amazing in our ability
 to understand each other's muffled speech despite the
 poor connection quality noise and

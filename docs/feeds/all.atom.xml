@@ -53,6 +53,22 @@ intriguing visuals and wrapped in witty yet insightful prose. Promise.&lt;/p&gt;
 &lt;p&gt;In the interim,
 &lt;a href="https://github.com/pluteski/speech-to-text/wiki/Background"&gt;here is some additional background on the project and results of a preliminary comparison between IBM and Google&lt;/a&gt;
 .&lt;/p&gt;
-&lt;h5&gt;(and now a word)&lt;/h5&gt;
-&lt;p&gt;the minimalist theme used for this is site is brought to
-you by :&lt;/p&gt;</content></entry></feed>
+&lt;p&gt;In closing, my findings indicate to me that I should be able to
+extract useful text from my recordings.  These cloud APIs cannot be
+trained on my voice, and so still have substantial error rates.
+The test is largely recognizable, although there are still so many
+errors making them unsuitable as document of record quality transcripts.
+However, I think they may be suitable for indexing the audio files
+to make them more amenable to search; and for textmining and trend
+analysis. It is interesting how easy it is for a badly transcribed
+sequence of words to turn an entire sentence into complete gibberish.
+Nonetheless, be that as it may, I am hopeful.  I see a future where
+it will be possible to attain human level accuracy even from the low bit rate
+and high noise level recordings that are to be had from our mobile devices.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;.
+.
+.
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h6&gt;fin&lt;/h6&gt;</content></entry></feed>

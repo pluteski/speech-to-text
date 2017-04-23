@@ -35,8 +35,10 @@ apparently can bring the price down to somewhat, say 70 cents/minute.
 as to assure higher privacy and security.)
 That 70 cents a minute is still rather unaffordable to the typical consumer who is a tad long-winded,
 much less the odd sort who just happens to have a boat load of such files.
-Not to mention the higher chance of having some random on-demand worker
-hearing an early preview of your memoirs (cf. &lt;a href="https://www.wired.com/2016/04/long-form-voice-transcription/"&gt;Long Form Voice Transcription, Wired, April 2016&lt;/a&gt;).&lt;/p&gt;
+Not to mention the potential privacy and security concerns
+of having random on-demand workers
+hearing an early preview of your memoirs
+(cf. &lt;a href="https://www.wired.com/2016/04/long-form-voice-transcription/"&gt;Long Form Voice Transcription, Wired, April 2016&lt;/a&gt;).&lt;/p&gt;
 &lt;p&gt;Fortunately, an affordable alternative is emerging, that is,
 if you're willing to write a bit of code.
 All of the hyperscale cloud api providers have made their deep

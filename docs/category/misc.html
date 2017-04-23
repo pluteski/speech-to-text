@@ -45,35 +45,42 @@ email clients in mobile phones,
 and more recently in cloud-based document editors, available
 to the user from any device that can run a web browser.</p>
 <p>But what if you have a large-ish number of audio files?
-It turns out there isn't an easy way to handle even modestly sized
+It turns out there isn't a comparably inexpensive and easy way
+to handle even modestly sized
 batches of files using those just aforementioned tools.
 There do exist commercially available alternatives, which will gladly
 take those batches of audio files off your hands and return
 high quality text. But these are still rather
-human labor intensive, which means that they remain expensive.
-The typical going rate is about a $1/minute, although with a bit
-of nontrivial coding effort and slicing and farming bits of work out
-to mechanical turk then resplicing it back together
-you can bring the price down to a somewhat more
-affordable 70 cents/minute. (The slicing and resplicing is needed
-for quality assurance as well as to assure higher privacy and security.)
+human labor intensive, which means that they remain expensive.</p>
+<p>The typical going rate is about a $1/minute, although with a bit
+of coding effort (typically meaning slicing files into uniform size work units,
+farming said work units out to a distributed online on-demand work force
+such as mechanical turk, then resplicing the files back together)
+apparently can bring the price down to somewhat, say 70 cents/minute.
+(The slicing and resplicing is needed for quality assurance as well
+as to assure higher privacy and security.)
 That 70 cents a minute is still rather unaffordable to the typical consumer who is a tad long-winded,
-much less the odd sort who just happens to have a boat load of such files.</p>
+much less the odd sort who just happens to have a boat load of such files.
+Not to mention the higher chance of having some random on-demand worker
+hearing an early preview of your memoirs (cf. <a href="https://www.wired.com/2016/04/long-form-voice-transcription/">Long Form Voice Transcription, Wired, April 2016</a>).</p>
 <p>Fortunately, an affordable alternative is emerging, that is,
 if you're willing to write a bit of code.
-The hyperscale cloud api providers are making their deep
-learning models available for a small fraction of the dollar cost of
-the aforementioned human-corrected transcription services.
+All of the typerscale cloud api providers have made their deep
+learning speech-to-text models available for a small fraction of the
+dollar cost of the aforementioned human-corrected transcription services,
+and two of them are now appealing enough for use by individuals
+or nonprofits to apply to long form content.
 Currently you can get cloud api based speech transcription
 for
 <a href="https://github.com/pluteski/speech-to-text/wiki/Cloud-API-Pricing">prices ranging from 2 to 2.4 cents per minute</a>,
 with an additional allowance free on a monthly basis.
 Moreover, they effortlessly handle large batches in a single bound.
 You upload your files to the cloud, offloading the
-processing from your laptop. Where your desktop software or even
+processing from your laptop. Whereas your desktop software or even
 embedded operating system software would slow your entire machine down
-to a crawl you could be processing batches of said files in parallel
-up in said cloud.</p>
+to a crawl during this process
+you could be processing batches of files in parallel
+up in the cloud.</p>
 <p>Although there is still that small issue of having to write some code
 in order to get this amazing cost and time reduction.
 <a href="https://github.com/pluteski/speech-to-text">I went and wrote said code.</a></p>
@@ -127,12 +134,12 @@ that you intend to "wreck a nice beach" might wish you harm.</p>
 to understand each other's muffled speech despite the
 poor connection and background noise
 much less the tinnitus and what have you.</p>
-<p>Nonetheless, be that as it may, I am hopeful.  I see a future not
+<p>Nonetheless, be that as it may, I foresee a future not
 very long from now where
 it will be possible to cheaply attain human level accuracy
+long form speech to text transcription
 for arbitrary speakers
-from the noisy recordings that are to be had from our mobile devices
-including that most mobile of all noisy devices, the automobile. </p>
+from noisy recordings made using mobile devices.</p>
 <div class="highlight"><pre><span></span>.
 .
 .

@@ -1,28 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Plutosoft Delimited</title><link href="http://pluteski.github.io/speech-to-text/" rel="alternate"></link><link href="http://pluteski.github.io/speech-to-text/feeds/all.atom.xml" rel="self"></link><id>http://pluteski.github.io/speech-to-text/</id><updated>2017-04-22T00:00:00-07:00</updated><entry><title>on batch processing audio speech to text.</title><link href="http://pluteski.github.io/speech-to-text/on-batch-processing-audio-speech-to-text.html" rel="alternate"></link><published>2017-04-22T00:00:00-07:00</published><updated>2017-04-22T00:00:00-07:00</updated><author><name>Mark Plutowski</name></author><id>tag:pluteski.github.io,2017-04-22:/speech-to-text/on-batch-processing-audio-speech-to-text.html</id><summary type="html">&lt;h1&gt;Recognize speech, not wreck a nice beach&lt;/h1&gt;
 &lt;p&gt;People nowadays commonly use speech-to-text tools for myriad uses,
-including writing text messages, entering their todo lists,
-and writing emails.  However, increasing numbers starting to warm up to
-using dictation software for writing longer form content
-such as journals and even novels.&lt;/p&gt;
-&lt;p&gt;Dictation …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Recognize speech, not wreck a nice beach&lt;/h1&gt;
+including writing text messages, entering todo lists,
+and writing emails.  However, increasing numbers of enterprising
+sorts including just plain folk are starting to warm up to
+using dictation software for writing longer form content …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Recognize speech, not wreck a nice beach&lt;/h1&gt;
 &lt;p&gt;People nowadays commonly use speech-to-text tools for myriad uses,
-including writing text messages, entering their todo lists,
-and writing emails.  However, increasing numbers starting to warm up to
+including writing text messages, entering todo lists,
+and writing emails.  However, increasing numbers of enterprising
+sorts including just plain folk are starting to warm up to
 using dictation software for writing longer form content
 such as journals and even novels.&lt;/p&gt;
 &lt;p&gt;Dictation software has been generally available for many years,
 in the form of
 commercial off the shelf application software, text editors in desktop
-operating systems, notepads and email clients in mobile operating systems,
-and more recently cloud-based document editors.&lt;/p&gt;
+operating systems, notepads in tablet devices,
+email clients in mobile phones,
+and more recently in cloud-based document editors, available
+to the user from any device that can run a web browser.&lt;/p&gt;
 &lt;p&gt;But what if you have a large-ish number of audio files?
-It turns out there isn't an easy way to handle even modest size
-batches of files using those tools just mentioned.
-And the commercially available alternatives are still rather
+It turns out there isn't an easy way to handle even modestly sized
+batches of files using those just aforementioned tools.
+There do exist commercially available alternatives, which will gladly
+take those batches of audio files off your hands and return
+high quality text. But these are still rather
 human labor intensive, which means that they remain
-rather unaffordable to the typical consumer who just
-happens to have a boat load of such files.&lt;/p&gt;
+unaffordable to the typical consumer who is a tad long-winded,
+much less the odd sort who just happens to have a boat load of such files.&lt;/p&gt;
 &lt;p&gt;Fortunately, an affordable alternative is emerging, if
 you're willing to write a bit of code.
 The hyperscale cloud api providers are making their deep
@@ -46,8 +50,8 @@ Of course, that's what they all would say, I'm sure.&lt;/p&gt;
 &lt;p&gt;I have already compiled a backlog of interesting results just waiting
 to be converted into
 intriguing visuals and wrapped in witty yet insightful prose.&lt;/p&gt;
-&lt;p&gt;In the interim, here is some
-&lt;a href="https://github.com/pluteski/speech-to-text/wiki/Background"&gt;additional background on the project&lt;/a&gt;
+&lt;p&gt;In the interim,
+&lt;a href="https://github.com/pluteski/speech-to-text/wiki/Background"&gt;here is some additional background on the project&lt;/a&gt;
 .&lt;/p&gt;
 &lt;h5&gt;(and now a word)&lt;/h5&gt;
 &lt;p&gt;the minimalist theme used for this is site is brought to

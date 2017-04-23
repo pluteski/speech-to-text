@@ -133,10 +133,4 @@ s.setAttribute('data-timestamp', +new Date());
 
 &lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments.&lt;/a&gt;&lt;/noscript&gt;
 
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;.
-.
-.
-&lt;/pre&gt;&lt;/div&gt;
-
-
 &lt;h6&gt;fin&lt;/h6&gt;</content></entry></feed>

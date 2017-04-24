@@ -63,10 +63,11 @@ up in the cloud.&lt;/p&gt;
 &lt;p&gt;Although there is still that small issue of having to write some code
 in order to get this amazing cost and time reduction.
 &lt;a href="https://github.com/pluteski/speech-to-text"&gt;I went and wrote said code.&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Although this amazing capability is generally available
+&lt;p&gt;So this amazing capability is generally available
 at a reasonable price
-to anyone with a laptop and internet connection,
-it isn't all peaches and chocolate just yet.
+to anyone with a laptop, internet connection,
+and credit card with an embarrassingly low limit.
+But it isn't all peaches and chocolate just yet.
 There is a still a ways to go before these APIs are reliably useful
 for converting conversational audio recorded in the wild using
 mobile phones amidst the usual ambient sounds.

@@ -1,5 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Plutosoft delimited - misc</title><link href="https://pluteski.github.io/speech-to-text/" rel="alternate"></link><link href="https://pluteski.github.io/speech-to-text/feeds/misc.atom.xml" rel="self"></link><id>https://pluteski.github.io/speech-to-text/</id><updated>2017-04-22T00:00:00-07:00</updated><entry><title>on batch processing audio speech to text.</title><link href="https://pluteski.github.io/speech-to-text/on-batch-processing-audio-speech-to-text.html" rel="alternate"></link><published>2017-04-22T00:00:00-07:00</published><updated>2017-04-22T00:00:00-07:00</updated><author><name>Mark Plutowski</name></author><id>tag:pluteski.github.io,2017-04-22:/speech-to-text/on-batch-processing-audio-speech-to-text.html</id><summary type="html">&lt;h1&gt;How not to wreck a nice beach&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Plutosoft delimited - misc</title><link href="https://pluteski.github.io/speech-to-text/" rel="alternate"></link><link href="https://pluteski.github.io/speech-to-text/feeds/misc.atom.xml" rel="self"></link><id>https://pluteski.github.io/speech-to-text/</id><updated>2017-04-30T00:00:00-07:00</updated><entry><title>on transcription rate for noisy recordings ... IBM FTW</title><link href="https://pluteski.github.io/speech-to-text/on-transcription-rate-for-noisy-recordings-ibm-ftw.html" rel="alternate"></link><published>2017-04-30T00:00:00-07:00</published><updated>2017-04-30T00:00:00-07:00</updated><author><name>Mark Plutowski</name></author><id>tag:pluteski.github.io,2017-04-30:/speech-to-text/on-transcription-rate-for-noisy-recordings-ibm-ftw.html</id><summary type="html">&lt;p&gt;Transcript words per minute of audio (IBM/Google) : 102.0/9.8
+Processing seconds per minute : about the same
+IBM Transcribed/Processed      7281/7288
+Google Transcribed/Processed   3521/7343&lt;/p&gt;
+&lt;p&gt;COMPARISON ON 245 REFERENCE&lt;/p&gt;
+&lt;p&gt;The first set of scores are over 245 reference documents, for which the
+reference transcript was transcribed …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Transcript words per minute of audio (IBM/Google) : 102.0/9.8
+Processing seconds per minute : about the same
+IBM Transcribed/Processed      7281/7288
+Google Transcribed/Processed   3521/7343&lt;/p&gt;
+&lt;p&gt;COMPARISON ON 245 REFERENCE&lt;/p&gt;
+&lt;p&gt;The first set of scores are over 245 reference documents, for which the
+reference transcript was transcribed using a speech-to-text transcription
+software that was trained to my voice, in a quiet environment,
+using a hand-held medium quality wired microphone,
+and then most errors manually corrected.&lt;/p&gt;
+&lt;p&gt;Google generated a transcript for 210 out of the 245 reference documents (86%),
+and IBM generated a transcript for 243 of the 245 (99%).
+The Bleu scores over these reference documents are fairly comparable,
+with IBM performing slightly better.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Bleu score deciles" src="https://github.com/pluteski/speech-to-text/blob/master/images/bleu_score_deciles.png?raw=true"&gt;&lt;/p&gt;
+&lt;p&gt;When measured using Ratcliff-Obershelp similarity,
+Google fares slightly better across the board.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Ratcliff score deciles" src="https://github.com/pluteski/speech-to-text/blob/master/images/ratcliff_score_deciles.png?raw=true"&gt;&lt;/p&gt;
+&lt;h2&gt;Comparison over all audio&lt;/h2&gt;
+&lt;p&gt;This comparison is over 8,415 audio files that were submitted to each
+service.&lt;/p&gt;
+&lt;p&gt;Marked differences between IBM Watson and Google transcription arise
+when comparing transcription rates and number of words generated when run
+on audio collected out in the wild. Of 8,415 such audio, IBM generated
+transcripts for 7,227, while Google was able
+to generate a transcript for 3,521.&lt;/p&gt;
+&lt;h2&gt;Total Word Counts&lt;/h2&gt;
+&lt;p&gt;Out of 8,415 audio files attempted, Google generated 3,521 transcripts.
+Those 3,521 transcripts contain total of 485,334 words,
+an average of 137 words per transcript.&lt;/p&gt;
+&lt;p&gt;IBM Watson generated 7,227 transcripts, extracting
+9,511,743 words out of those transcripts.
+This gives an average of 1,316 words per transcript.
+[TODO: update with April returns]&lt;/p&gt;
+&lt;h2&gt;Word Count Deciles&lt;/h2&gt;
+&lt;p&gt;Many of these transcripts that Google failed to generate were simply due
+to the file size exceeding quota.&lt;/p&gt;
+&lt;p&gt;However Google also failed to generate any transcript words
+for many other files that did not exceed the file size quota.
+It also generated a much lower word count per transcript for
+audio that was from a noisy or low bit rate recording.&lt;/p&gt;
+&lt;p&gt;One way to illustrate this is by examining the word count deciles over the
+transcripts that were successfully generated.&lt;/p&gt;
+&lt;p&gt;The following table gives the word counts deciles over the
+transcripts generated by each service.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;API&lt;/th&gt;
+&lt;th&gt;min&lt;/th&gt;
+&lt;th&gt;1&lt;/th&gt;
+&lt;th&gt;2&lt;/th&gt;
+&lt;th&gt;3&lt;/th&gt;
+&lt;th&gt;4&lt;/th&gt;
+&lt;th&gt;5&lt;/th&gt;
+&lt;th&gt;6&lt;/th&gt;
+&lt;th&gt;7&lt;/th&gt;
+&lt;th&gt;8&lt;/th&gt;
+&lt;th&gt;9&lt;/th&gt;
+&lt;th&gt;max&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Google&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;19&lt;/td&gt;
+&lt;td&gt;58&lt;/td&gt;
+&lt;td&gt;459&lt;/td&gt;
+&lt;td&gt;4892&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;IBM&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;278&lt;/td&gt;
+&lt;td&gt;501&lt;/td&gt;
+&lt;td&gt;698&lt;/td&gt;
+&lt;td&gt;916&lt;/td&gt;
+&lt;td&gt;1137&lt;/td&gt;
+&lt;td&gt;1409&lt;/td&gt;
+&lt;td&gt;1722&lt;/td&gt;
+&lt;td&gt;2080&lt;/td&gt;
+&lt;td&gt;2450&lt;/td&gt;
+&lt;td&gt;8490&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;img alt="Word count deciles" src="https://github.com/pluteski/speech-to-text/blob/master/images/word_count_deciles.png?raw=true"&gt;&lt;/p&gt;</content></entry><entry><title>on batch processing audio speech to text</title><link href="https://pluteski.github.io/speech-to-text/on-batch-processing-audio-speech-to-text.html" rel="alternate"></link><published>2017-04-22T00:00:00-07:00</published><updated>2017-04-22T00:00:00-07:00</updated><author><name>Mark Plutowski</name></author><id>tag:pluteski.github.io,2017-04-22:/speech-to-text/on-batch-processing-audio-speech-to-text.html</id><summary type="html">&lt;h1&gt;How not to wreck a nice beach&lt;/h1&gt;
 &lt;p&gt;&lt;img alt="Quora" src="https://qph.ec.quoracdn.net/main-qimg-609e5b0b3c91845ab81f0d4448df864f-c"&gt;
 &lt;p style="text-align: right;"&gt;&lt;em&gt;(Quora)&lt;/em&gt;&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;People nowadays commonly use speech-to-text tools for myriad uses,
@@ -83,11 +182,14 @@ Of course, that's what they would all say, I'm sure.&lt;/p&gt;
 &lt;p&gt;I have already compiled a backlog of interesting results just waiting
 to be converted into
 intriguing visuals and wrapped in witty yet insightful prose. Promise.&lt;/p&gt;
-&lt;p&gt;In the interim,
-&lt;a href="https://github.com/pluteski/speech-to-text/wiki/Background"&gt;here is some additional background on the project&lt;/a&gt;
-and the
-&lt;a href="https://github.com/pluteski/speech-to-text/wiki/Findings"&gt;results of a preliminary comparison between IBM and Google&lt;/a&gt;
-. That latter one will probably form the basis for an upcoming blog post.&lt;/p&gt;
+&lt;p&gt;Actually you don't need to wait until then, as
+&lt;a href="https://github.com/pluteski/speech-to-text/wiki/Background"&gt;here is some additional background on the project&lt;/a&gt;.
+Here are the
+&lt;a href="https://github.com/pluteski/speech-to-text/wiki/Findings"&gt;results of a preliminary comparison between IBM and Google&lt;/a&gt;.
+Here are &lt;a href="https://github.com/pluteski/speech-to-text/wiki/Comparison-over-reference-documents"&gt;results made over reference documents&lt;/a&gt;.
+And here are some &lt;a href="https://github.com/pluteski/speech-to-text/wiki/Comparison-of-transcript-word-count"&gt;results made over audio collected in the wild&lt;/a&gt;
+There are several conclusions that can be drawn from these findings,
+which will be the subject of a future post.&lt;/p&gt;
 &lt;p&gt;In closing, my findings indicate to me that I should be able to
 extract useful text from my recordings,
 albeit probably not by transcribing meeting minutes.
@@ -107,7 +209,7 @@ a &lt;a href="https://www.ibm.com/watson/developercloud/doc/speech-to-text/custo
 by the cloud APIs may be suitable for
 indexing audio files to make them more easily searchable
 (although phonemes might turn out to be the better data unit
-for indexing than words,
+for indexing audio than words,
 &lt;a href="https://twimlai.com/from-particle-physics-to-audio-ai-with-scott-stephenson/"&gt;e.g., Deepgram&lt;/a&gt;).
 I fully expect the current results to
 be adequately informative to support meaningful textmining and trend
@@ -129,6 +231,7 @@ transcription of speaker-independent long-form speech
 from noisy recordings obtained using mobile devices. Culminating in,
 as &lt;a href="https://www.wired.com/2016/04/long-form-voice-transcription/"&gt;Wired's Jesse Jarnow&lt;/a&gt; puts it,
 'bizarre kinds of unforeseen societal change'.&lt;/p&gt;
+&lt;p&gt;Until then, court stenographers shouldn't have much to worry about.&lt;/p&gt;
 &lt;div id="disqus_thread"&gt;&lt;/div&gt;
 
 &lt;script&gt;

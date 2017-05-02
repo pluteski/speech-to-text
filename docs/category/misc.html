@@ -26,152 +26,115 @@
         
 
 	<header>
-		<h1><a href="https://pluteski.github.io/speech-to-text" id="site-title">Plutosoft delimited </a> : <a href="https://pluteski.github.io/speech-to-text/on-batch-processing-audio-speech-to-text.html" id="page-title">on batch processing audio speech to text.</a></h1>
-<time datetime="2017-04-22T00:00:00-07:00">Sat 22 April 2017</time>	</header>
+		<h1><a href="https://pluteski.github.io/speech-to-text" id="site-title">Plutosoft delimited </a> : <a href="https://pluteski.github.io/speech-to-text/on-transcription-rate-for-noisy-recordings-ibm-ftw.html" id="page-title">on transcription rate for noisy recordings ... IBM FTW</a></h1>
+<time datetime="2017-04-30T00:00:00-07:00">Sun 30 April 2017</time>	</header>
 
 	<article>
-		<h1>How not to wreck a nice beach</h1>
-<p><img alt="Quora" src="https://qph.ec.quoracdn.net/main-qimg-609e5b0b3c91845ab81f0d4448df864f-c">
-<p style="text-align: right;"><em>(Quora)</em></p></p>
-<p>People nowadays commonly use speech-to-text tools for myriad uses,
-including writing text messages, entering todo lists,
-and writing emails.  However, increasing numbers of enterprising
-sorts including just plain folk are starting to warm up to
-using dictation software for writing longer form content
-such as journals and even novels.</p>
-<p>Dictation software has been generally available for many years,
-in the form of
-commercial off the shelf application software, text editors in desktop
-operating systems, notepads in tablet devices,
-email clients in mobile phones,
-and more recently in cloud-based document editors, available
-to the user from any device that can run a web browser.</p>
-<p>But what if you have a large-ish number of audio files?
-It turns out there isn't a comparably inexpensive and easy way
-to handle even modestly sized
-batches of files using those just aforementioned tools.
-There do exist commercially available alternatives, which will gladly
-take those batches of audio files off your hands and return
-high quality text. But these are still rather
-human labor intensive, which means that they remain expensive.</p>
-<p>The typical going rate is about a $1/minute, although with a bit
-of coding effort (typically meaning slicing files into uniform size work units,
-farming said work units out to a distributed online on-demand work force
-such as mechanical turk, then resplicing the files back together)
-apparently can bring the price down to somewhat, say 70 cents/minute.
-(The slicing and resplicing is needed for quality assurance as well
-as to reduce privacy and security issues.)
-That 70 cents a minute is still rather unaffordable to the typical consumer who is a tad long-winded,
-much less the odd sort who just happens to have a boat load of such files.
-Not to mention the concerns related to having unknown on-demand workers
-hearing an early preview of your memoirs
-(cf. <a href="https://www.wired.com/2016/04/long-form-voice-transcription/">Long Form Voice Transcription, Wired, April 2016</a>).</p>
-<p>Fortunately, an affordable alternative is emerging, that is,
-if you're willing to write a bit of code.
-All of the hyperscale cloud api providers have made their deep
-learning speech-to-text models available for a small fraction of the
-dollar cost of the aforementioned human-corrected transcription services,
-and two of them are now appealing enough for use by individuals
-or nonprofits to apply to long form content.
-Currently you can get cloud api based speech transcription
-for
-<a href="https://github.com/pluteski/speech-to-text/wiki/Cloud-API-Pricing">prices ranging from 2 to 2.4 cents per minute</a>,
-with an additional allowance free on a monthly basis.
-Moreover, they effortlessly handle large batches in a single bound.
-You upload your files to the cloud, offloading the
-processing from your laptop. Whereas your desktop software or even
-embedded operating system software would slow your entire machine down
-to a crawl during this process
-you could be processing batches of files in parallel
-up in the cloud.</p>
-<p>Although there is still that small issue of having to write some code
-in order to get this amazing cost and time reduction.
-<a href="https://github.com/pluteski/speech-to-text">I went and wrote said code.</a></p>
-<p>So this amazing capability is generally available
-at a reasonable price
-to anyone with a laptop, internet connection,
-and credit card with an embarrassingly low limit.
-But it isn't all peaches and chocolate just yet.
-There is a still a ways to go before these APIs are reliably useful
-for converting conversational audio recorded in the wild using
-mobile phones amidst the usual ambient sounds.
-Nonetheless, the results are tantalizingly good enough
-and the pricing dramatically low enough that the time has come to dip
-my metaphorical toes in the water.</p>
-<p>I intend to write more about my experiences using these
-powerful cloud APIs, so stay tuned if this is of interest
-to you.  Although I myself tend to cringe when the blogger ends
-their post by promising an enticing followup, which invariably never
-comes.  But I really do sincerely intend to write more on this.
-Of course, that's what they would all say, I'm sure.</p>
-<p>I have already compiled a backlog of interesting results just waiting
-to be converted into
-intriguing visuals and wrapped in witty yet insightful prose. Promise.</p>
-<p>In the interim,
-<a href="https://github.com/pluteski/speech-to-text/wiki/Background">here is some additional background on the project</a>
-and the
-<a href="https://github.com/pluteski/speech-to-text/wiki/Findings">results of a preliminary comparison between IBM and Google</a>
-. That latter one will probably form the basis for an upcoming blog post.</p>
-<p>In closing, my findings indicate to me that I should be able to
-extract useful text from my recordings,
-albeit probably not by transcribing meeting minutes.
-The transcript text generated by the cloud API is largely recognizable to me, although
-that is often in the same way as my handwriting is recognizable to me
-because I vaguely remember generating it.
-The error rates are still too high
-for these transcripts to allow me to reliably parse meaningful
-whole sentences much less serve as document of record.</p>
-<p>These cloud APIs do not have the same quality as
-do personalized devices. Voicemail transcripts provided by my
-phone are subjectively better than what I'm seeing with these cloud APIs.
-One reason is that because the cloud APIs cannot be
-trained on my voice, although IBM does allow specifying
-a <a href="https://www.ibm.com/watson/developercloud/doc/speech-to-text/custom.html#addWords">custom language model</a>.</p>
-<p>The accuracy being provided
-by the cloud APIs may be suitable for
-indexing audio files to make them more easily searchable
-(although phonemes might turn out to be the better data unit
-for indexing than words,
-<a href="https://twimlai.com/from-particle-physics-to-audio-ai-with-scott-stephenson/">e.g., Deepgram</a>).
-I fully expect the current results to
-be adequately informative to support meaningful textmining and trend
-analysis.</p>
-<p>Upon reviewing the current batch of results it is fascinating
-to me how a badly transcribed
-sequence of just a few words in a row can turn large swaths of text
-into complete gibberish. If you tell a linguist you intend to
-<em>recognize speech</em> they might bid you luck, but an evesdropping
-surfer taking that to mean instead
-that you intend to <em>wreck a nice beach</em> might wish you harm.</p>
-<p>We humans are pretty amazing in our ability
-to understand each other's muffled speech despite the
-poor connection and background noise
-much less the tinnitus and what have you.</p>
-<p>Nonetheless, I foresee a not too distant future where
-it will be possible to cheaply attain human level accuracy
-transcription of speaker-independent long-form speech
-from noisy recordings obtained using mobile devices. Culminating in,
-as <a href="https://www.wired.com/2016/04/long-form-voice-transcription/">Wired's Jesse Jarnow</a> puts it,
-'bizarre kinds of unforeseen societal change'.</p>
-<div id="disqus_thread"></div>
+		<p>Transcript words per minute of audio (IBM/Google) : 102.0/9.8
+Processing seconds per minute : about the same
+IBM Transcribed/Processed      7281/7288
+Google Transcribed/Processed   3521/7343</p>
+<p>COMPARISON ON 245 REFERENCE</p>
+<p>The first set of scores are over 245 reference documents, for which the
+reference transcript was transcribed using a speech-to-text transcription
+software that was trained to my voice, in a quiet environment,
+using a hand-held medium quality wired microphone,
+and then most errors manually corrected.</p>
+<p>Google generated a transcript for 210 out of the 245 reference documents (86%),
+and IBM generated a transcript for 243 of the 245 (99%).
+The Bleu scores over these reference documents are fairly comparable,
+with IBM performing slightly better.</p>
+<p><img alt="Bleu score deciles" src="https://github.com/pluteski/speech-to-text/blob/master/images/bleu_score_deciles.png?raw=true"></p>
+<p>When measured using Ratcliff-Obershelp similarity,
+Google fares slightly better across the board.</p>
+<p><img alt="Ratcliff score deciles" src="https://github.com/pluteski/speech-to-text/blob/master/images/ratcliff_score_deciles.png?raw=true"></p>
+<h2>Comparison over all audio</h2>
+<p>This comparison is over 8,415 audio files that were submitted to each
+service.</p>
+<p>Marked differences between IBM Watson and Google transcription arise
+when comparing transcription rates and number of words generated when run
+on audio collected out in the wild. Of 8,415 such audio, IBM generated
+transcripts for 7,227, while Google was able
+to generate a transcript for 3,521.</p>
+<h2>Total Word Counts</h2>
+<p>Out of 8,415 audio files attempted, Google generated 3,521 transcripts.
+Those 3,521 transcripts contain total of 485,334 words,
+an average of 137 words per transcript.</p>
+<p>IBM Watson generated 7,227 transcripts, extracting
+9,511,743 words out of those transcripts.
+This gives an average of 1,316 words per transcript.
+[TODO: update with April returns]</p>
+<h2>Word Count Deciles</h2>
+<p>Many of these transcripts that Google failed to generate were simply due
+to the file size exceeding quota.</p>
+<p>However Google also failed to generate any transcript words
+for many other files that did not exceed the file size quota.
+It also generated a much lower word count per transcript for
+audio that was from a noisy or low bit rate recording.</p>
+<p>One way to illustrate this is by examining the word count deciles over the
+transcripts that were successfully generated.</p>
+<p>The following table gives the word counts deciles over the
+transcripts generated by each service.</p>
+<table>
+<thead>
+<tr>
+<th>API</th>
+<th>min</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+<th>7</th>
+<th>8</th>
+<th>9</th>
+<th>max</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Google</td>
+<td>1</td>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>5</td>
+<td>8</td>
+<td>12</td>
+<td>19</td>
+<td>58</td>
+<td>459</td>
+<td>4892</td>
+</tr>
+<tr>
+<td>IBM</td>
+<td>1</td>
+<td>278</td>
+<td>501</td>
+<td>698</td>
+<td>916</td>
+<td>1137</td>
+<td>1409</td>
+<td>1722</td>
+<td>2080</td>
+<td>2450</td>
+<td>8490</td>
+</tr>
+</tbody>
+</table>
+<p><img alt="Word count deciles" src="https://github.com/pluteski/speech-to-text/blob/master/images/word_count_deciles.png?raw=true"></p><p>There are <a href="https://pluteski.github.io/speech-to-text/on-transcription-rate-for-noisy-recordings-ibm-ftw.html#disqus_thread">comments</a>.</p>	</article>
+		<section id="article-list">
+			<h2>All posts</h2>
+			<ol>
+			</ol>
+			</section><!-- #article-list -->
+        
 
-<script>
-
-var disqus_config = function () {
-this.page.url = "https://pluteski.github.io/speech-to-text/"
-this.page.identifier = "pluteski-github-io-speech-to-text"
-};
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://pluteski-github-io-speech-to-text.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments.</a></noscript>
-
-<h6>fin</h6><p>There are <a href="https://pluteski.github.io/speech-to-text/on-batch-processing-audio-speech-to-text.html#disqus_thread">comments</a>.</p>	</article>
+ 
+		<li><a href="https://pluteski.github.io/speech-to-text/on-batch-processing-audio-speech-to-text.html" rel="bookmark" title="Permalink to on batch processing audio speech to text">on batch processing audio speech to text</a></li>
+			</ol>
+			</section><!-- #article-list -->
 
         <footer>
             <nav>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Plutosoft delimited</title><link href="https://pluteski.github.io/speech-to-text/" rel="alternate"></link><link href="https://pluteski.github.io/speech-to-text/feeds/all.atom.xml" rel="self"></link><id>https://pluteski.github.io/speech-to-text/</id><updated>2017-04-30T00:00:00-07:00</updated><entry><title>on transcription rate for noisy recordings ... IBM FTW</title><link href="https://pluteski.github.io/speech-to-text/on-transcription-rate-for-noisy-recordings-ibm-ftw.html" rel="alternate"></link><published>2017-04-30T00:00:00-07:00</published><updated>2017-04-30T00:00:00-07:00</updated><author><name>Mark Plutowski</name></author><id>tag:pluteski.github.io,2017-04-30:/speech-to-text/on-transcription-rate-for-noisy-recordings-ibm-ftw.html</id><summary type="html">&lt;p&gt;Transcript words per minute of audio (IBM/Google) : 102.0/9.8
-Processing seconds per minute : about the same
-IBM Transcribed/Processed      7281/7288
-Google Transcribed/Processed   3521/7343&lt;/p&gt;
-&lt;p&gt;COMPARISON ON 245 REFERENCE&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Plutosoft delimited</title><link href="https://pluteski.github.io/speech-to-text/" rel="alternate"></link><link href="https://pluteski.github.io/speech-to-text/feeds/all.atom.xml" rel="self"></link><id>https://pluteski.github.io/speech-to-text/</id><updated>2017-04-30T00:00:00-07:00</updated><entry><title>on transcription rate for noisy recordings ... IBM FTW</title><link href="https://pluteski.github.io/speech-to-text/on-transcription-rate-for-noisy-recordings-ibm-ftw.html" rel="alternate"></link><published>2017-04-30T00:00:00-07:00</published><updated>2017-04-30T00:00:00-07:00</updated><author><name>Mark Plutowski</name></author><id>tag:pluteski.github.io,2017-04-30:/speech-to-text/on-transcription-rate-for-noisy-recordings-ibm-ftw.html</id><summary type="html">&lt;p&gt;Transcript words per minute of audio (IBM/Google) : 102.0/9.8&lt;/p&gt;
+&lt;p&gt;Processing seconds per minute : about the same&lt;/p&gt;
+&lt;p&gt;IBM Transcribed/Processed : 7281/7288&lt;/p&gt;
+&lt;p&gt;Google Transcribed/Processed : 3521/7343&lt;/p&gt;
+&lt;h1&gt;Comparison on reference documents&lt;/h1&gt;
 &lt;p&gt;The first set of scores are over 245 reference documents, for which the
-reference transcript was transcribed …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Transcript words per minute of audio (IBM/Google) : 102.0/9.8
-Processing seconds per minute : about the same
-IBM Transcribed/Processed      7281/7288
-Google Transcribed/Processed   3521/7343&lt;/p&gt;
-&lt;p&gt;COMPARISON ON 245 REFERENCE&lt;/p&gt;
+reference transcript was transcribed …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Transcript words per minute of audio (IBM/Google) : 102.0/9.8&lt;/p&gt;
+&lt;p&gt;Processing seconds per minute : about the same&lt;/p&gt;
+&lt;p&gt;IBM Transcribed/Processed : 7281/7288&lt;/p&gt;
+&lt;p&gt;Google Transcribed/Processed : 3521/7343&lt;/p&gt;
+&lt;h1&gt;Comparison on reference documents&lt;/h1&gt;
 &lt;p&gt;The first set of scores are over 245 reference documents, for which the
 reference transcript was transcribed using a speech-to-text transcription
 software that was trained to my voice, in a quiet environment,

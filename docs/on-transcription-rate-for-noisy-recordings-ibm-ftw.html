@@ -28,16 +28,27 @@
         <a href="https://pluteski.github.io/speech-to-text/on-transcription-rate-for-noisy-recordings-ibm-ftw.html" id="page-title">on transcription rate for noisy recordings ... IBM FTW</a></h1>
 <time datetime="2017-04-30T00:00:00-07:00">Sun 30 April 2017</time></header>
 <article>
-    <p>Transcript words per minute of audio (IBM/Google) : 102.0/9.8</p>
-<p>Processing seconds per minute : about the same</p>
-<p>IBM Transcribed/Processed : 7281/7288</p>
-<p>Google Transcribed/Processed : 3521/7343</p>
+    <h6>Processing seconds per minute : about the same</h6>
+<p>IBM and Google process the audio in about the same amount of time.
+Google is somewhat faster; however, it requires that the file be
+uploaded to Google Storage first.</p>
+<h6>IBM Transcribed/Processed : 7281/7288</h6>
+<p>IBM was able to transcribe almost all of the files submitted.</p>
+<h6>Google Transcribed/Processed : 3521/7343</h6>
+<p>The transcription rate was lower for two main reasons.  One was due to
+a file size limit. Files larger than ~80MB require an agreement be
+made with Google, whereas IBM was willing and able to process files
+of arbitrary size. The second main reason is that Google is less
+accommodating of noisy recordings.</p>
+<h6>Transcript words per minute of audio (IBM/Google) : 102.0/9.8</h6>
+<p>Even after adjusting for transcription rate, the number of transcript
+words generated per minute of audio was much lower for Google.</p>
 <h1>Comparison on reference documents</h1>
-<p>The first set of scores are over 245 reference documents, for which the
-reference transcript was transcribed using a speech-to-text transcription
-software that was trained to my voice, in a quiet environment,
-using a hand-held medium quality wired microphone,
-and then most errors manually corrected.</p>
+<p>The following comparisons were made over 245 reference documents.
+The reference transcripts were transcribed using a speech-to-text
+transcription software that was trained to my voice,
+in a quiet environment, using a hand-held medium quality wired microphone.
+Most of the errors were manually corrected.</p>
 <p>Google generated a transcript for 210 out of the 245 reference documents (86%),
 and IBM generated a transcript for 243 of the 245 (99%).
 The Bleu scores over these reference documents are fairly comparable,

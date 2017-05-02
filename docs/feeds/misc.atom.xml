@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Plutosoft delimited - misc</title><link href="https://pluteski.github.io/speech-to-text/" rel="alternate"></link><link href="https://pluteski.github.io/speech-to-text/feeds/misc.atom.xml" rel="self"></link><id>https://pluteski.github.io/speech-to-text/</id><updated>2017-04-30T00:00:00-07:00</updated><entry><title>on transcription rate for noisy recordings ... IBM FTW</title><link href="https://pluteski.github.io/speech-to-text/on-transcription-rate-for-noisy-recordings-ibm-ftw.html" rel="alternate"></link><published>2017-04-30T00:00:00-07:00</published><updated>2017-04-30T00:00:00-07:00</updated><author><name>Mark Plutowski</name></author><id>tag:pluteski.github.io,2017-04-30:/speech-to-text/on-transcription-rate-for-noisy-recordings-ibm-ftw.html</id><summary type="html">&lt;h6&gt;Processing seconds per minute : about the same&lt;/h6&gt;
-&lt;p&gt;IBM and Google process the audio in about the same amount of time.
-Google is somewhat faster; however, it requires that the file be
-uploaded to Google Storage first.&lt;/p&gt;
-&lt;h6&gt;IBM Transcribed/Processed : 7281/7288&lt;/h6&gt;
-&lt;p&gt;IBM was able to transcribe almost all of the …&lt;/p&gt;</summary><content type="html">&lt;h6&gt;Processing seconds per minute : about the same&lt;/h6&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Plutosoft delimited - misc</title><link href="https://pluteski.github.io/speech-to-text/" rel="alternate"></link><link href="https://pluteski.github.io/speech-to-text/feeds/misc.atom.xml" rel="self"></link><id>https://pluteski.github.io/speech-to-text/</id><updated>2017-04-30T00:00:00-07:00</updated><entry><title>on transcription rate for noisy recordings ... IBM FTW</title><link href="https://pluteski.github.io/speech-to-text/on-transcription-rate-for-noisy-recordings-ibm-ftw.html" rel="alternate"></link><published>2017-04-30T00:00:00-07:00</published><updated>2017-04-30T00:00:00-07:00</updated><author><name>Mark Plutowski</name></author><id>tag:pluteski.github.io,2017-04-30:/speech-to-text/on-transcription-rate-for-noisy-recordings-ibm-ftw.html</id><summary type="html">&lt;h1&gt;Comparison Overview&lt;/h1&gt;
+&lt;p&gt;IBM and Google performed about the same over high quality
+reference audio recorded in a quiet setting using a medium quality
+microphone.&lt;/p&gt;
+&lt;p&gt;However, IBM was much better able to generate transcripts for
+lower quality recordings obtained in noisy settings.&lt;/p&gt;
+&lt;h6&gt;Processing seconds per minute : about the same&lt;/h6&gt;
+&lt;p&gt;IBM and …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Comparison Overview&lt;/h1&gt;
+&lt;p&gt;IBM and Google performed about the same over high quality
+reference audio recorded in a quiet setting using a medium quality
+microphone.&lt;/p&gt;
+&lt;p&gt;However, IBM was much better able to generate transcripts for
+lower quality recordings obtained in noisy settings.&lt;/p&gt;
+&lt;h6&gt;Processing seconds per minute : about the same&lt;/h6&gt;
 &lt;p&gt;IBM and Google process the audio in about the same amount of time.
 Google is somewhat faster; however, it requires that the file be
 uploaded to Google Storage first.&lt;/p&gt;
@@ -15,7 +23,9 @@ uploaded to Google Storage first.&lt;/p&gt;
 a file size limit. Files larger than ~80MB require an agreement be
 made with Google, whereas IBM was willing and able to process files
 of arbitrary size. The second main reason is that Google is less
-accommodating of noisy recordings.&lt;/p&gt;
+accommodating of noisy recordings. Many files that were below the
+file size limit failed to generate a transcript.  Many more that did
+had low word counts. &lt;/p&gt;
 &lt;h6&gt;Transcript words per minute of audio (IBM/Google) : 102.0/9.8&lt;/h6&gt;
 &lt;p&gt;Even after adjusting for transcription rate, the number of transcript
 words generated per minute of audio was much lower for Google.&lt;/p&gt;

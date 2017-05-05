@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Plutosoft delimited</title><link href="https://pluteski.github.io/speech-to-text/" rel="alternate"></link><link href="https://pluteski.github.io/speech-to-text/feeds/all.atom.xml" rel="self"></link><id>https://pluteski.github.io/speech-to-text/</id><updated>2017-04-30T00:00:00-07:00</updated><entry><title>on transcription rate for noisy recordings</title><link href="https://pluteski.github.io/speech-to-text/on-transcription-rate-for-noisy-recordings.html" rel="alternate"></link><published>2017-04-30T00:00:00-07:00</published><updated>2017-04-30T00:00:00-07:00</updated><author><name>Mark Plutowski</name></author><id>tag:pluteski.github.io,2017-04-30:/speech-to-text/on-transcription-rate-for-noisy-recordings.html</id><summary type="html">&lt;h1&gt;Comparison on noisy recordings&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Plutosoft delimited</title><link href="https://pluteski.github.io/speech-to-text/" rel="alternate"></link><link href="https://pluteski.github.io/speech-to-text/feeds/all.atom.xml" rel="self"></link><id>https://pluteski.github.io/speech-to-text/</id><updated>2017-04-30T00:00:00-07:00</updated><entry><title>on Bleu scores and transcription rates</title><link href="https://pluteski.github.io/speech-to-text/on-bleu-scores-and-transcription-rates.html" rel="alternate"></link><published>2017-04-30T00:00:00-07:00</published><updated>2017-04-30T00:00:00-07:00</updated><author><name>Mark Plutowski</name></author><id>tag:pluteski.github.io,2017-04-30:/speech-to-text/on-bleu-scores-and-transcription-rates.html</id><summary type="html">&lt;p&gt;&lt;em&gt;[Work in progress]&lt;/em&gt;&lt;/p&gt;
+&lt;h1&gt;Reference audio vs noisy recordings&lt;/h1&gt;
+&lt;p&gt;As expected, each service performs better on audio recorded in a
+quiet setting.&lt;/p&gt;
+&lt;p&gt;IBM and Google performed about the same over high quality
+audio recorded in a quiet setting using a medium quality
+microphone.&lt;/p&gt;
+&lt;p&gt;However, IBM was better able to generate transcripts …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;em&gt;[Work in progress]&lt;/em&gt;&lt;/p&gt;
+&lt;h1&gt;Reference audio vs noisy recordings&lt;/h1&gt;
 &lt;p&gt;As expected, each service performs better on audio recorded in a
 quiet setting.&lt;/p&gt;
 &lt;p&gt;IBM and Google performed about the same over high quality
 audio recorded in a quiet setting using a medium quality
 microphone.&lt;/p&gt;
 &lt;p&gt;However, IBM was better able to generate transcripts for
-my lower quality …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Comparison on noisy recordings&lt;/h1&gt;
-&lt;p&gt;As expected, each service performs better on audio recorded in a
-quiet setting.&lt;/p&gt;
-&lt;p&gt;IBM and Google performed about the same over high quality
-audio recorded in a quiet setting using a medium quality
-microphone.&lt;/p&gt;
-&lt;p&gt;However, IBM was better able to generate transcripts for
-my lower quality recordings obtained in noisy settings.&lt;/p&gt;
+my lower quality recordings obtained in noisy settings, probably
+due to a setting it provides that is specifically suited for
+low-bitrate recordings, and which also tends to generate longer
+transcripts for higher bitrate recordings as well when they are
+particularly noisy.&lt;/p&gt;
 &lt;h5&gt;Processing seconds per minute : about the same&lt;/h5&gt;
 &lt;p&gt;IBM and Google process the audio in about the same amount of time.
 Google is somewhat faster; however, it requires that the file be
@@ -64,8 +69,7 @@ Those 3,521 transcripts contain total of 485,334 words,
 an average of 137 words per transcript.&lt;/p&gt;
 &lt;p&gt;IBM Watson generated 7,227 transcripts, extracting
 9,511,743 words out of those transcripts.
-This gives an average of 1,316 words per transcript.
-[TODO: update with April returns]&lt;/p&gt;
+This gives an average of 1,316 words per transcript.&lt;/p&gt;
 &lt;h2&gt;Word Count Deciles&lt;/h2&gt;
 &lt;p&gt;Many of these transcripts that Google failed to generate were simply due
 to the file size exceeding quota.&lt;/p&gt;

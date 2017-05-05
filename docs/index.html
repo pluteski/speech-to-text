@@ -31,19 +31,21 @@
 
 	<article>
 		<h1>Comparison on noisy recordings</h1>
+<p>As expected, each service performs better on audio recorded in a
+quiet setting.</p>
 <p>IBM and Google performed about the same over high quality
 audio recorded in a quiet setting using a medium quality
 microphone.</p>
 <p>However, IBM was better able to generate transcripts for
-lower quality recordings obtained in noisy settings.</p>
+my lower quality recordings obtained in noisy settings.</p>
 <h5>Processing seconds per minute : about the same</h5>
 <p>IBM and Google process the audio in about the same amount of time.
 Google is somewhat faster; however, it requires that the file be
 uploaded to Google Storage first.</p>
-<h5>IBM Transcribed/Processed : 7281/7288</h5>
-<p>IBM was able to transcribe almost all of the files submitted.</p>
-<h5>Google Transcribed/Processed : 3521/7343</h5>
-<p>The transcription rate was lower for two main reasons.  One was due to
+<h5>IBM Transcribed/Processed : 7281/8415</h5>
+<p>IBM was able to transcribe 87% of the files submitted.</p>
+<h5>Google Transcribed/Processed : 3521/8415</h5>
+<p>The transcription rate (42%) was lower for two main reasons.  One was due to
 a file size limit. Files larger than ~80MB require an agreement be
 made with Google, whereas IBM was willing and able to process files
 of arbitrary size. The second main reason is that Google is less
@@ -71,7 +73,9 @@ with IBM performing slightly better.</p>
 Google fares slightly better across the board.</p>
 <p><img alt="Ratcliff score deciles" src="https://github.com/pluteski/speech-to-text/blob/master/images/ratcliff_score_deciles.png?raw=true"></p>
 <h2>Comparison over all audio</h2>
-<p>This comparison is over 8,415 audio files that were submitted to each
+<p>This section analyzes the number of transcripts
+that are generated, and the number of words per transcript.</p>
+<p>This comparison was over 8,415 audio files that were submitted to each
 service.</p>
 <p>Marked differences between IBM Watson and Google transcription arise
 when comparing transcription rates and number of words generated when run

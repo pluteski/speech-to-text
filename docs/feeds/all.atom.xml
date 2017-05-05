@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Plutosoft delimited</title><link href="https://pluteski.github.io/speech-to-text/" rel="alternate"></link><link href="https://pluteski.github.io/speech-to-text/feeds/all.atom.xml" rel="self"></link><id>https://pluteski.github.io/speech-to-text/</id><updated>2017-04-30T00:00:00-07:00</updated><entry><title>on transcription rate for noisy recordings</title><link href="https://pluteski.github.io/speech-to-text/on-transcription-rate-for-noisy-recordings.html" rel="alternate"></link><published>2017-04-30T00:00:00-07:00</published><updated>2017-04-30T00:00:00-07:00</updated><author><name>Mark Plutowski</name></author><id>tag:pluteski.github.io,2017-04-30:/speech-to-text/on-transcription-rate-for-noisy-recordings.html</id><summary type="html">&lt;h1&gt;Comparison on noisy recordings&lt;/h1&gt;
+&lt;p&gt;As expected, each service performs better on audio recorded in a
+quiet setting.&lt;/p&gt;
 &lt;p&gt;IBM and Google performed about the same over high quality
 audio recorded in a quiet setting using a medium quality
 microphone.&lt;/p&gt;
 &lt;p&gt;However, IBM was better able to generate transcripts for
-lower quality recordings obtained in noisy settings.&lt;/p&gt;
-&lt;h5&gt;Processing seconds per minute : about the same&lt;/h5&gt;
-&lt;p&gt;IBM and …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Comparison on noisy recordings&lt;/h1&gt;
+my lower quality …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Comparison on noisy recordings&lt;/h1&gt;
+&lt;p&gt;As expected, each service performs better on audio recorded in a
+quiet setting.&lt;/p&gt;
 &lt;p&gt;IBM and Google performed about the same over high quality
 audio recorded in a quiet setting using a medium quality
 microphone.&lt;/p&gt;
 &lt;p&gt;However, IBM was better able to generate transcripts for
-lower quality recordings obtained in noisy settings.&lt;/p&gt;
+my lower quality recordings obtained in noisy settings.&lt;/p&gt;
 &lt;h5&gt;Processing seconds per minute : about the same&lt;/h5&gt;
 &lt;p&gt;IBM and Google process the audio in about the same amount of time.
 Google is somewhat faster; however, it requires that the file be
 uploaded to Google Storage first.&lt;/p&gt;
-&lt;h5&gt;IBM Transcribed/Processed : 7281/7288&lt;/h5&gt;
-&lt;p&gt;IBM was able to transcribe almost all of the files submitted.&lt;/p&gt;
-&lt;h5&gt;Google Transcribed/Processed : 3521/7343&lt;/h5&gt;
-&lt;p&gt;The transcription rate was lower for two main reasons.  One was due to
+&lt;h5&gt;IBM Transcribed/Processed : 7281/8415&lt;/h5&gt;
+&lt;p&gt;IBM was able to transcribe 87% of the files submitted.&lt;/p&gt;
+&lt;h5&gt;Google Transcribed/Processed : 3521/8415&lt;/h5&gt;
+&lt;p&gt;The transcription rate (42%) was lower for two main reasons.  One was due to
 a file size limit. Files larger than ~80MB require an agreement be
 made with Google, whereas IBM was willing and able to process files
 of arbitrary size. The second main reason is that Google is less
@@ -47,7 +49,9 @@ with IBM performing slightly better.&lt;/p&gt;
 Google fares slightly better across the board.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Ratcliff score deciles" src="https://github.com/pluteski/speech-to-text/blob/master/images/ratcliff_score_deciles.png?raw=true"&gt;&lt;/p&gt;
 &lt;h2&gt;Comparison over all audio&lt;/h2&gt;
-&lt;p&gt;This comparison is over 8,415 audio files that were submitted to each
+&lt;p&gt;This section analyzes the number of transcripts
+that are generated, and the number of words per transcript.&lt;/p&gt;
+&lt;p&gt;This comparison was over 8,415 audio files that were submitted to each
 service.&lt;/p&gt;
 &lt;p&gt;Marked differences between IBM Watson and Google transcription arise
 when comparing transcription rates and number of words generated when run

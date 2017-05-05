@@ -1,34 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Plutosoft delimited - misc</title><link href="https://pluteski.github.io/speech-to-text/" rel="alternate"></link><link href="https://pluteski.github.io/speech-to-text/feeds/misc.atom.xml" rel="self"></link><id>https://pluteski.github.io/speech-to-text/</id><updated>2017-04-30T00:00:00-07:00</updated><entry><title>on transcription rate for noisy recordings ... IBM FTW</title><link href="https://pluteski.github.io/speech-to-text/on-transcription-rate-for-noisy-recordings-ibm-ftw.html" rel="alternate"></link><published>2017-04-30T00:00:00-07:00</published><updated>2017-04-30T00:00:00-07:00</updated><author><name>Mark Plutowski</name></author><id>tag:pluteski.github.io,2017-04-30:/speech-to-text/on-transcription-rate-for-noisy-recordings-ibm-ftw.html</id><summary type="html">&lt;h1&gt;Comparison Overview&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Plutosoft delimited - misc</title><link href="https://pluteski.github.io/speech-to-text/" rel="alternate"></link><link href="https://pluteski.github.io/speech-to-text/feeds/misc.atom.xml" rel="self"></link><id>https://pluteski.github.io/speech-to-text/</id><updated>2017-04-30T00:00:00-07:00</updated><entry><title>on transcription rate for noisy recordings</title><link href="https://pluteski.github.io/speech-to-text/on-transcription-rate-for-noisy-recordings.html" rel="alternate"></link><published>2017-04-30T00:00:00-07:00</published><updated>2017-04-30T00:00:00-07:00</updated><author><name>Mark Plutowski</name></author><id>tag:pluteski.github.io,2017-04-30:/speech-to-text/on-transcription-rate-for-noisy-recordings.html</id><summary type="html">&lt;h1&gt;Comparison on noisy recordings&lt;/h1&gt;
 &lt;p&gt;IBM and Google performed about the same over high quality
-reference audio recorded in a quiet setting using a medium quality
+audio recorded in a quiet setting using a medium quality
 microphone.&lt;/p&gt;
-&lt;p&gt;However, IBM was much better able to generate transcripts for
+&lt;p&gt;However, IBM was better able to generate transcripts for
 lower quality recordings obtained in noisy settings.&lt;/p&gt;
-&lt;h6&gt;Processing seconds per minute : about the same&lt;/h6&gt;
-&lt;p&gt;IBM and …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Comparison Overview&lt;/h1&gt;
+&lt;h5&gt;Processing seconds per minute : about the same&lt;/h5&gt;
+&lt;p&gt;IBM and …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Comparison on noisy recordings&lt;/h1&gt;
 &lt;p&gt;IBM and Google performed about the same over high quality
-reference audio recorded in a quiet setting using a medium quality
+audio recorded in a quiet setting using a medium quality
 microphone.&lt;/p&gt;
-&lt;p&gt;However, IBM was much better able to generate transcripts for
+&lt;p&gt;However, IBM was better able to generate transcripts for
 lower quality recordings obtained in noisy settings.&lt;/p&gt;
-&lt;h6&gt;Processing seconds per minute : about the same&lt;/h6&gt;
+&lt;h5&gt;Processing seconds per minute : about the same&lt;/h5&gt;
 &lt;p&gt;IBM and Google process the audio in about the same amount of time.
 Google is somewhat faster; however, it requires that the file be
 uploaded to Google Storage first.&lt;/p&gt;
-&lt;h6&gt;IBM Transcribed/Processed : 7281/7288&lt;/h6&gt;
+&lt;h5&gt;IBM Transcribed/Processed : 7281/7288&lt;/h5&gt;
 &lt;p&gt;IBM was able to transcribe almost all of the files submitted.&lt;/p&gt;
-&lt;h6&gt;Google Transcribed/Processed : 3521/7343&lt;/h6&gt;
+&lt;h5&gt;Google Transcribed/Processed : 3521/7343&lt;/h5&gt;
 &lt;p&gt;The transcription rate was lower for two main reasons.  One was due to
 a file size limit. Files larger than ~80MB require an agreement be
 made with Google, whereas IBM was willing and able to process files
 of arbitrary size. The second main reason is that Google is less
 accommodating of noisy recordings. Many files that were below the
 file size limit failed to generate a transcript.  Many more that did
-had low word counts. &lt;/p&gt;
-&lt;h6&gt;Transcript words per minute of audio (IBM/Google) : 102.0/9.8&lt;/h6&gt;
-&lt;p&gt;Even after adjusting for transcription rate, the number of transcript
-words generated per minute of audio was much lower for Google.&lt;/p&gt;
+had low word counts.&lt;/p&gt;
+&lt;h5&gt;Transcript words per minute of audio (IBM/Google) : 102.0/9.8&lt;/h5&gt;
+&lt;p&gt;Google's api doesn't have a setting for handling low-bitrate
+recordings similar to IBM's narrowband setting.
+The number of transcript
+words generated per minute of audio was much lower for Google
+even after adjusting for transcription rate.&lt;/p&gt;
 &lt;h1&gt;Comparison on reference documents&lt;/h1&gt;
 &lt;p&gt;The following comparisons were made over 245 reference documents.
 The reference transcripts were transcribed using a speech-to-text
@@ -206,13 +209,15 @@ intriguing visuals and wrapped in witty yet insightful prose. Promise.&lt;/p&gt;
 &lt;a href="https://github.com/pluteski/speech-to-text/wiki/Background"&gt;here is some additional background on the project&lt;/a&gt;.
 Here are the
 &lt;a href="https://github.com/pluteski/speech-to-text/wiki/Findings"&gt;results of a preliminary comparison between IBM and Google&lt;/a&gt;.
-Here are &lt;a href="https://github.com/pluteski/speech-to-text/wiki/Comparison-over-reference-documents"&gt;results made over reference documents&lt;/a&gt;.
-And here are some &lt;a href="https://github.com/pluteski/speech-to-text/wiki/Comparison-of-transcript-word-count"&gt;results made over audio collected in the wild&lt;/a&gt;
+Here are
+&lt;a href="https://github.com/pluteski/speech-to-text/wiki/Comparison-over-reference-documents"&gt;results made over reference documents&lt;/a&gt;.
+And here are some
+&lt;a href="https://github.com/pluteski/speech-to-text/wiki/Comparison-of-transcript-word-count"&gt;results made over audio collected in the wild&lt;/a&gt;.
 There are several conclusions that can be drawn from these findings,
 which will be the subject of a future post.&lt;/p&gt;
 &lt;p&gt;In closing, my findings indicate to me that I should be able to
 extract useful text from my recordings,
-albeit probably not by transcribing meeting minutes.
+albeit probably not for the purpose of transcribing meeting minutes.
 The transcript text generated by the cloud API is largely recognizable to me, although
 that is often in the same way as my handwriting is recognizable to me
 because I vaguely remember generating it.

@@ -37,26 +37,37 @@ quiet setting.</p>
 <p>IBM and Google performed about the same over high quality
 audio recorded in a quiet setting using a medium quality
 microphone.</p>
-<p>However, IBM was better able to generate transcripts for
-my lower quality recordings obtained in noisy settings, probably
-due to a setting it provides that is specifically suited for
-low-bitrate recordings, and which also tends to generate longer
-transcripts for higher bitrate recordings as well when they are
-particularly noisy.</p>
+<p>IBM was better able to generate transcripts for
+my lower quality recordings obtained in noisy settings.</p>
+<p>This could be due to a custom (which they refer to as a "narrowband")
+setting that IBM
+provides that is specifically provided to accommodate
+low-bitrate recordings. That setting also tends to generate longer
+transcripts for higher bitrate recordings that are especially noisy.</p>
+<p>It may also have to do with the encoding used. I needed to transcode
+every audio file to the encoding required by Google's service, and it
+is possible that this transcoding step could be tuned to give better accuracy.
+I haven't attempted any rigorous tuning of either service at this stage of
+my experiments.</p>
+<p>This is a work in progress.  I am hoping to do a direct file-by-file
+comparison of the two services once I am confident that I am
+configuring my settings to use Google's api to the best of its capability.
+However I have obtained some cursory comparisons on the current results.</p>
 <h5>Processing seconds per minute : about the same</h5>
 <p>IBM and Google process the audio in about the same amount of time.
-Google is somewhat faster; however, it requires that the file be
+Google is somewhat faster at the actual transcription processing.
+However, Google requires that the file be
 uploaded to Google Storage first.</p>
 <h5>IBM Transcribed/Processed : 7281/8415</h5>
 <p>IBM was able to transcribe 87% of the files submitted.</p>
 <h5>Google Transcribed/Processed : 3521/8415</h5>
-<p>The transcription rate (42%) was lower for two main reasons.  One was due to
-a file size limit. Files larger than ~80MB require an agreement be
-made with Google, whereas IBM was willing and able to process files
-of arbitrary size. The second main reason is that Google is less
-accommodating of noisy recordings. Many files that were below the
-file size limit failed to generate a transcript.  Many more that did
-had low word counts.</p>
+<p>The transcription rate (42%) was lower for two main reasons.</p>
+<p>The first was a file size limit.
+Files larger than ~80MB require a prior arrangement,
+whereas IBM was able to process files of all sizes submitted to the service.</p>
+<p>The second main reason is that IBM has a custom setting for
+low-bit rate recordings. Google failed to generate a transcript
+for many files that were below the file size limit.</p>
 <h5>Transcript words per minute of audio (IBM/Google) : 102.0/9.8</h5>
 <p>Google's api doesn't have a setting for handling low-bitrate
 recordings similar to IBM's narrowband setting.

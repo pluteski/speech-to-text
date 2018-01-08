@@ -94,10 +94,12 @@ the gold standard of industrial grade distributed consensus.</li>
 </ul>
 <p>Because it is fast and requires low network bandwidth, it can be used as a distributed memory system.
 Because it provides a total order on transactions, it can be used as a multi-master database.</p>
-<p>Before we discuss its tx/sec (transactions/second), let's review the tx/sec of other distributed ledger technology (DLT) :
-<em> Proof-of-Work Blockchain (Etherium, Bitcoin) : under 10 tx/sec
-</em> Paypal : <a href="http://www.altcointoday.com/bitcoin-ethereum-vs-visa-paypal-transactions-per-second/">~200 tx/sec</a>
-* Visa : <a href="https://mybroadband.co.za/news/security/190348-visanet-handling-100000-transactions-per-minute.html">~2K tx/sec</a></p>
+<p>Before we discuss its tx/sec (transactions/second), let's review the tx/sec of other distributed ledger technology (DLT) :</p>
+<ul>
+<li>Proof-of-Work Blockchain (Etherium, Bitcoin) : <strong>&lt; 10 tx/sec</strong></li>
+<li>Paypal : <strong><a href="http://www.altcointoday.com/bitcoin-ethereum-vs-visa-paypal-transactions-per-second/">200 tx/sec</a></strong></li>
+<li>Visa : <strong><a href="https://mybroadband.co.za/news/security/190348-visanet-handling-100000-transactions-per-minute.html">2K tx/sec</a></strong></li>
+</ul>
 <p>Visa claims that its system has capacity to handle upwards of 50K tx/sec.</p>
 <p>Hashgraph's inventor says it can attain <a href="https://www.hiddenforcespod.com/leemon-baird-hashgraph-distributed-ledger-technology-blockchain/">250K+ tx/sec</a>.</p>
 <p>To be fair, because of its positioning and licensing, hashgraph is most directly comparable to Hyperledger, which is
@@ -106,24 +108,28 @@ Other enterprise-grade commercial systems include
 LMAX and its variants, such as <a href="http://lmax-exchange.github.io/disruptor/">LMAX Disruptor</a>
 and Bitshares.  Their ts/sec are as follows:</p>
 <ul>
-<li><a href="https://www.hyperledger.org/about">Hyperledger</a> : <a href="https://www.altoros.com/blog/hyperledgers-sawtooth-lake-aims-at-a-thousand-transactions-per-second/">~1K tx/sec</a> to <a href="https://medium.com/chain-cloud-company-blog/hyperledger-vs-corda-pt-1-3723c4fa5028">~10K tx/sec</a></li>
-<li>Bitshares : <a href="https://bitshares.org/technology/industrial-performance-and-scalability/">100K tx/sec</a></li>
-<li>LMAX : <a href="https://qconsf.com/sf2010/sf2010/presentation/LMAX+-+How+to+do+over+100K+concurrent+transactions+per+second+at+less+than+1ms+latency.html">100K tx/sec (2010)</a> to <a href="https://martinfowler.com/articles/lmax.html">6M tx/sec</a></li>
+<li><a href="https://www.hyperledger.org/about">Hyperledger</a> : <strong><a href="https://www.altoros.com/blog/hyperledgers-sawtooth-lake-aims-at-a-thousand-transactions-per-second/">1K tx/sec</a></strong> to <strong><a href="https://medium.com/chain-cloud-company-blog/hyperledger-vs-corda-pt-1-3723c4fa5028">10K tx/sec</a></strong></li>
+<li>Bitshares : <strong><a href="https://bitshares.org/technology/industrial-performance-and-scalability/">100K tx/sec</a></strong></li>
+<li>LMAX : <strong><a href="https://qconsf.com/sf2010/sf2010/presentation/LMAX+-+How+to+do+over+100K+concurrent+transactions+per+second+at+less+than+1ms+latency.html">100K tx/sec (2010)</a></strong> to <strong><a href="https://martinfowler.com/articles/lmax.html">6M tx/sec</a></strong></li>
 </ul>
 <h2>The bad</h2>
 <p>So what is the catch?</p>
 <p>Hashgraph is only deployed in <a href="https://hackernoon.com/demystifying-hashgraph-benefits-and-challenges-d605e5c0cee5">private, permissioned-based networks</a>.</p>
-<p>Whether it can be adapted to a truly decentralised public ledger remains to be seen, because it assumes that a node can determine :
-<em> addresses of random nodes in the network for messaging, and
-</em> the number of other nodes N in the network</p>
+<p>Whether it can be adapted to a truly decentralised public ledger remains to be seen, because it assumes that a node can determine :</p>
+<ul>
+<li>addresses of random nodes in the network for messaging, and</li>
+<li>the number of other nodes N in the network</li>
+</ul>
 <p>This is because the algorithm requires a node to be able to (a) pick another node at random, and (b) know the value of ⅔ * N.</p>
 <p>It needs a means of registering and unregistering of members in the network,
 whereas public blockchains allow nodes to sign in and out to the network without any notice.
 It is sometimes called a Permissioned Blockchain because
 <a href="https://hashgraph.com/faq/#is-there-a-cryptocurrency">there is no hashgraph public ledger or cryptocurrency and is currently only implemented on permissioned networks</a>.</p>
-<p>Finally, the following seem to be a major showstopper for many members of the cryptocurrency development community:
-<em> It requires a license to use.
-</em> It is patented (US Patents #<a href="http://www.leemon.com/papers/2017b.pdf">9,646,029</a>, #<a href="http://www.leemon.com/papers/2016b4.pdf">9,529,923</a>, #<a href="http://www.leemon.com/papers/2016b3.pdf">9,390,154</a>.</p>
+<p>Finally, the following seem to be a major showstopper for many members of the cryptocurrency development community:</p>
+<ul>
+<li>It requires a license to use.</li>
+<li>It is patented (US Patents #<a href="http://www.leemon.com/papers/2017b.pdf">9,646,029</a>, #<a href="http://www.leemon.com/papers/2016b4.pdf">9,529,923</a>, #<a href="http://www.leemon.com/papers/2016b3.pdf">9,390,154</a>.</li>
+</ul>
 <h4>About the author</h4>
 <p>I am just an interested learner coming up to speed on blockchain technologies, distributed ledger technologies,
 and decentralized consensus systems.

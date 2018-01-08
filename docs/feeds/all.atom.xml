@@ -71,10 +71,12 @@ the gold standard of industrial grade distributed consensus.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Because it is fast and requires low network bandwidth, it can be used as a distributed memory system.
 Because it provides a total order on transactions, it can be used as a multi-master database.&lt;/p&gt;
-&lt;p&gt;Before we discuss its tx/sec (transactions/second), let's review the tx/sec of other distributed ledger technology (DLT) :
-&lt;em&gt; Proof-of-Work Blockchain (Etherium, Bitcoin) : under 10 tx/sec
-&lt;/em&gt; Paypal : &lt;a href="http://www.altcointoday.com/bitcoin-ethereum-vs-visa-paypal-transactions-per-second/"&gt;~200 tx/sec&lt;/a&gt;
-* Visa : &lt;a href="https://mybroadband.co.za/news/security/190348-visanet-handling-100000-transactions-per-minute.html"&gt;~2K tx/sec&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Before we discuss its tx/sec (transactions/second), let's review the tx/sec of other distributed ledger technology (DLT) :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Proof-of-Work Blockchain (Etherium, Bitcoin) : &lt;strong&gt;&amp;lt; 10 tx/sec&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Paypal : &lt;strong&gt;&lt;a href="http://www.altcointoday.com/bitcoin-ethereum-vs-visa-paypal-transactions-per-second/"&gt;200 tx/sec&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Visa : &lt;strong&gt;&lt;a href="https://mybroadband.co.za/news/security/190348-visanet-handling-100000-transactions-per-minute.html"&gt;2K tx/sec&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;Visa claims that its system has capacity to handle upwards of 50K tx/sec.&lt;/p&gt;
 &lt;p&gt;Hashgraph's inventor says it can attain &lt;a href="https://www.hiddenforcespod.com/leemon-baird-hashgraph-distributed-ledger-technology-blockchain/"&gt;250K+ tx/sec&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;To be fair, because of its positioning and licensing, hashgraph is most directly comparable to Hyperledger, which is
@@ -83,24 +85,28 @@ Other enterprise-grade commercial systems include
 LMAX and its variants, such as &lt;a href="http://lmax-exchange.github.io/disruptor/"&gt;LMAX Disruptor&lt;/a&gt;
 and Bitshares.  Their ts/sec are as follows:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.hyperledger.org/about"&gt;Hyperledger&lt;/a&gt; : &lt;a href="https://www.altoros.com/blog/hyperledgers-sawtooth-lake-aims-at-a-thousand-transactions-per-second/"&gt;~1K tx/sec&lt;/a&gt; to &lt;a href="https://medium.com/chain-cloud-company-blog/hyperledger-vs-corda-pt-1-3723c4fa5028"&gt;~10K tx/sec&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Bitshares : &lt;a href="https://bitshares.org/technology/industrial-performance-and-scalability/"&gt;100K tx/sec&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;LMAX : &lt;a href="https://qconsf.com/sf2010/sf2010/presentation/LMAX+-+How+to+do+over+100K+concurrent+transactions+per+second+at+less+than+1ms+latency.html"&gt;100K tx/sec (2010)&lt;/a&gt; to &lt;a href="https://martinfowler.com/articles/lmax.html"&gt;6M tx/sec&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.hyperledger.org/about"&gt;Hyperledger&lt;/a&gt; : &lt;strong&gt;&lt;a href="https://www.altoros.com/blog/hyperledgers-sawtooth-lake-aims-at-a-thousand-transactions-per-second/"&gt;1K tx/sec&lt;/a&gt;&lt;/strong&gt; to &lt;strong&gt;&lt;a href="https://medium.com/chain-cloud-company-blog/hyperledger-vs-corda-pt-1-3723c4fa5028"&gt;10K tx/sec&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Bitshares : &lt;strong&gt;&lt;a href="https://bitshares.org/technology/industrial-performance-and-scalability/"&gt;100K tx/sec&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;LMAX : &lt;strong&gt;&lt;a href="https://qconsf.com/sf2010/sf2010/presentation/LMAX+-+How+to+do+over+100K+concurrent+transactions+per+second+at+less+than+1ms+latency.html"&gt;100K tx/sec (2010)&lt;/a&gt;&lt;/strong&gt; to &lt;strong&gt;&lt;a href="https://martinfowler.com/articles/lmax.html"&gt;6M tx/sec&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;The bad&lt;/h2&gt;
 &lt;p&gt;So what is the catch?&lt;/p&gt;
 &lt;p&gt;Hashgraph is only deployed in &lt;a href="https://hackernoon.com/demystifying-hashgraph-benefits-and-challenges-d605e5c0cee5"&gt;private, permissioned-based networks&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Whether it can be adapted to a truly decentralised public ledger remains to be seen, because it assumes that a node can determine :
-&lt;em&gt; addresses of random nodes in the network for messaging, and
-&lt;/em&gt; the number of other nodes N in the network&lt;/p&gt;
+&lt;p&gt;Whether it can be adapted to a truly decentralised public ledger remains to be seen, because it assumes that a node can determine :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;addresses of random nodes in the network for messaging, and&lt;/li&gt;
+&lt;li&gt;the number of other nodes N in the network&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;This is because the algorithm requires a node to be able to (a) pick another node at random, and (b) know the value of ⅔ * N.&lt;/p&gt;
 &lt;p&gt;It needs a means of registering and unregistering of members in the network,
 whereas public blockchains allow nodes to sign in and out to the network without any notice.
 It is sometimes called a Permissioned Blockchain because
 &lt;a href="https://hashgraph.com/faq/#is-there-a-cryptocurrency"&gt;there is no hashgraph public ledger or cryptocurrency and is currently only implemented on permissioned networks&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Finally, the following seem to be a major showstopper for many members of the cryptocurrency development community:
-&lt;em&gt; It requires a license to use.
-&lt;/em&gt; It is patented (US Patents #&lt;a href="http://www.leemon.com/papers/2017b.pdf"&gt;9,646,029&lt;/a&gt;, #&lt;a href="http://www.leemon.com/papers/2016b4.pdf"&gt;9,529,923&lt;/a&gt;, #&lt;a href="http://www.leemon.com/papers/2016b3.pdf"&gt;9,390,154&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Finally, the following seem to be a major showstopper for many members of the cryptocurrency development community:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It requires a license to use.&lt;/li&gt;
+&lt;li&gt;It is patented (US Patents #&lt;a href="http://www.leemon.com/papers/2017b.pdf"&gt;9,646,029&lt;/a&gt;, #&lt;a href="http://www.leemon.com/papers/2016b4.pdf"&gt;9,529,923&lt;/a&gt;, #&lt;a href="http://www.leemon.com/papers/2016b3.pdf"&gt;9,390,154&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h4&gt;About the author&lt;/h4&gt;
 &lt;p&gt;I am just an interested learner coming up to speed on blockchain technologies, distributed ledger technologies,
 and decentralized consensus systems.

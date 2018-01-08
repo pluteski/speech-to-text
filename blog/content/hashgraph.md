@@ -64,7 +64,9 @@ Then, they tell some random participant what they know, which includes some
 (possibly second hand) information they learned from you.
 Eventually, participants are able to tally not only what they have observed,
 but also what other participants are likely to have observed, based
-on the gossip they've shared.
+on the gossip they've shared.  Given enough second-hand information
+from enough credible witnesses, they can even predict the opinion of
+participants with whom they have not communicated.
 
 If the timestamp of an event log is corrupted by a bad clock or is maliciously doctored,
 this will usually have no effect on the consensus timestamp, because consensus opinion on

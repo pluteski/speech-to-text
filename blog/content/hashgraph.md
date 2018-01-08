@@ -1,4 +1,4 @@
-Title:  Gossiping about Hashgraph
+Title:  The dirt on Hashgraph
 Subtitle:    What we know about Hashgraph c.2017
 Project:     cryptocurious
 Author:      Mark Plutowski
@@ -6,8 +6,6 @@ Affiliation: Plutosoft Delimited
 Web:         https://pluteski.github.io
 Date:        2018-01-07
 
-
-# Dishing the dirt on Hashgraph
 
 ![emonocle byEMIIA](https://1.bp.blogspot.com/-DpZwufJmu_Y/Wh6lGuTNRmI/AAAAAAAABUU/0W2PLj5w-j4ql9RE8Otwk5DrB3UcgKOGQCLcBGAs/s1600/hashgraph%2B%25282%2529.gif)
 <p style="text-align: right;"><em>(emonocle byEMIIA)</em></p>
@@ -20,8 +18,11 @@ the [Swirlds distributed consensus algorithm](http://www.swirlds.com/downloads/S
 provides [asynchronous byzantine fault tolerance](https://hashgraph.com/faq/#what-is-bft), using what it calls "gossip about gossip."
 
 _Whaaaat?_  A system based on second hand rumors?  Whisper logs? We're really supposed to trust this thing?
-Read on to find out.  _At least about what I know.  If you know something I don't, you can tell someone in our mutual hashgraph.
+Read on to find out.
+
+..._At least about what I know.  If you know something I don't, you can tell someone in our mutual hashgraph.
 If we live in a world defined by gossip, as is rumored to be the case, the math says that I'll almost surely find out._
+
 
 ## How does Hashgraph compare to Bitcoin?
 Distributed consensus is an extremely useful concept in distributed computing.
@@ -58,11 +59,17 @@ It comes to consensus about what happened, and when,
 by cleverly tallying highly compressed event logs
 based on "famous witnesses" that ["strongly see"](https://www.swirlds.com/downloads/SWIRLDS-TR-2016-02.pdf) events.
 
-If participants have a bad clock or doctor their own timestamp,
-the actual recorded timestamp will be the median of all the timestamps observed by credible witnesses.
-If the exact timestamp is unnecessary and rank order is what is most important,
-because the rank order based on median is fairly robust to extreme outliers,
-the total ordering is less affected.
+You tell some random participant what you know.  They tell you what they know.
+Then, they tell some random participant what they know, which includes some
+(possibly second hand) information they learned from you.
+Eventually, participants are able to tally not only what they have observed,
+but also what other participants are likely to have observed, based
+on the gossip they've shared.
+
+If the timestamp of an event log is corrupted by a bad clock or is maliciously doctored,
+this will usually have no effect on the consensus timestamp, because consensus opinion on
+when something occurred is the median of timestamps observed by credible witnesses.
+
 
 [Arrow's Theorem](http://tech.mit.edu/V123/N8/8voting.8n.html) proves that no voting system is fair.
 I'm no [voting theorist](https://www.princeton.edu/~cuff/voting/theory.html),

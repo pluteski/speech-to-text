@@ -1,5 +1,124 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Plutosoft delimited - misc</title><link href="https://pluteski.github.io/speech-to-text/" rel="alternate"></link><link href="https://pluteski.github.io/speech-to-text/feeds/misc.atom.xml" rel="self"></link><id>https://pluteski.github.io/speech-to-text/</id><updated>2017-04-30T00:00:00-07:00</updated><entry><title>on Bleu scores and transcription rates</title><link href="https://pluteski.github.io/speech-to-text/on-bleu-scores-and-transcription-rates.html" rel="alternate"></link><published>2017-04-30T00:00:00-07:00</published><updated>2017-04-30T00:00:00-07:00</updated><author><name>Mark Plutowski</name></author><id>tag:pluteski.github.io,2017-04-30:/speech-to-text/on-bleu-scores-and-transcription-rates.html</id><summary type="html">&lt;p&gt;&lt;em&gt;[Work in progress]&lt;/em&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Plutosoft delimited - misc</title><link href="https://pluteski.github.io/speech-to-text/" rel="alternate"></link><link href="https://pluteski.github.io/speech-to-text/feeds/misc.atom.xml" rel="self"></link><id>https://pluteski.github.io/speech-to-text/</id><updated>2018-01-07T00:00:00-08:00</updated><entry><title>Gossiping about Hashgraph</title><link href="https://pluteski.github.io/speech-to-text/gossiping-about-hashgraph.html" rel="alternate"></link><published>2018-01-07T00:00:00-08:00</published><updated>2018-01-07T00:00:00-08:00</updated><author><name>Mark Plutowski</name></author><id>tag:pluteski.github.io,2018-01-07:/speech-to-text/gossiping-about-hashgraph.html</id><summary type="html">&lt;h1&gt;Dishing the dirt on Hashgraph&lt;/h1&gt;
+&lt;p&gt;&lt;img alt="emonocle byEMIIA" src="https://1.bp.blogspot.com/-DpZwufJmu_Y/Wh6lGuTNRmI/AAAAAAAABUU/0W2PLj5w-j4ql9RE8Otwk5DrB3UcgKOGQCLcBGAs/s1600/hashgraph%2B%25282%2529.gif"&gt;
+&lt;p style="text-align: right;"&gt;&lt;em&gt;(emonocle byEMIIA)&lt;/em&gt;&lt;/p&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;em&gt;pssst!&lt;/em&gt; ... &lt;em&gt;have you heard about Hashgraph?&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://hashgraph.com"&gt;Hashgraph&lt;/a&gt;
+is a data structure which together with
+the &lt;a href="http://www.swirlds.com/downloads/SWIRLDS-TR-2016-01.pdf"&gt;Swirlds distributed consensus algorithm&lt;/a&gt;
+provides &lt;a href="https://hashgraph.com/faq/#what-is-bft"&gt;asynchronous byzantine fault tolerance&lt;/a&gt;, using what it calls "gossip about gossip."&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Whaaaat?&lt;/em&gt;  A system based on second hand rumors?  Whisper logs? We're really …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Dishing the dirt on Hashgraph&lt;/h1&gt;
+&lt;p&gt;&lt;img alt="emonocle byEMIIA" src="https://1.bp.blogspot.com/-DpZwufJmu_Y/Wh6lGuTNRmI/AAAAAAAABUU/0W2PLj5w-j4ql9RE8Otwk5DrB3UcgKOGQCLcBGAs/s1600/hashgraph%2B%25282%2529.gif"&gt;
+&lt;p style="text-align: right;"&gt;&lt;em&gt;(emonocle byEMIIA)&lt;/em&gt;&lt;/p&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;em&gt;pssst!&lt;/em&gt; ... &lt;em&gt;have you heard about Hashgraph?&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://hashgraph.com"&gt;Hashgraph&lt;/a&gt;
+is a data structure which together with
+the &lt;a href="http://www.swirlds.com/downloads/SWIRLDS-TR-2016-01.pdf"&gt;Swirlds distributed consensus algorithm&lt;/a&gt;
+provides &lt;a href="https://hashgraph.com/faq/#what-is-bft"&gt;asynchronous byzantine fault tolerance&lt;/a&gt;, using what it calls "gossip about gossip."&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Whaaaat?&lt;/em&gt;  A system based on second hand rumors?  Whisper logs? We're really supposed to trust this thing?
+Read on to find out.  &lt;em&gt;At least about what I know.  If you know something I don't, you can tell someone in our mutual hashgraph.
+If we live in a world defined by gossip, as is rumored to be the case, the math says that I'll almost surely find out.&lt;/em&gt;&lt;/p&gt;
+&lt;h2&gt;How does Hashgraph compare to Bitcoin?&lt;/h2&gt;
+&lt;p&gt;Distributed consensus is an extremely useful concept in distributed computing.
+For decades it was doable only among a small number of computers ("nodes").
+Nakamoto's Bitcoin cryptocurrency  &lt;a href="http://vukolic.com/iNetSec_2015.pdf"&gt;presented a new way to achieve scalable decentralized consensus&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Bitcoin protocol does not implement consensus
+in the traditional distributed computing sense.
+&lt;a href="http://vukolic.com/iNetSec_2015.pdf"&gt;Instead it achieves consensus via probabilistic agreement&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;A primary goal of a cryptocurrency is to &lt;a href="http://mathworld.wolfram.com/TotallyOrderedSet.html"&gt;totally order&lt;/a&gt; transactions
+on a &lt;a href="https://www.investopedia.com/terms/d/distributed-ledgers.asp"&gt;distributed ledger&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Hashgraph also provides a total order on a distributed transaction ledger,
+but does so using a &lt;a href="https://steemit.com/steemit/@decryptson/hashgraph"&gt;different approach&lt;/a&gt;.
+Whereas the Bitcoin network builds up its transaction history in the form of a “blockchain”,
+adding &lt;a href="https://bitcoinmagazine.com/articles/selfish-mining-a-25-attack-against-the-bitcoin-network-1383578440/"&gt;a new block on top of the previous block every ten minutes&lt;/a&gt;,
+Hashgraph grows a time directed acyclic graph akin to a braided forest of trees
+using &lt;a href="https://hashgraph.com/faq/#how-does-it-work"&gt;"virtual voting" and "gossip about gossip"&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Despite Bitcoin demonstrating tremendous value, its blockchain plus Proof-of-Work (PoW) approach
+presents several pitfalls.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;it is extremely wasteful since &lt;a href="http://www.nasdaq.com/article/byzantine-fault-tolerance-the-key-for-blockchains-cm810058"&gt;by design&lt;/a&gt; PoW expends huge amounts of computing power.&lt;/li&gt;
+&lt;li&gt;it is slow, limited to tens of transactions per second&lt;/li&gt;
+&lt;li&gt;it allows a huge backlog of unconfirmed transactions to accumulate&lt;/li&gt;
+&lt;li&gt;it requires a lot of network bandwidth&lt;/li&gt;
+&lt;li&gt;is &lt;a href="https://arxiv.org/abs/1311.0243"&gt;susceptible to a 25% economic attack&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Virtual elections. Better than real ones?&lt;/h2&gt;
+&lt;p&gt;Hashgraph is comparable to PBFT, Paxos, Raft, Zab, and other consensus seeking systems that rely on leaders and voting schemes.
+But hashgraph eschews the comparison, claiming that it doesn't even use voting.
+It comes to consensus about what happened, and when,
+by cleverly tallying highly compressed event logs
+based on "famous witnesses" that &lt;a href="https://www.swirlds.com/downloads/SWIRLDS-TR-2016-02.pdf"&gt;"strongly see"&lt;/a&gt; events.&lt;/p&gt;
+&lt;p&gt;If participants have a bad clock or doctor their own timestamp,
+the actual recorded timestamp will be the median of all the timestamps observed by credible witnesses.
+If the exact timestamp is unnecessary and rank order is what is most important,
+because the rank order based on median is fairly robust to extreme outliers,
+the total ordering is less affected.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://tech.mit.edu/V123/N8/8voting.8n.html"&gt;Arrow's Theorem&lt;/a&gt; proves that no voting system is fair.
+I'm no &lt;a href="https://www.princeton.edu/~cuff/voting/theory.html"&gt;voting theorist&lt;/a&gt;,
+but in my (extremely humble) opinion, hashgraph comes pretty close.
+It makes one want to believe in democracy again. Real-time continuous nationwide elections anyone?&lt;/p&gt;
+&lt;h2&gt;Hashgraph: the good&lt;/h2&gt;
+&lt;p&gt;It is &lt;a href="https://hackernoon.com/demystifying-hashgraph-benefits-and-challenges-d605e5c0cee5"&gt;fast&lt;/a&gt;,
+&lt;a href="https://hashgraph.com/faq/#what-is-fairness"&gt;fair&lt;/a&gt;,
+and &lt;a href="https://hashgraph.com/faq/#preventing-sybil-attacks"&gt;secure&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It promises total ordering of events.&lt;/li&gt;
+&lt;li&gt;It promises strong &lt;a href="http://the-paper-trail.org/blog/barbara-liskovs-turing-award-and-byzantine-fault-tolerance/"&gt;Byzantine Fault Tolerance&lt;/a&gt; (BFT),
+the gold standard of industrial grade distributed consensus.&lt;/li&gt;
+&lt;li&gt;Requires minimal network bandwidth, because it passes things only around once.&lt;/li&gt;
+&lt;li&gt;It does not require Proof-of-Work, so it does not require unnecessary computation.&lt;/li&gt;
+&lt;li&gt;It is proven to quickly reach 100% certainty on the order of transactions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Because it is fast and requires low network bandwidth, it can be used as a distributed memory system.
+Because it provides a total order on transactions, it can be used as a multi-master database.&lt;/p&gt;
+&lt;p&gt;Before we discuss its tx/sec (transactions/second), let's review the tx/sec of other distributed ledger technology (DLT) :
+&lt;em&gt; Proof-of-Work Blockchain (Etherium, Bitcoin) : under 10 tx/sec
+&lt;/em&gt; Paypal : &lt;a href="http://www.altcointoday.com/bitcoin-ethereum-vs-visa-paypal-transactions-per-second/"&gt;~200 tx/sec&lt;/a&gt;
+* Visa : &lt;a href="https://mybroadband.co.za/news/security/190348-visanet-handling-100000-transactions-per-minute.html"&gt;~2K tx/sec&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Visa claims that its system has capacity to handle upwards of 50K tx/sec.&lt;/p&gt;
+&lt;p&gt;Hashgraph's inventor says it can attain &lt;a href="https://www.hiddenforcespod.com/leemon-baird-hashgraph-distributed-ledger-technology-blockchain/"&gt;250K+ tx/sec&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To be fair, because of its positioning and licensing, hashgraph is most directly comparable to Hyperledger, which is
+also a scalable DFT using a Practical Byzantine Fault Tolerance (PBFT) consensus algorithm.
+Other enterprise-grade commercial systems include
+LMAX and its variants, such as &lt;a href="http://lmax-exchange.github.io/disruptor/"&gt;LMAX Disruptor&lt;/a&gt;
+and Bitshares.  Their ts/sec are as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.hyperledger.org/about"&gt;Hyperledger&lt;/a&gt; : &lt;a href="https://www.altoros.com/blog/hyperledgers-sawtooth-lake-aims-at-a-thousand-transactions-per-second/"&gt;~1K tx/sec&lt;/a&gt; to &lt;a href="https://medium.com/chain-cloud-company-blog/hyperledger-vs-corda-pt-1-3723c4fa5028"&gt;~10K tx/sec&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Bitshares : &lt;a href="https://bitshares.org/technology/industrial-performance-and-scalability/"&gt;100K tx/sec&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;LMAX : &lt;a href="https://qconsf.com/sf2010/sf2010/presentation/LMAX+-+How+to+do+over+100K+concurrent+transactions+per+second+at+less+than+1ms+latency.html"&gt;100K tx/sec (2010)&lt;/a&gt; to &lt;a href="https://martinfowler.com/articles/lmax.html"&gt;6M tx/sec&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;The bad&lt;/h2&gt;
+&lt;p&gt;So what is the catch?&lt;/p&gt;
+&lt;p&gt;Hashgraph is only deployed in &lt;a href="https://hackernoon.com/demystifying-hashgraph-benefits-and-challenges-d605e5c0cee5"&gt;private, permissioned-based networks&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Whether it can be adapted to a truly decentralised public ledger remains to be seen, because it assumes that a node can determine :
+&lt;em&gt; addresses of random nodes in the network for messaging, and
+&lt;/em&gt; the number of other nodes N in the network&lt;/p&gt;
+&lt;p&gt;This is because the algorithm requires a node to be able to (a) pick another node at random, and (b) know the value of ⅔ * N.&lt;/p&gt;
+&lt;p&gt;It needs a means of registering and unregistering of members in the network,
+whereas public blockchains allow nodes to sign in and out to the network without any notice.
+It is sometimes called a Permissioned Blockchain because
+&lt;a href="https://hashgraph.com/faq/#is-there-a-cryptocurrency"&gt;there is no hashgraph public ledger or cryptocurrency and is currently only implemented on permissioned networks&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Finally, the following seem to be a major showstopper for many members of the cryptocurrency development community:
+&lt;em&gt; It requires a license to use.
+&lt;/em&gt; It is patented (US Patents #&lt;a href="http://www.leemon.com/papers/2017b.pdf"&gt;9,646,029&lt;/a&gt;, #&lt;a href="http://www.leemon.com/papers/2016b4.pdf"&gt;9,529,923&lt;/a&gt;, #&lt;a href="http://www.leemon.com/papers/2016b3.pdf"&gt;9,390,154&lt;/a&gt;.&lt;/p&gt;
+&lt;h4&gt;About the author&lt;/h4&gt;
+&lt;p&gt;I am just an interested learner coming up to speed on blockchain technologies, distributed ledger technologies,
+and decentralized consensus systems.
+At the time of writing this article I have no investment in any cryptocurrency, I do not work for or represent
+any organization related to cryptocurrencies or distributed ledger technologies.
+As I am still learning about this area, I am not an expert.&lt;/p&gt;
+&lt;p&gt;So why am I writing this?&lt;/p&gt;
+&lt;p&gt;Hashgraph impressed on me the value of &lt;a href="https://hashgraph.com/faq/#how-does-it-work"&gt;gossip&lt;/a&gt;.
+Instead of waiting to share your opinion until you are absolutely certain of what you know, a
+"gossip protocol" says to share your observations early and often. So, here are mine about hashgraph.
+Hashgraph mathematically proves that
+gossip can allow decentralized participants to rapidly share what they
+have observed (as well as what they have heard second-hand from others),
+and rapidly agree on what is to be believed. Who am I to argue with math?&lt;/p&gt;
+&lt;h2&gt;Concluding remark&lt;/h2&gt;
+&lt;p&gt;DYOR! Consider this to be informed gossip. But do share yours with me too. The math says to, so, yeah just do what the math says.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="tommytwohats in bitcoin on Steemit" src="https://steemit-production-imageproxy-upload.s3.amazonaws.com/DQmZiPLSZTc6iNeZL7R7cS2JW46z6wHvJ22kWFTLBptDUDH"&gt;
+&lt;p style="text-align: right;"&gt;&lt;em&gt;(tommytwohats in bitcoin on Steemit)&lt;/em&gt;&lt;/p&gt;&lt;/p&gt;</content></entry><entry><title>on Bleu scores and transcription rates</title><link href="https://pluteski.github.io/speech-to-text/on-bleu-scores-and-transcription-rates.html" rel="alternate"></link><published>2017-04-30T00:00:00-07:00</published><updated>2017-04-30T00:00:00-07:00</updated><author><name>Mark Plutowski</name></author><id>tag:pluteski.github.io,2017-04-30:/speech-to-text/on-bleu-scores-and-transcription-rates.html</id><summary type="html">&lt;p&gt;&lt;em&gt;[Work in progress]&lt;/em&gt;&lt;/p&gt;
 &lt;h1&gt;Reference audio vs noisy recordings&lt;/h1&gt;
 &lt;p&gt;As expected, each service performs better on audio recorded in a
 quiet setting.&lt;/p&gt;

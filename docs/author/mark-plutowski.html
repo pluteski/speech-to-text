@@ -26,148 +26,131 @@
         
 
 	<header>
-		<h1><a href="https://pluteski.github.io/speech-to-text" id="site-title">Plutosoft delimited </a> : <a href="https://pluteski.github.io/speech-to-text/on-bleu-scores-and-transcription-rates.html" id="page-title">on Bleu scores and transcription rates</a></h1>
-<time datetime="2017-04-30T00:00:00-07:00">Sun 30 April 2017</time>	</header>
+		<h1><a href="https://pluteski.github.io/speech-to-text" id="site-title">Plutosoft delimited </a> : <a href="https://pluteski.github.io/speech-to-text/gossiping-about-hashgraph.html" id="page-title">Gossiping about Hashgraph</a></h1>
+<time datetime="2018-01-07T00:00:00-08:00">Sun 07 January 2018</time>	</header>
 
 	<article>
-		<p><em>[Work in progress]</em></p>
-<h1>Reference audio vs noisy recordings</h1>
-<p>As expected, each service performs better on audio recorded in a
-quiet setting.</p>
-<p>IBM and Google performed about the same over high quality
-audio recorded in a quiet setting using a medium quality
-microphone.</p>
-<p>IBM was better able to generate transcripts for
-my lower quality recordings obtained in noisy settings.</p>
-<p>This could be due to a custom (which they refer to as a "narrowband")
-setting that IBM
-provides that is specifically provided to accommodate
-low-bitrate recordings. That setting also tends to generate longer
-transcripts for higher bitrate recordings that are especially noisy.</p>
-<p>It may also have to do with the encoding used. I needed to transcode
-every audio file to the encoding required by Google's service, and it
-is possible that this transcoding step could be tuned to give better accuracy.
-I haven't attempted any rigorous tuning of either service at this stage of
-my experiments.</p>
-<p>This is a work in progress.  I am hoping to do a direct file-by-file
-comparison of the two services once I am confident that I am
-configuring my settings to use Google's api to the best of its capability.
-However I have obtained some cursory comparisons on the current results.</p>
-<h5>Processing seconds per minute : about the same</h5>
-<p>IBM and Google process the audio in about the same amount of time.
-Google is somewhat faster at the actual transcription processing.
-However, Google requires that the file be
-uploaded to Google Storage first.</p>
-<h5>IBM Transcribed/Processed : 7281/8415</h5>
-<p>IBM was able to transcribe 87% of the files submitted.</p>
-<h5>Google Transcribed/Processed : 3521/8415</h5>
-<p>The transcription rate (42%) was lower for two main reasons.</p>
-<p>The first was a file size limit.
-Files larger than ~80MB require a prior arrangement,
-whereas IBM was able to process files of all sizes submitted to the service.</p>
-<p>The second main reason is that IBM has a custom setting for
-low-bit rate recordings. Google failed to generate a transcript
-for many files that were below the file size limit.</p>
-<h5>Transcript words per minute of audio (IBM/Google) : 102.0/9.8</h5>
-<p>Google's api doesn't have a setting for handling low-bitrate
-recordings similar to IBM's narrowband setting.
-The number of transcript
-words generated per minute of audio was much lower for Google
-even after adjusting for transcription rate.</p>
-<h1>Comparison on reference documents</h1>
-<p>The following comparisons were made over 245 reference documents.
-The reference transcripts were transcribed using a speech-to-text
-transcription software that was trained to my voice,
-in a quiet environment, using a hand-held medium quality wired microphone.
-Most of the errors were manually corrected.</p>
-<p>Google generated a transcript for 210 out of the 245 reference documents (86%),
-and IBM generated a transcript for 243 of the 245 (99%).
-The Bleu scores over these reference documents are fairly comparable,
-with IBM performing slightly better.</p>
-<p><img alt="Bleu score deciles" src="https://github.com/pluteski/speech-to-text/blob/master/images/bleu_score_deciles.png?raw=true"></p>
-<p>When measured using Ratcliff-Obershelp similarity,
-Google fares slightly better across the board.</p>
-<p><img alt="Ratcliff score deciles" src="https://github.com/pluteski/speech-to-text/blob/master/images/ratcliff_score_deciles.png?raw=true"></p>
-<h2>Comparison over all audio</h2>
-<p>This section analyzes the number of transcripts
-that are generated, and the number of words per transcript.</p>
-<p>This comparison was over 8,415 audio files that were submitted to each
-service.</p>
-<p>Marked differences between IBM Watson and Google transcription arise
-when comparing transcription rates and number of words generated when run
-on audio collected out in the wild. Of 8,415 such audio, IBM generated
-transcripts for 7,227, while Google was able
-to generate a transcript for 3,521.</p>
-<h2>Total Word Counts</h2>
-<p>Out of 8,415 audio files attempted, Google generated 3,521 transcripts.
-Those 3,521 transcripts contain total of 485,334 words,
-an average of 137 words per transcript.</p>
-<p>IBM Watson generated 7,227 transcripts, extracting
-9,511,743 words out of those transcripts.
-This gives an average of 1,316 words per transcript.</p>
-<h2>Word Count Deciles</h2>
-<p>Many of these transcripts that Google failed to generate were simply due
-to the file size exceeding quota.</p>
-<p>However Google also failed to generate any transcript words
-for many other files that did not exceed the file size quota.
-It also generated a much lower word count per transcript for
-audio that was from a noisy or low bit rate recording.</p>
-<p>One way to illustrate this is by examining the word count deciles over the
-transcripts that were successfully generated.</p>
-<p>The following table gives the word counts deciles over the
-transcripts generated by each service.</p>
-<table>
-<thead>
-<tr>
-<th>API</th>
-<th>min</th>
-<th>1</th>
-<th>2</th>
-<th>3</th>
-<th>4</th>
-<th>5</th>
-<th>6</th>
-<th>7</th>
-<th>8</th>
-<th>9</th>
-<th>max</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Google</td>
-<td>1</td>
-<td>1</td>
-<td>2</td>
-<td>3</td>
-<td>5</td>
-<td>8</td>
-<td>12</td>
-<td>19</td>
-<td>58</td>
-<td>459</td>
-<td>4892</td>
-</tr>
-<tr>
-<td>IBM</td>
-<td>1</td>
-<td>278</td>
-<td>501</td>
-<td>698</td>
-<td>916</td>
-<td>1137</td>
-<td>1409</td>
-<td>1722</td>
-<td>2080</td>
-<td>2450</td>
-<td>8490</td>
-</tr>
-</tbody>
-</table>
-<p><img alt="Word count deciles" src="https://github.com/pluteski/speech-to-text/blob/master/images/word_count_deciles.png?raw=true"></p><p>There are <a href="https://pluteski.github.io/speech-to-text/on-bleu-scores-and-transcription-rates.html#disqus_thread">comments</a>.</p>	</article>
+		<h1>Dishing the dirt on Hashgraph</h1>
+<p><img alt="emonocle byEMIIA" src="https://1.bp.blogspot.com/-DpZwufJmu_Y/Wh6lGuTNRmI/AAAAAAAABUU/0W2PLj5w-j4ql9RE8Otwk5DrB3UcgKOGQCLcBGAs/s1600/hashgraph%2B%25282%2529.gif">
+<p style="text-align: right;"><em>(emonocle byEMIIA)</em></p></p>
+<h2><em>pssst!</em> ... <em>have you heard about Hashgraph?</em></h2>
+<p><a href="https://hashgraph.com">Hashgraph</a>
+is a data structure which together with
+the <a href="http://www.swirlds.com/downloads/SWIRLDS-TR-2016-01.pdf">Swirlds distributed consensus algorithm</a>
+provides <a href="https://hashgraph.com/faq/#what-is-bft">asynchronous byzantine fault tolerance</a>, using what it calls "gossip about gossip."</p>
+<p><em>Whaaaat?</em>  A system based on second hand rumors?  Whisper logs? We're really supposed to trust this thing?
+Read on to find out.  <em>At least about what I know.  If you know something I don't, you can tell someone in our mutual hashgraph.
+If we live in a world defined by gossip, as is rumored to be the case, the math says that I'll almost surely find out.</em></p>
+<h2>How does Hashgraph compare to Bitcoin?</h2>
+<p>Distributed consensus is an extremely useful concept in distributed computing.
+For decades it was doable only among a small number of computers ("nodes").
+Nakamoto's Bitcoin cryptocurrency  <a href="http://vukolic.com/iNetSec_2015.pdf">presented a new way to achieve scalable decentralized consensus</a>.</p>
+<p>Bitcoin protocol does not implement consensus
+in the traditional distributed computing sense.
+<a href="http://vukolic.com/iNetSec_2015.pdf">Instead it achieves consensus via probabilistic agreement</a>.</p>
+<p>A primary goal of a cryptocurrency is to <a href="http://mathworld.wolfram.com/TotallyOrderedSet.html">totally order</a> transactions
+on a <a href="https://www.investopedia.com/terms/d/distributed-ledgers.asp">distributed ledger</a>.</p>
+<p>Hashgraph also provides a total order on a distributed transaction ledger,
+but does so using a <a href="https://steemit.com/steemit/@decryptson/hashgraph">different approach</a>.
+Whereas the Bitcoin network builds up its transaction history in the form of a “blockchain”,
+adding <a href="https://bitcoinmagazine.com/articles/selfish-mining-a-25-attack-against-the-bitcoin-network-1383578440/">a new block on top of the previous block every ten minutes</a>,
+Hashgraph grows a time directed acyclic graph akin to a braided forest of trees
+using <a href="https://hashgraph.com/faq/#how-does-it-work">"virtual voting" and "gossip about gossip"</a>.</p>
+<p>Despite Bitcoin demonstrating tremendous value, its blockchain plus Proof-of-Work (PoW) approach
+presents several pitfalls.</p>
+<ul>
+<li>it is extremely wasteful since <a href="http://www.nasdaq.com/article/byzantine-fault-tolerance-the-key-for-blockchains-cm810058">by design</a> PoW expends huge amounts of computing power.</li>
+<li>it is slow, limited to tens of transactions per second</li>
+<li>it allows a huge backlog of unconfirmed transactions to accumulate</li>
+<li>it requires a lot of network bandwidth</li>
+<li>is <a href="https://arxiv.org/abs/1311.0243">susceptible to a 25% economic attack</a>.</li>
+</ul>
+<h2>Virtual elections. Better than real ones?</h2>
+<p>Hashgraph is comparable to PBFT, Paxos, Raft, Zab, and other consensus seeking systems that rely on leaders and voting schemes.
+But hashgraph eschews the comparison, claiming that it doesn't even use voting.
+It comes to consensus about what happened, and when,
+by cleverly tallying highly compressed event logs
+based on "famous witnesses" that <a href="https://www.swirlds.com/downloads/SWIRLDS-TR-2016-02.pdf">"strongly see"</a> events.</p>
+<p>If participants have a bad clock or doctor their own timestamp,
+the actual recorded timestamp will be the median of all the timestamps observed by credible witnesses.
+If the exact timestamp is unnecessary and rank order is what is most important,
+because the rank order based on median is fairly robust to extreme outliers,
+the total ordering is less affected.</p>
+<p><a href="http://tech.mit.edu/V123/N8/8voting.8n.html">Arrow's Theorem</a> proves that no voting system is fair.
+I'm no <a href="https://www.princeton.edu/~cuff/voting/theory.html">voting theorist</a>,
+but in my (extremely humble) opinion, hashgraph comes pretty close.
+It makes one want to believe in democracy again. Real-time continuous nationwide elections anyone?</p>
+<h2>Hashgraph: the good</h2>
+<p>It is <a href="https://hackernoon.com/demystifying-hashgraph-benefits-and-challenges-d605e5c0cee5">fast</a>,
+<a href="https://hashgraph.com/faq/#what-is-fairness">fair</a>,
+and <a href="https://hashgraph.com/faq/#preventing-sybil-attacks">secure</a>.</p>
+<ul>
+<li>It promises total ordering of events.</li>
+<li>It promises strong <a href="http://the-paper-trail.org/blog/barbara-liskovs-turing-award-and-byzantine-fault-tolerance/">Byzantine Fault Tolerance</a> (BFT),
+the gold standard of industrial grade distributed consensus.</li>
+<li>Requires minimal network bandwidth, because it passes things only around once.</li>
+<li>It does not require Proof-of-Work, so it does not require unnecessary computation.</li>
+<li>It is proven to quickly reach 100% certainty on the order of transactions.</li>
+</ul>
+<p>Because it is fast and requires low network bandwidth, it can be used as a distributed memory system.
+Because it provides a total order on transactions, it can be used as a multi-master database.</p>
+<p>Before we discuss its tx/sec (transactions/second), let's review the tx/sec of other distributed ledger technology (DLT) :
+<em> Proof-of-Work Blockchain (Etherium, Bitcoin) : under 10 tx/sec
+</em> Paypal : <a href="http://www.altcointoday.com/bitcoin-ethereum-vs-visa-paypal-transactions-per-second/">~200 tx/sec</a>
+* Visa : <a href="https://mybroadband.co.za/news/security/190348-visanet-handling-100000-transactions-per-minute.html">~2K tx/sec</a></p>
+<p>Visa claims that its system has capacity to handle upwards of 50K tx/sec.</p>
+<p>Hashgraph's inventor says it can attain <a href="https://www.hiddenforcespod.com/leemon-baird-hashgraph-distributed-ledger-technology-blockchain/">250K+ tx/sec</a>.</p>
+<p>To be fair, because of its positioning and licensing, hashgraph is most directly comparable to Hyperledger, which is
+also a scalable DFT using a Practical Byzantine Fault Tolerance (PBFT) consensus algorithm.
+Other enterprise-grade commercial systems include
+LMAX and its variants, such as <a href="http://lmax-exchange.github.io/disruptor/">LMAX Disruptor</a>
+and Bitshares.  Their ts/sec are as follows:</p>
+<ul>
+<li><a href="https://www.hyperledger.org/about">Hyperledger</a> : <a href="https://www.altoros.com/blog/hyperledgers-sawtooth-lake-aims-at-a-thousand-transactions-per-second/">~1K tx/sec</a> to <a href="https://medium.com/chain-cloud-company-blog/hyperledger-vs-corda-pt-1-3723c4fa5028">~10K tx/sec</a></li>
+<li>Bitshares : <a href="https://bitshares.org/technology/industrial-performance-and-scalability/">100K tx/sec</a></li>
+<li>LMAX : <a href="https://qconsf.com/sf2010/sf2010/presentation/LMAX+-+How+to+do+over+100K+concurrent+transactions+per+second+at+less+than+1ms+latency.html">100K tx/sec (2010)</a> to <a href="https://martinfowler.com/articles/lmax.html">6M tx/sec</a></li>
+</ul>
+<h2>The bad</h2>
+<p>So what is the catch?</p>
+<p>Hashgraph is only deployed in <a href="https://hackernoon.com/demystifying-hashgraph-benefits-and-challenges-d605e5c0cee5">private, permissioned-based networks</a>.</p>
+<p>Whether it can be adapted to a truly decentralised public ledger remains to be seen, because it assumes that a node can determine :
+<em> addresses of random nodes in the network for messaging, and
+</em> the number of other nodes N in the network</p>
+<p>This is because the algorithm requires a node to be able to (a) pick another node at random, and (b) know the value of ⅔ * N.</p>
+<p>It needs a means of registering and unregistering of members in the network,
+whereas public blockchains allow nodes to sign in and out to the network without any notice.
+It is sometimes called a Permissioned Blockchain because
+<a href="https://hashgraph.com/faq/#is-there-a-cryptocurrency">there is no hashgraph public ledger or cryptocurrency and is currently only implemented on permissioned networks</a>.</p>
+<p>Finally, the following seem to be a major showstopper for many members of the cryptocurrency development community:
+<em> It requires a license to use.
+</em> It is patented (US Patents #<a href="http://www.leemon.com/papers/2017b.pdf">9,646,029</a>, #<a href="http://www.leemon.com/papers/2016b4.pdf">9,529,923</a>, #<a href="http://www.leemon.com/papers/2016b3.pdf">9,390,154</a>.</p>
+<h4>About the author</h4>
+<p>I am just an interested learner coming up to speed on blockchain technologies, distributed ledger technologies,
+and decentralized consensus systems.
+At the time of writing this article I have no investment in any cryptocurrency, I do not work for or represent
+any organization related to cryptocurrencies or distributed ledger technologies.
+As I am still learning about this area, I am not an expert.</p>
+<p>So why am I writing this?</p>
+<p>Hashgraph impressed on me the value of <a href="https://hashgraph.com/faq/#how-does-it-work">gossip</a>.
+Instead of waiting to share your opinion until you are absolutely certain of what you know, a
+"gossip protocol" says to share your observations early and often. So, here are mine about hashgraph.
+Hashgraph mathematically proves that
+gossip can allow decentralized participants to rapidly share what they
+have observed (as well as what they have heard second-hand from others),
+and rapidly agree on what is to be believed. Who am I to argue with math?</p>
+<h2>Concluding remark</h2>
+<p>DYOR! Consider this to be informed gossip. But do share yours with me too. The math says to, so, yeah just do what the math says.</p>
+<p><img alt="tommytwohats in bitcoin on Steemit" src="https://steemit-production-imageproxy-upload.s3.amazonaws.com/DQmZiPLSZTc6iNeZL7R7cS2JW46z6wHvJ22kWFTLBptDUDH">
+<p style="text-align: right;"><em>(tommytwohats in bitcoin on Steemit)</em></p></p><p>There are <a href="https://pluteski.github.io/speech-to-text/gossiping-about-hashgraph.html#disqus_thread">comments</a>.</p>	</article>
 		<section id="article-list">
 			<h2>All posts</h2>
 			<ol>
+			</ol>
+			</section><!-- #article-list -->
+        
+
+ 
+		<li><a href="https://pluteski.github.io/speech-to-text/on-bleu-scores-and-transcription-rates.html" rel="bookmark" title="Permalink to on Bleu scores and transcription rates">on Bleu scores and transcription rates</a></li>
 			</ol>
 			</section><!-- #article-list -->
         

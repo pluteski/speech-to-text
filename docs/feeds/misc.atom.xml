@@ -46,7 +46,7 @@ participants with whom they have not communicated.&lt;/p&gt;
 when a event was observed, to counteract accidental or intentional timestamp errors.&lt;/p&gt;
 &lt;p&gt;As we know from human nature, gossip spreads like wildfire.
 Unlike how rumormills work in human society, when marshalled cleverly with the
-proper algorithms, gossip is also provably fair.&lt;/p&gt;
+proper algorithms, gossip turns out to be provably fair.&lt;/p&gt;
 &lt;h2&gt;How does Hashgraph compare to Bitcoin?&lt;/h2&gt;
 &lt;p&gt;Distributed consensus is an extremely useful concept in distributed computing.
 For decades it was doable only among a small number of computers ("nodes").
@@ -77,7 +77,7 @@ using "virtual voting" and &lt;a href="https://hashgraph.com/faq/#how-does-it-wo
 each node communicates state with some random other node.
 Since these two nodes already have a channel open, the random other node then shares back
 state of its own that it knows first hand, perhaps along with some state that
-it learned from another node.
+it previously learned from another node.
 After there has been sufficient activity by
 at least 2/3 of the participants, a round is concluded and a new round begins.&lt;/p&gt;
 &lt;p&gt;When the new round is created, nodes say if they agree
@@ -85,7 +85,7 @@ upon the data contained in events of the preceding round.
 The algorithm doesn't consider this to be voting per se, instead calling it a virtual election.
 There is no leader to present a motion for vote, nor to tally votes.
 Instead, to reach consensus on the events in the previous round,
-nodes &lt;a href="https://medium.com/ibbc-io/hashgraph-for-dummies-90ddde3be9e2"&gt;verify that they are connected to these events&lt;/a&gt;. &lt;/p&gt;
+nodes &lt;a href="https://medium.com/ibbc-io/hashgraph-for-dummies-90ddde3be9e2"&gt;verify that they are connected to these events&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;(More strictly speaking,
 it is actually about finding paths through the graph that connect events in the current round with past events in the previous round.
 Please see : &lt;a href="http://www.swirlds.com/downloads/SWIRLDS-TR-2016-02.pdf"&gt;How it Works (Graphically)&lt;/a&gt;.)&lt;/p&gt;
@@ -126,7 +126,7 @@ Because it does not use Proof-of-Work, it does not require unnecessary computati
 &lt;p&gt;Hashgraph's inventor says it can attain &lt;a href="https://www.hiddenforcespod.com/leemon-baird-hashgraph-distributed-ledger-technology-blockchain/"&gt;250K+ tx/sec&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;To be fair, because of its positioning and licensing, Hashgraph is most directly comparable to Hyperledger, which is
 also a scalable DLT using a Practical Byzantine Fault Tolerance (PBFT) consensus algorithm.
-Other enterprise-grade commercial systems include
+Other directly comparable enterprise-grade commercial systems include
 LMAX and its variants, such as &lt;a href="http://lmax-exchange.github.io/disruptor/"&gt;LMAX Disruptor&lt;/a&gt;
 and Bitshares.  Their ts/sec are as follows:&lt;/p&gt;
 &lt;ul&gt;

@@ -57,7 +57,7 @@ when a event was observed, to counteract accidental or intentional timestamp err
 
 As we know from human nature, gossip spreads like wildfire.
 Unlike how rumormills work in human society, when marshalled cleverly with the
-proper algorithms, gossip is also provably fair.
+proper algorithms, gossip turns out to be provably fair.
 
 
 ## How does Hashgraph compare to Bitcoin?
@@ -93,7 +93,7 @@ Activity is divided into rounds.  At the beginning of a round,
 each node communicates state with some random other node.
 Since these two nodes already have a channel open, the random other node then shares back
 state of its own that it knows first hand, perhaps along with some state that
-it learned from another node.
+it previously learned from another node.
 After there has been sufficient activity by
 at least 2/3 of the participants, a round is concluded and a new round begins.
 
@@ -102,7 +102,7 @@ upon the data contained in events of the preceding round.
 The algorithm doesn't consider this to be voting per se, instead calling it a virtual election.
 There is no leader to present a motion for vote, nor to tally votes.
 Instead, to reach consensus on the events in the previous round,
-nodes [verify that they are connected to these events](https://medium.com/ibbc-io/hashgraph-for-dummies-90ddde3be9e2). 
+nodes [verify that they are connected to these events](https://medium.com/ibbc-io/hashgraph-for-dummies-90ddde3be9e2).
 
 (More strictly speaking,
 it is actually about finding paths through the graph that connect events in the current round with past events in the previous round.
@@ -148,7 +148,7 @@ Hashgraph's inventor says it can attain [250K+ tx/sec](https://www.hiddenforcesp
 
 To be fair, because of its positioning and licensing, Hashgraph is most directly comparable to Hyperledger, which is
 also a scalable DLT using a Practical Byzantine Fault Tolerance (PBFT) consensus algorithm.
-Other enterprise-grade commercial systems include
+Other directly comparable enterprise-grade commercial systems include
 LMAX and its variants, such as [LMAX Disruptor](http://lmax-exchange.github.io/disruptor/)
 and Bitshares.  Their ts/sec are as follows:
 

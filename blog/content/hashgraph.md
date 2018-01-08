@@ -139,7 +139,7 @@ I am just an interested learner coming up to speed on blockchain technologies, d
 and decentralized consensus systems.
 At the time of writing this article I have no investment in any cryptocurrency, I do not work for or represent
 any organization related to cryptocurrencies or distributed ledger technologies.
-As I am still learning about this area, I am not an expert.
+As of the time this article was posted, I am still learning about this area. I am not an expert.
 
 So why am I writing this?
 

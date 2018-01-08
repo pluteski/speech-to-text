@@ -152,7 +152,7 @@ have observed (as well as what they have heard second-hand from others),
 and rapidly agree on what is to be believed. Who am I to argue with math?
 
 ## Concluding remark
-[DYOR](https://pbs.twimg.com/media/DPT6qNIW0AE0RB4.jpg) !
-Consider this to be informed gossip. But do share yours with me too. The math says to, so, yeah just do what the math says.
+[DYOR](https://scontent.cdninstagram.com/t51.2885-15/s320x320/e35/25009793_144878492834781_2739446234354810880_n.jpg) !
+Consider this to be informed gossip. But do share your gossip with me too. The math says to, so, yeah just do what the math says.
 
 

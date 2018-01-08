@@ -22,42 +22,25 @@ provides [asynchronous byzantine fault tolerance](https://hashgraph.com/faq/#wha
 _Whaaaat?_  A system based on second hand rumors and some sort of whisper logs? We're really supposed to trust this thing?
 Read on to find out.
 
-## How does Hashgraph compare to Bitcoin?
-Distributed consensus is an extremely useful concept in distributed computing.
-For decades it was doable only among a small number of computers ("nodes").
-Nakamoto's Bitcoin cryptocurrency  [presented a new way to achieve scalable decentralized consensus](http://vukolic.com/iNetSec_2015.pdf).
+#### About the author
+I am just an interested learner coming up to speed on blockchain technologies, distributed ledger technologies,
+and decentralized consensus systems.
+At the time of writing this article I have no investment in any cryptocurrency, I do not work for or represent
+any organization related to cryptocurrencies or distributed ledger technologies.
+As of the time this article was posted, I am still learning about this area. I am not an expert.
 
-Bitcoin protocol does not implement consensus
-in the traditional distributed computing sense.
-[Instead it achieves consensus via probabilistic agreement](http://vukolic.com/iNetSec_2015.pdf).
+So why am I writing this?
 
-A primary goal of a cryptocurrency is to [totally order](http://mathworld.wolfram.com/TotallyOrderedSet.html) transactions
-on a [distributed ledger](https://www.investopedia.com/terms/d/distributed-ledgers.asp).
-Cryptocurrencies avoid the need for a [trusted third party to timestamp transactions](https://en.wikipedia.org/wiki/Cryptocurrency#Timestamping)
-added to the ledger.
-Hashgraph also provides a total order on a distributed transaction ledger,
-but does so using a [different approach](https://steemit.com/steemit/@decryptson/hashgraph).
-Whereas the Bitcoin network builds up its transaction history in the form of a “blockchain”,
-adding [a new block on top of the previous block every ten minutes](https://bitcoinmagazine.com/articles/selfish-mining-a-25-attack-against-the-bitcoin-network-1383578440/),
-Hashgraph grows a time directed acyclic graph akin to a braided forest of trees
-using "virtual voting" and ["gossip about gossip"](https://hashgraph.com/faq/#how-does-it-work).
+Hashgraph impressed on me the value of [gossip](https://hashgraph.com/faq/#how-does-it-work).
+Instead of waiting to share your opinion until you are absolutely certain of what you know, a
+"gossip protocol" says to share your observations early and often.
+So, here are mine about Hashgraph.
+Hashgraph mathematically proves that
+gossip can allow decentralized participants to rapidly share what they
+have observed (as well as what they have heard second-hand from others),
+and rapidly agree on what is to be believed. Who am I to argue with math?
 
-Despite Bitcoin demonstrating tremendous value, its blockchain plus Proof-of-Work (PoW) approach
-presents several pitfalls. It is:
-
-* Wasteful since PoW expends huge amounts of computing power [by design](http://www.nasdaq.com/article/byzantine-fault-tolerance-the-key-for-blockchains-cm810058).
-* Slow, limited to tens of transactions per second.
-* Subject to allowing huge backlog of unconfirmed transactions to accumulate.
-* Network bandwidth intensive.
-* [Susceptible to a 25% economic attack](https://arxiv.org/abs/1311.0243).
-
-## Virtual elections: better than actual elections?
-Many people consider Hashgraph to be more comparable to PBFT, Paxos, Raft, Zab,
-and other consensus seeking systems that rely on leaders and voting schemes.
-But Hashgraph eschews the comparison, because it doesn't use voting.
-It comes to consensus about what happened, and when,
-by cleverly tallying highly compressed event logs
-based on "famous witnesses" that ["strongly see"](https://www.swirlds.com/downloads/SWIRLDS-TR-2016-02.pdf) events.
+## How does Hashgraph use gossip?
 
 Suppose you are a member of a gossip network.
 You tell some random participant what you know.  They tell you what they know.
@@ -68,6 +51,70 @@ but also what other participants are likely to have observed, based
 on the gossip they've shared.  Given enough second-hand information
 from enough credible witnesses, they can even predict the opinion of
 participants with whom they have not communicated.
+
+Timestamps are also calculated incorporating the consensus opinion of
+when a event was observed, to counteract accidental or intentional timestamp errors.
+
+As we know from human nature, gossip spreads like wildfire.
+Unlike how rumormills work in human society, when marshalled cleverly with the
+proper algorithms, gossip is also provably fair.
+
+
+## How does Hashgraph compare to Bitcoin?
+Distributed consensus is an extremely useful concept in distributed computing.
+For decades it was doable only among a small number of computers ("nodes").
+Nakamoto's Bitcoin cryptocurrency  [presented a new way to achieve scalable decentralized consensus](http://vukolic.com/iNetSec_2015.pdf).
+
+Despite Bitcoin demonstrating tremendous value, its blockchain plus Proof-of-Work (PoW) approach
+presents several pitfalls. It is:
+
+* Wasteful since PoW expends huge amounts of computing power [by design](http://www.nasdaq.com/article/byzantine-fault-tolerance-the-key-for-blockchains-cm810058).
+* Slow, limited to tens of transactions per second.
+* Subject to allowing huge backlog of unconfirmed transactions to accumulate.
+* Network bandwidth intensive.
+* [Susceptible to a 25% economic attack](https://arxiv.org/abs/1311.0243).
+
+Bitcoin protocol does not implement consensus
+in the traditional distributed computing sense.
+[Instead it achieves consensus via probabilistic agreement](http://vukolic.com/iNetSec_2015.pdf).
+A primary goal of a cryptocurrency is to [totally order](http://mathworld.wolfram.com/TotallyOrderedSet.html) transactions
+on a [distributed ledger](https://www.investopedia.com/terms/d/distributed-ledgers.asp).
+Cryptocurrencies avoid the need for a [trusted third party to timestamp transactions](https://en.wikipedia.org/wiki/Cryptocurrency#Timestamping)
+added to the ledger.
+
+Hashgraph also provides a total order on a distributed transaction ledger,
+but does so using a [different approach](https://steemit.com/steemit/@decryptson/hashgraph).
+Whereas the Bitcoin network builds up its transaction history in the form of a “blockchain”,
+adding [a new block on top of the previous block every ten minutes](https://bitcoinmagazine.com/articles/selfish-mining-a-25-attack-against-the-bitcoin-network-1383578440/),
+Hashgraph grows a time directed acyclic graph akin to a braided forest of trees
+using "virtual voting" and ["gossip about gossip"](https://hashgraph.com/faq/#how-does-it-work).
+
+Activity is divided into rounds.  At the beginning of a round,
+each node communicates state with some random other node.
+Since these two nodes already have a channel open, the random other node then shares back
+state of its own that it knows first hand, perhaps along with some state that
+it learned from another node.
+After there has been sufficient activity by
+at least 2/3 of the participants, a round is concluded and a new round begins.
+
+When the new round is created, nodes say if they agree
+upon the data contained in events of the preceding round.
+The algorithm doesn't consider this to be voting per se, instead calling it a virtual election.
+There is no leader to present a motion for vote, nor to tally votes.
+Instead, to reach consensus on the events in the previous round,
+nodes [verify that they are connected to these events](https://medium.com/ibbc-io/hashgraph-for-dummies-90ddde3be9e2). 
+
+(More strictly speaking,
+it is actually about finding paths through the graph that connect events in the current round with past events in the previous round.
+Please see : [How it Works (Graphically)](http://www.swirlds.com/downloads/SWIRLDS-TR-2016-02.pdf).)
+
+## Virtual elections: better than actual elections?
+Many people consider Hashgraph to be more comparable to PBFT, Paxos, Raft, Zab,
+and other consensus seeking systems that rely on leaders and voting schemes.
+But Hashgraph eschews the comparison, because it doesn't use voting.
+It comes to consensus about what happened, and when,
+by cleverly tallying highly compressed event logs
+based on "famous witnesses" that ["strongly see"](https://www.swirlds.com/downloads/SWIRLDS-TR-2016-02.pdf) events.
 
 If the timestamp of an event log is corrupted by a bad clock or is maliciously doctored,
 this will usually have no effect on the consensus timestamp, because consensus opinion on
@@ -133,24 +180,6 @@ I'm no [voting theorist](https://www.princeton.edu/~cuff/voting/theory.html),
 but in my (extremely humble) opinion, Hashgraph comes pretty close.
 It makes one want to believe in democracy again. Real-time continuous nationwide elections anyone?
 
-
-#### About the author
-I am just an interested learner coming up to speed on blockchain technologies, distributed ledger technologies,
-and decentralized consensus systems.
-At the time of writing this article I have no investment in any cryptocurrency, I do not work for or represent
-any organization related to cryptocurrencies or distributed ledger technologies.
-As of the time this article was posted, I am still learning about this area. I am not an expert.
-
-So why am I writing this?
-
-Hashgraph impressed on me the value of [gossip](https://hashgraph.com/faq/#how-does-it-work).
-Instead of waiting to share your opinion until you are absolutely certain of what you know, a
-"gossip protocol" says to share your observations early and often.
-So, here are mine about Hashgraph.
-Hashgraph mathematically proves that
-gossip can allow decentralized participants to rapidly share what they
-have observed (as well as what they have heard second-hand from others),
-and rapidly agree on what is to be believed. Who am I to argue with math?
 
 
 ## Concluding remark

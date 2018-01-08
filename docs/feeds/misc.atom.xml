@@ -89,16 +89,22 @@ nodes &lt;a href="https://medium.com/ibbc-io/hashgraph-for-dummies-90ddde3be9e2"
 &lt;p&gt;(More strictly speaking,
 it is actually about finding paths through the graph that connect events in the current round with past events in the previous round.
 Please see : &lt;a href="http://www.swirlds.com/downloads/SWIRLDS-TR-2016-02.pdf"&gt;How it Works (Graphically)&lt;/a&gt;.)&lt;/p&gt;
-&lt;h2&gt;Virtual elections: better than actual elections?&lt;/h2&gt;
+&lt;h2&gt;Virtual elections: better than regular elections?&lt;/h2&gt;
 &lt;p&gt;Many people consider Hashgraph to be more comparable to PBFT, Paxos, Raft, Zab,
-and other consensus seeking systems that rely on leaders and voting schemes.
-But Hashgraph eschews the comparison, because it doesn't use voting.
+and other consensus seeking systems that rely on leaders and
+traditional voting schemes.
+But Hashgraph eschews the comparison, because it doesn't use
+traditional voting.
 It comes to consensus about what happened, and when,
 by cleverly tallying highly compressed event logs
 based on "famous witnesses" that &lt;a href="https://www.swirlds.com/downloads/SWIRLDS-TR-2016-02.pdf"&gt;"strongly see"&lt;/a&gt; events.&lt;/p&gt;
 &lt;p&gt;If the timestamp of an event log is corrupted by a bad clock or is maliciously doctored,
 this will usually have no effect on the consensus timestamp, because consensus opinion on
 when something occurred is the median of timestamps observed by credible witnesses.&lt;/p&gt;
+&lt;p&gt;I'll again point the interested reader to the whitepaper : &lt;a href="http://www.swirlds.com/downloads/SWIRLDS-TR-2016-02.pdf"&gt;How it Works (Graphically)&lt;/a&gt;,
+because unlike some other directed acyclic graph algorithms, or even Paxos,
+it really is quite easy to step through the Hashgraph algorithm.
+I couldn't do it more succinctly here.&lt;/p&gt;
 &lt;h2&gt;Hashgraph: the good&lt;/h2&gt;
 &lt;p&gt;It is &lt;a href="https://hackernoon.com/demystifying-hashgraph-benefits-and-challenges-d605e5c0cee5"&gt;fast&lt;/a&gt;,
 &lt;a href="https://hashgraph.com/faq/#what-is-fairness"&gt;fair&lt;/a&gt;,

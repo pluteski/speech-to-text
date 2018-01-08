@@ -108,10 +108,12 @@ nodes [verify that they are connected to these events](https://medium.com/ibbc-i
 it is actually about finding paths through the graph that connect events in the current round with past events in the previous round.
 Please see : [How it Works (Graphically)](http://www.swirlds.com/downloads/SWIRLDS-TR-2016-02.pdf).)
 
-## Virtual elections: better than actual elections?
+## Virtual elections: better than regular elections?
 Many people consider Hashgraph to be more comparable to PBFT, Paxos, Raft, Zab,
-and other consensus seeking systems that rely on leaders and voting schemes.
-But Hashgraph eschews the comparison, because it doesn't use voting.
+and other consensus seeking systems that rely on leaders and
+traditional voting schemes.
+But Hashgraph eschews the comparison, because it doesn't use
+traditional voting.
 It comes to consensus about what happened, and when,
 by cleverly tallying highly compressed event logs
 based on "famous witnesses" that ["strongly see"](https://www.swirlds.com/downloads/SWIRLDS-TR-2016-02.pdf) events.
@@ -119,6 +121,11 @@ based on "famous witnesses" that ["strongly see"](https://www.swirlds.com/downlo
 If the timestamp of an event log is corrupted by a bad clock or is maliciously doctored,
 this will usually have no effect on the consensus timestamp, because consensus opinion on
 when something occurred is the median of timestamps observed by credible witnesses.
+
+I'll again point the interested reader to the whitepaper : [How it Works (Graphically)](http://www.swirlds.com/downloads/SWIRLDS-TR-2016-02.pdf),
+because unlike some other directed acyclic graph algorithms, or even Paxos,
+it really is quite easy to step through the Hashgraph algorithm.
+I couldn't do it more succinctly here.
 
 
 ## Hashgraph: the good

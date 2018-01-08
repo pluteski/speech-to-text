@@ -87,9 +87,10 @@ Because it provides a total order on transactions, it can be used as a multi-mas
 
 
 Before we discuss its tx/sec (transactions/second), let's review the tx/sec of other distributed ledger technology (DLT) :
-* Proof-of-Work Blockchain (Etherium, Bitcoin) : under 10 tx/sec
-* Paypal : [~200 tx/sec](http://www.altcointoday.com/bitcoin-ethereum-vs-visa-paypal-transactions-per-second/)
-* Visa : [~2K tx/sec](https://mybroadband.co.za/news/security/190348-visanet-handling-100000-transactions-per-minute.html)
+
+* Proof-of-Work Blockchain (Etherium, Bitcoin) : **< 10 tx/sec**
+* Paypal : **[200 tx/sec](http://www.altcointoday.com/bitcoin-ethereum-vs-visa-paypal-transactions-per-second/)**
+* Visa : **[2K tx/sec](https://mybroadband.co.za/news/security/190348-visanet-handling-100000-transactions-per-minute.html)**
 
 Visa claims that its system has capacity to handle upwards of 50K tx/sec.
 
@@ -101,9 +102,9 @@ Other enterprise-grade commercial systems include
 LMAX and its variants, such as [LMAX Disruptor](http://lmax-exchange.github.io/disruptor/)
 and Bitshares.  Their ts/sec are as follows:
 
-* [Hyperledger](https://www.hyperledger.org/about) : [~1K tx/sec](https://www.altoros.com/blog/hyperledgers-sawtooth-lake-aims-at-a-thousand-transactions-per-second/) to [~10K tx/sec](https://medium.com/chain-cloud-company-blog/hyperledger-vs-corda-pt-1-3723c4fa5028)
-* Bitshares : [100K tx/sec](https://bitshares.org/technology/industrial-performance-and-scalability/)
-* LMAX : [100K tx/sec (2010)](https://qconsf.com/sf2010/sf2010/presentation/LMAX+-+How+to+do+over+100K+concurrent+transactions+per+second+at+less+than+1ms+latency.html) to [6M tx/sec](https://martinfowler.com/articles/lmax.html)
+* [Hyperledger](https://www.hyperledger.org/about) : **[1K tx/sec](https://www.altoros.com/blog/hyperledgers-sawtooth-lake-aims-at-a-thousand-transactions-per-second/)** to **[10K tx/sec](https://medium.com/chain-cloud-company-blog/hyperledger-vs-corda-pt-1-3723c4fa5028)**
+* Bitshares : **[100K tx/sec](https://bitshares.org/technology/industrial-performance-and-scalability/)**
+* LMAX : **[100K tx/sec (2010)](https://qconsf.com/sf2010/sf2010/presentation/LMAX+-+How+to+do+over+100K+concurrent+transactions+per+second+at+less+than+1ms+latency.html)** to **[6M tx/sec](https://martinfowler.com/articles/lmax.html)**
 
 ## The bad
 So what is the catch?
@@ -111,6 +112,7 @@ So what is the catch?
 Hashgraph is only deployed in [private, permissioned-based networks](https://hackernoon.com/demystifying-hashgraph-benefits-and-challenges-d605e5c0cee5).
 
 Whether it can be adapted to a truly decentralised public ledger remains to be seen, because it assumes that a node can determine :
+
 * addresses of random nodes in the network for messaging, and
 * the number of other nodes N in the network
 
@@ -122,6 +124,7 @@ It is sometimes called a Permissioned Blockchain because
 [there is no hashgraph public ledger or cryptocurrency and is currently only implemented on permissioned networks](https://hashgraph.com/faq/#is-there-a-cryptocurrency).
 
 Finally, the following seem to be a major showstopper for many members of the cryptocurrency development community:
+
 * It requires a license to use.
 * It is patented (US Patents #[9,646,029](http://www.leemon.com/papers/2017b.pdf), #[9,529,923](http://www.leemon.com/papers/2016b4.pdf), #[9,390,154](http://www.leemon.com/papers/2016b3.pdf).
 

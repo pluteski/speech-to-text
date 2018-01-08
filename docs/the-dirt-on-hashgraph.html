@@ -31,14 +31,14 @@
     <p><img alt="emonocle byEMIIA" src="https://1.bp.blogspot.com/-DpZwufJmu_Y/Wh6lGuTNRmI/AAAAAAAABUU/0W2PLj5w-j4ql9RE8Otwk5DrB3UcgKOGQCLcBGAs/s1600/hashgraph%2B%25282%2529.gif">
 <p style="text-align: right;"><em>(emonocle byEMIIA)</em></p></p>
 <h2><em>pssst!</em> ... <em>have you heard about Hashgraph?</em></h2>
-<p><a href="https://hashgraph.com">Hashgraph</a>
-is a data structure which together with
+<p><a href="https://hashgraph.com">Hashgraph</a> is a distributed ledger technology (DLT)
+released by <a href="http://www.swirlds.com/">Swirlds</a> (think: "Shared Worlds") in 2016.
+It promises some of the most important benefits of blockchain without its biggest limitations.
+It is comprised of a graph data structure which together with
 the <a href="http://www.swirlds.com/downloads/SWIRLDS-TR-2016-01.pdf">Swirlds distributed consensus algorithm</a>
 provides <a href="https://hashgraph.com/faq/#what-is-bft">asynchronous byzantine fault tolerance</a>, using what it calls "gossip about gossip."</p>
-<p><em>Whaaaat?</em>  A system based on second hand rumors?  Whisper logs? We're really supposed to trust this thing?
+<p><em>Whaaaat?</em>  A system based on second hand rumors and some sort of whisper logs? We're really supposed to trust this thing?
 Read on to find out.</p>
-<p>...<em>At least about what I know.  If you know something I don't, you can tell someone in our mutual hashgraph.
-If we live in a world defined by gossip, as is rumored to be the case, the math says that I'll almost surely find out.</em></p>
 <h2>How does Hashgraph compare to Bitcoin?</h2>
 <p>Distributed consensus is an extremely useful concept in distributed computing.
 For decades it was doable only among a small number of computers ("nodes").
@@ -47,30 +47,34 @@ Nakamoto's Bitcoin cryptocurrency  <a href="http://vukolic.com/iNetSec_2015.pdf"
 in the traditional distributed computing sense.
 <a href="http://vukolic.com/iNetSec_2015.pdf">Instead it achieves consensus via probabilistic agreement</a>.</p>
 <p>A primary goal of a cryptocurrency is to <a href="http://mathworld.wolfram.com/TotallyOrderedSet.html">totally order</a> transactions
-on a <a href="https://www.investopedia.com/terms/d/distributed-ledgers.asp">distributed ledger</a>.</p>
-<p>Hashgraph also provides a total order on a distributed transaction ledger,
+on a <a href="https://www.investopedia.com/terms/d/distributed-ledgers.asp">distributed ledger</a>.
+Cryptocurrencies avoid the need for a <a href="https://en.wikipedia.org/wiki/Cryptocurrency#Timestamping">trusted third party to timestamp transactions</a>
+added to the ledger.
+Hashgraph also provides a total order on a distributed transaction ledger,
 but does so using a <a href="https://steemit.com/steemit/@decryptson/hashgraph">different approach</a>.
 Whereas the Bitcoin network builds up its transaction history in the form of a “blockchain”,
 adding <a href="https://bitcoinmagazine.com/articles/selfish-mining-a-25-attack-against-the-bitcoin-network-1383578440/">a new block on top of the previous block every ten minutes</a>,
 Hashgraph grows a time directed acyclic graph akin to a braided forest of trees
-using <a href="https://hashgraph.com/faq/#how-does-it-work">"virtual voting" and "gossip about gossip"</a>.</p>
+using "virtual voting" and <a href="https://hashgraph.com/faq/#how-does-it-work">"gossip about gossip"</a>.</p>
 <p>Despite Bitcoin demonstrating tremendous value, its blockchain plus Proof-of-Work (PoW) approach
-presents several pitfalls.</p>
+presents several pitfalls. It is:</p>
 <ul>
-<li>it is extremely wasteful since <a href="http://www.nasdaq.com/article/byzantine-fault-tolerance-the-key-for-blockchains-cm810058">by design</a> PoW expends huge amounts of computing power.</li>
-<li>it is slow, limited to tens of transactions per second</li>
-<li>it allows a huge backlog of unconfirmed transactions to accumulate</li>
-<li>it requires a lot of network bandwidth</li>
-<li>is <a href="https://arxiv.org/abs/1311.0243">susceptible to a 25% economic attack</a>.</li>
+<li>Wasteful since PoW expends huge amounts of computing power <a href="http://www.nasdaq.com/article/byzantine-fault-tolerance-the-key-for-blockchains-cm810058">by design</a>.</li>
+<li>Slow, limited to tens of transactions per second.</li>
+<li>Subject to allowing huge backlog of unconfirmed transactions to accumulate.</li>
+<li>Network bandwidth intensive.</li>
+<li><a href="https://arxiv.org/abs/1311.0243">Susceptible to a 25% economic attack</a>.</li>
 </ul>
-<h2>Virtual elections. Better than real ones?</h2>
-<p>Hashgraph is comparable to PBFT, Paxos, Raft, Zab, and other consensus seeking systems that rely on leaders and voting schemes.
-But hashgraph eschews the comparison, claiming that it doesn't even use voting.
+<h2>Virtual elections: better than actual elections?</h2>
+<p>Many people consider Hashgraph to be more comparable to PBFT, Paxos, Raft, Zab,
+and other consensus seeking systems that rely on leaders and voting schemes.
+But Hashgraph eschews the comparison, because it doesn't use voting.
 It comes to consensus about what happened, and when,
 by cleverly tallying highly compressed event logs
 based on "famous witnesses" that <a href="https://www.swirlds.com/downloads/SWIRLDS-TR-2016-02.pdf">"strongly see"</a> events.</p>
-<p>You tell some random participant what you know.  They tell you what they know.
-Then, they tell some random participant what they know, which includes some
+<p>Suppose you are a member of a gossip network.
+You tell some random participant what you know.  They tell you what they know.
+Later, they tell some random participant what they know, which includes some
 (possibly second hand) information they learned from you.
 Eventually, participants are able to tally not only what they have observed,
 but also what other participants are likely to have observed, based
@@ -82,32 +86,35 @@ this will usually have no effect on the consensus timestamp, because consensus o
 when something occurred is the median of timestamps observed by credible witnesses.</p>
 <p><a href="http://tech.mit.edu/V123/N8/8voting.8n.html">Arrow's Theorem</a> proves that no voting system is fair.
 I'm no <a href="https://www.princeton.edu/~cuff/voting/theory.html">voting theorist</a>,
-but in my (extremely humble) opinion, hashgraph comes pretty close.
+but in my (extremely humble) opinion, Hashgraph comes pretty close.
 It makes one want to believe in democracy again. Real-time continuous nationwide elections anyone?</p>
 <h2>Hashgraph: the good</h2>
 <p>It is <a href="https://hackernoon.com/demystifying-hashgraph-benefits-and-challenges-d605e5c0cee5">fast</a>,
 <a href="https://hashgraph.com/faq/#what-is-fairness">fair</a>,
-and <a href="https://hashgraph.com/faq/#preventing-sybil-attacks">secure</a>.</p>
+and <a href="https://hashgraph.com/faq/#preventing-sybil-attacks">secure</a>.
+It promises the following:</p>
 <ul>
-<li>It promises total ordering of events.</li>
-<li>It promises strong <a href="http://the-paper-trail.org/blog/barbara-liskovs-turing-award-and-byzantine-fault-tolerance/">Byzantine Fault Tolerance</a> (BFT),
+<li>Total ordering of events.</li>
+<li>Strong <a href="http://the-paper-trail.org/blog/barbara-liskovs-turing-award-and-byzantine-fault-tolerance/">Byzantine Fault Tolerance</a> (BFT),
 the gold standard of industrial grade distributed consensus.</li>
-<li>Requires minimal network bandwidth, because it passes things only around once.</li>
-<li>It does not require Proof-of-Work, so it does not require unnecessary computation.</li>
-<li>It is proven to quickly reach 100% certainty on the order of transactions.</li>
+<li>Minimal network bandwidth, because it passes things only around once.</li>
+<li>Provable 100% certainty on the order of transactions.</li>
 </ul>
 <p>Because it is fast and requires low network bandwidth, it can be used as a distributed memory system.
-Because it provides a total order on transactions, it can be used as a multi-master database.</p>
-<p>Before we discuss its tx/sec (transactions/second), let's review the tx/sec of other distributed ledger technology (DLT) :</p>
+Because it provides a total order on transactions, it can be used as a multi-master database.
+Because it does not use Proof-of-Work, it does not require unnecessary computation.</p>
+<p>Before we discuss its tx/sec (transactions/second), let's review the tx/sec of other DLTs :</p>
 <ul>
 <li>Proof-of-Work Blockchain (Etherium, Bitcoin) : <strong>&lt; 10 tx/sec</strong></li>
 <li>Paypal : <strong><a href="http://www.altcointoday.com/bitcoin-ethereum-vs-visa-paypal-transactions-per-second/">200 tx/sec</a></strong></li>
-<li>Visa : <strong><a href="https://mybroadband.co.za/news/security/190348-visanet-handling-100000-transactions-per-minute.html">2K tx/sec</a></strong></li>
+<li>Visa : <strong><a href="https://mybroadband.co.za/news/security/190348-visanet-handling-100000-transactions-per-minute.html">2K tx/sec</a></strong><ul>
+<li>Visa claims that its system has additional capacity to handle upwards of 50K tx/sec.</li>
 </ul>
-<p>Visa claims that its system has capacity to handle upwards of 50K tx/sec.</p>
+</li>
+</ul>
 <p>Hashgraph's inventor says it can attain <a href="https://www.hiddenforcespod.com/leemon-baird-hashgraph-distributed-ledger-technology-blockchain/">250K+ tx/sec</a>.</p>
-<p>To be fair, because of its positioning and licensing, hashgraph is most directly comparable to Hyperledger, which is
-also a scalable DFT using a Practical Byzantine Fault Tolerance (PBFT) consensus algorithm.
+<p>To be fair, because of its positioning and licensing, Hashgraph is most directly comparable to Hyperledger, which is
+also a scalable DLT using a Practical Byzantine Fault Tolerance (PBFT) consensus algorithm.
 Other enterprise-grade commercial systems include
 LMAX and its variants, such as <a href="http://lmax-exchange.github.io/disruptor/">LMAX Disruptor</a>
 and Bitshares.  Their ts/sec are as follows:</p>
@@ -118,22 +125,19 @@ and Bitshares.  Their ts/sec are as follows:</p>
 </ul>
 <h2>The bad</h2>
 <p>So what is the catch?</p>
-<p>Hashgraph is only deployed in <a href="https://hackernoon.com/demystifying-hashgraph-benefits-and-challenges-d605e5c0cee5">private, permissioned-based networks</a>.</p>
-<p>Whether it can be adapted to a truly decentralised public ledger remains to be seen, because it assumes that a node can determine :</p>
+<p>Hashgraph is only deployed in <a href="https://hackernoon.com/demystifying-hashgraph-benefits-and-challenges-d605e5c0cee5">private, permissioned-based networks</a>. Whether it can be adapted to a truly decentralised public ledger remains to be seen, because it assumes that a node can determine :</p>
 <ul>
-<li>addresses of random nodes in the network for messaging, and</li>
-<li>the number of other nodes N in the network</li>
+<li>Addresses of random nodes in the network for messaging, and</li>
+<li>The number of other nodes N in the network</li>
 </ul>
-<p>This is because the algorithm requires a node to be able to (a) pick another node at random, and (b) know the value of ⅔ * N.</p>
-<p>It needs a means of registering and unregistering of members in the network,
-whereas public blockchains allow nodes to sign in and out to the network without any notice.
-It is sometimes called a Permissioned Blockchain because
+<p>This is because the algorithm requires a node to be able to (a) pick another node at random, and (b) know the value of ⅔ * N.  It needs a means of registering and unregistering of members in the network,
+whereas public blockchains allow nodes to sign in and out to the network without any notice. It is sometimes called a Permissioned Blockchain because
 <a href="https://hashgraph.com/faq/#is-there-a-cryptocurrency">there is no hashgraph public ledger or cryptocurrency and is currently only implemented on permissioned networks</a>.</p>
 <p>Finally, the following seem to be a major showstopper for many members of the cryptocurrency development community:</p>
-<ul>
-<li>It requires a license to use.</li>
-<li>It is patented (US Patents #<a href="http://www.leemon.com/papers/2017b.pdf">9,646,029</a>, #<a href="http://www.leemon.com/papers/2016b4.pdf">9,529,923</a>, #<a href="http://www.leemon.com/papers/2016b3.pdf">9,390,154</a>.</li>
-</ul>
+<ol>
+<li>Requires a license to use.</li>
+<li>US Patents #<a href="http://www.leemon.com/papers/2017b.pdf">9,646,029</a>, #<a href="http://www.leemon.com/papers/2016b4.pdf">9,529,923</a>, #<a href="http://www.leemon.com/papers/2016b3.pdf">9,390,154</a>.</li>
+</ol>
 <h4>About the author</h4>
 <p>I am just an interested learner coming up to speed on blockchain technologies, distributed ledger technologies,
 and decentralized consensus systems.
@@ -143,13 +147,15 @@ As I am still learning about this area, I am not an expert.</p>
 <p>So why am I writing this?</p>
 <p>Hashgraph impressed on me the value of <a href="https://hashgraph.com/faq/#how-does-it-work">gossip</a>.
 Instead of waiting to share your opinion until you are absolutely certain of what you know, a
-"gossip protocol" says to share your observations early and often. So, here are mine about hashgraph.
+"gossip protocol" says to share your observations early and often.
+So, here are mine about Hashgraph.
 Hashgraph mathematically proves that
 gossip can allow decentralized participants to rapidly share what they
 have observed (as well as what they have heard second-hand from others),
 and rapidly agree on what is to be believed. Who am I to argue with math?</p>
 <h2>Concluding remark</h2>
-<p>DYOR! Consider this to be informed gossip. But do share yours with me too. The math says to, so, yeah just do what the math says.</p>
+<p><a href="https://pbs.twimg.com/media/DPT6qNIW0AE0RB4.jpg">DYOR</a> !
+Consider this to be informed gossip. But do share yours with me too. The math says to, so, yeah just do what the math says.</p>
 </article>
 
         <footer>

@@ -1,6 +1,6 @@
 Title:  The dirt on Hashgraph
 Subtitle:    What we know about Hashgraph c.2017
-Project:     cryptocurious
+Project:     Cryptocurious
 Author:      Mark Plutowski
 Affiliation: Plutosoft Delimited
 Web:         https://pluteski.github.io

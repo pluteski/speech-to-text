@@ -74,12 +74,6 @@ this will usually have no effect on the consensus timestamp, because consensus o
 when something occurred is the median of timestamps observed by credible witnesses.
 
 
-[Arrow's Theorem](http://tech.mit.edu/V123/N8/8voting.8n.html) proves that no voting system is fair.
-I'm no [voting theorist](https://www.princeton.edu/~cuff/voting/theory.html),
-but in my (extremely humble) opinion, Hashgraph comes pretty close.
-It makes one want to believe in democracy again. Real-time continuous nationwide elections anyone?
-
-
 ## Hashgraph: the good
 It is [fast](https://hackernoon.com/demystifying-hashgraph-benefits-and-challenges-d605e5c0cee5),
 [fair](https://hashgraph.com/faq/#what-is-fairness),
@@ -133,6 +127,13 @@ Finally, the following seem to be a major showstopper for many members of the cr
 2. US Patents #[9,646,029](http://www.leemon.com/papers/2017b.pdf), #[9,529,923](http://www.leemon.com/papers/2016b4.pdf), #[9,390,154](http://www.leemon.com/papers/2016b3.pdf).
 
 
+## A passing thought
+[Arrow's Theorem](http://tech.mit.edu/V123/N8/8voting.8n.html) proves that no voting system is fair.
+I'm no [voting theorist](https://www.princeton.edu/~cuff/voting/theory.html),
+but in my (extremely humble) opinion, Hashgraph comes pretty close.
+It makes one want to believe in democracy again. Real-time continuous nationwide elections anyone?
+
+
 #### About the author
 I am just an interested learner coming up to speed on blockchain technologies, distributed ledger technologies,
 and decentralized consensus systems.
@@ -150,6 +151,7 @@ Hashgraph mathematically proves that
 gossip can allow decentralized participants to rapidly share what they
 have observed (as well as what they have heard second-hand from others),
 and rapidly agree on what is to be believed. Who am I to argue with math?
+
 
 ## Concluding remark
 [DYOR](https://scontent.cdninstagram.com/t51.2885-15/s320x320/e35/25009793_144878492834781_2739446234354810880_n.jpg) !

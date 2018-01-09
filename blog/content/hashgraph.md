@@ -152,7 +152,8 @@ Before we discuss its tx/sec (transactions/second), let's review the tx/sec of o
     * Visa claims that its system has additional capacity to handle upwards of 50K tx/sec.
 
 Of these, only PoW is a DLT, but Paypal and Visa tend to be held up as benchmarks or
-at the very least as future milestones for a DLT to replace an existing mainstream currency or payment system.
+at the very least as future milestones for a DLT to achieve in order to
+replace an existing mainstream currency or payment system.
 Hashgraph proponents also tend to make the comparison in their presentation materials.
 
 To be fair, because of its positioning and licensing, Hashgraph is more directly comparable to Hyperledger, which is
@@ -161,7 +162,7 @@ Other comparable enterprise-grade transaction processing systems include
 LMAX and its variants, such as [LMAX Disruptor](http://lmax-exchange.github.io/disruptor/)
 and Bitshares. LMAX is not a DLT, and Bitshares is billed as a decentralized exchange.
 That said, if we are going to use Visa and Paypal for comparison, then we might as well
-include these as well for context. Their ts/sec are as follows:
+include these for context. Their ts/sec are as follows:
 
 * [Hyperledger](https://www.hyperledger.org/about) : **[1K tx/sec](https://www.altoros.com/blog/hyperledgers-sawtooth-lake-aims-at-a-thousand-transactions-per-second/)** to **[10K tx/sec](https://medium.com/chain-cloud-company-blog/hyperledger-vs-corda-pt-1-3723c4fa5028)**
 * Bitshares : **[100K tx/sec](https://bitshares.org/technology/industrial-performance-and-scalability/)**

@@ -144,24 +144,29 @@ Because it is fast and requires low network bandwidth, it can be used as a distr
 Because it provides a total order on transactions, it can be used as a multi-master database.
 Because it does not use Proof-of-Work, it does not require unnecessary computation.
 
-Before we discuss its tx/sec (transactions/second), let's review the tx/sec of other DLTs :
+Before we discuss its tx/sec (transactions/second), let's review the tx/sec of other transaction logging systems :
 
-* Proof-of-Work Blockchain (Etherium, Bitcoin) : **< 10 tx/sec**
+* PoW Blockchain (Etherium, Bitcoin) : **< 10 tx/sec**
 * Paypal : **[200 tx/sec](http://www.altcointoday.com/bitcoin-ethereum-vs-visa-paypal-transactions-per-second/)**
 * Visa : **[2K tx/sec](https://mybroadband.co.za/news/security/190348-visanet-handling-100000-transactions-per-minute.html)**
     * Visa claims that its system has additional capacity to handle upwards of 50K tx/sec.
 
-Hashgraph's inventor says it can attain [250K+ tx/sec](https://www.hiddenforcespod.com/leemon-baird-hashgraph-distributed-ledger-technology-blockchain/).
+Of these, only PoW is a DLT, but Paypal and Visa tend to be held up as milestones for a currency or payment system,
+and Hashgraph proponents also tend to mention them in their presentation materials.
 
 To be fair, because of its positioning and licensing, Hashgraph is most directly comparable to Hyperledger, which is
 also a scalable DLT using a Practical Byzantine Fault Tolerance (PBFT) consensus algorithm.
-Other directly comparable enterprise-grade commercial systems include
+Other comparable enterprise-grade transaction processing systems include
 LMAX and its variants, such as [LMAX Disruptor](http://lmax-exchange.github.io/disruptor/)
-and Bitshares.  Their ts/sec are as follows:
+and Bitshares. If people are going to hold up Visa and Paypal as benchmarks, then we might as well
+include these as well to properly place Hashgraph into its proper context.  Their ts/sec are as follows:
 
 * [Hyperledger](https://www.hyperledger.org/about) : **[1K tx/sec](https://www.altoros.com/blog/hyperledgers-sawtooth-lake-aims-at-a-thousand-transactions-per-second/)** to **[10K tx/sec](https://medium.com/chain-cloud-company-blog/hyperledger-vs-corda-pt-1-3723c4fa5028)**
 * Bitshares : **[100K tx/sec](https://bitshares.org/technology/industrial-performance-and-scalability/)**
 * LMAX : **[100K tx/sec (2010)](https://qconsf.com/sf2010/sf2010/presentation/LMAX+-+How+to+do+over+100K+concurrent+transactions+per+second+at+less+than+1ms+latency.html)** to **[6M tx/sec](https://martinfowler.com/articles/lmax.html)**
+
+Hashgraph's inventor says it can attain [250K+ tx/sec](https://www.hiddenforcespod.com/leemon-baird-hashgraph-distributed-ledger-technology-blockchain/).
+
 
 ## The bad
 So what is the catch?
@@ -173,7 +178,7 @@ Hashgraph is only deployed in [private, permissioned-based networks](https://hac
 
 This is because the algorithm requires a node to be able to (a) pick another node at random, and (b) know the value of ⅔ * N.  It needs a means of registering and unregistering of members in the network,
 whereas public blockchains allow nodes to sign in and out to the network without any notice. It is sometimes called a Permissioned Blockchain because
-[there is no hashgraph public ledger or cryptocurrency and is currently only implemented on permissioned networks](https://hashgraph.com/faq/#is-there-a-cryptocurrency).
+[there is no Hashgraph public ledger or cryptocurrency and is currently only implemented on permissioned networks](https://hashgraph.com/faq/#is-there-a-cryptocurrency).
 
 Finally, the following seem to be a major showstopper for many members of the cryptocurrency development community:
 

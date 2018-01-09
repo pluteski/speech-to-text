@@ -129,14 +129,16 @@ Because it does not use Proof-of-Work, it does not require unnecessary computati
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Of these, only PoW is a DLT, but Paypal and Visa tend to be held up as milestones for a currency or payment system,
-and Hashgraph proponents also tend to mention them in their presentation materials.&lt;/p&gt;
-&lt;p&gt;To be fair, because of its positioning and licensing, Hashgraph is most directly comparable to Hyperledger, which is
+&lt;p&gt;Of these, only PoW is a DLT, but Paypal and Visa tend to be held up as benchmarks or
+at the very least as future milestones for a DLT to replace an existing mainstream currency or payment system.
+Hashgraph proponents also tend to make the comparison in their presentation materials.&lt;/p&gt;
+&lt;p&gt;To be fair, because of its positioning and licensing, Hashgraph is more directly comparable to Hyperledger, which is
 also a scalable DLT using a Practical Byzantine Fault Tolerance (PBFT) consensus algorithm.
 Other comparable enterprise-grade transaction processing systems include
 LMAX and its variants, such as &lt;a href="http://lmax-exchange.github.io/disruptor/"&gt;LMAX Disruptor&lt;/a&gt;
-and Bitshares. If people are going to hold up Visa and Paypal as benchmarks, then we might as well
-include these as well to properly place Hashgraph into its proper context.  Their ts/sec are as follows:&lt;/p&gt;
+and Bitshares. LMAX is not a DLT, and Bitshares is billed as a decentralized exchange.
+If we are going to hold up Visa and Paypal as benchmarks, then we might as well
+include these as well for context.  Their ts/sec are as follows:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://www.hyperledger.org/about"&gt;Hyperledger&lt;/a&gt; : &lt;strong&gt;&lt;a href="https://www.altoros.com/blog/hyperledgers-sawtooth-lake-aims-at-a-thousand-transactions-per-second/"&gt;1K tx/sec&lt;/a&gt;&lt;/strong&gt; to &lt;strong&gt;&lt;a href="https://medium.com/chain-cloud-company-blog/hyperledger-vs-corda-pt-1-3723c4fa5028"&gt;10K tx/sec&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;Bitshares : &lt;strong&gt;&lt;a href="https://bitshares.org/technology/industrial-performance-and-scalability/"&gt;100K tx/sec&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;

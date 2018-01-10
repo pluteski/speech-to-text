@@ -196,12 +196,12 @@ but in my (extremely humble) opinion, Hashgraph comes pretty close.
 It makes one want to believe in democracy again. Real-time continuous nationwide elections anyone?
 
 
+## Acknowledgments
+Thanks for helpful edits to [Josh Quittner](https://medium.com/@twittner), [Will Huang](https://github.com/thewillhuang) and [Marcus Plutowski](https://blog.valkyrierobotics.com/).
+
 
 ## Concluding remark
 [DYOR](https://scontent.cdninstagram.com/t51.2885-15/s320x320/e35/25009793_144878492834781_2739446234354810880_n.jpg) !
 Consider this to be informed gossip. But do share your gossip with me too. The math says to, so, yeah just do what the math says.
 
 
-
-##### Acknowledgments
-Thanks for helpful edits go to [Josh Quittner](https://medium.com/@twittner), [Will Huang](https://github.com/thewillhuang) and [Marcus Plutowski](https://blog.valkyrierobotics.com/).

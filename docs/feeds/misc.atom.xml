@@ -166,11 +166,11 @@ whereas public blockchains allow nodes to sign in and out to the network without
 I'm no &lt;a href="https://www.princeton.edu/~cuff/voting/theory.html"&gt;voting theorist&lt;/a&gt;,
 but in my (extremely humble) opinion, Hashgraph comes pretty close.
 It makes one want to believe in democracy again. Real-time continuous nationwide elections anyone?&lt;/p&gt;
+&lt;h2&gt;Acknowledgments&lt;/h2&gt;
+&lt;p&gt;Thanks for helpful edits to &lt;a href="https://medium.com/@twittner"&gt;Josh Quittner&lt;/a&gt;, &lt;a href="https://github.com/thewillhuang"&gt;Will Huang&lt;/a&gt; and &lt;a href="https://blog.valkyrierobotics.com/"&gt;Marcus Plutowski&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;Concluding remark&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://scontent.cdninstagram.com/t51.2885-15/s320x320/e35/25009793_144878492834781_2739446234354810880_n.jpg"&gt;DYOR&lt;/a&gt; !
-Consider this to be informed gossip. But do share your gossip with me too. The math says to, so, yeah just do what the math says.&lt;/p&gt;
-&lt;h5&gt;Acknowledgments&lt;/h5&gt;
-&lt;p&gt;Thanks for helpful edits go to &lt;a href="https://medium.com/@twittner"&gt;Josh Quittner&lt;/a&gt;, &lt;a href="https://github.com/thewillhuang"&gt;Will Huang&lt;/a&gt; and &lt;a href="https://blog.valkyrierobotics.com/"&gt;Marcus Plutowski&lt;/a&gt;.&lt;/p&gt;</content></entry><entry><title>on Bleu scores and transcription rates</title><link href="https://pluteski.github.io/speech-to-text/on-bleu-scores-and-transcription-rates.html" rel="alternate"></link><published>2017-04-30T00:00:00-07:00</published><updated>2017-04-30T00:00:00-07:00</updated><author><name>Mark Plutowski</name></author><id>tag:pluteski.github.io,2017-04-30:/speech-to-text/on-bleu-scores-and-transcription-rates.html</id><summary type="html">&lt;p&gt;&lt;em&gt;[Work in progress]&lt;/em&gt;&lt;/p&gt;
+Consider this to be informed gossip. But do share your gossip with me too. The math says to, so, yeah just do what the math says.&lt;/p&gt;</content></entry><entry><title>on Bleu scores and transcription rates</title><link href="https://pluteski.github.io/speech-to-text/on-bleu-scores-and-transcription-rates.html" rel="alternate"></link><published>2017-04-30T00:00:00-07:00</published><updated>2017-04-30T00:00:00-07:00</updated><author><name>Mark Plutowski</name></author><id>tag:pluteski.github.io,2017-04-30:/speech-to-text/on-bleu-scores-and-transcription-rates.html</id><summary type="html">&lt;p&gt;&lt;em&gt;[Work in progress]&lt;/em&gt;&lt;/p&gt;
 &lt;h1&gt;Reference audio vs noisy recordings&lt;/h1&gt;
 &lt;p&gt;As expected, each service performs better on audio recorded in a
 quiet setting.&lt;/p&gt;

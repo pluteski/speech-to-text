@@ -202,3 +202,6 @@ It makes one want to believe in democracy again. Real-time continuous nationwide
 Consider this to be informed gossip. But do share your gossip with me too. The math says to, so, yeah just do what the math says.
 
 
+
+##### Acknowledgments
+Thanks for helpful edits go to [Josh Quittner](https://medium.com/@twittner), [Will Huang](https://github.com/thewillhuang) and [Marcus Plutowski](https://blog.valkyrierobotics.com/).

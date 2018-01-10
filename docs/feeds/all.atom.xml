@@ -120,19 +120,17 @@ the gold standard of industrial grade distributed consensus.&lt;/li&gt;
 &lt;p&gt;Because it is fast and requires low network bandwidth, it can be used as a distributed memory system.
 Because it provides a total order on transactions, it can be used as a multi-master database.
 Because it does not use Proof-of-Work, it does not require unnecessary computation.&lt;/p&gt;
-&lt;p&gt;Before we discuss its tx/sec (transactions/second), let's review the tx/sec of other transaction logging systems :&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;PoW Blockchain (Etherium, Bitcoin) : &lt;strong&gt;&amp;lt; 10 tx/sec&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Paypal : &lt;strong&gt;&lt;a href="http://www.altcointoday.com/bitcoin-ethereum-vs-visa-paypal-transactions-per-second/"&gt;200 tx/sec&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Visa : &lt;strong&gt;&lt;a href="https://mybroadband.co.za/news/security/190348-visanet-handling-100000-transactions-per-minute.html"&gt;2K tx/sec&lt;/a&gt;&lt;/strong&gt;&lt;ul&gt;
-&lt;li&gt;Visa claims that its system has additional capacity to handle upwards of 50K tx/sec.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Of these, only PoW is a DLT, but Paypal and Visa tend to be held up as benchmarks or
+&lt;h3&gt;Performance&lt;/h3&gt;
+&lt;p&gt;Paypal and Visa tend to be held up as benchmarks or
 at the very least as future milestones for a DLT to achieve in order to
-replace an existing mainstream currency or payment system.
-Hashgraph proponents also tend to make the comparison in their presentation materials.&lt;/p&gt;
+replace an existing mainstream currency, payment system, or other commercial transaction logging systems.&lt;/p&gt;
+&lt;p&gt;Here are the transactions per second (tps) of PoW versus Paypal and Visa :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PoW Blockchain (Etherium, Bitcoin) : &lt;strong&gt;&amp;lt; 10 tps&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Paypal : &lt;strong&gt;&lt;a href="http://www.altcointoday.com/bitcoin-ethereum-vs-visa-paypal-transactions-per-second/"&gt;200 tps&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Visa : &lt;strong&gt;&lt;a href="https://mybroadband.co.za/news/security/190348-visanet-handling-100000-transactions-per-minute.html"&gt;2K tps&lt;/a&gt;&lt;/strong&gt; to &lt;strong&gt;&lt;a href="https://lightning.network/lightning-network-paper.pdf"&gt;50K x/sec&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Of these, only PoW is a BFT DLT.&lt;/p&gt;
 &lt;p&gt;To be fair, because of its positioning and licensing, Hashgraph is more directly comparable to Hyperledger, which is
 another scalable DLT using a Practical Byzantine Fault Tolerance (PBFT) consensus algorithm.
 Other comparable enterprise-grade transaction processing systems include
@@ -141,11 +139,12 @@ and Bitshares. LMAX is not a DLT, and Bitshares is billed as a decentralized exc
 That said, if we are going to use Visa and Paypal for comparison, then we might as well
 include these for context. Their ts/sec are as follows:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.hyperledger.org/about"&gt;Hyperledger&lt;/a&gt; : &lt;strong&gt;&lt;a href="https://www.altoros.com/blog/hyperledgers-sawtooth-lake-aims-at-a-thousand-transactions-per-second/"&gt;1K tx/sec&lt;/a&gt;&lt;/strong&gt; to &lt;strong&gt;&lt;a href="https://medium.com/chain-cloud-company-blog/hyperledger-vs-corda-pt-1-3723c4fa5028"&gt;10K tx/sec&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Bitshares : &lt;strong&gt;&lt;a href="https://bitshares.org/technology/industrial-performance-and-scalability/"&gt;100K tx/sec&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;LMAX : &lt;strong&gt;&lt;a href="https://qconsf.com/sf2010/sf2010/presentation/LMAX+-+How+to+do+over+100K+concurrent+transactions+per+second+at+less+than+1ms+latency.html"&gt;100K tx/sec (2010)&lt;/a&gt;&lt;/strong&gt; to &lt;strong&gt;&lt;a href="https://martinfowler.com/articles/lmax.html"&gt;6M tx/sec&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.hyperledger.org/about"&gt;Hyperledger&lt;/a&gt; : &lt;strong&gt;&lt;a href="https://www.altoros.com/blog/hyperledgers-sawtooth-lake-aims-at-a-thousand-transactions-per-second/"&gt;1K tps&lt;/a&gt;&lt;/strong&gt; to &lt;strong&gt;&lt;a href="https://medium.com/chain-cloud-company-blog/hyperledger-vs-corda-pt-1-3723c4fa5028"&gt;10K tps&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Bitshares : &lt;strong&gt;&lt;a href="https://bitshares.org/technology/industrial-performance-and-scalability/"&gt;100K tps&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;LMAX : &lt;strong&gt;&lt;a href="https://qconsf.com/sf2010/sf2010/presentation/LMAX+-+How+to+do+over+100K+concurrent+transactions+per+second+at+less+than+1ms+latency.html"&gt;100K tps (2010)&lt;/a&gt;&lt;/strong&gt; to &lt;strong&gt;&lt;a href="https://martinfowler.com/articles/lmax.html"&gt;6M tps&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Hashgraph's inventor says it can attain &lt;a href="https://www.hiddenforcespod.com/leemon-baird-hashgraph-distributed-ledger-technology-blockchain/"&gt;250K+ tx/sec&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Hashgraph's inventor says it will be able to attain &lt;a href="https://www.hiddenforcespod.com/leemon-baird-hashgraph-distributed-ledger-technology-blockchain/"&gt;250K+ tps&lt;/a&gt;,
+more with sharding.&lt;/p&gt;
 &lt;h2&gt;The bad&lt;/h2&gt;
 &lt;p&gt;So what is the catch?&lt;/p&gt;
 &lt;p&gt;Hashgraph is only deployed in &lt;a href="https://hackernoon.com/demystifying-hashgraph-benefits-and-challenges-d605e5c0cee5"&gt;private, permissioned-based networks&lt;/a&gt;. Whether it can be adapted to a truly decentralised public ledger remains to be seen, because it assumes that a node can determine :&lt;/p&gt;

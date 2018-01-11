@@ -150,7 +150,6 @@ include these for context. Their ts/sec are as follows:&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;Hashgraph's inventor says it will be able to attain &lt;a href="https://www.hiddenforcespod.com/leemon-baird-hashgraph-distributed-ledger-technology-blockchain/"&gt;250K+ tps&lt;/a&gt;,
 more with sharding.&lt;/p&gt;
-&lt;h3&gt;Storage&lt;/h3&gt;
 &lt;h2&gt;The bad&lt;/h2&gt;
 &lt;p&gt;So what is the catch?&lt;/p&gt;
 &lt;p&gt;Hashgraph is only deployed in &lt;a href="https://hackernoon.com/demystifying-hashgraph-benefits-and-challenges-d605e5c0cee5"&gt;private, permissioned-based networks&lt;/a&gt;. Whether it can be adapted to a truly decentralised public ledger remains to be seen, because it assumes that a node can determine :&lt;/p&gt;

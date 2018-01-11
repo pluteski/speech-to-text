@@ -178,8 +178,6 @@ include these for context. Their ts/sec are as follows:
 Hashgraph's inventor says it will be able to attain [250K+ tps](https://www.hiddenforcespod.com/leemon-baird-hashgraph-distributed-ledger-technology-blockchain/),
 more with sharding.
 
-### Storage
-
 
 ## The bad
 So what is the catch?

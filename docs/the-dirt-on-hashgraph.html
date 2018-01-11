@@ -81,6 +81,7 @@ presents several pitfalls. It is:</p>
 <li>Subject to allowing huge backlog of unconfirmed transactions to accumulate.</li>
 <li>Network bandwidth intensive.</li>
 <li><a href="https://arxiv.org/abs/1311.0243">Susceptible to a 25% economic attack</a>.</li>
+<li>Full nodes must download the entire blockchain.  <a href="https://en.bitcoin.it/wiki/Full_node">Lightweight nodes must trust the full nodes</a>.</li>
 </ul>
 <p>Bitcoin protocol does not implement consensus
 in the traditional distributed computing sense.
@@ -100,8 +101,7 @@ each node communicates state with some random other node.
 Since these two nodes already have a channel open, the random other node then shares back
 state of its own that it knows first hand, perhaps along with some state that
 it previously learned from another node.
-After there has been sufficient activity by
-at least 2/3 of the participants, a round is concluded and a new round begins.</p>
+After a new event has seen at least 2/3 of previous events, a round is concluded and a new round begins.</p>
 <p>When the new round is created, nodes say if they agree
 upon the data contained in events of the preceding round.
 The algorithm doesn't consider this to be voting per se, instead calling it a virtual election.
@@ -111,6 +111,11 @@ nodes <a href="https://medium.com/ibbc-io/hashgraph-for-dummies-90ddde3be9e2">ve
 <p>(More strictly speaking,
 it is actually about finding paths through the graph that connect events in the current round with past events in the previous round.
 Please see : <a href="http://www.swirlds.com/downloads/SWIRLDS-TR-2016-02.pdf">How it Works (Graphically)</a>.)</p>
+<p>At this point, some applications could dump all previous events.
+In applications where the transaction timeseries can be
+summarized by sufficient statistics, as soon as this occurs the hashgraph
+history could be archived. This also means that <em>a new node doesn't need to load the entire hashgraph history</em>.
+There is no notion of full node and lightweight node.</p>
 <h2>Virtual elections: better than regular elections?</h2>
 <p>Many people consider Hashgraph to be more comparable to PBFT, Paxos, Raft, Zab,
 and other consensus seeking systems that rely on leaders and
@@ -167,6 +172,7 @@ include these for context. Their ts/sec are as follows:</p>
 </ul>
 <p>Hashgraph's inventor says it will be able to attain <a href="https://www.hiddenforcespod.com/leemon-baird-hashgraph-distributed-ledger-technology-blockchain/">250K+ tps</a>,
 more with sharding.</p>
+<h3>Storage</h3>
 <h2>The bad</h2>
 <p>So what is the catch?</p>
 <p>Hashgraph is only deployed in <a href="https://hackernoon.com/demystifying-hashgraph-benefits-and-challenges-d605e5c0cee5">private, permissioned-based networks</a>. Whether it can be adapted to a truly decentralised public ledger remains to be seen, because it assumes that a node can determine :</p>

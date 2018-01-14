@@ -73,7 +73,7 @@ presents several pitfalls. It is:
 * Subject to allowing huge backlog of unconfirmed transactions to accumulate.
 * Network bandwidth intensive.
 * [Susceptible to a 25% economic attack](https://arxiv.org/abs/1311.0243).
-* Full nodes must download the entire blockchain.  [Lightweight nodes must trust the full nodes](https://en.bitcoin.it/wiki/Full_node).
+* [Heavyweight](https://bitcoin.org/en/full-node). Full nodes must download the entire blockchain.  [Lightweight nodes must trust the full nodes](https://en.bitcoin.it/wiki/Full_node).
 
 Bitcoin protocol does not implement consensus
 in the traditional distributed computing sense.
@@ -108,11 +108,14 @@ nodes [verify that they are connected to these events](https://medium.com/ibbc-i
 it is actually about finding paths through the graph that connect events in the current round with past events in the previous round.
 Please see : [How it Works (Graphically)](http://www.swirlds.com/downloads/SWIRLDS-TR-2016-02.pdf).)
 
-At this point, some applications could dump all previous events.
+At this point, some applications could [dump all previous events](http://ajitvadakayil.blogspot.com/2017/10/blockchain-smart-contracts-part-8-capt.html).
 In applications where the transaction timeseries can be
-summarized by sufficient statistics, as soon as this occurs the hashgraph
+summarized by sufficient statistics, the hashgraph
 history could be archived. This also means that _a new node doesn't need to load the entire hashgraph history_.
-There is no notion of full node and lightweight node.
+There is no notion of full node and lightweight node,
+reducing the space required per node from Bitcoin’s 60 GB
+to under one gigabyte allowing a [smartphone to act as a node](https://squawker.org/technology/blockchain-just-became-obsolete-the-future-is-hashgraph/).
+
 
 ## Virtual elections: better than regular elections?
 Many people consider Hashgraph to be more comparable to PBFT, Paxos, Raft, Zab,
@@ -177,6 +180,7 @@ include these for context. Their ts/sec are as follows:
 
 Hashgraph's inventor says it will be able to attain [250K+ tps](https://www.hiddenforcespod.com/leemon-baird-hashgraph-distributed-ledger-technology-blockchain/),
 more with sharding.
+
 
 
 ## The bad

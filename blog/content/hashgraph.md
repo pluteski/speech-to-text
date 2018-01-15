@@ -209,7 +209,9 @@ It makes one want to believe in democracy again. Real-time continuous nationwide
 
 
 ## Acknowledgments
-Thanks for helpful edits to [Josh Quittner](https://medium.com/@twittner), [Will Huang](https://github.com/thewillhuang) and [Marcus Plutowski](https://blog.valkyrierobotics.com/).
+Thanks for helpful edits to [Josh Quittner](https://medium.com/@twittner),
+[Will Huang](https://github.com/thewillhuang), [Gregory Kennedy](https://www.linkedin.com/in/gregorykennedy/)
+and [Marcus Plutowski](https://blog.valkyrierobotics.com/).
 
 
 ## Concluding remark

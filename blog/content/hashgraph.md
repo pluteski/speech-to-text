@@ -129,11 +129,12 @@ If the timestamp of an event log is corrupted by a bad clock or is maliciously d
 this will usually have no effect on the consensus timestamp, because consensus opinion on
 when something occurred is the median of timestamps observed by credible witnesses.
 
-I'll again point the interested reader to the whitepaper : [How it Works (Graphically)](http://www.swirlds.com/downloads/SWIRLDS-TR-2016-02.pdf),
-because unlike some other directed acyclic graph algorithms, or even Paxos,
+Unlike some other directed acyclic graph algorithms, or even Paxos,
 it really is quite easy to step through the Hashgraph algorithm.
 I couldn't do it more succinctly here.
-
+I'll again point the interested reader to whitepapers for how it works :
+[graphically](http://www.swirlds.com/downloads/SWIRLDS-TR-2016-02.pdf),
+and [example voting scenarios](http://www.swirlds.com/downloads/Swirlds-and-Sybil-Attacks.pdf).
 
 ## Hashgraph: the good
 It is [fast](https://hackernoon.com/demystifying-hashgraph-benefits-and-challenges-d605e5c0cee5),

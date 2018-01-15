@@ -92,9 +92,9 @@ Please see : &lt;a href="http://www.swirlds.com/downloads/SWIRLDS-TR-2016-02.pdf
 &lt;p&gt;At this point, some applications could &lt;a href="http://ajitvadakayil.blogspot.com/2017/10/blockchain-smart-contracts-part-8-capt.html"&gt;dump all previous events&lt;/a&gt;.
 In applications where the transaction timeseries can be
 summarized by sufficient statistics, the hashgraph
-history could be archived. This also means that &lt;em&gt;a new node doesn't need to load the entire hashgraph history&lt;/em&gt;.
-There is no notion of full node and lightweight node,
-greatly reducing the space required and allowing a &lt;a href="https://squawker.org/technology/blockchain-just-became-obsolete-the-future-is-hashgraph/"&gt;smartphone to act as a node&lt;/a&gt;.&lt;/p&gt;
+history could be archived. This also means that &lt;em&gt;a new node doesn't need to load the entire hashgraph history&lt;/em&gt;,
+greatly reducing the space required and allowing a &lt;a href="https://squawker.org/technology/blockchain-just-became-obsolete-the-future-is-hashgraph/"&gt;smartphone to act as a node&lt;/a&gt;.
+There is no notion of full node and lightweight node, meaning that all nodes can participate in consensus and see the full ledger.&lt;/p&gt;
 &lt;h2&gt;Virtual elections: better than regular elections?&lt;/h2&gt;
 &lt;p&gt;Many people consider Hashgraph to be more comparable to PBFT, Paxos, Raft, Zab,
 and other consensus seeking systems that rely on leaders and

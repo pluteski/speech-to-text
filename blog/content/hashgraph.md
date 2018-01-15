@@ -185,22 +185,22 @@ more with sharding.
 ## The bad
 So what is the catch?
 
-Hashgraph is currently only deployed in [private, permissioned-based networks](https://hackernoon.com/demystifying-hashgraph-benefits-and-challenges-d605e5c0cee5),
-its designers propose means for implementing [nonpermissioned and hybrid schemes](http://www.swirlds.com/downloads/Swirlds-and-Sybil-Attacks.pdf).
+Hashgraph is currently being deployed in [private, permissioned-based networks](https://hashgraph.com/faq/#is-there-a-cryptocurrency),
+although its designers propose means for implementing [nonpermissioned and hybrid networks](http://www.swirlds.com/downloads/Swirlds-and-Sybil-Attacks.pdf).
 How well it can be adapted to a truly decentralised public ledger remains to be seen, because it assumes that a node can determine :
 
 * Addresses of random nodes in the network for messaging, and
 * The number of other nodes N in the network
 
-This is because the algorithm requires a node to be able to (a) pick another node at random, and (b) know the value of ⅔ * N.  It needs a means of registering and unregistering of members in the network,
+This is because the algorithm requires a node to be able to (a) pick another node at random, and (b) know the value of ⅔ * N.
+It needs a means of registering and unregistering of members in the network,
 whereas public blockchains allow nodes to sign in and out to the network without any notice.
 
-Finally, the following seem to be a major showstopper for many members of the cryptocurrency development community:
+The following seem to be the major showstoppers for many members of the cryptocurrency development community:
 
-1. Requires a license to use.
+1. [There is no Hashgraph public ledger or cryptocurrency](https://hashgraph.com/faq/#is-there-a-cryptocurrency).
 2. US Patents #[9,646,029](http://www.leemon.com/papers/2017b.pdf), #[9,529,923](http://www.leemon.com/papers/2016b4.pdf), #[9,390,154](http://www.leemon.com/papers/2016b3.pdf).
-3. [There is no Hashgraph public ledger or cryptocurrency](https://hashgraph.com/faq/#is-there-a-cryptocurrency).
-
+3. Requires a license to use.
 
 ## A passing thought
 [Arrow's Theorem](http://tech.mit.edu/V123/N8/8voting.8n.html) proves that no voting system is fair.

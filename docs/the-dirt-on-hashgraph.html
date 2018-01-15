@@ -175,18 +175,20 @@ include these for context. Their ts/sec are as follows:</p>
 more with sharding.</p>
 <h2>The bad</h2>
 <p>So what is the catch?</p>
-<p>Hashgraph is only deployed in <a href="https://hackernoon.com/demystifying-hashgraph-benefits-and-challenges-d605e5c0cee5">private, permissioned-based networks</a>. Whether it can be adapted to a truly decentralised public ledger remains to be seen, because it assumes that a node can determine :</p>
+<p>Hashgraph is currently only deployed in <a href="https://hackernoon.com/demystifying-hashgraph-benefits-and-challenges-d605e5c0cee5">private, permissioned-based networks</a>,
+its designers propose means for implementing <a href="http://www.swirlds.com/downloads/Swirlds-and-Sybil-Attacks.pdf">nonpermissioned and hybrid schemes</a>.
+How well it can be adapted to a truly decentralised public ledger remains to be seen, because it assumes that a node can determine :</p>
 <ul>
 <li>Addresses of random nodes in the network for messaging, and</li>
 <li>The number of other nodes N in the network</li>
 </ul>
 <p>This is because the algorithm requires a node to be able to (a) pick another node at random, and (b) know the value of ⅔ * N.  It needs a means of registering and unregistering of members in the network,
-whereas public blockchains allow nodes to sign in and out to the network without any notice. It is sometimes called a Permissioned Blockchain because
-<a href="https://hashgraph.com/faq/#is-there-a-cryptocurrency">there is no Hashgraph public ledger or cryptocurrency and is currently only implemented on permissioned networks</a>.</p>
+whereas public blockchains allow nodes to sign in and out to the network without any notice.</p>
 <p>Finally, the following seem to be a major showstopper for many members of the cryptocurrency development community:</p>
 <ol>
 <li>Requires a license to use.</li>
 <li>US Patents #<a href="http://www.leemon.com/papers/2017b.pdf">9,646,029</a>, #<a href="http://www.leemon.com/papers/2016b4.pdf">9,529,923</a>, #<a href="http://www.leemon.com/papers/2016b3.pdf">9,390,154</a>.</li>
+<li><a href="https://hashgraph.com/faq/#is-there-a-cryptocurrency">There is no Hashgraph public ledger or cryptocurrency</a>.</li>
 </ol>
 <h2>A passing thought</h2>
 <p><a href="http://tech.mit.edu/V123/N8/8voting.8n.html">Arrow's Theorem</a> proves that no voting system is fair.

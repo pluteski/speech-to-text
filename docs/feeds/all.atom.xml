@@ -153,18 +153,20 @@ include these for context. Their ts/sec are as follows:&lt;/p&gt;
 more with sharding.&lt;/p&gt;
 &lt;h2&gt;The bad&lt;/h2&gt;
 &lt;p&gt;So what is the catch?&lt;/p&gt;
-&lt;p&gt;Hashgraph is only deployed in &lt;a href="https://hackernoon.com/demystifying-hashgraph-benefits-and-challenges-d605e5c0cee5"&gt;private, permissioned-based networks&lt;/a&gt;. Whether it can be adapted to a truly decentralised public ledger remains to be seen, because it assumes that a node can determine :&lt;/p&gt;
+&lt;p&gt;Hashgraph is currently only deployed in &lt;a href="https://hackernoon.com/demystifying-hashgraph-benefits-and-challenges-d605e5c0cee5"&gt;private, permissioned-based networks&lt;/a&gt;,
+its designers propose means for implementing &lt;a href="http://www.swirlds.com/downloads/Swirlds-and-Sybil-Attacks.pdf"&gt;nonpermissioned and hybrid schemes&lt;/a&gt;.
+How well it can be adapted to a truly decentralised public ledger remains to be seen, because it assumes that a node can determine :&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Addresses of random nodes in the network for messaging, and&lt;/li&gt;
 &lt;li&gt;The number of other nodes N in the network&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;This is because the algorithm requires a node to be able to (a) pick another node at random, and (b) know the value of ⅔ * N.  It needs a means of registering and unregistering of members in the network,
-whereas public blockchains allow nodes to sign in and out to the network without any notice. It is sometimes called a Permissioned Blockchain because
-&lt;a href="https://hashgraph.com/faq/#is-there-a-cryptocurrency"&gt;there is no Hashgraph public ledger or cryptocurrency and is currently only implemented on permissioned networks&lt;/a&gt;.&lt;/p&gt;
+whereas public blockchains allow nodes to sign in and out to the network without any notice.&lt;/p&gt;
 &lt;p&gt;Finally, the following seem to be a major showstopper for many members of the cryptocurrency development community:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Requires a license to use.&lt;/li&gt;
 &lt;li&gt;US Patents #&lt;a href="http://www.leemon.com/papers/2017b.pdf"&gt;9,646,029&lt;/a&gt;, #&lt;a href="http://www.leemon.com/papers/2016b4.pdf"&gt;9,529,923&lt;/a&gt;, #&lt;a href="http://www.leemon.com/papers/2016b3.pdf"&gt;9,390,154&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://hashgraph.com/faq/#is-there-a-cryptocurrency"&gt;There is no Hashgraph public ledger or cryptocurrency&lt;/a&gt;.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2&gt;A passing thought&lt;/h2&gt;
 &lt;p&gt;&lt;a href="http://tech.mit.edu/V123/N8/8voting.8n.html"&gt;Arrow's Theorem&lt;/a&gt; proves that no voting system is fair.

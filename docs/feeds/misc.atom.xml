@@ -107,10 +107,12 @@ based on "famous witnesses" that &lt;a href="https://www.swirlds.com/downloads/S
 &lt;p&gt;If the timestamp of an event log is corrupted by a bad clock or is maliciously doctored,
 this will usually have no effect on the consensus timestamp, because consensus opinion on
 when something occurred is the median of timestamps observed by credible witnesses.&lt;/p&gt;
-&lt;p&gt;I'll again point the interested reader to the whitepaper : &lt;a href="http://www.swirlds.com/downloads/SWIRLDS-TR-2016-02.pdf"&gt;How it Works (Graphically)&lt;/a&gt;,
-because unlike some other directed acyclic graph algorithms, or even Paxos,
+&lt;p&gt;Unlike some other directed acyclic graph algorithms, or even Paxos,
 it really is quite easy to step through the Hashgraph algorithm.
-I couldn't do it more succinctly here.&lt;/p&gt;
+I couldn't do it more succinctly here.
+I'll again point the interested reader to whitepapers for how it works :
+&lt;a href="http://www.swirlds.com/downloads/SWIRLDS-TR-2016-02.pdf"&gt;graphically&lt;/a&gt;,
+and &lt;a href="http://www.swirlds.com/downloads/Swirlds-and-Sybil-Attacks.pdf"&gt;example voting scenarios&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;Hashgraph: the good&lt;/h2&gt;
 &lt;p&gt;It is &lt;a href="https://hackernoon.com/demystifying-hashgraph-benefits-and-challenges-d605e5c0cee5"&gt;fast&lt;/a&gt;,
 &lt;a href="https://hashgraph.com/faq/#what-is-fairness"&gt;fair&lt;/a&gt;,

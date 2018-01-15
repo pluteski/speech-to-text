@@ -73,7 +73,7 @@ presents several pitfalls. It is:
 * Subject to allowing huge backlog of unconfirmed transactions to accumulate.
 * Network bandwidth intensive.
 * [Susceptible to a 25% economic attack](https://arxiv.org/abs/1311.0243).
-* [Heavyweight](https://bitcoin.org/en/full-node). Full nodes must download the entire blockchain.  [Lightweight nodes must trust the full nodes](https://en.bitcoin.it/wiki/Full_node).
+* [Heavyweight](https://bitcoin.org/en/full-node). Full nodes must download the entire blockchain, currently 60 GB.  [Lightweight nodes must trust the full nodes](https://en.bitcoin.it/wiki/Full_node).
 
 Bitcoin protocol does not implement consensus
 in the traditional distributed computing sense.
@@ -111,11 +111,9 @@ Please see : [How it Works (Graphically)](http://www.swirlds.com/downloads/SWIRL
 At this point, some applications could [dump all previous events](http://ajitvadakayil.blogspot.com/2017/10/blockchain-smart-contracts-part-8-capt.html).
 In applications where the transaction timeseries can be
 summarized by sufficient statistics, the hashgraph
-history could be archived. This also means that _a new node doesn't need to load the entire hashgraph history_.
-There is no notion of full node and lightweight node,
-reducing the space required per node from Bitcoin’s 60 GB
-to under one gigabyte allowing a [smartphone to act as a node](https://squawker.org/technology/blockchain-just-became-obsolete-the-future-is-hashgraph/).
-
+history could be archived. This also means that _a new node doesn't need to load the entire hashgraph history_,
+greatly reducing the space required and allowing a [smartphone to act as a node](https://squawker.org/technology/blockchain-just-became-obsolete-the-future-is-hashgraph/).
+There is no notion of full node and lightweight node, meaning that all nodes can participate in consensus and see the full ledger.
 
 ## Virtual elections: better than regular elections?
 Many people consider Hashgraph to be more comparable to PBFT, Paxos, Raft, Zab,

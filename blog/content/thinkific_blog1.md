@@ -8,16 +8,57 @@ Date:        2018-07-29
 
 
 
-Figure 0. Spark UI
+<p align="center">
+<img src="https://github.com/pluteski/speech-to-text/blob/master/blog/content/images/spark/L4.UI.DAG.png" alt="Spark UI DAG" width="300px"/>
+<br>
+<b>Figure 0</b>
+</p>
 
-# How to showcase your Apache Spark skills
+# How to spotlight Apache Spark skills 
 How do you prove your capability as a Apache Spark data scientist when you don’t have much to show? Perhaps this is because you don’t have much experience.  Perhaps it is because the work you do does not lend itself to being shown to others.  You may have done impressive work, but have nothing to show for it because most developers work for companies that don’t publish their code as open source. 
 
+I am going to give you some tips for bringing your skills out of the dark 
+and into the light. 
 
-## How to show what you know
+## Publish your work
+Publishing a code project is a great way to introduce yourself to an interviewer. This also provides them with ample talking points for various styles of interview questions.  Doing this makes the interviewers job easier. 
+By doing so you are giving them context on what you already know, and providing talking points for interview questions. 
+Interviewers in the software industry are often stretched thin; making their job easier puts them into a better mood while also demonstrating your preparedness. 
+
+This can be helpful for many types of interview questions, including behavioral questions, situational questions, coding challenges, and system design challenges. 
+
+As an example, take [this python repo](https://github.com/pluteski/first2017mp) I published on github.
+I developed this during my role as a mentor for a robotics team.  
+The repo uses [the readme](https://github.com/pluteski/first2017mp/blob/master/README.md) to explain the project at a high level manner while also 
+giving a developer a quick start guide. 
+Often overlooked, [the repo wiki](https://github.com/pluteski/first2017mp/wiki)
+is a great way to elaborate further in breadth as well as depth.
+
+The wiki is a great place to provide visuals that allow readers to quickly get a sense of what your project does. 
+[Figure 1](https://github.com/pluteski/first2017mp/raw/master/images/stage3_paths_ne.png) 
+and [Figure 2](https://github.com/pluteski/first2017mp/raw/master/images/stage2_fleur_de_lis.png) 
+are two of the most visually appealing visualizations that give the reader an idea at a glance of what is being done and how, and draw the reader in to learn more.
+
+<p align="center">
+<img src="https://github.com/pluteski/first2017mp/raw/master/images/stage2_fleur_de_lis.png" alt="Fleur-de-lis search pattern (copyright Mark E Plutowski)" width="300px"/>
+<br>
+<b>Figure 1</b>
+</p>
+
+<p align="center">
+<img src="https://github.com/pluteski/first2017mp/raw/master/images/stage3_paths_ne.png" alt="Sample trajectories (copyright Mark E Plutowski)" width="400px"/>
+<br>
+<b>Figure 2</b>
+</p>
+
+
+## Show what you know
 In this article I will show you how you can showcase your skills. By doing so, you will also learn new relevant skills along the way.  I’ll show you how publishing your work using self-explanatory visualizations can separate your from the pack.  I’ll also show how to select a coding project that demonstrates useful skills that are immediately applicable in a production setting.  Furthermore, by setting this up for yourself, you will also acquire new skills that are valuable for the coding challenge portion of the interview, as well as being directly transferable to the job itself.
 
-## Use your edge, gain a new one
+## Know what you show
+To utilize this approach effectively, you must be intimately familiar with every line of content in your repo. The best way to achieve this is to create an original work of your own design, developed step by step from start to finish by yourself. Once you get started this may not take as long as you expect. On the other hand, there may be steps that blossom into much more time-intensive investment than you expected.  That's actually ok -- it gives you something interesting to explain when discussing your process. 
+
+## Hone your edge, gain a new one
 Someone who has well organized and nontrivial open source code will be prioritised over other similarly experienced candidates, but because their competencies are easier to evaluate.  By providing visibility you simplify the job of the recruiters and interviewers, while simultaneously preparing yourself for the interview, as well as learning relevant skills that will be useful on the job.
 
 
@@ -25,14 +66,6 @@ Someone who has well organized and nontrivial open source code will be prioritis
 Source: https://github.com/pluteski/first2017mp/raw/master/images/stage2_fleur_de_lis.png 
 
 Figure 1. Fleur-de-lis search pattern used by an algorithm that I developed. Not only does it illustrate a key step, it is also an interesting visualization. 
-
-
-## Publish your work
-Publishing a code project is a great way to introduce yourself to an interviewer and provide them with ample talking points for various styles of interview questions.  Doing this makes the interviewers job easier by giving them context on what you already know, and providing talking points for interview questions.  This can be helpful for many types of interview questions, including behavioral questions, situational questions, coding questions, and system design questions. 
-
-As an example, take this a python repo I published on github during my stint as a mentor for a robotics team.  I use the readme to explain the project in a high level manner that also allows a developer to quickly test the code. I use the repo wiki to elaborate further.  
-
-The wiki is a great place to provide visuals that allow readers to quickly get a sense of what your project does. Figure 1 and Figure 2 are two of the most visually appealing visualizations that give the reader an idea at a glance of what is being done and how, and draw the reader in to learn more.
 
 
 Source : https://github.com/pluteski/first2017mp/raw/master/images/stage3_paths_ne.png 
@@ -66,8 +99,7 @@ Providing these assets gives the interviewer opportunity to derive behavioral qu
 
 It also provides code screeners example code that can be used as a starting point for more in depth exploration of your skills. Instead of selecting a random problem, they may choose a coding challenge that is within your wheelhouse. 
 
-## Know what you show
-To utilize this approach effectively, you must be intimately familiar with every line of content in your repo. The best way to achieve this is to create an original work of your own design, developed step by step from start to finish by yourself. Once you get started this may not take as long as you expect. On the other hand, there may be steps that blossom into much more time-intensive investment than you expected.  That's actually ok -- it gives you something interesting to explain when discussing your process. 
+## Showcasing your repo
 
 Getting off and running is greatly simplified by reviewing other code repos. Review code repositories relevant to your own goals and learn how to distinguish effective ones from half-baked ones. Pick one or two to serve as a role model for your own design, and then make it your own.
 
@@ -155,6 +187,6 @@ type "Preview",
 select "Markdown Preview: Python Markdown: Preview in Browser", and 
 hit enter 
 
-Shift-CMD-O
+option-CMD-O
 
 -->

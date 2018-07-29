@@ -9,7 +9,7 @@ Date:        2018-07-29
 
 # How to spotlight your Apache Spark skills 
 
-<img id="img1" align="right" hspace=10x src="http://github.com/pluteski/speech-to-text/raw/master/blog/content/images/spark/L4.UI.DAG.png" alt="Spark UI DAG" width="230px"
+<img align="right" hspace=10x src="http://github.com/pluteski/speech-to-text/raw/master/blog/content/images/spark/L4.UI.DAG.png" alt="Spark UI DAG" width="230px"
 />
 <br>
 
@@ -123,15 +123,21 @@ In this case, there might already be an existing solution for solving a problem.
 By nontrivial here I mean something that takes more than a few seconds to process.  If the data set does not push the compute resources of your development environment you might use an inefficient solution instead of a performant one.  If you use a nontrivial dataset you can showcase the difference between an inefficient algorithm and a performant algorithm.  It also makes the results more interesting, and gives you more to talk about. 
 
 My [Learning Apache Spark SQL](https://learn-apache-spark.thinkific.com/courses/spark-sql) course 
-showcases a code project based around a 6.5 MiB dataset containing 1,095,695 words, 128,467 lines, and 41,762 distinct words.  The analyses it uses are especially customized for this dataset, and might not be pertinent even to 
-a different text corpus.  Analyses you choose for the dataset of your choice indicate your ability to understand a data set, pose interesting questions, create queries for answering those questions, and efficiently implement those queries on a large dataset. 
+uses a 6.5 MiB dataset containing 1,095,695 words, 128,467 lines, and 41,762 distinct words. This size of dataset is just large enough to pose a challenge to a standard development grade laptop.
 
 ## Compare Spark with an alternative computing platform
-In this approach, you select a data set, perform an analysis of it using two different programming languages or computing platforms. For example you might first ue scikit-learn, numpy, or pandas, and then do the same analysis using Apache Spark.  Or, you might compare and contrast Hive vs Spark. 
+In this approach, you select a data set, and perform an analysis of it using two different paradigms, such as two different programming languages or computing platforms. For example you might first use a python library such as scikit-learn, numpy, or pandas, and then redo the same analysis using Apache Spark.  Or, you could compare and contrast Hive vs Spark. 
 
-I had performed a similar exercise myself (2016). A couple years later, Databricks published the results of a similar study on their blog, Benchmarking Apache Spark on a Single Node Machine - The Databricks Blog. 
-Use Spark along with a cloud api 
-Cloud apis provide powerful means of handling large datasets for certain applications; however, preparing the data for upload to the cloud api may require substantial preprocessing. Cloud apis can also generate a lot of log data.  For example, I  evaluated IBM Watson and the Google Cloud speech-to-text cloud apis, and then compared the results (cf., on bleu scores and transcription rates, and on transcription rate for noisy recordings) by analyzing the log data.  In this case, I used sqlite to run the queries. When I redo this I plan to use Spark SQL instead. 
+I had performed a [similar exercise myself (2016)](http://qr.ae/TUIbIH). 
+A couple years later, Databricks published the results of a similar study on their blog: [Benchmarking Apache Spark on a Single Node Machine](https://databricks.com/blog/2018/05/03/benchmarking-apache-spark-on-a-single-node-machine.html).
+
+## Use Spark along with a cloud api 
+
+Cloud apis provide powerful means of handling large datasets for certain applications; however, preparing the data for upload to the cloud api may require substantial preprocessing. Cloud apis can also generate a lot of log data.  For example, I compared [IBM Watson and the Google Cloud speech-to-text cloud apis](https://pluteski.github.io/speech-to-text/on-batch-processing-audio-speech-to-text.html), 
+and then compared the results by using sql to analyze the log data (cf., 
+[on bleu scores and transcription rates](https://pluteski.github.io/speech-to-text/on-bleu-scores-and-transcription-rates.html), 
+and [on transcription rate for noisy recordings](https://pluteski.github.io/speech-to-text/on-transcription-rate-for-noisy-recordings-ibm)).  In this case, I used sqlite to run the queries. 
+When I redo this I plan to use Spark SQL instead. 
 
 This type of project gives you even more to talk about: how to integrate Spark with a cloud api, what operations are suitable for Spark and which ones are more suitable to do within the cloud api, what post-processing analytics steps are there for which Spark is especially suitable.  Provide visuals where meaningful, e.g. Figure 5.  Your wiki can also show resource consumption by screenshotting the Spark UI, such as shown in Figure 0.
 
@@ -141,11 +147,11 @@ Source: https://learn-apache-spark.thinkific.com/courses/spark-sql
 
 Figure 3. Frequent 5-tuple analysis on The Collected Works of Sherlock Holmes corpus
 
-
 ## Use Spark to extract training features from a data set
 Many data science jobs require the ability to train statistical models based on feature data gleaned from raw data. There is an abundance of data that you could use to demonstrate your ability to perform this. 
 
-My Apache Spark SQL course shows how to extract moving-window n-tuples from a text corpus. Figure 4 illustrates this for 4-tuples, though it is easily generalizable to arbitrary length n-tuples. This would provide a good starting point for a feature extractor that vectorizes this into a form that can be provided as input to a neural network model. 
+My [Apache Spark SQL course](https://www.experfy.com/training/courses/apache-spark-sql) 
+shows how to extract moving-window n-tuples from a text corpus. This would provide a good starting point for a feature extractor that vectorizes this into a form that can be provided as input to a neural network model. 
 
 **Examples of modeling tasks**
 
@@ -169,8 +175,16 @@ If you can generate features for one of these types of models or tasks start-to-
 
 Source: https://learn-apache-spark.thinkific.com/courses/spark-sql 
 
+
+<p align="left">
+<img align="left" hspace=10x src="http://github.com/pluteski/speech-to-text/raw/master/blog/content/images/spark/moving_4tuples.png" alt="moving 4-tuples" width="600px"
+
 Figure 4. Moving n-tuple features from The Collected Works of Sherlock Holmes corpus
 
+<br>
+<b>Figure 4. Spark UI details for a sql query </b>
+</p>
+<br>
 
 
 Source: https://github.com/pluteski/speech-to-text/blob/master/images/bleu_score_deciles.png?raw=true
@@ -178,8 +192,48 @@ Source: https://github.com/pluteski/speech-to-text/blob/master/images/bleu_score
 Figure 5. Bleu score analysis comparing speech-to-text cloud apis
 
 
+# Use the Spark UI to analyze performance
+
+<p align="left">
+<img align="left" hspace=10x src="http://github.com/pluteski/speech-to-text/raw/master/blog/content/images/spark/L4.a.UI.SQL.query5.Plan1.png" alt="Spark UI DAG" width="600px"
+/>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+The Spark UI is extremely useful for evaluating its usage of computing resources such as cpu, memory, i/o, and data transfer. 
+This figure shows the Spark UI details for a sql query, 
+showing the number of rows of data scanned, the number of files loaded, 
+how much memory was used, and whether any data was spilled to disk from cache. 
+Being able to analyze the internals of a system is an extremely practical 
+skill that is desirable for most development positions, including data scientists. Being able to explain what this graph means and how it relates to your code would be an excellent way to convey your understanding of how your
+code is executed by the system. 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<b>Figure 3. Spark UI details for a sql query </b>
+</p>
+<br>
+<br>
+
+<p align="center">
+<img id="img1" hspace=10x src="http://github.com/pluteski/speech-to-text/raw/master/blog/content/images/spark/L4.a.UI.Sql.query5.Plan3.png" alt="Spark UI DAG" width="800px"
+/>
+<br>
+<b>Figure 4. Sql query plans </b>
+</p>
+
+
+
+<br>
 # Conclusion
-There are many ways to learn Apache Spark and apply it realistically to nontrivial datasets; however, when it comes to interviewing it still comes down to communicating your understanding effectively.  You can accomplish much of this up-front in advance, by tackling a code project, publishing it, and writing up key results in a  visually appealing way. This has the dual benefit of sharpening your skills.
+There are many ways to learn Apache Spark and apply it realistically to nontrivial datasets; however, demonstrating that your are able to do so comes down to communicating your understanding effectively.  You can accomplish much of this up-front in advance, by tackling a code project, publishing it, and writing up key results in a visually appealing way. This has the dual benefit of sharpening your skills.
 
 To learn more and see additional tips and project ideas, see my insanely  low-priced online courseware on 
 [Learning Apache Spark SQL](https://learn-apache-spark.thinkific.com/courses/spark-sql) and 

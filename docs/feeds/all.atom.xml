@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Plutosoft delimited</title><link href="https://pluteski.github.io/speech-to-text/" rel="alternate"></link><link href="https://pluteski.github.io/speech-to-text/feeds/all.atom.xml" rel="self"></link><id>https://pluteski.github.io/speech-to-text/</id><updated>2018-07-29T00:00:00-07:00</updated><entry><title>How to showcase your Apache Spark skills</title><link href="https://pluteski.github.io/speech-to-text/how-to-showcase-your-apache-spark-skills.html" rel="alternate"></link><published>2018-07-29T00:00:00-07:00</published><updated>2018-07-29T00:00:00-07:00</updated><author><name>Mark Plutowski</name></author><id>tag:pluteski.github.io,2018-07-29:/speech-to-text/how-to-showcase-your-apache-spark-skills.html</id><summary type="html">&lt;h1&gt;How to spotlight your Apache Spark skills&lt;/h1&gt;
-&lt;p&gt;&lt;img id="img1" align="right" hspace=10x src="http://github.com/pluteski/speech-to-text/raw/master/blog/content/images/spark/L4.UI.DAG.png" alt="Spark UI DAG" width="230px"
+&lt;p&gt;&lt;img align="right" hspace=10x src="http://github.com/pluteski/speech-to-text/raw/master/blog/content/images/spark/L4.UI.DAG.png" alt="Spark UI DAG" width="230px"
 /&gt;
 &lt;br&gt;&lt;/p&gt;
 &lt;p&gt;How do you prove your capability as a Apache Spark data scientist when you don’t have much to show? Perhaps this is because you don’t have much experience. Perhaps it is because the work you do cannot be shown. 
 You may …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;How to spotlight your Apache Spark skills&lt;/h1&gt;
-&lt;p&gt;&lt;img id="img1" align="right" hspace=10x src="http://github.com/pluteski/speech-to-text/raw/master/blog/content/images/spark/L4.UI.DAG.png" alt="Spark UI DAG" width="230px"
+&lt;p&gt;&lt;img align="right" hspace=10x src="http://github.com/pluteski/speech-to-text/raw/master/blog/content/images/spark/L4.UI.DAG.png" alt="Spark UI DAG" width="230px"
 /&gt;
 &lt;br&gt;&lt;/p&gt;
 &lt;p&gt;How do you prove your capability as a Apache Spark data scientist when you don’t have much to show? Perhaps this is because you don’t have much experience. Perhaps it is because the work you do cannot be shown. 
@@ -90,19 +90,24 @@ You want the reader to know that this is an original creation of your own making
 &lt;h2&gt;Use Spark to analyze a nontrivial data set&lt;/h2&gt;
 &lt;p&gt;By nontrivial here I mean something that takes more than a few seconds to process.  If the data set does not push the compute resources of your development environment you might use an inefficient solution instead of a performant one.  If you use a nontrivial dataset you can showcase the difference between an inefficient algorithm and a performant algorithm.  It also makes the results more interesting, and gives you more to talk about. &lt;/p&gt;
 &lt;p&gt;My &lt;a href="https://learn-apache-spark.thinkific.com/courses/spark-sql"&gt;Learning Apache Spark SQL&lt;/a&gt; course 
-showcases a code project based around a 6.5 MiB dataset containing 1,095,695 words, 128,467 lines, and 41,762 distinct words.  The analyses it uses are especially customized for this dataset, and might not be pertinent even to 
-a different text corpus.  Analyses you choose for the dataset of your choice indicate your ability to understand a data set, pose interesting questions, create queries for answering those questions, and efficiently implement those queries on a large dataset. &lt;/p&gt;
+uses a 6.5 MiB dataset containing 1,095,695 words, 128,467 lines, and 41,762 distinct words. This size of dataset is just large enough to pose a challenge to a standard development grade laptop.&lt;/p&gt;
 &lt;h2&gt;Compare Spark with an alternative computing platform&lt;/h2&gt;
-&lt;p&gt;In this approach, you select a data set, perform an analysis of it using two different programming languages or computing platforms. For example you might first ue scikit-learn, numpy, or pandas, and then do the same analysis using Apache Spark.  Or, you might compare and contrast Hive vs Spark. &lt;/p&gt;
-&lt;p&gt;I had performed a similar exercise myself (2016). A couple years later, Databricks published the results of a similar study on their blog, Benchmarking Apache Spark on a Single Node Machine - The Databricks Blog. 
-Use Spark along with a cloud api 
-Cloud apis provide powerful means of handling large datasets for certain applications; however, preparing the data for upload to the cloud api may require substantial preprocessing. Cloud apis can also generate a lot of log data.  For example, I  evaluated IBM Watson and the Google Cloud speech-to-text cloud apis, and then compared the results (cf., on bleu scores and transcription rates, and on transcription rate for noisy recordings) by analyzing the log data.  In this case, I used sqlite to run the queries. When I redo this I plan to use Spark SQL instead. &lt;/p&gt;
+&lt;p&gt;In this approach, you select a data set, and perform an analysis of it using two different paradigms, such as two different programming languages or computing platforms. For example you might first use a python library such as scikit-learn, numpy, or pandas, and then redo the same analysis using Apache Spark.  Or, you could compare and contrast Hive vs Spark. &lt;/p&gt;
+&lt;p&gt;I had performed a &lt;a href="http://qr.ae/TUIbIH"&gt;similar exercise myself (2016)&lt;/a&gt;. 
+A couple years later, Databricks published the results of a similar study on their blog: &lt;a href="https://databricks.com/blog/2018/05/03/benchmarking-apache-spark-on-a-single-node-machine.html"&gt;Benchmarking Apache Spark on a Single Node Machine&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Use Spark along with a cloud api&lt;/h2&gt;
+&lt;p&gt;Cloud apis provide powerful means of handling large datasets for certain applications; however, preparing the data for upload to the cloud api may require substantial preprocessing. Cloud apis can also generate a lot of log data.  For example, I compared &lt;a href="https://pluteski.github.io/speech-to-text/on-batch-processing-audio-speech-to-text.html"&gt;IBM Watson and the Google Cloud speech-to-text cloud apis&lt;/a&gt;, 
+and then compared the results by using sql to analyze the log data (cf., 
+&lt;a href="https://pluteski.github.io/speech-to-text/on-bleu-scores-and-transcription-rates.html"&gt;on bleu scores and transcription rates&lt;/a&gt;, 
+and &lt;a href="https://pluteski.github.io/speech-to-text/on-transcription-rate-for-noisy-recordings-ibm"&gt;on transcription rate for noisy recordings&lt;/a&gt;).  In this case, I used sqlite to run the queries. 
+When I redo this I plan to use Spark SQL instead. &lt;/p&gt;
 &lt;p&gt;This type of project gives you even more to talk about: how to integrate Spark with a cloud api, what operations are suitable for Spark and which ones are more suitable to do within the cloud api, what post-processing analytics steps are there for which Spark is especially suitable.  Provide visuals where meaningful, e.g. Figure 5.  Your wiki can also show resource consumption by screenshotting the Spark UI, such as shown in Figure 0.&lt;/p&gt;
 &lt;p&gt;Source: https://learn-apache-spark.thinkific.com/courses/spark-sql &lt;/p&gt;
 &lt;p&gt;Figure 3. Frequent 5-tuple analysis on The Collected Works of Sherlock Holmes corpus&lt;/p&gt;
 &lt;h2&gt;Use Spark to extract training features from a data set&lt;/h2&gt;
 &lt;p&gt;Many data science jobs require the ability to train statistical models based on feature data gleaned from raw data. There is an abundance of data that you could use to demonstrate your ability to perform this. &lt;/p&gt;
-&lt;p&gt;My Apache Spark SQL course shows how to extract moving-window n-tuples from a text corpus. Figure 4 illustrates this for 4-tuples, though it is easily generalizable to arbitrary length n-tuples. This would provide a good starting point for a feature extractor that vectorizes this into a form that can be provided as input to a neural network model. &lt;/p&gt;
+&lt;p&gt;My &lt;a href="https://www.experfy.com/training/courses/apache-spark-sql"&gt;Apache Spark SQL course&lt;/a&gt; 
+shows how to extract moving-window n-tuples from a text corpus. This would provide a good starting point for a feature extractor that vectorizes this into a form that can be provided as input to a neural network model. &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Examples of modeling tasks&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Statistically improbable phrases&lt;/li&gt;
@@ -120,11 +125,57 @@ Cloud apis provide powerful means of handling large datasets for certain applica
 &lt;/ul&gt;
 &lt;p&gt;If you can generate features for one of these types of models or tasks start-to-finish end-to-end, you are probably able to handle other modeling tasks.&lt;/p&gt;
 &lt;p&gt;Source: https://learn-apache-spark.thinkific.com/courses/spark-sql &lt;/p&gt;
-&lt;p&gt;Figure 4. Moving n-tuple features from The Collected Works of Sherlock Holmes corpus&lt;/p&gt;
+&lt;p align="left"&gt;
+&lt;img align="left" hspace=10x src="http://github.com/pluteski/speech-to-text/raw/master/blog/content/images/spark/moving_4tuples.png" alt="moving 4-tuples" width="600px"
+
+Figure 4. Moving n-tuple features from The Collected Works of Sherlock Holmes corpus
+
+&lt;br&gt;
+&lt;b&gt;Figure 4. Spark UI details for a sql query &lt;/b&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;Source: https://github.com/pluteski/speech-to-text/blob/master/images/bleu_score_deciles.png?raw=true&lt;/p&gt;
 &lt;p&gt;Figure 5. Bleu score analysis comparing speech-to-text cloud apis&lt;/p&gt;
+&lt;h1&gt;Use the Spark UI to analyze performance&lt;/h1&gt;
+&lt;p align="left"&gt;
+&lt;img align="left" hspace=10x src="http://github.com/pluteski/speech-to-text/raw/master/blog/content/images/spark/L4.a.UI.SQL.query5.Plan1.png" alt="Spark UI DAG" width="600px"
+/&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+The Spark UI is extremely useful for evaluating its usage of computing resources such as cpu, memory, i/o, and data transfer. 
+This figure shows the Spark UI details for a sql query, 
+showing the number of rows of data scanned, the number of files loaded, 
+how much memory was used, and whether any data was spilled to disk from cache. 
+Being able to analyze the internals of a system is an extremely practical 
+skill that is desirable for most development positions, including data scientists. Being able to explain what this graph means and how it relates to your code would be an excellent way to convey your understanding of how your
+code is executed by the system. 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Figure 3. Spark UI details for a sql query &lt;/b&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;p align="center"&gt;
+&lt;img id="img1" hspace=10x src="http://github.com/pluteski/speech-to-text/raw/master/blog/content/images/spark/L4.a.UI.Sql.query5.Plan3.png" alt="Spark UI DAG" width="800px"
+/&gt;
+&lt;br&gt;
+&lt;b&gt;Figure 4. Sql query plans &lt;/b&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;h1&gt;Conclusion&lt;/h1&gt;
-&lt;p&gt;There are many ways to learn Apache Spark and apply it realistically to nontrivial datasets; however, when it comes to interviewing it still comes down to communicating your understanding effectively.  You can accomplish much of this up-front in advance, by tackling a code project, publishing it, and writing up key results in a  visually appealing way. This has the dual benefit of sharpening your skills.&lt;/p&gt;
+&lt;p&gt;There are many ways to learn Apache Spark and apply it realistically to nontrivial datasets; however, demonstrating that your are able to do so comes down to communicating your understanding effectively.  You can accomplish much of this up-front in advance, by tackling a code project, publishing it, and writing up key results in a visually appealing way. This has the dual benefit of sharpening your skills.&lt;/p&gt;
 &lt;p&gt;To learn more and see additional tips and project ideas, see my insanely  low-priced online courseware on 
 &lt;a href="https://learn-apache-spark.thinkific.com/courses/spark-sql"&gt;Learning Apache Spark SQL&lt;/a&gt; and 
 &lt;a href="https://learn-apache-spark.thinkific.com/courses/sparkml-features"&gt;Learning Apache Spark ML&lt;/a&gt;&lt;/p&gt;

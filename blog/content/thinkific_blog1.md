@@ -51,7 +51,8 @@ is a great way to elaborate further in breadth as well as depth.
 The wiki is a great place to provide visuals that allow readers to quickly get a sense of what your project does. 
 [Figure 1](https://github.com/pluteski/first2017mp/raw/master/images/stage3_paths_ne.png) 
 and [Figure 2](https://github.com/pluteski/first2017mp/raw/master/images/stage2_fleur_de_lis.png) 
-are two of the most visually appealing visualizations that give the reader an idea at a glance of what is being done and how, and draw the reader in to learn more.
+are two of the more visually appealing visualizations from this project. 
+They give the reader an idea at a glance of what is being done and how, and draw the reader in to learn more.
 
 <p align="center">
 <img src="https://github.com/pluteski/first2017mp/raw/master/images/stage2_fleur_de_lis.png" alt="Fleur-de-lis search pattern (copyright Mark E Plutowski)" width="300px"/>
@@ -59,7 +60,7 @@ are two of the most visually appealing visualizations that give the reader an id
 <b>Figure 1. Fleur-de-lis search pattern </b>
 </p>
 
-Figure 1 shows a fleur-de-lis search pattern used by an algorithm that I developed for a simple offline geometric planner. Not only does it illustrate a key step, it is also an appealing visualization. 
+Figure 1 shows a fleur-de-lis search pattern used by an algorithm that I developed for a simple offline geometric planner. Not only is it an appealing visualization, it also illustrates a key step in the algorithm. 
 
 <p align="center">
 <img src="https://github.com/pluteski/first2017mp/raw/master/images/stage3_paths_ne.png" alt="Sample trajectories (copyright Mark E Plutowski)" width="400px"/>
@@ -121,7 +122,9 @@ In this case, there might already be an existing solution for solving a problem.
 ## Use Spark to analyze a nontrivial data set
 By nontrivial here I mean something that takes more than a few seconds to process.  If the data set does not push the compute resources of your development environment you might use an inefficient solution instead of a performant one.  If you use a nontrivial dataset you can showcase the difference between an inefficient algorithm and a performant algorithm.  It also makes the results more interesting, and gives you more to talk about. 
 
-My Apache Spark SQL course on Thinkific showcases a code project based around a 6.5 MiB dataset containing 1,095,695 words, 128,467 lines, and 41,762 distinct words.  The analyses it uses are especially customized for this dataset -- the analyses you choose for the dataset of your choice also indicate your ability to pose interesting questions, create queries for answering those questions, and efficiently implementing those queries on a large dataset. 
+My [Learning Apache Spark SQL](https://learn-apache-spark.thinkific.com/courses/spark-sql) course 
+showcases a code project based around a 6.5 MiB dataset containing 1,095,695 words, 128,467 lines, and 41,762 distinct words.  The analyses it uses are especially customized for this dataset, and might not be pertinent even to 
+a different text corpus.  Analyses you choose for the dataset of your choice indicate your ability to understand a data set, pose interesting questions, create queries for answering those questions, and efficiently implement those queries on a large dataset. 
 
 ## Compare Spark with an alternative computing platform
 In this approach, you select a data set, perform an analysis of it using two different programming languages or computing platforms. For example you might first ue scikit-learn, numpy, or pandas, and then do the same analysis using Apache Spark.  Or, you might compare and contrast Hive vs Spark. 
@@ -176,9 +179,9 @@ Figure 5. Bleu score analysis comparing speech-to-text cloud apis
 
 
 # Conclusion
-There are many ways to learn Apache Spark and apply it realistically to nontrivial datasets; however, when it comes to interviewing it still comes down to communicating your understanding effectively.  You can accomplish much of this up-front in advance, while sharpening your skills, by tackling a code project, publishing it, and writing up key results in a  visually appealing way.  
+There are many ways to learn Apache Spark and apply it realistically to nontrivial datasets; however, when it comes to interviewing it still comes down to communicating your understanding effectively.  You can accomplish much of this up-front in advance, by tackling a code project, publishing it, and writing up key results in a  visually appealing way. This has the dual benefit of sharpening your skills.
 
-To learn more and see additional tips and project ideas, see my insanely low-priced online courseware on  
+To learn more and see additional tips and project ideas, see my insanely  low-priced online courseware on 
 [Learning Apache Spark SQL](https://learn-apache-spark.thinkific.com/courses/spark-sql) and 
 [Learning Apache Spark ML](https://learn-apache-spark.thinkific.com/courses/sparkml-features)
 

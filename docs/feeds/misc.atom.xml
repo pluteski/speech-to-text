@@ -2,29 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Plutosoft delimited - misc</title><link href="https://pluteski.github.io/speech-to-text/" rel="alternate"></link><link href="https://pluteski.github.io/speech-to-text/feeds/misc.atom.xml" rel="self"></link><id>https://pluteski.github.io/speech-to-text/</id><updated>2018-07-29T00:00:00-07:00</updated><entry><title>How to showcase your Apache Spark skills</title><link href="https://pluteski.github.io/speech-to-text/how-to-showcase-your-apache-spark-skills.html" rel="alternate"></link><published>2018-07-29T00:00:00-07:00</published><updated>2018-07-29T00:00:00-07:00</updated><author><name>Mark Plutowski</name></author><id>tag:pluteski.github.io,2018-07-29:/speech-to-text/how-to-showcase-your-apache-spark-skills.html</id><summary type="html">&lt;h1&gt;How to spotlight your Apache Spark skills&lt;/h1&gt;
 &lt;p&gt;&lt;img align="right" hspace=10x src="http://github.com/pluteski/speech-to-text/raw/master/blog/content/images/spark/L4.UI.DAG.png" alt="Spark UI DAG" width="230px"
 /&gt;
-&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;How do you prove your capability as a Apache Spark data scientist when you don’t have much to show? Perhaps this is because you don’t have much experience. Perhaps it is because the work you do cannot be shown. 
+How do you prove your capability as a Apache Spark data scientist when you don’t have much to show? Perhaps this is because you don’t have much experience. Perhaps it is because the work you do cannot be shown. 
 You may …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;How to spotlight your Apache Spark skills&lt;/h1&gt;
 &lt;p&gt;&lt;img align="right" hspace=10x src="http://github.com/pluteski/speech-to-text/raw/master/blog/content/images/spark/L4.UI.DAG.png" alt="Spark UI DAG" width="230px"
 /&gt;
-&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;How do you prove your capability as a Apache Spark data scientist when you don’t have much to show? Perhaps this is because you don’t have much experience. Perhaps it is because the work you do cannot be shown. 
+How do you prove your capability as a Apache Spark data scientist when you don’t have much to show? Perhaps this is because you don’t have much experience. Perhaps it is because the work you do cannot be shown. 
 You may have done impressive work, but have nothing to share because most developers work for companies that don’t publish their code as open source. &lt;/p&gt;
-&lt;p&gt;In my long and successful career 
+&lt;p&gt;In my long career 
 as data scientist and machine learning developer, I have learned many useful lessons for organizing information and presenting it effectively. 
 I have created online courses to help the aspiring &lt;a href="https://learn-apache-spark.thinkific.com/courses/spark-sql"&gt;data scientist&lt;/a&gt; 
 and &lt;a href="https://learn-apache-spark.thinkific.com/courses/sparkml-features"&gt;machine learning developer&lt;/a&gt;. 
 This article is going to delve more into how to present yourself. 
 I am going to give you some tips for bringing your skills out of the dark and into the light. &lt;/p&gt;
 &lt;h2&gt;Publish your work&lt;/h2&gt;
-&lt;p&gt;Publishing a code project is a great way to introduce yourself to an interviewer. This also provides them with ample talking points for various styles of interview questions.  Doing this makes the interviewers job easier. 
-By doing so you are giving them context on what you already know, and providing talking points for interview questions. 
-Interviewers in the software industry are often stretched thin; making their job easier puts them into a better mood while also demonstrating your preparedness. &lt;/p&gt;
-&lt;p&gt;This can be helpful for many types of interview questions, including behavioral questions, situational questions, coding challenges, and system design challenges. &lt;/p&gt;
+&lt;p&gt;Publishing a code project is a great way to introduce yourself to an interviewer. This also provides the interviewer 
+with ample talking points for various styles of interview questions.&lt;br&gt;
+Doing this makes the interviewers job easier. 
+You are giving them context on what you already know. 
+You also provide them with talking points for initiating discussion. 
+Interviewers in the software industry are often stretched thin. 
+Making their job easier puts them into a better mood. 
+This also demonstrates your preparedness. This type of preparation can be helpful for many types of interview questions, including behavioral questions, situational questions, coding challenges, and system design challenges. &lt;/p&gt;
 &lt;h2&gt;Show what you know&lt;/h2&gt;
-&lt;p&gt;In this article I will show you how you can showcase your skills. By doing so, you will also learn new relevant skills along the way.  I’ll show you how publishing your work using self-explanatory visualizations can separate your from the pack.  I’ll also show how to select a coding project that demonstrates useful skills that are immediately applicable in a production setting.  Furthermore, by setting this up for yourself, you will also acquire new skills that are valuable for the coding challenge portion of the interview, as well as being directly transferable to the job itself.&lt;/p&gt;
+&lt;p&gt;In this article I will show you how you can showcase your Apache Spark skills. I’ll show you how publishing your work in a self-contained manner using informative visualizations can separate your from the pack.  I’ll also show how to select a coding project that demonstrates useful skills that are immediately applicable in a production setting.  Furthermore, in setting this up you acquire skills that are valuable for the coding challenge portion of the interview. &lt;/p&gt;
 &lt;h2&gt;Know what you show&lt;/h2&gt;
-&lt;p&gt;To utilize this approach effectively, you must be intimately familiar with every line of content in your repo. The best way to achieve this is to create an original work of your own design, developed step by step from start to finish by yourself. Once you get started this may not take as long as you expect. On the other hand, there may be steps that blossom into much more time-intensive investment than you expected.  That's actually ok -- it gives you something interesting to explain when discussing your process. &lt;/p&gt;
+&lt;p&gt;To utilize this approach effectively, you must be intimately familiar with every line of content in your repo. The best way to achieve this is to create an original work of your own design, developed from start to finish by yourself. Once you get started this may not take as long as you expect. On the other hand, there may be steps that blossom into much more time-intensive investment than you expected.  That's actually ok -- it gives you something interesting to explain when discussing your process. &lt;/p&gt;
 &lt;h2&gt;Hone your edge, gain a new one&lt;/h2&gt;
 &lt;p&gt;Someone who has well organized and nontrivial open source code will be prioritised over other similarly experienced candidates because their competencies are easier to evaluate.  By providing visibility you simplify the job of the recruiters and interviewers, while simultaneously preparing yourself for the interview, as well as learning relevant skills that will be useful on the job.&lt;/p&gt;
 &lt;h2&gt;Example repo&lt;/h2&gt;
@@ -41,7 +43,7 @@ and &lt;a href="https://github.com/pluteski/first2017mp/raw/master/images/stage2
 are two of the more visually appealing visualizations from this project. 
 They give the reader an idea at a glance of what is being done and how, and draw the reader in to learn more.&lt;/p&gt;
 &lt;p align="center"&gt;
-&lt;img src="https://github.com/pluteski/first2017mp/raw/master/images/stage2_fleur_de_lis.png" alt="Fleur-de-lis search pattern (copyright Mark E Plutowski)" width="300px"/&gt;
+&lt;img src="https://github.com/pluteski/first2017mp/raw/master/images/stage2_fleur_de_lis.png" alt="Fleur-de-lis search pattern (copyright Mark E Plutowski)" width="400px"/&gt;
 &lt;br&gt;
 &lt;b&gt;Figure 1. Fleur-de-lis search pattern &lt;/b&gt;
 &lt;/p&gt;
@@ -87,24 +89,48 @@ If this is not a true representation of what you can do, it can backfire.
 You want the reader to know that this is an original creation of your own making. &lt;/p&gt;
 &lt;h1&gt;Ideas for a coding project&lt;/h1&gt;
 &lt;h2&gt;Migrate an existing solution to Spark&lt;/h2&gt;
-&lt;p&gt;In this case, there might already be an existing solution for solving a problem.  Your mission is to migrate the solution to Apache Spark and compare the results. Many such datasets and associated solutions that you can use as a point of departure exist online. I performed a &lt;a href="http://qr.ae/TUIbIH"&gt;similar exercise myself (2016)&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;In this case, there might already be an existing solution for solving a problem.  Your mission is to migrate the solution to Apache Spark and compare the results. Many such datasets and associated solutions that you can use as a point of departure exist online. I performed a &lt;a href="http://qr.ae/TUIbIH"&gt;similar exercise myself (2016)&lt;/a&gt;, migrating a proof-of-concept classification application to Spark, converting it into a stacked ensemble, and tuning it to be able to handle sixty thousand input features and five hundred thousand training data.&lt;/p&gt;
 &lt;h2&gt;Use Spark to analyze a nontrivial data set&lt;/h2&gt;
-&lt;p&gt;By nontrivial here I mean something that takes more than a few seconds to process.  Using a challenging dataset can help make your project more credible. It makes the results more interesting, and gives you more to talk about.  My &lt;a href="https://learn-apache-spark.thinkific.com/courses/spark-sql"&gt;Learning Apache Spark SQL&lt;/a&gt; course 
-uses a 6.5 MiB dataset containing 1,095,695 words, 128,467 lines, and 41,762 distinct words. This size of dataset is just large enough to pose a challenge to a standard development grade laptop.&lt;/p&gt;
+&lt;p&gt;By nontrivial I mean something that takes more than a few seconds to process.  Using a challenging dataset can help make your project more credible. It makes the results more interesting, and gives you more to talk about.  The &lt;a href="https://learn-apache-spark.thinkific.com/courses/spark-sql"&gt;Learning Apache Spark SQL&lt;/a&gt; course uses a 6.5 MiB dataset containing 1,095,695 words, 128,467 lines, and 41,762 distinct words. This size of dataset is just large enough to pose a challenge to a standard development grade laptop.&lt;/p&gt;
+&lt;p align="center"&gt;
+&lt;img id="img1" hspace=10x src="http://github.com/pluteski/speech-to-text/raw/master/blog/content/images/spark/frequent_5-tuples.png" alt="Frequent 5 tuples" width="600px"
+/&gt;
+&lt;br&gt;
+&lt;b&gt;Figure 4. Most frequent 5 tuples in The Adventures of Sherlock Holmes &lt;/b&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Figure 4 shows the most frequent 5-tuples extracted from "The Project Gutenberg EBook of The Adventures of Sherlock Holmes by Sir Arthur Conan Doyle", obtained using &lt;a href="https://learn-apache-spark.thinkific.com/courses/spark-sql"&gt;Spark SQL&lt;/a&gt; via a moving window function query.&lt;/p&gt;
 &lt;h2&gt;Compare Spark with an alternative computing platform&lt;/h2&gt;
 &lt;p&gt;In this approach, you select a data set, and perform an analysis of it using two different paradigms, such as two different programming languages or computing platforms. For example you might first use a python library such as scikit-learn, numpy, or pandas, and then redo the same analysis using Apache Spark.  Or, you could compare and contrast Hive vs Spark. As mentioned above, I had performed a &lt;a href="http://qr.ae/TUIbIH"&gt;similar exercise myself (2016)&lt;/a&gt;. 
-A couple years later, Databricks published the results of a similar study on their blog: &lt;a href="https://databricks.com/blog/2018/05/03/benchmarking-apache-spark-on-a-single-node-machine.html"&gt;Benchmarking Apache Spark on a Single Node Machine&lt;/a&gt;. &lt;/p&gt;
+A couple years later, Databricks published the results of a similar study on their blog: &lt;a href="https://databricks.com/blog/2018/05/03/benchmarking-apache-spark-on-a-single-node-machine.html"&gt;Benchmarking Apache Spark on a Single Node Machine&lt;/a&gt;. 
+This is a popular analysis because developers are always interested in comparing the performance of competing tools.  However, you better know each tool very well if you choose to explain this analysis in an interview setting 
+because you need to understand each platform equally well.&lt;/p&gt;
 &lt;h2&gt;Use Spark in conjunction with a cloud api&lt;/h2&gt;
 &lt;p&gt;Cloud apis provide powerful means of handling large datasets for certain applications; however, preparing the data for the cloud api may require substantial preprocessing. Cloud apis can also generate a lot of log data.  For example, I compared &lt;a href="https://pluteski.github.io/speech-to-text/on-batch-processing-audio-speech-to-text.html"&gt;IBM Watson and the Google Cloud speech-to-text cloud apis&lt;/a&gt;, 
 and then compared the results by using sql to analyze the log data (cf., 
 &lt;a href="https://pluteski.github.io/speech-to-text/on-bleu-scores-and-transcription-rates.html"&gt;on bleu scores and transcription rates&lt;/a&gt;, 
 and &lt;a href="https://pluteski.github.io/speech-to-text/on-transcription-rate-for-noisy-recordings-ibm"&gt;on transcription rate for noisy recordings&lt;/a&gt;).  In this case, I used sqlite to run the queries. 
 When I redo this I plan to use Spark SQL instead. &lt;/p&gt;
-&lt;p&gt;This type of project gives you even more to talk about: how to integrate Spark with a cloud api, what operations are suitable for Spark and which ones are more suitable to do within the cloud api, what post-processing analytics steps are there for which Spark is especially suitable.  Provide visuals where meaningful, e.g. Figure 5.  Your wiki can also show resource consumption by screenshotting the Spark UI, such as shown in Figure 0.&lt;/p&gt;
+&lt;p&gt;This type of project gives you even more to talk about: how to integrate Spark with a cloud api, what operations are suitable for Spark and which ones are more suitable to do within the cloud api, what post-processing analytics steps are there for which Spark is especially suitable.  &lt;/p&gt;
+&lt;p align="center"&gt;
+&lt;img hspace=10x src="https://github.com/pluteski/speech-to-text/blob/master/images/bleu_score_deciles.png?raw=true" alt="Bleu scores, IBM vs Google" width="600px"
+&lt;/p&gt;
+
 &lt;h2&gt;Use Spark to extract training features from a data set&lt;/h2&gt;
 &lt;p&gt;Many data science jobs require the ability to train statistical models based on feature data gleaned from raw data. There is an abundance of data that you could use to demonstrate your ability to perform this. &lt;/p&gt;
-&lt;p&gt;My &lt;a href="https://www.experfy.com/training/courses/apache-spark-sql"&gt;Apache Spark SQL course&lt;/a&gt; 
-shows how to extract moving-window n-tuples from a text corpus. This would provide a good starting point for a feature extractor that vectorizes this into a form that can be provided as input to a neural network model. &lt;/p&gt;
+&lt;p&gt;My &lt;a href="https://learn-apache-spark.thinkific.com/courses/spark-sql"&gt;Apache Spark SQL course&lt;/a&gt; 
+shows how to extract moving-window n-tuples from a text corpus. This would provide a good starting point for a feature extractor that vectorizes this into a form that can be provided as input to a neural network model. 
+My &lt;a href="https://learn-apache-spark.thinkific.com/courses/sparkml-features"&gt;Apache Spark ML course&lt;/a&gt; shows how to convert these n-tuples from arrays of strings to the sparse integer arrays use by Spark's machine learning models.&lt;/p&gt;
+&lt;p align="center"&gt;
+&lt;img id="img1" hspace=10x src="http://github.com/pluteski/speech-to-text/raw/master/blog/content/images/spark/moving_4tuples.png" alt="moving 4-tuples" width="550px"
+/&gt;
+&lt;br&gt;
+&lt;b&gt;Figure 5. moving 4-tuples &lt;/b&gt;
+&lt;br&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Figure 5 shows moving 4-tuples extracted from the text corpus "The Project Gutenberg EBook of The Adventures of Sherlock Holmes by Sir Arthur Conan Doyle". Each row corresponds to a shifting ahead of the window one word 
+relative to the previous row.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Examples of modeling tasks&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Statistically improbable phrases&lt;/li&gt;
@@ -121,69 +147,63 @@ shows how to extract moving-window n-tuples from a text corpus. This would provi
 &lt;li&gt;Streaming&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;If you can generate features for one of these types of models or tasks start-to-finish end-to-end, you are probably able to handle other modeling tasks.&lt;/p&gt;
-&lt;p&gt;Source: https://learn-apache-spark.thinkific.com/courses/spark-sql &lt;/p&gt;
-&lt;p align="left"&gt;
-&lt;img align="left" hspace=10x src="http://github.com/pluteski/speech-to-text/raw/master/blog/content/images/spark/moving_4tuples.png" alt="moving 4-tuples" width="600px"
-
-Figure 4. Moving n-tuple features from The Collected Works of Sherlock Holmes corpus
-
-&lt;br&gt;
-&lt;b&gt;Figure 4. Spark UI details for a sql query &lt;/b&gt;
-&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;Source: https://github.com/pluteski/speech-to-text/blob/master/images/bleu_score_deciles.png?raw=true&lt;/p&gt;
-&lt;p&gt;Figure 5. Bleu score analysis comparing speech-to-text cloud apis&lt;/p&gt;
 &lt;h1&gt;Use the Spark UI to analyze performance&lt;/h1&gt;
-&lt;p align="left"&gt;
-&lt;img align="left" hspace=10x src="http://github.com/pluteski/speech-to-text/raw/master/blog/content/images/spark/L4.a.UI.SQL.query5.Plan1.png" alt="Spark UI DAG" width="600px"
-/&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-The Spark UI is extremely useful for evaluating its usage of computing resources such as cpu, memory, i/o, and data transfer. 
+&lt;p&gt;Once you've developed your Spark application and run it on a realistic dataset,
+you'll want to demonstrate it in action. 
+Even better if you can display your understanding of compute resources 
+used by Spark when executing your code. &lt;/p&gt;
+&lt;p&gt;The Spark UI is extremely useful for evaluating its usage of computing resources such as cpu, memory, i/o, and data transfer. 
 This figure shows the Spark UI details for a sql query, 
 showing the number of rows of data scanned, the number of files loaded, 
 how much memory was used, and whether any data was spilled to disk from cache. 
 Being able to analyze the internals of a system is an extremely practical 
 skill that is desirable for most development positions, including data scientists. Being able to explain what this graph means and how it relates to your code would be an excellent way to convey your understanding of how your
-code is executed by the system. 
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Figure 3. Spark UI details for a sql query &lt;/b&gt;
+code is executed by the system. &lt;/p&gt;
+&lt;p align="center"&gt;
+&lt;b&gt;Figure 6. Spark UI details for a sql query &lt;/b&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;img src="http://github.com/pluteski/speech-to-text/raw/master/blog/content/images/spark/L4.a.UI.SQL.query5.Plan1.png" alt="Spark UI DAG" width="800px"
+/&gt;
 &lt;/p&gt;
 
 &lt;p&gt;&lt;br&gt;
 &lt;br&gt;&lt;/p&gt;
+&lt;p&gt;Figure 6 shows the resource consumption of a Spark query using the SQL tab within the Spark UI for a moving window query over 68 MiB of data, comprising 75,485 rows.
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p align="center"&gt;
 &lt;img id="img1" hspace=10x src="http://github.com/pluteski/speech-to-text/raw/master/blog/content/images/spark/L4.a.UI.Sql.query5.Plan3.png" alt="Spark UI DAG" width="800px"
 /&gt;
 &lt;br&gt;
-&lt;b&gt;Figure 4. Sql query plans &lt;/b&gt;
+&lt;b&gt;Figure 7. Query plans &lt;/b&gt;
 &lt;/p&gt;
 
+&lt;p&gt;Figure 7 shows query plans used by the Spark query shown in Figure 6.
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p align="center"&gt;
+&lt;img id="img1" hspace=10x src="http://github.com/pluteski/speech-to-text/raw/master/blog/content/images/spark/L4.UI.DAG2.png" alt="Spark UI DAG" width="400px"
+/&gt;
+&lt;br&gt;
+&lt;b&gt;Figure 9. Detailed DAG Visualization &lt;/b&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Figure 9 shows a DAG visualization similar to the first one shown at the top of this article, but with additional detail enabled.
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p align="center"&gt;
+&lt;img id="img1" hspace=10x src="http://github.com/pluteski/speech-to-text/raw/master/blog/content/images/spark/L4.UI.TE1.png" alt="Spark UI DAG" width="800px"
+/&gt;
+&lt;br&gt;
+&lt;b&gt;Figure 10. Spark UI Executors tab &lt;/b&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Figure 10 shows the Executors tab in the Spark UI for an application that 
+had completed 40327 tasks and inputting 282 GB of data. 
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;h1&gt;Summary&lt;/h1&gt;
-&lt;p&gt;There are many ways to learn Apache Spark. However, demonstrating your competency still depends on communicating your understanding effectively.  You can accomplish much of this in advance, by tackling a code project, publishing it, and writing up key results in a visually appealing way. This has the dual benefit of sharpening your skills.&lt;/p&gt;
+&lt;p&gt;Demonstrating your competency still depends on communicating your understanding effectively.  You can accomplish much of this in advance, by tackling a code project, publishing it, and writing up key results in a visually appealing way. This has the dual benefit of sharpening your skills.&lt;/p&gt;
 &lt;p&gt;To learn more and see additional tips and project ideas, see my insanely  low-priced online courseware on 
 &lt;a href="https://learn-apache-spark.thinkific.com/courses/spark-sql"&gt;Learning Apache Spark SQL&lt;/a&gt; and 
-&lt;a href="https://learn-apache-spark.thinkific.com/courses/sparkml-features"&gt;Learning Apache Spark ML&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Figure 3. Frequent 5-tuple analysis on The Collected Works of Sherlock Holmes corpus&lt;/p&gt;
-&lt;p&gt;&amp;lt;-- call the Markdown Preview command via the Command Palette: &lt;/p&gt;
-&lt;p&gt;control+shift+p to call up the Command Palette, 
-type "Preview", 
-select "Markdown Preview: Preview in Browser", and 
-hit enter &lt;/p&gt;
-&lt;p&gt;option-CMD-O : OmniMarkupPreviewer&lt;/p&gt;
-&lt;p&gt;--&amp;gt;&lt;/p&gt;</content></entry><entry><title>Review of Max Tegmark's “Life 3.0"</title><link href="https://pluteski.github.io/speech-to-text/review-of-max-tegmarks-life-30.html" rel="alternate"></link><published>2018-05-20T00:00:00-07:00</published><updated>2018-05-20T00:00:00-07:00</updated><author><name>Mark Plutowski</name></author><id>tag:pluteski.github.io,2018-05-20:/speech-to-text/review-of-max-tegmarks-life-30.html</id><summary type="html">&lt;h1&gt;Book Review&lt;/h1&gt;
+&lt;a href="https://learn-apache-spark.thinkific.com/courses/sparkml-features"&gt;Learning Apache Spark ML&lt;/a&gt;&lt;/p&gt;</content></entry><entry><title>Review of Max Tegmark's “Life 3.0"</title><link href="https://pluteski.github.io/speech-to-text/review-of-max-tegmarks-life-30.html" rel="alternate"></link><published>2018-05-20T00:00:00-07:00</published><updated>2018-05-20T00:00:00-07:00</updated><author><name>Mark Plutowski</name></author><id>tag:pluteski.github.io,2018-05-20:/speech-to-text/review-of-max-tegmarks-life-30.html</id><summary type="html">&lt;h1&gt;Book Review&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;"Life 3.0 : Being Human in the Age of Artificial Intelligence”&lt;/strong&gt; by Max Tegmark.&lt;/p&gt;
 &lt;p&gt;This is a review of the Audible Edition of Life 3.0 by Max Tegmark.
 The audio edition I read was separated into 45 segments, or “chapters”,

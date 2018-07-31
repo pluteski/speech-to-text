@@ -2,9 +2,10 @@ Title:  The dirt on Hashgraph
 Subtitle:    What we know about Hashgraph c.2017
 Project:     Cryptocurious
 Author:      Mark Plutowski
-Affiliation: Plutosoft Delimited
+Affiliation: Plutoware Delimited
 Web:         https://pluteski.github.io
 Date:        2018-01-07
+
 
 
 ![emonocle byEMIIA](https://1.bp.blogspot.com/-DpZwufJmu_Y/Wh6lGuTNRmI/AAAAAAAABUU/0W2PLj5w-j4ql9RE8Otwk5DrB3UcgKOGQCLcBGAs/s1600/hashgraph%2B%25282%2529.gif)
@@ -23,7 +24,7 @@ _Whaaaat?_  A system based on second hand rumors and some sort of whisper logs? 
 Read on to find out.
 
 #### About the author
-I am just an interested learner coming up to speed on blockchain technologies, distributed ledger technologies,
+I am a developer of blockchain technologies, distributed ledger technologies,
 and decentralized consensus systems.
 At the time of writing this article I have no investment in any cryptocurrency, I do not work for or represent
 any organization related to cryptocurrencies or distributed ledger technologies.

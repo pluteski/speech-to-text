@@ -2,7 +2,7 @@ Title:  Review of Max Tegmark's “Life 3.0"
 Subtitle:    Flawed but powerful.  Required reading, but not for the reasons I expected.
 Project:     Life as We Know It
 Author:      Mark Plutowski
-Affiliation: Plutosoft Delimited
+Affiliation: Plutoware Delimited
 Web:         https://pluteski.github.io
 Date:        2018-05-20
 

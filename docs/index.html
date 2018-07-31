@@ -55,12 +55,19 @@ This also demonstrates your preparedness. This type of preparation can be helpfu
 <h2>Know what you show</h2>
 <p>To utilize this approach effectively, you must be intimately familiar with every line of content in your repo. The best way to achieve this is to create an original work of your own design, developed from start to finish by yourself. Once you get started this may not take as long as you expect. On the other hand, there may be steps that blossom into much more time-intensive investment than you expected.  That's actually ok -- it gives you something interesting to explain when discussing your process. </p>
 <h2>Hone your edge, gain a new one</h2>
-<p>Someone who has well organized and nontrivial open source code will be prioritised over other similarly experienced candidates because their competencies are easier to evaluate.  By providing visibility you simplify the job of the recruiters and interviewers, while simultaneously preparing yourself for the interview, as well as learning relevant skills that will be useful on the job.</p>
-<h2>Example repo</h2>
-<p>As an example, take <a href="https://github.com/pluteski/first2017mp">this python repo</a> 
-that I published on github. 
-I developed this during my role as a mentor for a robotics team.  The repo 
-uses <a href="https://github.com/pluteski/first2017mp/blob/master/README.md">the readme</a> to explain the project at a high level manner while also 
+<p>Someone who has well organized and nontrivial open source code will be prioritised over other similarly experienced candidates because their competencies are easier to evaluate.  By providing visibility you simplify the job of the recruiters and interviewers, while simultaneously preparing yourself for the interview. Even better, you may learn skills that will be useful on the job.</p>
+<h2>What we will cover</h2>
+<p>In the first part of this article, I'll show an example code repository.
+In the second part I'll discuss strategy for selecting a code project. 
+In the third part I'll give some ideas for a coding project suitable for 
+Apache Spark. 
+In the fourth part I'll show how you can supplement this approach with 
+visualizations obtained from Apache Spark log output and the Spark UI.</p>
+<h1>Example repo</h1>
+<p>As an example, take 
+<a href="https://github.com/pluteski/first2017mp">this python repo</a> that I published on github. 
+I developed this during my role as a mentor for a robotics team to teach students how to use a code repository.
+The repo uses <a href="https://github.com/pluteski/first2017mp/blob/master/README.md">the readme</a> to explain the project at a high level manner while also 
 giving a developer a quick start guide. 
 Often overlooked, <a href="https://github.com/pluteski/first2017mp/wiki">the repo wiki</a>
 is a great way to elaborate further in breadth as well as depth.</p>
@@ -84,8 +91,8 @@ They give the reader an idea at a glance of what is being done and how, and draw
 
 <p>Figure 2 shows trajectories discovered by the planner for one of the goal states overlaid on a depiction of the playing field. </p>
 <h2>Displaying depth and breadth</h2>
-<p>Whereas a resume doesn't give much space for displaying the full extent of 
-your competencies, the wikified repo format can be used to emphasize whatever you want and to arbitrary breadth and depth.</p>
+<p>Whereas space in a resume is limited, the wikified repo format 
+provides ample space to emphasize your abilities to arbitrary breadth and depth. </p>
 <p>You can use the <a href="https://github.com/pluteski/first2017mp/blob/master/README.md">readme page</a> or <a href="https://github.com/pluteski/first2017mp/wiki">the wiki home page</a> to link to other pages that provide context for what you were trying to accomplish, and why your approach is sensible. </p>
 <p>For example, the <a href="https://github.com/pluteski/first2017mp/wiki/Background">Background</a> page of my repo gives a brief primer on Alternative Approaches, and Implementation Steps. The next sections explain the why, what, and how of the project. You could use something similar to demonstrate your depth of understanding of specific techniques. The <a href="https://github.com/pluteski/first2017mp/wiki/RelatedApproaches">Related Approaches page</a> 
 of the repo gives a brief primer on specific alternative approaches that were considered, which one was selected, and why. You could use this to demonstrate your breadth of understanding of a field of interest.  The <a href="https://github.com/pluteski/first2017mp/wiki/Planning-Stages">Planning Stages page</a> describes what the code actually does.  It gives links to python notebooks containing visualizations, such as <a href="https://github.com/pluteski/first2017mp/blob/master/sample_trajectories.ipynb">this sample trajectories notebook</a>. This allows an interviewer to review your code and see how it behaves on actual data, because when you check in the notebook, you also check in the results from the latest run. </p>
@@ -107,7 +114,7 @@ of the repo gives a brief primer on specific alternative approaches that were co
 <p>It also provides code screeners with code examples they can use as a starting point for more in depth exploration of your skills. Instead of selecting a random problem for the coding challenge, they may choose one that is within your wheelhouse. </p>
 <h2>Showcasing your repo</h2>
 <p>Review code repositories relevant to your own goals and learn how to distinguish effective ones from half-baked ones. Pick one or two to serve as a role model for your own design.</p>
-<h2>Choosing a coding project</h2>
+<h1>Choosing a coding project</h1>
 <p>Many new developers make the mistake of picking code projects similar to what they encountered in an academic setting. These are often not relevant to a real-world job as a commercial software developer, because they exclude some of the messier aspects of a commercial application, such as cleansing a dataset, putting data into a form that can be utilized by an efficient algorithm, testing edge cases, and analyzing complex results. Interviewers want to see that you possess knowledge and can learn quickly, but even better if you are familiar with heterogeneous aspects of a development task. A well known AI researcher once said that in the university setting they spent 20% of their time prepping the dataset and 80% on the algorithm development, whereas in a commercial setting this ratio was reversed.</p>
 <h2>Choose well</h2>
 <p>Your mission is to showcase your ability to apply Apache Spark to a nontrivial dataset. As a general rule of thumb -- if you didn’t need to perform any data cleansing or preprocessing on the dataset, the data wasn’t messy enough to be realistic.  If your solution ran in a few seconds it was not challenging enough to test your algorithms. If it didn’t exhaust at least half of the memory available to your system and run the fan to cool the cpu, then you probably could increase the complexity of the task, either by tackling a larger dataset, or by subjecting the dataset to on a more challenging analysis.</p>
@@ -127,18 +134,27 @@ You want the reader to know that this is an original creation of your own making
 </p>
 
 <p>Figure 4 shows the most frequent 5-tuples extracted from "The Project Gutenberg EBook of The Adventures of Sherlock Holmes by Sir Arthur Conan Doyle", obtained using <a href="https://learn-apache-spark.thinkific.com/courses/spark-sql">Spark SQL</a> via a moving window function query.</p>
-<h2>Compare Spark with an alternative computing platform</h2>
-<p>In this approach, you select a data set, and perform an analysis of it using two different paradigms, such as two different programming languages or computing platforms. For example you might first use a python library such as scikit-learn, numpy, or pandas, and then redo the same analysis using Apache Spark.  Or, you could compare and contrast Hive vs Spark. As mentioned above, I had performed a <a href="http://qr.ae/TUIbIH">similar exercise myself (2016)</a>. 
+<h2>Compare Spark to an alternative computing platform</h2>
+<p>In this approach, you select a data set, and perform an analysis of it using two different paradigms, such as two different programming languages or computing platforms. As mentioned above, I had performed a <a href="http://qr.ae/TUIbIH">similar exercise myself (2016)</a>. 
 A couple years later, Databricks published the results of a similar study on their blog: <a href="https://databricks.com/blog/2018/05/03/benchmarking-apache-spark-on-a-single-node-machine.html">Benchmarking Apache Spark on a Single Node Machine</a>. 
 This is a popular analysis because developers are always interested in comparing the performance of competing tools.  However, you better know each tool very well if you choose to explain this analysis in an interview setting 
-because you need to understand each platform equally well.</p>
+because you need to understand each platform equally well. Here are some ideas you can use to come up with your own comparative analysis.</p>
+<ul>
+<li>Apache Spark vs Flink</li>
+<li>Spark vs Numpy</li>
+<li>Spark vs Hive</li>
+<li>Spark vs Map-Reduce</li>
+<li>Spark vs Storm</li>
+<li>Pyspark versus Apache Spark using java or scala</li>
+<li>Python multiprocessing run on high-memory multi-cpu instance vs Spark on a cluster of commodity instances.</li>
+</ul>
 <h2>Use Spark in conjunction with a cloud api</h2>
 <p>Cloud apis provide powerful means of handling large datasets for certain applications; however, preparing the data for the cloud api may require substantial preprocessing. Cloud apis can also generate a lot of log data.  For example, I compared <a href="https://pluteski.github.io/speech-to-text/on-batch-processing-audio-speech-to-text.html">IBM Watson and the Google Cloud speech-to-text cloud apis</a>, 
 and then compared the results by using sql to analyze the log data (cf., 
 <a href="https://pluteski.github.io/speech-to-text/on-bleu-scores-and-transcription-rates.html">on bleu scores and transcription rates</a>, 
 and <a href="https://pluteski.github.io/speech-to-text/on-transcription-rate-for-noisy-recordings-ibm">on transcription rate for noisy recordings</a>).  In this case, I used sqlite to run the queries. 
 When I redo this I plan to use Spark SQL instead. </p>
-<p>This type of project gives you even more to talk about: how to integrate Spark with a cloud api, what operations are suitable for Spark and which ones are more suitable to do within the cloud api, what post-processing analytics steps are there for which Spark is especially suitable.  </p>
+<p>This type of project gives you even more to talk about: how to integrate Spark with a cloud api, what operations are suitable for Spark and which ones are more suitable to do within the cloud api, what post-processing analytics steps are there for which Spark is especially suitable.  This demonstrates that you are not just expecting to run Spark in a sandbox isolated from other systems; you have some knowledge of how to use Spark to leverage other powerful computing frameworks. </p>
 <p align="center">
 <img hspace=10x src="https://github.com/pluteski/speech-to-text/blob/master/images/bleu_score_deciles.png?raw=true" alt="Bleu scores, IBM vs Google" width="600px"
 </p>
@@ -174,7 +190,15 @@ relative to the previous row.</p>
 <li>Streaming</li>
 </ul>
 <p>If you can generate features for one of these types of models or tasks start-to-finish end-to-end, you are probably able to handle other modeling tasks.</p>
-<h1>Use the Spark UI to analyze performance</h1>
+<h1>Demonstrating your knowledge of Spark internals</h1>
+<p>Being able to program the Spark computing framework is good.<br>
+Being able to sensibly explain how it actually executed your code 
+is better.  Being able to discuss how you would restructure the code 
+or tune key parameters to improve the use of a critical compute resource 
+is even better. Spark provides several means of generating visualizations 
+that you can use to illustrate the compute resources used by 
+your Spark code. </p>
+<h2>How to use the Spark UI to analyze performance</h2>
 <p>Once you've developed your Spark application and run it on a realistic dataset,
 you'll want to demonstrate it in action. 
 Even better if you can display your understanding of compute resources 
@@ -188,7 +212,7 @@ skill that is desirable for most development positions, including data scientist
 code is executed by the system. </p>
 <p align="center">
 <b>Figure 6. Spark UI details for a sql query </b>
-<br><br>
+<br>
 <img src="http://github.com/pluteski/speech-to-text/raw/master/blog/content/images/spark/L4.a.UI.SQL.query5.Plan1.png" alt="Spark UI DAG" width="800px"
 />
 </p>
@@ -204,31 +228,37 @@ code is executed by the system. </p>
 <b>Figure 7. Query plans </b>
 </p>
 
-<p>Figure 7 shows query plans used by the Spark query shown in Figure 6.
+<p>Figure 7 shows query plans used by the Spark query shown in Figure 6. 
+This may suggest questions about the difference between different flavors of logical plan. It could be used to compare and contrast a logical plan and physical plan. 
 <br><br></p>
 <p align="center">
 <img id="img1" hspace=10x src="http://github.com/pluteski/speech-to-text/raw/master/blog/content/images/spark/L4.UI.DAG2.png" alt="Spark UI DAG" width="400px"
 />
 <br>
-<b>Figure 9. Detailed DAG Visualization </b>
+<b>Figure 8. Detailed DAG Visualization </b>
 </p>
 
-<p>Figure 9 shows a DAG visualization similar to the first one shown at the top of this article, but with additional detail enabled.
+<p>Figure 8 shows a DAG visualization similar to the DAG visualization in the 
+very first figure shown at the top of this article, but with additional detail enabled. Don't display this level of detail if you cannot back it up with 
+answers to the questions it may trigger; but if you can pull that off you 
+will be a more credible candidate. 
 <br><br></p>
 <p align="center">
 <img id="img1" hspace=10x src="http://github.com/pluteski/speech-to-text/raw/master/blog/content/images/spark/L4.UI.TE1.png" alt="Spark UI DAG" width="800px"
 />
 <br>
-<b>Figure 10. Spark UI Executors tab </b>
+<b>Figure 9. Spark UI Executors tab </b>
 </p>
 
-<p>Figure 10 shows the Executors tab in the Spark UI for an application that 
-had completed 40327 tasks and inputting 282 GB of data. 
+<p>Figure 9 shows the Executors tab in the Spark UI for an application that 
+had completed 40327 tasks over the course of 3.3 hours on a single node cluster having eight cores. This evokes several questions, such as what does the number of tasks correspond to?  How do you suppose the compute resource consumption might have changed if running on a cluster instead of on a single node? It appears that 282 GB of data were inputted, but the amount of shuffle write was small.  What might explain this? 
 <br><br></p>
 <p><br></p>
 <h1>Summary</h1>
-<p>Demonstrating your competency still depends on communicating your understanding effectively.  You can accomplish much of this in advance, by tackling a code project, publishing it, and writing up key results in a visually appealing way. This has the dual benefit of sharpening your skills.</p>
-<p>To learn more and see additional tips and project ideas, see my insanely  low-priced online courseware on 
+<p>Having the competency required to win a desirable role is necessary but not sufficient. You also need to demonstrate your competency during the interview process.  This depends on communicating your understanding effectively. You can accomplish much of this in advance, by tackling a code project and publishing it. Writing up key results in a visually appealing way makes the 
+presentation more compelling and puts your skills in a better light.</p>
+<h2>To learn more</h2>
+<p>To see additional tips and project ideas, see my insanely low-priced online courseware on 
 <a href="https://learn-apache-spark.thinkific.com/courses/spark-sql">Learning Apache Spark SQL</a> and 
 <a href="https://learn-apache-spark.thinkific.com/courses/sparkml-features">Learning Apache Spark ML</a></p><p>There are <a href="https://pluteski.github.io/speech-to-text/how-to-showcase-your-apache-spark-skills.html#disqus_thread">comments</a>.</p>	</article>
 		<section id="article-list">

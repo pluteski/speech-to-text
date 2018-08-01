@@ -90,13 +90,22 @@ of the repo gives a brief primer on specific alternative approaches that were co
 &lt;h1&gt;Choosing a coding project&lt;/h1&gt;
 &lt;p&gt;Many new developers make the mistake of picking code projects similar to what they encountered in an academic setting. These are often not relevant to a real-world job as a commercial software developer, because they exclude some of the messier aspects of a commercial application, such as cleansing a dataset, putting data into a form that can be utilized by an efficient algorithm, testing edge cases, and analyzing complex results. Interviewers want to see that you possess knowledge and can learn quickly, but even better if you are familiar with heterogeneous aspects of a development task. A well known AI researcher once said that in the university setting they spent 20% of their time prepping the dataset and 80% on the algorithm development, whereas in a commercial setting this ratio was reversed.&lt;/p&gt;
 &lt;h2&gt;Choose well&lt;/h2&gt;
-&lt;p&gt;Your mission is to showcase your ability to apply Apache Spark to a nontrivial dataset. As a general rule of thumb -- if you didn’t need to perform any data cleansing or preprocessing on the dataset, the data wasn’t messy enough to be realistic.  If your solution ran in a few seconds it was not challenging enough to test your algorithms. If it didn’t exhaust at least half of the memory available to your system and run the fan to cool the cpu, then you probably could increase the complexity of the task, either by tackling a larger dataset, or by subjecting the dataset to on a more challenging analysis.&lt;/p&gt;
+&lt;p&gt;Your mission is to showcase your ability to apply Apache Spark to a nontrivial real dataset. As a general rule of thumb -- if you didn’t need to perform any data cleansing or preprocessing on the dataset, the data wasn’t messy enough to be realistic.  If your solution ran in a few seconds it was not challenging enough to test your algorithms. If it didn’t exhaust at least half of the memory available to your system and run the fan to cool the cpu, then you probably could increase the complexity of the task, either by tackling a larger dataset, or by subjecting the dataset to on a more challenging analysis.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;"I find that the best portfolio projects are less about doing fancy 
+   modeling and more about working with interesting data." - &lt;a href="https://medium.com/@jasonkgoodman/
+   advice-on-building-data-portfolio-projects-c5f96d8a0627"&gt;Advice on 
+   Building Data Portfolio Projects&lt;/a&gt;, J.Goodman&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;The key to choosing a code project to show in your portfolio is authenticity. 
 If this is not a true representation of what you can do, it can backfire. 
 You want the reader to know that this is an original creation of your own making. &lt;/p&gt;
 &lt;h1&gt;Ideas for a coding project&lt;/h1&gt;
 &lt;h2&gt;Migrate an existing solution to Spark&lt;/h2&gt;
-&lt;p&gt;In this case, there might already be an existing solution for solving a problem.  Your mission is to migrate the solution to Apache Spark and compare the results. Many such datasets and associated solutions that you can use as a point of departure exist online. I performed a &lt;a href="http://qr.ae/TUIbIH"&gt;similar exercise myself (2016)&lt;/a&gt;, migrating a proof-of-concept classification application to Spark, converting it into a stacked ensemble, and tuning it to be able to handle sixty thousand input features and five hundred thousand training data.&lt;/p&gt;
+&lt;p&gt;In this case, there might already be an existing solution for solving a problem.  Your mission is to migrate the solution to Apache Spark and compare the results. Many such datasets and associated solutions that you can use as a point of departure exist online. I performed a &lt;a href="http://qr.ae/TUIbIH"&gt;similar exercise myself (2016)&lt;/a&gt;, migrating a proof-of-concept classification application from scikit/numpy to PySpark, converting it into a stacked ensemble, and tuning it to be able to handle sixty thousand input features and five hundred thousand training data.&lt;/p&gt;
+&lt;p&gt;A couple years later, Databricks published the results of comparing PySpark and Pandas: &lt;a href="https://databricks.com/blog/2018/05/03/benchmarking-apache-spark-on-a-single-node-machine.html"&gt;Benchmarking Apache Spark on a Single Node Machine&lt;/a&gt;. 
+demonstrating that Spark can even be faster than single-node PyData tools because Spark can more easily utilize all cores due to its built-in parallelism. 
+This study found Spark can also have lower memory consumption because it does not require loading the entire data set into memory.&lt;/p&gt;
 &lt;h2&gt;Use Spark to analyze a nontrivial data set&lt;/h2&gt;
 &lt;p&gt;By nontrivial I mean something that takes more than a few seconds to process.  Using a challenging dataset can help make your project more credible. It makes the results more interesting, and gives you more to talk about.  The &lt;a href="https://learn-apache-spark.thinkific.com/courses/spark-sql"&gt;Learning Apache Spark SQL&lt;/a&gt; course uses a 6.5 MiB dataset containing 1,095,695 words, 128,467 lines, and 41,762 distinct words. This size of dataset is just large enough to pose a challenge to a standard development grade laptop.&lt;/p&gt;
 &lt;p align="center"&gt;
@@ -107,18 +116,21 @@ You want the reader to know that this is an original creation of your own making
 &lt;/p&gt;
 
 &lt;p&gt;Figure 4 shows the most frequent 5-tuples extracted from "The Project Gutenberg EBook of The Adventures of Sherlock Holmes by Sir Arthur Conan Doyle", obtained using &lt;a href="https://learn-apache-spark.thinkific.com/courses/spark-sql"&gt;Spark SQL&lt;/a&gt; via a moving window function query.&lt;/p&gt;
-&lt;h2&gt;Compare Spark to an alternative computing platform&lt;/h2&gt;
-&lt;p&gt;In this approach, you select a data set, and perform an analysis of it using two different paradigms, such as two different programming languages or computing platforms. As mentioned above, I had performed a &lt;a href="http://qr.ae/TUIbIH"&gt;similar exercise myself (2016)&lt;/a&gt;. 
-A couple years later, Databricks published the results of a similar study on their blog: &lt;a href="https://databricks.com/blog/2018/05/03/benchmarking-apache-spark-on-a-single-node-machine.html"&gt;Benchmarking Apache Spark on a Single Node Machine&lt;/a&gt;. 
-This is a popular analysis because developers are always interested in comparing the performance of competing tools.  However, you better know each tool very well if you choose to explain this analysis in an interview setting 
-because you need to understand each platform equally well. Here are some ideas you can use to come up with your own comparative analysis.&lt;/p&gt;
+&lt;h2&gt;Compare Apache Spark using two different programming languages.&lt;/h2&gt;
+&lt;p&gt;As PySpark's compilers continue to improve, the &lt;a href="https://github.com/archivesunleashed/aut/files/1997998/udf_performance_doc.pdf"&gt;difference between using python and scala continues to narrow&lt;/a&gt;. If you do everything using Spark SQL, then from there the &lt;a href="https://mindfulmachines.io/blog/2018/6/apache-spark-scala-vs-java-v-python-vs-r-vs-sql26"&gt;performance is equivalent&lt;/a&gt;. 
+This comparison attracts keen interest as developers naturally 
+attempt to reconcile the tension between ease of use and optimal performance.
+Just be sure that your &lt;a href="https://stackoverflow.com/questions/32464122/spark-performance-for-scala-vs-python"&gt;implementation in each language is efficient&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Compare Spark to an alternative parallel computing platform&lt;/h2&gt;
+&lt;p&gt;In this approach, you select a data set, and perform an analysis of it using two different cluster computing paradigms. &lt;/p&gt;
+&lt;p&gt;This is a popular analysis because developers are always interested in comparing the performance of competing tools.  However, you better know each tool very well if you choose to explain this analysis in an interview setting 
+because you need to understand each platform equally well. Here are some other ideas you can use to come up with your own comparative analysis.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Apache Spark vs Flink&lt;/li&gt;
-&lt;li&gt;Spark vs Numpy&lt;/li&gt;
 &lt;li&gt;Spark vs Hive&lt;/li&gt;
 &lt;li&gt;Spark vs Map-Reduce&lt;/li&gt;
 &lt;li&gt;Spark vs Storm&lt;/li&gt;
-&lt;li&gt;Pyspark versus Apache Spark using java or scala&lt;/li&gt;
+&lt;li&gt;Python Numpy or Pandas vs Spark on a single node.&lt;/li&gt;
 &lt;li&gt;Python multiprocessing run on high-memory multi-cpu instance vs Spark on a cluster of commodity instances.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Use Spark in conjunction with a cloud api&lt;/h2&gt;

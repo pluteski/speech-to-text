@@ -41,8 +41,7 @@ This article is going to delve more into how to present yourself.
 I am going to give you some tips for bringing your skills out of the dark and into the light. </p>
 <h2>Publish your work</h2>
 <p>Publishing a code project is a great way to introduce yourself to an interviewer. This also provides the interviewer 
-with ample talking points for various styles of interview questions.<br>
-Doing this makes the interviewers job easier. 
+with ample talking points for various styles of interview questions. Doing this makes the interviewers job easier. 
 You are giving them context on what you already know. 
 You also provide them with talking points for initiating discussion. 
 Interviewers in the software industry are often stretched thin. 
@@ -162,7 +161,7 @@ because you need to understand each platform equally well. Here are some other i
 <p>Cloud apis provide powerful means of handling large datasets for certain applications; however, preparing the data for the cloud api may require substantial preprocessing. Cloud apis can also generate a lot of log data.  For example, I compared <a href="https://pluteski.github.io/speech-to-text/on-batch-processing-audio-speech-to-text.html">IBM Watson and the Google Cloud speech-to-text cloud apis</a>, 
 and then compared the results by using sql to analyze the log data (cf., 
 <a href="https://pluteski.github.io/speech-to-text/on-bleu-scores-and-transcription-rates.html">on bleu scores and transcription rates</a>, 
-and <a href="https://pluteski.github.io/speech-to-text/on-transcription-rate-for-noisy-recordings-ibm">on transcription rate for noisy recordings</a>).  In this case, I used sqlite to run the queries. 
+and <a href="https://pluteski.github.io/speech-to-text/on-transcription-rate-for-noisy-recordings-ibm-ftw.html">on transcription rate for noisy recordings</a>.  In this case, I used sqlite to run the queries. 
 When I redo this I plan to use Spark SQL instead. </p>
 <p>This type of project gives you even more to talk about: how to integrate Spark with a cloud api, what operations are suitable for Spark and which ones are more suitable to do within the cloud api, what post-processing analytics steps are there for which Spark is especially suitable.  This demonstrates that you are not just expecting to run Spark in a sandbox isolated from other systems; you have some knowledge of how to use Spark to leverage other powerful computing frameworks. </p>
 <p align="center">
@@ -173,7 +172,7 @@ When I redo this I plan to use Spark SQL instead. </p>
 <p>Many data science jobs require the ability to train statistical models based on feature data gleaned from raw data. There is an abundance of data that you could use to demonstrate your ability to perform this. </p>
 <p>My <a href="https://learn-apache-spark.thinkific.com/courses/spark-sql">Apache Spark SQL course</a> 
 shows how to extract moving-window n-tuples from a text corpus. This would provide a good starting point for a feature extractor that vectorizes this into a form that can be provided as input to a neural network model. 
-My <a href="https://learn-apache-spark.thinkific.com/courses/sparkml-features">Apache Spark ML course</a> shows how to convert these n-tuples from arrays of strings to the sparse integer arrays use by Spark's machine learning models.</p>
+My <a href="https://learn-apache-spark.thinkific.com/courses/sparkml-features">Apache Spark ML course</a> shows how to convert these n-tuples from arrays of strings to the sparse integer arrays used by Spark.ML's machine learning models.</p>
 <p align="center">
 <img id="img1" hspace=10x src="http://github.com/pluteski/speech-to-text/raw/master/blog/content/images/spark/moving_4tuples.png" alt="moving 4-tuples" width="550px"
 />

@@ -520,7 +520,7 @@ We're not just dealing with AI here, we're potentially dealing with Artificial L
 <img src="https://i.ytimg.com/vi/zkv-_LqTeQA/maxresdefault.jpg" width="500" height="300" />
 
 ### My two cents
-That all said, halting progress is not the answer. I've seen this first-hand -- people throwing out a new tool (i.e., a new technology) because the tool was found to be flawed, only to be utterly pwned by their competition, who saw the same flaws in the tool but strived to find ways to workaround those flaws rather than throw out the new tool altogether. Lost opportunity is a risk that is often unnaccounted for by people who are unaware of the economics underlying the ecosystem in which they reside. 
+That all said, halting progress is not the answer. I've seen this first-hand -- people throwing out a new tool (i.e., a new technology) because the tool was found to be flawed, only to be utterly pwned by their competition, who saw the same flaws in the tool but strived to find ways to workaround those flaws rather than throw out the new tool altogether. Lost opportunity is a risk that is often unaccounted for by people who are unaware of the economics underlying the ecosystem in which they reside. 
 
 ### My key takeaway from this book:
 Understanding artificial intelligence is important.

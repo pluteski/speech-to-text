@@ -16,15 +16,15 @@ which differ from the chapters of the text version.
 
 
 # Tl;dr
-A hot mess early in but ultimately worth it.
+Busts out of the gate, only to decline into a hot mess early in but ultimately well worthwhile.
 
 # Summary
 Perhaps the most important book I’ve read on the topic.
 That said, it drags badly in the middle.
 
 The first chapter excels.
-Subsequent early chapters may disappoint well read aficionados.
-Hang in there until mid-way.
+Subsequent early chapters may disappoint well read aficionados of this topic who are seeking deeper or newer insights.
+To them I would urge to hang in there until mid-way.
 
 If you are the persistent completist type, read the entire thing
 cover to cover.  If you want to cherry pick, start with chapters
@@ -41,13 +41,13 @@ with caveats.
 # Takeaway
 AI is Artificial Life. You know what they say about life.
 
-<img src="https://pre00.deviantart.net/8f21/th/pre/f/2011/185/f/e/life_finds_a_way_by_lerms-d3kzxyl.jpg" width="312" height="312" />
+<img src="https://i.pinimg.com/originals/d7/e3/0e/d7e30e606998c099ff1f518793f254bb.jpg" width="312" height="312" />
 
 > -- <cite>©2011-2018 lerms DeviantArt -- </cite>
 
 If we allow AI's to modify their own goals,
-it is inevitably going to cause us problems.
-
+an AI is inevitably going find a way around its
+core programming.
 
 # Intro
 Until chapter 30 finally rolls around the first chapter
@@ -72,27 +72,38 @@ A review of that song by music critic Walter Everett summed it up:
 the intro promises more than the song delivers.
 It would be as if Slash opened “Sweet Child o Mine” with that famous
 riff only to never launch into his face-melting guitar solo midway into the song.
-Nonetheless, it is still a Beatles song!  Even one of their lesser
-efforts is still enjoyable and better than most everything else by other artists.
+One ranking placed "For You Blue" at 152 out of 227 songs (source: [Ultimate Classic Rock](http://ultimateclassicrock.com/every-beatles-song/)),
+calling it "breezy, tossed-off". Another placed it at 183 out of 213 (source: [Vulture Press](http://www.vulture.com/2017/06/all-213-beatles-songs-ranked-from-worst-to-best.html)),
+implying that it was a "half-baked, substandard throwaway".
+Nonetheless, "For You Blue" is still a Beatles song.
+Even one of their lesser efforts is enjoyable
+and an excellent display of musicianship
+than most everything else by other artists.
+Comparing the early chapters from the second onwards with
+one of the Beatles' lesser efforts is still a complement.
+Still, the analogy describes how I felt early on after the first chapter.
 
-A third of the way in, I went online to compare notes with other readers,
-and determine whether it was going to worthwhile to continue.
-I read about a hundred other reviews of the book.
+![Not the insights?](https://github.com/pluteski/speech-to-text/blob/master/images/Not_The_Insights.png?raw=true)
+
+A third of the way in, I compared notes with other readers
+to determine whether it was going to be worthwhile to continue.
+I read at least a hundred reviews of the book.
 It turns out that I agreed with none of the five star reviews,
 and I agreed with all of the one star and two star reviews.
-(This would change over the course of my reading, but that is how I experienced it.)
+(This would change over the course of my reading, but captures how I experienced this moment in my journey.)
 
 Although I would put myself into the camp that agrees with the author’s core position,
 after that page-turner of a first chapter I found the writing style of the following chapters
 to be very disappointing.
-Too much name dropping, too much appeal to authority.
-Seemingly glossing over or entirely dismissive of contrary views.
+Too much appeal to authority and a lot of name dropping,
+seemingly glossing over or entirely dismissive of contrary views.
+
 There is a notion of “steelmanning”, where the proponent explains
 the best form of the opponent's argument, and then argues with this.
 I wished the author had adopted that approach.
-It seemed to be shaping up as a decent read for the person who knows little about the topic,
+It seemed to be shaping up as a decent read for the person who knew little about the topic,
 but not for someone who has devoured much of it and eagerly seeks
-clarity and insight into its very thorny issues.
+clarity and insight into its thorniest issues.
 
 It was as if entire sections had been delegated to a ghost writer
 and not reviewed closely by the author.
@@ -106,17 +117,18 @@ physics education or familiarity with hard science fiction on spaceborne megastr
 knows that Dyson Spheres are inherently unstable, and
 that a more practical implementation would be something like a Dyson swarm.
 This is something that the author would clearly know,
-which became increasingly apparent based on knowledge conveyed later on.
+which became increasingly apparent based on knowledge conveyed by the author in later chapters.
 I wasn't looking for plodding exposition filled with referenced footnotes of every claim,
 but it was shall we say a bit breathless, and did itself a disservice by
-burying the lede and losing many readers along the way with its sloppy writing.
+burying the lede and losing many of its most interested readers along the way with its
+writing style.
 
-> _Aside : who am I to judge, you ask?  And right you are -- I am but an armchair amateur.
-> But this is my review, giving my own
-> candid take, for what that's worth, hopefully helpful to likeminded sorts out there._
->
+Who am I to judge, you may ask?  And right you are -- I am but an armchair amateur.
+But this is my review, and I am giving my own
+candid take, for what that's worth, hopefully helpful to likeminded sorts out there.
+
 > _Extraordinary claims require extraordinary evidence.
-> The promotion materials for this book make extraordinary claims._
+> The promotion materials for this book made extraordinary claims._
 
 It was all over the map with moments of brilliance,
 while falling well short of its titular claims.

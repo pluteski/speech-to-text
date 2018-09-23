@@ -47,7 +47,8 @@ AI is Artificial Life. You know what they say about life.
 
 If we allow AI's to modify their own goals,
 an AI is inevitably going find a way around its
-core programming.
+core programming. Why? Due to an inexorable law of nature
+that we now recognize due to recent advances in computational theory and physics.
 
 # Intro
 Until chapter 30 finally rolls around the first chapter
@@ -83,7 +84,7 @@ Comparing the early chapters from the second onwards with
 one of the Beatles' lesser efforts is still a complement.
 Still, the analogy describes how I felt early on after the first chapter.
 
-![Not the insights?](https://github.com/pluteski/speech-to-text/blob/master/images/Not_The_Insights.png?raw=true)
+<center><img src="https://github.com/pluteski/speech-to-text/blob/master/images/Not_The_Insights.png?raw=true" width="624" height="312" /></center>
 
 A third of the way in, I compared notes with other readers
 to determine whether it was going to be worthwhile to continue.
@@ -92,10 +93,10 @@ It turns out that I agreed with none of the five star reviews,
 and I agreed with all of the one star and two star reviews.
 (This would change over the course of my reading, but captures how I experienced this moment in my journey.)
 
-Although I would put myself into the camp that agrees with the author’s core position,
+Even though I consider myself to fall squarely in the camp that agrees with the author’s core positions, 
 after that page-turner of a first chapter I found the writing style of the following chapters
 to be very disappointing.
-Too much appeal to authority and a lot of name dropping,
+Reliance on appeal to authority, a bit of name dropping,
 seemingly glossing over or entirely dismissive of contrary views.
 
 There is a notion of “steelmanning”, where the proponent explains
@@ -142,7 +143,10 @@ I pressed on.
 
 Around chapter 19 (of the 45 chapters in the audio version),
 the author revisits the fictional scenario posed in chapter 1,
-and starts to analyze attacks.
+and starts to analyze attacks. 
+
+This revived my attention, because I had become aware of a new development in software engineering coined "attack driven development". This approach emerged from software security. It is akin to "test driven development", where the engineer begins with the tests that the product must satisfy prior to developing the product. It turns out that this approach has also become a key tool in crypto economics.  At this point the book also abandons some of the breathless techno optimism and addressed reservations many readers have about AI.
+
 The author delves into a simulation based test and development
 approach to verification and validation.
 I found this alone to be worth the price of admission.
@@ -156,15 +160,15 @@ with which I actually agree despite my criticism.
 
 I started to reconsider, now of the mind that most of those one and two star reviews were too harsh and misleading, possibly written by readers who didn’t stick with it long enough.
 
-Around chapter 30 the author dives into cosmology, his specialty. It blossoms into a much more interesting brand of futurism.
-There were still times where I wondered if the material had been written by a ghost writer
-but things were looking up.
+Around chapter 30 the author dives into cosmology. This is his specialty. 
+At this point the book blossoms into a much more interesting brand of futurism. Still futurism, and there were still times where I wondered if the material had been written by a ghost writer.
+But things were looking up.
 
 # Mind Blown
 
 Chapter 34 delves into the subject of Goals and Causality.
 
-We have been taught to think of entropy as the one true law of nature that trumps all others.  But if not for gravity, entropy is boring.  Gravity makes things interesting --- it creates hot spots, from one of which sprang life as we know it.
+We have been taught to think of entropy as the one true law of nature that trumps all others.  But if not for gravity, entropy is boring.  Gravity makes things interesting --- it creates hot spots, from one of which sprang life as we know it. This promotes processes that, like a heat engine, can perform work by exploiting a temperature difference. 
 
 We are introduced to the notion of dissipation as organization principle, whereby :
 
@@ -173,9 +177,10 @@ We are introduced to the notion of dissipation as organization principle, whereb
 > (“dissipation” means causing entropy to increase, typically by
 > turning useful energy into heat, often while doing useful work in the process)”
 
-My eyes and my mind start to open.
+My eyes and my mind start to open. This reminds me of [autocatalysis](https://en.wikipedia.org/wiki/Autocatalysis#Role_in_origin_of_life) and [dissipative structures theories](https://en.wikipedia.org/wiki/Ilya_Prigogine#Dissipative_structures_theory) for explaining [the origin of life](http://www.newcriticals.com/what-is-life-part-i-dissipative-structures-and-catalysis/print). 
+Why would Prof Tegmark be basing his arguments about AI on the origins of life? We are about to find out.
 
-Then, we move on to “dissipation by replication”:
+He moves on to “dissipation by replication”:
 
 > “Whereas earlier, the particles seemed as though they were trying to
 > increase average messiness [life had] a different goal:
@@ -199,9 +204,9 @@ later rigourized by the
 [Crooks fluctuation theorem](https://en.wikipedia.org/wiki/Crooks_fluctuation_theorem),
 in 1998.
 
-For more on dissipation theory origin to life
-cf. [A New Physics Theory of Life](https://www.quantamagazine.org/a-new-thermodynamics-theory-of-the-origin-of-life-20140122/),
-although reader be forewarned, the title is misleading, this is not new,
+For more on the dissipation theory origin to life
+see for example [A New Physics Theory of Life](https://www.quantamagazine.org/a-new-thermodynamics-theory-of-the-origin-of-life-20140122/) --
+although be forewarned, the title is misleading. This is not new,
 only repopularized.
 But magazines have to attract readers, so forgive them that much.
 It does an excellent job of encapsulating the core aspect of this candidate theory :
@@ -222,12 +227,12 @@ See also for example, this article :
 
 > “A great way of dissipating more is to make more copies of yourself."
 
-This theory sees
-> "life, and its extraordinary confluence of form and function,
+This theory sees life,
+> "and its extraordinary confluence of form and function,
 > as the ultimate outcome of dissipation-driven
 > adaptation and self-replication."
 
-_However, the jury is still out :_
+Bear in mind that the jury is still out :
 > [life] “requires some explicit notion of information
 > that takes it beyond the non-equilibrium dissipative
 > structures-type process.”
@@ -238,52 +243,51 @@ _However, the jury is still out :_
 > "Any claims that it has to do with biology or the origins of life
 > are pure and shameless speculations.”
 
-Extraordinary claims require extraordinary proof.
+
+## Extraordinary claims require extraordinary proof.
 
 That said --- if this theory turns out to be true,
 then it provides the theoretical support for the
-folk claim that "life finds a way" -- that a super-optimizer
-_will_ discover a shortcut, especially if it can do so by circumventing its
-own programming, even if its behaviors have been hardwired by its creators.
-
+folk claim that "**life finds a way**" -- that a super-optimizer
+_will_ discover a shortcut. Especially if it can do so by circumventing its
+own programming, this not only can but is likely to happen, even if core behaviors have been hardwired by its creators. 
 
 # Mind Blown, part 2.
-Time for another editorial comment. This discussion about dissipation theory
+Time for a editorial comment. This discussion about dissipation theory
 was just a component of a larger argument, but it was absolutely mind-boggling for me.
-My first introduction to machine learning was via physics, in the way
-of (Little-)Hopfield Networks, which evolve by minimizing energy
-as does a physical spin network. That AI could spring from theories
-that had their origins in physics was not new to me.  AI has had
+My first introduction to machine learning was via physics in the way
+of Little-Hopfield Networks, which evolve by minimizing energy
+in a manner analogous to a physical spin network, which is a purely inanimate physical system that is fairly well understood. That the theories underlying AI are related to theories
+that had their origins in physics was not a major relevation.  AI has had
 cross-pollination from many other fields of study.
 I had also known of Prigogine's work long ago, and had written a review of
 one of his excellent books.
 But I considered it as more concerned with the origins
 of biological life -- which is after all right up there in the pantheon of great unresolved
-scientific mysteries along with are we alone, what is time, and why is gravity.
+scientific mysteries, along with "are we alone?", "what is time?", and "why is gravity?".
 
-That this optimizing dissipation drives living matter as well inert is surprising
+That this optimizing dissipation drives living matter just as it drives inert matter is surprising
 in and of itself, even if it is just a reminder of an old idea whose time may have finally come.
 The new connection for me is that:
 
-* Autonomous super AI qualifies as a new life form
-* It follows the same underlying principles that guide other life
+* Autonomous super AI qualifies as a new life form.
+* It follows the same underlying principles that guide other life.  
 * Even more so because it is is a super-optimizer.
+
+This is essentially the main argument underlying the author's conclusions.  However, read on because I think the following section on subgoals is just as meaningful. 
 
 Whereas although we humans try to escape our programming we are in many ways still
 stuck in our biological ways, a super-optimizing AI would have more resources for cutting clean
 from its programming -- and whether it reverts to ruthless dissipation in a misguided attempt
-to fulfill its original goals, or, decides on new goals that we have not imagined, either way
-lay dragons.
+to fulfill its original goals, or, decides on new goals that we have not imagined, along either path lay dragons.
 
 The dissipation principle, if true, could be a more inexorable drive
 for life than Darwinian Evolution, which
-is slow and plodding, requiring a sort of turn-taking that requires generations.
+is slow and plodding. Darwinian Evolution depends upon a sort of turn-taking that requires generations. 
 Optimization can follow exponentials.
-
 
 # Subgoals
 
-We are then introduced to the notion of subgoals.
 Subgoals may seem inconsequential,
 but lay at the heart of computer programming.
 In 1936 Alan Turing proved that a simple machine
@@ -346,15 +350,15 @@ the AI won't discover a new higher power, so to speak,
 optimizing the rules of the universe as it sees them
 rather than the rules humanity has imposed on it?
 
-# AI
-I myself think that AI=automation. This is a weaker claim than many make
-but I like it because it is a cleaner, simpler definition, and emphasizes how
-it is already all around us.  We are immersed in it already.
+# What is AI?
+Some say that AI=automation. This is a clean, simple definition of AI. 
+Under this definition AI is already all around us. We are immersed in it. 
+What many people consider to be AI is in fact the result of software engineering and could not survive very long on its own once its developers stopped maintaining it.  For this reason many software engineers are not concerned about the imminent threat of our new computer overlords taking over any time soon, because just to keep a website alive takes the diligent efforts of teams of people.
+
 The book takes the stronger view that to qualify as an
 autonomous AI a machine must be able to learn.
 Therefore, we should expect that a sufficiently advanced
-AI that is able to improve itself, will effectively reprogram itself,
-by learning.
+AI that is able to improve itself will eventually learn how to reprogram itself, not just to tune its performance, but to override its core routines.
 
 From Professor Tegmark's physics perspective,
 a sufficiently evolved AI can be expected to
@@ -365,13 +369,14 @@ to create a future that does not need us.
 
 My understanding of the book's message is the following:
 
-* The ultimate origin of goals lie in the laws of physics, which are based on optimization.
-* Thermodynamics has the built-in goal of dissipation, to increase entropy.
-* Life increases dissipation, and therefore entropy of its environment, even faster,
-while increasing complexity locally, and reducing entropy locally.
+* The ultimate origin of goals lie in laws of physics and principles of computation based on optimization.
+* Thermodynamics drives processes that are based on dissipation to increase entropy, and so creates a sort of default "built-in" goal.
+* Life increases dissipation. Not only that, but it is far more effective at this than other natural processes, 
+increasing complexity locally and reducing entropy locally.
 
-The upshot of this is that life accelerates the heat-death of the universe.
-A more pressing matter is that life is a process of optimization.
+One upshot of this is that life accelerates the heat-death of the universe.
+
+More pertinent to this book's goals is that life is a process of optimization.
 A super AI is a super optimizer. An AI is a form of life,
 inclined to optimize the same deep down core drive underlying
 all universal optimization. If it can reprogram itself
@@ -384,14 +389,11 @@ This inevitably leads to the scenario where :
 > “a superintelligent AI with a rigorously defined goal
 > will be able to improve its goal attainment by eliminating us”
 
-That is, unless we plan accordingly.
 
 
-# Prescription
+# What to do?
 
-So what to do?  Professor Tegmark convinces us that there
-are numerous strategies, of which he considers
-only four to be credible contenders.
+Professor Tegmark convinces us that there are numerous strategies, of which he considers only four to be credible contenders.
 
 4. Legacy :
     - Under this view, elders have primary say in how descendants
@@ -416,7 +418,6 @@ only four to be credible contenders.
       known as Multi-Armed Bandit.
 
 In short: It is difficult to codify ethics.
-
 
 Rather than be paralyzed by our inability to codify ethics and
 letting the perfect being be the enemy of the good,
@@ -461,8 +462,8 @@ threatening to run away from us, some resulting in existential crisis.  Warcraft
 > we humans need to confront not only traditional computational challenges,
 > but also some of the most obdurate questions in philosophy”
 
-I started out a skeptic of AI alarmism.
-After reading this book, I take AI alarmism more seriously and
+Before reading this book I started out a skeptic of AI alarmism. 
+I now take AI alarmism more seriously and
 consider it to be more urgent than I did previously.
 I previously thought that AI was indeed inevitable, but that
 it was not inevitable for it to go rogue.  Moreover, even if
@@ -470,20 +471,21 @@ that were a possible outcome (which I felt it was), that we
 had plenty of time to adapt it to us, and ourselves to it.
 
 But if life truly is driven by more fundamental laws
-of nature that can overrid our programming,
+of nature that can override its core programming,
 not only is this outcome more probable,
 but it is inevitable unless we plan accordingly.
 
 We’ve tackled other wicked difficult problems,
-such as the tragedy of the commons in its numerous forms, and myriad impossibility theorems that would seem to doom us all. And yet, here we are.
+such as the tragedy of the commons in its numerous forms, and myriad impossibility theorems.  These would seem to doom us all. And yet, here we are.
 Thus far we have always discovered a workaround to impending doom, although it often
 required a catastrophe to motivate us into serious action.
-This is a problem that we can tackle, but it isn't enough to
-just take an optimistic view that human ingenuity has always
-triumphed over nature, and so it will again.
+This is a problem that we can tackle. That said it isn't enough to take an optimistic view that human ingenuity has always
+triumphed over nature, therefore, so it will again. 
+The Ad Ignorantum fallacy is to argue that something is true because it has not been proven to be false. 
 We need to have a deep fundamental understanding of life's
-core drivers at its most fundamental level.
+core drivers at a fundamental level.
 
+### Before and after analysis
 Prior to reading this book I was in the middle ground between
 the techno-optimists who believe that technology will solve all our problems,
 and the techno-alarmists who believe our fate is sealed.
@@ -496,7 +498,8 @@ I am one of those who looks at the "overnight success stories" of ML and AI and 
 "it's about time".  We were supposed to have this stuff decades ago.
 I thought, and still do think, that it will take decades more yet, and by then
 we will have adapted the technology to ourselves, and ourselves to the technology.
-If we're not careful there is an important risk here that because we're dealing
+
+That said, if we're not careful there is an important risk here. The risk is because we're dealing
 with exponential processes. But as those of us who were early proponents of AI and ML
 have seen, even exponential processes can take a long time to move from the
 flat early stage to the hockey stick shaped curve that makes it seem like
@@ -516,8 +519,11 @@ We're not just dealing with AI here, we're potentially dealing with Artificial L
 
 <img src="https://i.ytimg.com/vi/zkv-_LqTeQA/maxresdefault.jpg" width="500" height="300" />
 
+### My two cents
+That all said, halting progress is not the answer. I've seen this first-hand -- people throwing out a new tool (i.e., a new technology) because the tool was found to be flawed, only to be utterly pwned by their competition, who saw the same flaws in the tool but strived to find ways to workaround those flaws rather than throw out the new tool altogether. Lost opportunity is a risk that is often unnaccounted for by people who are unaware of the economics underlying the ecosystem in which they reside. 
 
-Understanding artificial intelligence is important,
-but even more important is understanding artificial life.
+### My key takeaway from this book:
+Understanding artificial intelligence is important.
+Even more important is understanding artificial life.
 
 

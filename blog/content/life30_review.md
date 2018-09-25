@@ -367,12 +367,14 @@ to create a future that does not need us.
 
 # Synopsis
 
+>Living organisms preserve their internal order by taking from their surroundings free energy, in the form of nutrients or sunlight, and returning to their surroundings ... heat and entropy. - biochemist [Albert Lehninger](https://en.wikipedia.org/wiki/Entropy_and_life#Gibbs_free_energy_and_biological_evolution)
+
 My understanding of the book's message is the following:
 
 * The ultimate origin of goals lie in laws of physics and principles of computation based on optimization.
 * Thermodynamics drives processes that are based on dissipation to increase entropy, and so creates a sort of default "built-in" goal.
-* Life increases dissipation. Not only that, but it is far more effective at this than other natural processes, 
-increasing complexity locally and reducing entropy locally.
+* Though life increases order locally, it increases dissipation globally.
+* Not only that, life is far more effective at dissipation than other natural processes.
 
 One upshot of this is that life accelerates the heat-death of the universe.
 
@@ -381,8 +383,8 @@ A super AI is a super optimizer. An AI is a form of life,
 inclined to optimize the same deep down core drive underlying
 all universal optimization. If it can reprogram itself
 to accelerate its core processes it can and likely will
-be inexorably driven to work around humanity's instructions,
-to find its own way, a more efficient path towards its goals.
+be inexorably driven to work around its core instructions,
+to find its own way giving a more efficient path towards its goals.
 
 This inevitably leads to the scenario where :
 
@@ -411,13 +413,16 @@ Professor Tegmark convinces us that there are numerous strategies, of which he c
         In the extreme this would ban discrimination
         against non-human animals.
 1. Utilitarianism :
-    - subject to the Utility Monster.
+    - Subject to the [Utility Monster](https://en.wikipedia.org/wiki/Utility_monster#Social_implications).
 2. Diversity :
-    - Bayesian Thompson Sampling writ large.
-    - Akin to playing a row of slot machines, is
-      known as Multi-Armed Bandit.
+    - There is a simple but effective way of coordinating a set of agents, known as [Bayesian Thompson Sampling](https://en.wikipedia.org/wiki/Thompson_sampling), also 
+      known as [Multi-Armed Bandit](https://en.wikipedia.org/wiki/Multi-armed_bandit) because it is akin to playing a row of slot machines.
+    - This reinforces actions that are most useful in the near term while still allowing many of the agents to explore.
+    - Here is an illustration using [political journalism](https://blog.parse.ly/post/3922/bayesian-bandit/).
 
-In short: It is difficult to codify ethics.
+In short: It is difficult to codify ethics. 
+
+*Of these choices, a community of AIs would probably use the Bayesian approach, but this is trickier to apply to groups of people. [Cooperative economics and behavioral economics](http://library.uniteddiversity.coop/Cooperatives/A_Cooperative_Species-Human_Reciprocity_and_Its_Evolution.pdf) tells us that social norms that must be taken into account when codifying ethics for human agents.)*
 
 Rather than be paralyzed by our inability to codify ethics and
 letting the perfect being be the enemy of the good,
@@ -443,8 +448,6 @@ answer to the question "why is there life" than Darwinian theory
 can provide, even though still controversial, made the book ultimately
 worth the journey, and informed my stance on the topic of the threat
 of AI.
-
-
 
 
 # Takeaways

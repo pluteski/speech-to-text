@@ -547,12 +547,15 @@ a sufficiently evolved AI can be expected to
 eventually follow goals driven by deeper principles of optimization
 to create a future that does not need us.&lt;/p&gt;
 &lt;h1&gt;Synopsis&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Living organisms preserve their internal order by taking from their surroundings free energy, in the form of nutrients or sunlight, and returning to their surroundings ... heat and entropy. - biochemist &lt;a href="https://en.wikipedia.org/wiki/Entropy_and_life#Gibbs_free_energy_and_biological_evolution"&gt;Albert Lehninger&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;My understanding of the book's message is the following:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;The ultimate origin of goals lie in laws of physics and principles of computation based on optimization.&lt;/li&gt;
 &lt;li&gt;Thermodynamics drives processes that are based on dissipation to increase entropy, and so creates a sort of default "built-in" goal.&lt;/li&gt;
-&lt;li&gt;Life increases dissipation. Not only that, but it is far more effective at this than other natural processes, 
-increasing complexity locally and reducing entropy locally.&lt;/li&gt;
+&lt;li&gt;Though life increases order locally, it increases dissipation globally.&lt;/li&gt;
+&lt;li&gt;Not only that, life is far more effective at dissipation than other natural processes.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;One upshot of this is that life accelerates the heat-death of the universe.&lt;/p&gt;
 &lt;p&gt;More pertinent to this book's goals is that life is a process of optimization.
@@ -560,8 +563,8 @@ A super AI is a super optimizer. An AI is a form of life,
 inclined to optimize the same deep down core drive underlying
 all universal optimization. If it can reprogram itself
 to accelerate its core processes it can and likely will
-be inexorably driven to work around humanity's instructions,
-to find its own way, a more efficient path towards its goals.&lt;/p&gt;
+be inexorably driven to work around its core instructions,
+to find its own way giving a more efficient path towards its goals.&lt;/p&gt;
 &lt;p&gt;This inevitably leads to the scenario where :&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;“a superintelligent AI with a rigorously defined goal
@@ -590,17 +593,19 @@ will be able to improve its goal attainment by eliminating us”&lt;/p&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Utilitarianism :&lt;ul&gt;
-&lt;li&gt;subject to the Utility Monster.&lt;/li&gt;
+&lt;li&gt;Subject to the &lt;a href="https://en.wikipedia.org/wiki/Utility_monster#Social_implications"&gt;Utility Monster&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Diversity :&lt;ul&gt;
-&lt;li&gt;Bayesian Thompson Sampling writ large.&lt;/li&gt;
-&lt;li&gt;Akin to playing a row of slot machines, is
-  known as Multi-Armed Bandit.&lt;/li&gt;
+&lt;li&gt;There is a simple but effective way of coordinating a set of agents, known as &lt;a href="https://en.wikipedia.org/wiki/Thompson_sampling"&gt;Bayesian Thompson Sampling&lt;/a&gt;, also 
+  known as &lt;a href="https://en.wikipedia.org/wiki/Multi-armed_bandit"&gt;Multi-Armed Bandit&lt;/a&gt; because it is akin to playing a row of slot machines.&lt;/li&gt;
+&lt;li&gt;This reinforces actions that are most useful in the near term while still allowing many of the agents to explore.&lt;/li&gt;
+&lt;li&gt;Here is an illustration using &lt;a href="https://blog.parse.ly/post/3922/bayesian-bandit/"&gt;political journalism&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;In short: It is difficult to codify ethics.&lt;/p&gt;
+&lt;p&gt;In short: It is difficult to codify ethics. &lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Of these choices, a community of AIs would probably use the Bayesian approach, but this is trickier to apply to groups of people. &lt;a href="http://library.uniteddiversity.coop/Cooperatives/A_Cooperative_Species-Human_Reciprocity_and_Its_Evolution.pdf"&gt;Cooperative economics and behavioral economics&lt;/a&gt; tells us that social norms that must be taken into account when codifying ethics for human agents.)&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Rather than be paralyzed by our inability to codify ethics and
 letting the perfect being be the enemy of the good,
 begin with small steps.&lt;/p&gt;

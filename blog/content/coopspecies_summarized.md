@@ -4,7 +4,7 @@ Project:     Life in Motion
 Author:      Mark Plutowski
 Affiliation: Economics in Motion
 Web:         https://pluteski.github.io
-Date:        2018-05-20
+Date:        2018-10-04
 
 
 # Contents

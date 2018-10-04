@@ -16,7 +16,15 @@ By Samuel Bowles & Herbert Gintis, 2011. [pdf](library.uniteddiversity.coop/Coop
 
 *Herbert Gintis* continues to research econ & morality, and is also a frequent book reviewer on Amazon.com. 
 
-This contains excerpts and paraphrased quotes from the book.  The book's authors claim that it is intended to be a scientific description of how human's behave in decision-making group settings, and not how they _should_ behave.  Likewise, if an excerpt is interpreted as a recommendation for how people _should_ behave, such an impression not intended.  This summary is intended to distill the book down to the essence of the author's claims, only, and not to emphasize or de-emphasize any claims except where they might detract from brevity -- such as in-depth details of experimental studies and formal proofs.
+This contains excerpts and paraphrased quotes from the book.  
+
+**Caveats**
+
+Some attempt is made to edit the excerpts and add paraphrasing to make this more readable.  However in some cases readability is sacrificed for fidelity. Most text that is not otherwise marked as an edit or editorial comment is an excerpt from the book -- however, you should confirm the quote yourself when using in a published account.  You should also quote the book, and not this summarized version.  
+
+In almost all if not all cases, emphasis was added by the editor (yours truly). 
+
+The book's authors claim that it is intended to be a scientific description of how human's behave in decision-making group settings, and not how they _should_ behave.  Likewise, if an excerpt is interpreted as a recommendation for how people _should_ behave, such an impression not intended.  This summary is intended to distill the book down to the essence of the author's claims, only, and not to emphasize or de-emphasize any claims except where they might detract from brevity -- such as in-depth details of experimental studies and formal proofs.
 
 ## Stats
 
@@ -587,7 +595,7 @@ While size, strength, and vigor generally determine the outcome of animal disput
 
 [ They criticize the the “folk theorem” as relying on ] fictive Rube Goldberg strategies.
 
-[ ed. - _here is why non-cooperative game theory works so hard at ensuring the truthful operation of participants:__ ] 
+[ ed. - _here is why non-cooperative game theory works so hard at ensuring the truthful operation of participants:_ ] 
 
 **(a)** self-interested … members will typically have something to gain by misrepresenting the actions taken by others **(b)** [ mistakes happen, and with classical game theory this causes the group to spiral into anarchy ]
 
@@ -622,7 +630,7 @@ individuals maximize a utility function that includes five distinct motives:
 4. and one’s degree of reciprocity, as well as 
 5. one’s sense of guilt or shame in response to one’s own and others’ actions.
 
-**punishment** [serves the following purposes] : 
+punishment [serves the following purposes] : 
 
 * [it] not only reduces material payoffs of those who transgress norms, 
 * but also may recruit emotions of shame toward the modification of behavior. 
@@ -737,20 +745,22 @@ How do we judge the empirical adequacy of an agent-based model?
     1. Thus we can ask whether the results of the simulation conform to known facts about the populations under study. [ meaning, they have some predictive appeal -- the hypothesis is that their data will match that of the real system in 2nd and 3rd order effects not just the immediate ]
     1. where the models have generated implausible by-product statistics, diagnose the source of the problem and recalibrate 
 
-[Figure A1: Structure of evolutionary game-based simulation.](http://github.com/pluteski/speech-to-text/raw/master/blog/content/images/cooperative_species/cooperative_game_parameters.png)
+![Figure A1: Structure of evolutionary game-based simulation.](http://github.com/pluteski/speech-to-text/raw/master/blog/content/images/cooperative_species/cooperative_game_params.png)
+
+
+![Figure A2: Structure of replication process.](http://github.com/pluteski/speech-to-text/raw/master/blog/content/images/cooperative_species/a2_replication_process.png)
 
 
 
 # A3 Game Theory
-Game theory is a mathematical tool for the study of strategic interactions [where] payoffs of individuals depend on their own actions and the actions taken by others. 
+Game theory is a mathematical tool for the study of **strategic** interactions [where] payoffs of individuals depend on their own actions and the actions taken by others. 
 
-[ a player's strategy is any of the options he or she can choose in a setting where the outcome depends not only on their own actions but on the action of others.]
+[ a player's **strategy** is any of the options he or she can choose in a setting where the outcome depends not only on their own actions but on the action of others.]
 
-[ A pure strategy determines all your moves during the game (and should therefore specify your moves for all possible other players' moves). A mixed strategy is a probability distribution over all possible pure strategies (some of which may get zero weight) ] 
+[ A **pure strategy** determines all your moves during the game (and should therefore specify your moves for all possible other players' moves). A **mixed strategy** is a probability distribution over all possible **pure strategies** (some of which may get zero weight) ] 
 
 
-
-[a state is a ] Nash equilibrium : if every player’s choice is a best response to the choices of the other players [ which are public, and known to and understood by every other player ]
+[**a state is a ] Nash equilibrium** : if every player’s choice is a best response to the choices of the other players [ _which are supposed to be public, and known to and understood by every other player_ ]
 
 a dominant strategy offers a higher payoff than any other strategy, no matter what the other players do. 
 
@@ -758,19 +768,22 @@ A stage game of the repeated game is repeated indefinitely, with a positive prob
 
 The most important fact about the repeated game based on stage game G is that it can support cooperative equilibria in situations where G cannot.
 
-The evolutionary game models that we use in this book are distinct from classical game theory. 
+The **evolutionary game models** [used] in this book are distinct from **classical game theory**. 
 
-The key idea in evolutionary game theory is differential replication rather than best response. 
+_The key idea in evolutionary game theory is differential replication rather than best response._ 
 
-adaptive agents in evolutionary games adopt behaviors in a manner similar to the way people come to have a particular accent or to speak a particular language. 
+**adaptive agents** in evolutionary games adopt behaviors in a manner similar to the way people come to have a particular accent or to speak a particular language. 
 
 Forward-looking payoff-based calculation is not entirely absent (e.g., those aspiring to upward mobility may adopt upper class accents) but conscious optimizing is not the whole story. 
 
-The answer to “why do you talk like that?” is generally: “because I was born where people talk like that” not “because I considered all the ways of speaking and decided that speaking this way best serves my personal goals.” [ although it may be for some individuals ]
+The answer to “why do you talk like that?” is generally: “because I was born where people talk like that” not “because I considered all the ways of speaking and decided that speaking this way best serves my personal goals.” [ _although it may be for some individuals_ ]
 
-Successful strategies in an evolutionary game are those that make more than the average number of replicas in the next period either because 
-they are favored in the process by which people learn new strategies, or 
-the genotypes expressing the strategies are induced to proliferate by the process of natural selection.
+_Successful strategies in an evolutionary game are those that make more than the average number of replicas in the next period_ either because 
+
+* they are favored in the process by which people learn new strategies, or 
+* the genotypes expressing the strategies are induced to proliferate by the process of natural selection.
+
+
 
 # Dynamical Systems
 
@@ -781,21 +794,30 @@ We [use] two major types of dynamical systems,
 
 An equilibrium of this dynamical system, also called a critical point or fixed point, or stationary point.  at an equilibrium, dx=dt = dy=dt = 0, so the dynamical system remains forever at (x*; y*) once it reaches there. Under what conditions does a dynamical system move toward an equilibrium?
 
-Very few dynamical systems, even simple ones in two dimensions, can be solved analytically, so the paths x.t / and y.t / cannot be written in closed form. Nevertheless, there are well-developed methods for determining when an equilibrium is stable, unstable, or neutrally stable, using tools from algebra and calculus
+Very few dynamical systems, even simple ones in two dimensions, can be solved analytically, so the paths x(t) and y(t) cannot be written in closed form. Nevertheless, there are well-developed methods for determining when an equilibrium is stable, unstable, or neutrally stable, using tools from algebra and calculus
 
-A finite Markov chain is a dynamical system that can be in any of n states (s1, …, sn), and if the system is in state i in time period t, it will be in state j in time period t C1 with probability pij . Of course, for this to make sense, we must have pij  0 for all i; j = 1, …, n, and Sumnjpij = 1. Statistical estimates of these probabilities, based on thousands of implementations of our model, for example, are the basis of our calculation of the vector field giving the movement of the population among the states indicating various frequencies of altruists and of parochials.
+
+A finite Markov chain is a dynamical system that can be in any of n states (s<sub>1</sub>, …, s<sub>n</sub>), and if the system is in state i in time period t, it will be in state j in time period t+1 with probability p<sub>ij</sub> . Of course, for this to make sense, we must have p<sub>ij</sub> ≥ 0 for all i, j = 1, …, n, and Sum<sup>n</sup><sub>j=1</sub> (p<sub>ij</sub>) = 1. Statistical estimates of these probabilities, based on thousands of implementations of our model, for example, are the basis of our calculation of the vector field ... giving the movement of the population among the states indicating various frequencies of altruists and of parochials.
 
 When a Markov chain has the property that the average fraction of time in each state in the long run is independent from the starting state, we say the system is ergodic, and we call the resulting long-run distribution of probabilities the stationary distribution of the Markov chain.
 
 ### A5 The Replicator Dynamic
 
-The most natural dynamic to apply to an evolutionary game is the replicator dynamic
+The most natural dynamic to apply to an evolutionary game is the **replicator dynamic**
 
-it can be shown that every equilibrium of an evolutionary game under the replicator dynamic is a Nash equilibrium of the stage game. This shows that the Nash equilibrium criterion remains powerful even without assuming that players are rational (i.e., that they choose best responses) or coordinated.
+it can be shown that _every equilibrium of an evolutionary game under the replicator dynamic is a Nash equilibrium of the stage game_. This shows that the Nash equilibrium criterion remains powerful even without assuming that players are rational (i.e., that they choose best responses) or coordinated.
 
-Maynard Smith developed the stronger notion of an evolutionarily stable strategy: i.e., a whole population using that strategy cannot be invaded by a small group playing any other strategy
+Maynard Smith developed the stronger notion of an **evolutionarily stable strategy**: i.e., a whole population using that strategy cannot be invaded by a small group playing any other strategy
 A6 Continuation Probability and Time Discount Factor
 A7 Alternatives to the Standing Model
 A8 The Prisoner’s Dilemma with Public and Private Signals
-[ tl;dr : private signals is what makes it a dilemma ]
+
+[ tl;dr : _the private nature of signals is what makes it a dilemma_ ]
+
+
+
+≠ 
+≥
+≤
+
 

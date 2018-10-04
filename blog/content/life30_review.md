@@ -339,7 +339,7 @@ over the course of the universe as we know it:
 4. Machines built to help humans achieve their human goals
 
 In Step 3 humans broke free from
-the bioligical programming that evolved to do Step 2.
+the biological programming that evolved to do Step 2.
 However, we're still not completely free from this programming.
 But being essentially a computer program,
 wouldn't AI be free of such evolutionary baggage?
@@ -371,7 +371,7 @@ to create a future that does not need us.
 
 My understanding of the book's message is the following:
 
-* The ultimate origin of goals lie in laws of physics and principles of computation based on optimization.
+* The drivers of life's goals lay in laws of physics and principles of computation based on optimization.
 * Thermodynamics drives processes that are based on dissipation to increase entropy, and so creates a sort of default "built-in" goal.
 * Though life increases order locally, it increases dissipation globally.
 * Not only that, life is far more effective at dissipation than other natural processes.

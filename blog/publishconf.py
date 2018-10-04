@@ -21,4 +21,4 @@ DELETE_OUTPUT_DIRECTORY = True
 # Following items are often useful when publishing
 
 DISQUS_SITENAME = "pluteski-github-io-speech-to-text"
-#GOOGLE_ANALYTICS = ""
+GOOGLE_ANALYTICS = "UA-123156804-1"

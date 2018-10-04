@@ -254,7 +254,11 @@ By Samuel Bowles &amp;amp; Herbert Gintis, 2011. &lt;a href="library.uniteddiver
 By Samuel Bowles &amp;amp; Herbert Gintis, 2011. &lt;a href="library.uniteddiversity.coop/Cooperatives/A_Cooperative_Species-Human_Reciprocity_and_Its_Evolution.pdf"&gt;pdf&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Samuel Stebbins Bowles&lt;/em&gt; is an American economist and Professor Emeritus at the University of Massachusetts Amherst, where he continues to teach courses on microeconomics and the theory of institutions.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Herbert Gintis&lt;/em&gt; continues to research econ &amp;amp; morality, and is also a frequent book reviewer on Amazon.com. &lt;/p&gt;
-&lt;p&gt;This contains excerpts and paraphrased quotes from the book.  The book's authors claim that it is intended to be a scientific description of how human's behave in decision-making group settings, and not how they &lt;em&gt;should&lt;/em&gt; behave.  Likewise, if an excerpt is interpreted as a recommendation for how people &lt;em&gt;should&lt;/em&gt; behave, such an impression not intended.  This summary is intended to distill the book down to the essence of the author's claims, only, and not to emphasize or de-emphasize any claims except where they might detract from brevity -- such as in-depth details of experimental studies and formal proofs.&lt;/p&gt;
+&lt;p&gt;This contains excerpts and paraphrased quotes from the book.  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Caveats&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Some attempt is made to edit the excerpts and add paraphrasing to make this more readable.  However in some cases readability is sacrificed for fidelity. Most text that is not otherwise marked as an edit or editorial comment is an excerpt from the book -- however, you should confirm the quote yourself when using in a published account.  You should also quote the book, and not this summarized version.  &lt;/p&gt;
+&lt;p&gt;In almost all if not all cases, emphasis was added by the editor (yours truly). &lt;/p&gt;
+&lt;p&gt;The book's authors claim that it is intended to be a scientific description of how human's behave in decision-making group settings, and not how they &lt;em&gt;should&lt;/em&gt; behave.  Likewise, if an excerpt is interpreted as a recommendation for how people &lt;em&gt;should&lt;/em&gt; behave, such an impression not intended.  This summary is intended to distill the book down to the essence of the author's claims, only, and not to emphasize or de-emphasize any claims except where they might detract from brevity -- such as in-depth details of experimental studies and formal proofs.&lt;/p&gt;
 &lt;h2&gt;Stats&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;The 275 page book is distilled to 34 pages of excerpts. &lt;/li&gt;
@@ -670,7 +674,7 @@ The initial period in the life of a group has three stages. &lt;/p&gt;
 &lt;p&gt;While size, strength, and vigor generally determine the outcome of animal disputes, victory often involving great cost even to the winner, in human societies, through the use of coordination, stealth and deadly weapons, even a small number of attackers can defeat the most formidable single enemy at very low fitness cost to the attackers.&lt;/p&gt;
 &lt;p&gt;[ &lt;em&gt;humans are excellent at clubbing and throwing projectile weapons compared to other animals&lt;/em&gt; ]&lt;/p&gt;
 &lt;p&gt;[ They criticize the the “folk theorem” as relying on ] fictive Rube Goldberg strategies.&lt;/p&gt;
-&lt;p&gt;[ ed. - _here is why non-cooperative game theory works so hard at ensuring the truthful operation of participants:__ ] &lt;/p&gt;
+&lt;p&gt;[ ed. - &lt;em&gt;here is why non-cooperative game theory works so hard at ensuring the truthful operation of participants:&lt;/em&gt; ] &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;(a)&lt;/strong&gt; self-interested … members will typically have something to gain by misrepresenting the actions taken by others &lt;strong&gt;(b)&lt;/strong&gt; [ mistakes happen, and with classical game theory this causes the group to spiral into anarchy ]&lt;/p&gt;
 &lt;p&gt;Modern large-scale societies, we observed, convert private to public information by judicial processes that took centuries to evolve and that presuppose that court officials, jury members, and law enforcement officers adhere to standards of professional conduct that preclude the unrestrained pursuit of self-interest.&lt;/p&gt;
 &lt;p&gt;Smaller scale ancestral groups devised other ways to convert private to public information. Gossip, group discussions with all or most members present, and taking meals in public are examples.&lt;/p&gt;
@@ -691,7 +695,7 @@ The initial period in the life of a group has three stages. &lt;/p&gt;
 &lt;li&gt;and one’s degree of reciprocity, as well as &lt;/li&gt;
 &lt;li&gt;one’s sense of guilt or shame in response to one’s own and others’ actions.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;punishment&lt;/strong&gt; [serves the following purposes] : &lt;/p&gt;
+&lt;p&gt;punishment [serves the following purposes] : &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;[it] not only reduces material payoffs of those who transgress norms, &lt;/li&gt;
 &lt;li&gt;but also may recruit emotions of shame toward the modification of behavior. &lt;/li&gt;
@@ -799,23 +803,26 @@ Charles Darwin, The Descent of Man Chapter IV (1873)&lt;/p&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;a href="http://github.com/pluteski/speech-to-text/raw/master/blog/content/images/cooperative_species/cooperative_game_parameters.png"&gt;Figure A1: Structure of evolutionary game-based simulation.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Figure A1: Structure of evolutionary game-based simulation." src="http://github.com/pluteski/speech-to-text/raw/master/blog/content/images/cooperative_species/cooperative_game_params.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Figure A2: Structure of replication process." src="http://github.com/pluteski/speech-to-text/raw/master/blog/content/images/cooperative_species/a2_replication_process.png"&gt;&lt;/p&gt;
 &lt;h1&gt;A3 Game Theory&lt;/h1&gt;
-&lt;p&gt;Game theory is a mathematical tool for the study of strategic interactions [where] payoffs of individuals depend on their own actions and the actions taken by others. &lt;/p&gt;
-&lt;p&gt;[ a player's strategy is any of the options he or she can choose in a setting where the outcome depends not only on their own actions but on the action of others.]&lt;/p&gt;
-&lt;p&gt;[ A pure strategy determines all your moves during the game (and should therefore specify your moves for all possible other players' moves). A mixed strategy is a probability distribution over all possible pure strategies (some of which may get zero weight) ] &lt;/p&gt;
-&lt;p&gt;[a state is a ] Nash equilibrium : if every player’s choice is a best response to the choices of the other players [ which are public, and known to and understood by every other player ]&lt;/p&gt;
+&lt;p&gt;Game theory is a mathematical tool for the study of &lt;strong&gt;strategic&lt;/strong&gt; interactions [where] payoffs of individuals depend on their own actions and the actions taken by others. &lt;/p&gt;
+&lt;p&gt;[ a player's &lt;strong&gt;strategy&lt;/strong&gt; is any of the options he or she can choose in a setting where the outcome depends not only on their own actions but on the action of others.]&lt;/p&gt;
+&lt;p&gt;[ A &lt;strong&gt;pure strategy&lt;/strong&gt; determines all your moves during the game (and should therefore specify your moves for all possible other players' moves). A &lt;strong&gt;mixed strategy&lt;/strong&gt; is a probability distribution over all possible &lt;strong&gt;pure strategies&lt;/strong&gt; (some of which may get zero weight) ] &lt;/p&gt;
+&lt;p&gt;[&lt;strong&gt;a state is a ] Nash equilibrium&lt;/strong&gt; : if every player’s choice is a best response to the choices of the other players [ &lt;em&gt;which are supposed to be public, and known to and understood by every other player&lt;/em&gt; ]&lt;/p&gt;
 &lt;p&gt;a dominant strategy offers a higher payoff than any other strategy, no matter what the other players do. &lt;/p&gt;
 &lt;p&gt;A stage game of the repeated game is repeated indefinitely, with a positive probability of terminating the process at the end of each period &lt;/p&gt;
 &lt;p&gt;The most important fact about the repeated game based on stage game G is that it can support cooperative equilibria in situations where G cannot.&lt;/p&gt;
-&lt;p&gt;The evolutionary game models that we use in this book are distinct from classical game theory. &lt;/p&gt;
-&lt;p&gt;The key idea in evolutionary game theory is differential replication rather than best response. &lt;/p&gt;
-&lt;p&gt;adaptive agents in evolutionary games adopt behaviors in a manner similar to the way people come to have a particular accent or to speak a particular language. &lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;evolutionary game models&lt;/strong&gt; [used] in this book are distinct from &lt;strong&gt;classical game theory&lt;/strong&gt;. &lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The key idea in evolutionary game theory is differential replication rather than best response.&lt;/em&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;adaptive agents&lt;/strong&gt; in evolutionary games adopt behaviors in a manner similar to the way people come to have a particular accent or to speak a particular language. &lt;/p&gt;
 &lt;p&gt;Forward-looking payoff-based calculation is not entirely absent (e.g., those aspiring to upward mobility may adopt upper class accents) but conscious optimizing is not the whole story. &lt;/p&gt;
-&lt;p&gt;The answer to “why do you talk like that?” is generally: “because I was born where people talk like that” not “because I considered all the ways of speaking and decided that speaking this way best serves my personal goals.” [ although it may be for some individuals ]&lt;/p&gt;
-&lt;p&gt;Successful strategies in an evolutionary game are those that make more than the average number of replicas in the next period either because 
-they are favored in the process by which people learn new strategies, or 
-the genotypes expressing the strategies are induced to proliferate by the process of natural selection.&lt;/p&gt;
+&lt;p&gt;The answer to “why do you talk like that?” is generally: “because I was born where people talk like that” not “because I considered all the ways of speaking and decided that speaking this way best serves my personal goals.” [ &lt;em&gt;although it may be for some individuals&lt;/em&gt; ]&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Successful strategies in an evolutionary game are those that make more than the average number of replicas in the next period&lt;/em&gt; either because &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;they are favored in the process by which people learn new strategies, or &lt;/li&gt;
+&lt;li&gt;the genotypes expressing the strategies are induced to proliferate by the process of natural selection.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h1&gt;Dynamical Systems&lt;/h1&gt;
 &lt;p&gt;We [use] two major types of dynamical systems, &lt;/p&gt;
 &lt;ol&gt;
@@ -823,17 +830,20 @@ the genotypes expressing the strategies are induced to proliferate by the proces
 &lt;li&gt;a discrete time system using Markov chains&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;An equilibrium of this dynamical system, also called a critical point or fixed point, or stationary point.  at an equilibrium, dx=dt = dy=dt = 0, so the dynamical system remains forever at (x&lt;em&gt;; y&lt;/em&gt;) once it reaches there. Under what conditions does a dynamical system move toward an equilibrium?&lt;/p&gt;
-&lt;p&gt;Very few dynamical systems, even simple ones in two dimensions, can be solved analytically, so the paths x.t / and y.t / cannot be written in closed form. Nevertheless, there are well-developed methods for determining when an equilibrium is stable, unstable, or neutrally stable, using tools from algebra and calculus&lt;/p&gt;
-&lt;p&gt;A finite Markov chain is a dynamical system that can be in any of n states (s1, …, sn), and if the system is in state i in time period t, it will be in state j in time period t C1 with probability pij . Of course, for this to make sense, we must have pij  0 for all i; j = 1, …, n, and Sumnjpij = 1. Statistical estimates of these probabilities, based on thousands of implementations of our model, for example, are the basis of our calculation of the vector field giving the movement of the population among the states indicating various frequencies of altruists and of parochials.&lt;/p&gt;
+&lt;p&gt;Very few dynamical systems, even simple ones in two dimensions, can be solved analytically, so the paths x(t) and y(t) cannot be written in closed form. Nevertheless, there are well-developed methods for determining when an equilibrium is stable, unstable, or neutrally stable, using tools from algebra and calculus&lt;/p&gt;
+&lt;p&gt;A finite Markov chain is a dynamical system that can be in any of n states (s&lt;sub&gt;1&lt;/sub&gt;, …, s&lt;sub&gt;n&lt;/sub&gt;), and if the system is in state i in time period t, it will be in state j in time period t+1 with probability p&lt;sub&gt;ij&lt;/sub&gt; . Of course, for this to make sense, we must have p&lt;sub&gt;ij&lt;/sub&gt; ≥ 0 for all i, j = 1, …, n, and Sum&lt;sup&gt;n&lt;/sup&gt;&lt;sub&gt;j=1&lt;/sub&gt; (p&lt;sub&gt;ij&lt;/sub&gt;) = 1. Statistical estimates of these probabilities, based on thousands of implementations of our model, for example, are the basis of our calculation of the vector field ... giving the movement of the population among the states indicating various frequencies of altruists and of parochials.&lt;/p&gt;
 &lt;p&gt;When a Markov chain has the property that the average fraction of time in each state in the long run is independent from the starting state, we say the system is ergodic, and we call the resulting long-run distribution of probabilities the stationary distribution of the Markov chain.&lt;/p&gt;
 &lt;h3&gt;A5 The Replicator Dynamic&lt;/h3&gt;
-&lt;p&gt;The most natural dynamic to apply to an evolutionary game is the replicator dynamic&lt;/p&gt;
-&lt;p&gt;it can be shown that every equilibrium of an evolutionary game under the replicator dynamic is a Nash equilibrium of the stage game. This shows that the Nash equilibrium criterion remains powerful even without assuming that players are rational (i.e., that they choose best responses) or coordinated.&lt;/p&gt;
-&lt;p&gt;Maynard Smith developed the stronger notion of an evolutionarily stable strategy: i.e., a whole population using that strategy cannot be invaded by a small group playing any other strategy
+&lt;p&gt;The most natural dynamic to apply to an evolutionary game is the &lt;strong&gt;replicator dynamic&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;it can be shown that &lt;em&gt;every equilibrium of an evolutionary game under the replicator dynamic is a Nash equilibrium of the stage game&lt;/em&gt;. This shows that the Nash equilibrium criterion remains powerful even without assuming that players are rational (i.e., that they choose best responses) or coordinated.&lt;/p&gt;
+&lt;p&gt;Maynard Smith developed the stronger notion of an &lt;strong&gt;evolutionarily stable strategy&lt;/strong&gt;: i.e., a whole population using that strategy cannot be invaded by a small group playing any other strategy
 A6 Continuation Probability and Time Discount Factor
 A7 Alternatives to the Standing Model
-A8 The Prisoner’s Dilemma with Public and Private Signals
-[ tl;dr : private signals is what makes it a dilemma ]&lt;/p&gt;</content></entry><entry><title>Review of Max Tegmark's “Life 3.0"</title><link href="https://pluteski.github.io/speech-to-text/review-of-max-tegmarks-life-30.html" rel="alternate"></link><published>2018-05-20T00:00:00-07:00</published><updated>2018-05-20T00:00:00-07:00</updated><author><name>Mark Plutowski</name></author><id>tag:pluteski.github.io,2018-05-20:/speech-to-text/review-of-max-tegmarks-life-30.html</id><summary type="html">&lt;h1&gt;Book Review&lt;/h1&gt;
+A8 The Prisoner’s Dilemma with Public and Private Signals&lt;/p&gt;
+&lt;p&gt;[ tl;dr : &lt;em&gt;the private nature of signals is what makes it a dilemma&lt;/em&gt; ]&lt;/p&gt;
+&lt;p&gt;≠ 
+≥
+≤&lt;/p&gt;</content></entry><entry><title>Review of Max Tegmark's “Life 3.0"</title><link href="https://pluteski.github.io/speech-to-text/review-of-max-tegmarks-life-30.html" rel="alternate"></link><published>2018-05-20T00:00:00-07:00</published><updated>2018-05-20T00:00:00-07:00</updated><author><name>Mark Plutowski</name></author><id>tag:pluteski.github.io,2018-05-20:/speech-to-text/review-of-max-tegmarks-life-30.html</id><summary type="html">&lt;h1&gt;Book Review&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;"Life 3.0 : Being Human in the Age of Artificial Intelligence”&lt;/strong&gt; by Max Tegmark.&lt;/p&gt;
 &lt;p&gt;This is a review of the Audible Edition of Life 3.0 by Max Tegmark.
 The audio edition I read was separated into 45 segments, or “chapters”,

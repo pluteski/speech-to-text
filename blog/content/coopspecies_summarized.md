@@ -1,5 +1,5 @@
-Title:  Review of A Cooperative Species
-Subtitle:    Human Reciprocity and Its Evolution By Samuel Bowles & Herbert Gintis, 2011.
+Title:  "A Cooperative Species" Distilled
+Subtitle:    A Cooperative Species, Human Reciprocity and Its Evolution By Samuel Bowles & Herbert Gintis, 2011, Summary Extracts. 
 Project:     Life in Motion
 Author:      Mark Plutowski
 Affiliation: Economics in Motion

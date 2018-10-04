@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Plutoware delimited - misc</title><link href="https://pluteski.github.io/speech-to-text/" rel="alternate"></link><link href="https://pluteski.github.io/speech-to-text/feeds/misc.atom.xml" rel="self"></link><id>https://pluteski.github.io/speech-to-text/</id><updated>2018-10-04T00:00:00-07:00</updated><entry><title>Review of A Cooperative Species</title><link href="https://pluteski.github.io/speech-to-text/review-of-a-cooperative-species.html" rel="alternate"></link><published>2018-10-04T00:00:00-07:00</published><updated>2018-10-04T00:00:00-07:00</updated><author><name>Mark Plutowski</name></author><id>tag:pluteski.github.io,2018-10-04:/speech-to-text/review-of-a-cooperative-species.html</id><summary type="html">&lt;h1&gt;Contents&lt;/h1&gt;
 &lt;p&gt;This is a summarized version of the book 
 &lt;strong&gt;A Cooperative Species : Human Reciprocity and Its Evolution&lt;/strong&gt; 
-By Samuel Bowles &amp;amp; Herbert Gintis, 2011. &lt;a href="library.uniteddiversity.coop/Cooperatives/A_Cooperative_Species-Human_Reciprocity_and_Its_Evolution.pdf"&gt;pdf&lt;/a&gt;&lt;/p&gt;
+By Samuel Bowles &amp;amp; Herbert Gintis, 2011. (&lt;a href="library.uniteddiversity.coop/Cooperatives/A_Cooperative_Species-Human_Reciprocity_and_Its_Evolution.pdf"&gt;pdf&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Samuel Stebbins Bowles&lt;/em&gt; is an American economist and Professor Emeritus at the University of Massachusetts Amherst, where he continues to teach courses on microeconomics and the …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Contents&lt;/h1&gt;
 &lt;p&gt;This is a summarized version of the book 
 &lt;strong&gt;A Cooperative Species : Human Reciprocity and Its Evolution&lt;/strong&gt; 
-By Samuel Bowles &amp;amp; Herbert Gintis, 2011. &lt;a href="library.uniteddiversity.coop/Cooperatives/A_Cooperative_Species-Human_Reciprocity_and_Its_Evolution.pdf"&gt;pdf&lt;/a&gt;&lt;/p&gt;
+By Samuel Bowles &amp;amp; Herbert Gintis, 2011. (&lt;a href="library.uniteddiversity.coop/Cooperatives/A_Cooperative_Species-Human_Reciprocity_and_Its_Evolution.pdf"&gt;pdf&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Samuel Stebbins Bowles&lt;/em&gt; is an American economist and Professor Emeritus at the University of Massachusetts Amherst, where he continues to teach courses on microeconomics and the theory of institutions.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Herbert Gintis&lt;/em&gt; continues to research econ &amp;amp; morality, and is also a frequent book reviewer on Amazon.com. &lt;/p&gt;
 &lt;p&gt;This contains excerpts and paraphrased quotes from the book.  &lt;/p&gt;
@@ -558,8 +558,14 @@ Charles Darwin, The Descent of Man Chapter IV (1873)&lt;/p&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img alt="Figure A1: Structure of evolutionary game-based simulation." src="http://github.com/pluteski/speech-to-text/raw/master/blog/content/images/cooperative_species/cooperative_game_params.png"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Figure A2: Structure of replication process." src="http://github.com/pluteski/speech-to-text/raw/master/blog/content/images/cooperative_species/a2_replication_process.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;center&gt;&lt;bold&gt;Figure A1: Structure of evolutionary game-based simulation&lt;/bold&gt;&lt;/center&gt;
+&lt;center&gt;
+&lt;img src="http://github.com/pluteski/speech-to-text/raw/master/blog/content/images/cooperative_species/cooperative_game_params.png" width="400" height="600" /&gt;
+&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;&lt;center&gt;&lt;bold&gt;Figure A2: Structure of replication process.&lt;/center&gt;&lt;/bold&gt;
+&lt;center&gt;
+&lt;img alt="Figure A2: Structure of replication process." src="http://github.com/pluteski/speech-to-text/raw/master/blog/content/images/cooperative_species/a2_replication_process.png"&gt;
+&lt;/center&gt;&lt;/p&gt;
 &lt;h1&gt;A3 Game Theory&lt;/h1&gt;
 &lt;p&gt;Game theory is a mathematical tool for the study of &lt;strong&gt;strategic&lt;/strong&gt; interactions [where] payoffs of individuals depend on their own actions and the actions taken by others. &lt;/p&gt;
 &lt;p&gt;[ a player's &lt;strong&gt;strategy&lt;/strong&gt; is any of the options he or she can choose in a setting where the outcome depends not only on their own actions but on the action of others.]&lt;/p&gt;

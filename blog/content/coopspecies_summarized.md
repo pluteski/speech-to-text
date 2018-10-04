@@ -10,7 +10,7 @@ Date:        2018-10-04
 # Contents
 This is a summarized version of the book 
 **A Cooperative Species : Human Reciprocity and Its Evolution** 
-By Samuel Bowles & Herbert Gintis, 2011. [pdf](library.uniteddiversity.coop/Cooperatives/A_Cooperative_Species-Human_Reciprocity_and_Its_Evolution.pdf)
+By Samuel Bowles & Herbert Gintis, 2011. ([pdf](library.uniteddiversity.coop/Cooperatives/A_Cooperative_Species-Human_Reciprocity_and_Its_Evolution.pdf))
 
 *Samuel Stebbins Bowles* is an American economist and Professor Emeritus at the University of Massachusetts Amherst, where he continues to teach courses on microeconomics and the theory of institutions.
 
@@ -745,10 +745,22 @@ How do we judge the empirical adequacy of an agent-based model?
     1. Thus we can ask whether the results of the simulation conform to known facts about the populations under study. [ meaning, they have some predictive appeal -- the hypothesis is that their data will match that of the real system in 2nd and 3rd order effects not just the immediate ]
     1. where the models have generated implausible by-product statistics, diagnose the source of the problem and recalibrate 
 
-![Figure A1: Structure of evolutionary game-based simulation.](http://github.com/pluteski/speech-to-text/raw/master/blog/content/images/cooperative_species/cooperative_game_params.png)
+
+<center><bold>Figure A1: Structure of evolutionary game-based simulation</bold></center>
+<center>
+<img src="http://github.com/pluteski/speech-to-text/raw/master/blog/content/images/cooperative_species/cooperative_game_params.png" width="400" height="600" />
+</center>
 
 
+
+
+
+
+<center><bold>Figure A2: Structure of replication process.</center></bold>
+<center>
 ![Figure A2: Structure of replication process.](http://github.com/pluteski/speech-to-text/raw/master/blog/content/images/cooperative_species/a2_replication_process.png)
+</center>
+
 
 
 

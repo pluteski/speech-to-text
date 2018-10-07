@@ -7,24 +7,30 @@ Web:         https://pluteski.github.io
 Date:        2018-10-04
 
 
-# Contents
-This is a summarized version of the book 
+## Contents
+This is a distillation of the book 
 **A Cooperative Species : Human Reciprocity and Its Evolution** 
-By Samuel Bowles & Herbert Gintis, 2011. ([pdf](library.uniteddiversity.coop/Cooperatives/A_Cooperative_Species-Human_Reciprocity_and_Its_Evolution.pdf))
+By Samuel Bowles & Herbert Gintis, 2011. ([pdf](library.uniteddiversity.coop/Cooperatives/A_Cooperative_Species-Human_Reciprocity_and_Its_Evolution.pdf)) for educational purposes only. 
+
+This contains excerpts and paraphrased quotes from an educational draft of [the book](library.uniteddiversity.coop/Cooperatives/A_Cooperative_Species-Human_Reciprocity_and_Its_Evolution.pdf).  
+
+[The version used for this purpose](library.uniteddiversity.coop/Cooperatives/A_Cooperative_Species-Human_Reciprocity_and_Its_Evolution.pdf), which is an educational draft, may not be completely consistent with the hardcopy text version. 
+
+**Caveats**
+
+Attempt is made to edit the excerpts and add paraphrasing to make this more readable.  In some cases readability is sacrificed in favor fidelity. Most text that is not otherwise marked as an edit or editorial comment is an excerpt from the book -- however, you should confirm the quote yourself when using in a published account.  You should also quote the book, and not this summarized version.  
+
+In almost all if not all cases, emphasis was added by the editor (yours truly). 
+
+The book's authors claim that it is intended to be a scientific description of how human's behave in decision-making group settings, and not how they _should_ behave.  Likewise, if an excerpt is interpreted as a recommendation for how people _should_ behave, such an impression not intended.  This summary is intended to distill the book down to the essence of the author's claims, only, and not to emphasize or de-emphasize any claims except where they might detract from brevity -- such as in-depth details of experimental studies and formal proofs.
+
+
+### Authors
 
 *Samuel Stebbins Bowles* is an American economist and Professor Emeritus at the University of Massachusetts Amherst, where he continues to teach courses on microeconomics and the theory of institutions.
 
 *Herbert Gintis* continues to research econ & morality, and is also a frequent book reviewer on Amazon.com. 
 
-This contains excerpts and paraphrased quotes from the book.  
-
-**Caveats**
-
-Some attempt is made to edit the excerpts and add paraphrasing to make this more readable.  However in some cases readability is sacrificed for fidelity. Most text that is not otherwise marked as an edit or editorial comment is an excerpt from the book -- however, you should confirm the quote yourself when using in a published account.  You should also quote the book, and not this summarized version.  
-
-In almost all if not all cases, emphasis was added by the editor (yours truly). 
-
-The book's authors claim that it is intended to be a scientific description of how human's behave in decision-making group settings, and not how they _should_ behave.  Likewise, if an excerpt is interpreted as a recommendation for how people _should_ behave, such an impression not intended.  This summary is intended to distill the book down to the essence of the author's claims, only, and not to emphasize or de-emphasize any claims except where they might detract from brevity -- such as in-depth details of experimental studies and formal proofs.
 
 ## Stats
 

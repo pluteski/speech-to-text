@@ -11,7 +11,7 @@ Date:        2018-10-07
 # Glossary of terms
 The following terms are related to cooperative game theory and cooperative economics.  Definitions are drawn from 
 **A Cooperative Species : Human Reciprocity and Its Evolution** 
-By Samuel Bowles & Herbert Gintis, 2011 ([pdf](library.uniteddiversity.coop/Cooperatives/A_Cooperative_Species-Human_Reciprocity_and_Its_Evolution.pdf)).  
+By Samuel Bowles & Herbert Gintis, 2011 ([pdf](http://library.uniteddiversity.coop/Cooperatives/A_Cooperative_Species-Human_Reciprocity_and_Its_Evolution.pdf)).  
 
 This document is for educational purposes only. 
 

@@ -1,5 +1,5 @@
-Title:  Summary of A Cooperative Species Part 3.
-Subtitle:    Summary of "A Cooperative Species, Human Reciprocity and Its Evolution" By Samuel Bowles & Herbert Gintis, 2011.
+Title:  Key Lessons from A Cooperative Species, Part 3.
+Subtitle:    14 Lessons from "A Cooperative Species, Human Reciprocity and Its Evolution" By Samuel Bowles & Herbert Gintis, 2011.
 Project:     Life in Motion
 Author:      Mark Plutowski
 Affiliation: Economics in Motion
@@ -166,17 +166,17 @@ social preferences such as a concern for the well-being of others and for fair p
 
 In a world increasingly connected not just by trade in goods but also by the exchange of violence, information, viruses, and emissions, the importance of social preferences in underwriting human cooperation, even survival, may now be greater even than it was among that small group of foragers that began the exodus from Africa 55,000 years ago to spread this particular cooperative species to the far corners of the world.
 
-
 ___
 
 ** Part 0 : ** 
-[Overview of 14 key lessons of cooperative economics](https://pluteski.github.io/speech-to-text/coopspecies_summary_0.md.html).
+[Overview of 14 key lessons of cooperative economics](https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-0.md.html).
 
 ** Part 1 : ** 
-[Overview of competing alternatives](https://pluteski.github.io/speech-to-text/coopspecies_summary_1.md.html).
+[Overview of competing alternatives](https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-2.md.html).
 
 ** Part 2 : ** 
-[Failures of non-cooperative theory](https://pluteski.github.io/speech-to-text/coopspecies_summary_2.md.html).
+[Failures of non-cooperative theory](https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-2.md.html).
+
 
 ___
 

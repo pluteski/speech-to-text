@@ -278,18 +278,19 @@ Maynard Smith developed the stronger notion of an **evolutionarily stable strate
 ___
 
 ** Part 0 : ** 
-[Overview of 14 key lessons of cooperative economics](https://pluteski.github.io/speech-to-text/coopspecies_summary_0.md.html).
+[Overview of 14 key lessons of cooperative economics](https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-0.md.html).
 
 ** Part 1 : ** 
-[Overview of competing alternatives](https://pluteski.github.io/speech-to-text/coopspecies_summary_1.md.html).
+[Overview of competing alternatives](https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-2.md.html).
 
 ** Part 2 : ** 
-[Failures of non-cooperative theory](https://pluteski.github.io/speech-to-text/coopspecies_summary_2.md.html).
+[Failures of non-cooperative theory](https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-2.md.html).
 
 ** Part 3 : ** 
-[Evolutionary economics, rise of institutions, and the co-evolution of genes and culture](https://pluteski.github.io/speech-to-text/coopspecies_summary_2.md.html).
+[Evolutionary economics, rise of institutions, and the co-evolution of genes and culture](https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-3.md.html).
 
 ___
+
 ≠ 
 ≥
 ≤

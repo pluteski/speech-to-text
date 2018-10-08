@@ -1,5 +1,5 @@
-Title:  Summary of A Cooperative Species, Part 0.
-Subtitle:    Summary of "A Cooperative Species, Human Reciprocity and Its Evolution" By Samuel Bowles & Herbert Gintis, 2011.
+Title:  Key Lessons from A Cooperative Species, Part 0.
+Subtitle:    14 Lessons from "A Cooperative Species, Human Reciprocity and Its Evolution" By Samuel Bowles & Herbert Gintis, 2011.
 Project:     Life in Motion
 Author:      Mark Plutowski
 Affiliation: Economics in Motion
@@ -21,31 +21,31 @@ This is Part 0 of a summary overview of the book ["A Cooperative Species, Human 
 * You're interested in evolutionary economics and behavioral economics.
 * You enjoy listicles.
 
-Tl;dr
+# Tl;dr
 
 The authors are keen to prove the following points: 
 
 * The way people behave is not fully explained by non-cooperative game theory. 
 * Cooperative game theory gives a fuller explanation. 
 
-Assuming that the science for the above is sound (which it seems to be), my takeaways from this are the following: 
+Assuming that the science is sound (which it seems to be) some key takeaways are the following: 
 
 * Cooperative behavior based on internalized social norms is an effective way of decentralizing key aspects of group consensus. 
 * The sometimes puzzling manner in which people behave in team situations can be explained by how group dynamics trigger social emotions, which in turn trigger cooperative behaviors in line with social norms. 
 
-Co-operation is less likely 
+Co-operation is less likely in the following situations:
 
 * when there are many participants, 
 * when interactions are infrequent, 
 * when the time horizon is short or 
 * when others' actions cannot be clearly observed.
 
-Non-cooperative mechanisms are most suitable when 
+Non-cooperative mechanisms are most suitable when:
 
-* Interactions are infrequent
-* Participants are not human
-* Participants are anonymous
-* Participants cannot communicate
+* Interactions are infrequent.
+* Participants are not human.
+* Participants are anonymous.
+* Participants cannot communicate.
 
 --- 
 
@@ -324,25 +324,25 @@ Results from the ultimatum game, public goods game, and other social dilemma exp
 * ultimatum game responders who reject a low offer exhibit heightened activation of the bilateral anterior insula, an area associated with negative emotional states such as anger and disgust. “It is irresistible to speculate that the insula is a neural locus of the distaste for inequality and unfair treatment.”
 * mutual cooperation with a human partner produces a higher level of striatum activation than does cooperation with a computer partner
 
-## Lesson 14: internalized does not imply innate
+## Lesson 14: "internalized" does not imply "innate"
 
 The above studies do not suggest that cooperating and punishing defectors is innate. People can learn how to associate norms with a social emotion. 
 
 Examples:
 
-* Some foods that evoke disgust in one culture are delicacies in others. 
-* Cross-cultural experimental evidence is consistent with the view that behaviors in social interactions that trigger aversive reactions likewise vary from one society to another. 
+* Foods that trigger disgust in one culture are considered delicacies in others. 
+* Cross-cultural experiments indicate that social interactions that trigger aversive response vary across societies. 
 
 ___
 
 ** Part 1 : ** 
-[Overview of competing alternatives](https://pluteski.github.io/speech-to-text/coopspecies_summary_1.md.html).
+[Overview of competing alternatives](https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-2.md.html).
 
 ** Part 2 : ** 
-[Failures of non-cooperative theory](https://pluteski.github.io/speech-to-text/coopspecies_summary_2.md.html).
+[Failures of non-cooperative theory](https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-2.md.html).
 
 ** Part 3 : ** 
-[Evolutionary economics, rise of institutions, and the co-evolution of genes and culture](https://pluteski.github.io/speech-to-text/coopspecies_summary_2.md.html).
+[Evolutionary economics, rise of institutions, and the co-evolution of genes and culture](https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-3.md.html).
 
 ___
 

@@ -57,12 +57,14 @@ Cooperation costs the cooperator c and benefits each member of the group b=n. We
 
 The punishment stage is decentralized -- individuals coordinate with other punishers to administer punishment.  Individuals that do not do their part in helping monitor compliance or to mete out punishment can also be punished for shirking their duty.
 
-**Hunting and Warefare**
+
+**Hunting and Warefare** benefit greatly from coordinated behaviors. 
+
 Humans are excellent at clubbing and throwing projectile weapons compared to other animals.  
 
 >> While size, strength, and vigor generally determine the outcome of animal disputes, victory often involving great cost even to the winner, in human societies, through the use of coordination, stealth and deadly weapons, even a small number of attackers can defeat the most formidable single enemy at very low fitness cost to the attackers.
 
-Here is outlined why non-cooperative game theory works so hard at ensuring the truthful operation of participants.
+While hunting and warfare are clearly important to survival, much of the challenge is in getting in-group behaviors to be more cooperative than competitive. The reasons non-cooperative game theory works so hard at ensuring the truthful operation of participants is because of the following:
 
 (a) Self-interested members will typically have something to gain by misrepresenting the actions taken by others. 
 (b) Mistakes happen, and with classical game theory this causes the group to spiral into anarchy. 

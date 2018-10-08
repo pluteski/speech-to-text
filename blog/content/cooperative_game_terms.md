@@ -41,11 +41,12 @@ Also known as a coordinating signal, this is a mechanism that coordinates the be
 * Social emotions
 * Police force
 
-A correlating device is something that sends out signals, private or public, to the players of a game, indicating which strategy each should play. 
+A correlating device is something that sends out signals, private or public, to the players of a game, indicating which strategy each should play. The idea is that each player chooses their action according to their observation of the value of the same public signal. 
 
-A correlated equilibrium is a situation in which there is a correlating device such that, if all players follow the advice of the correlating device, no player can do better by switching to an alternative strategy.
+In game theory a [correlated equilibrium](https://en.wikipedia.org/wiki/Correlated_equilibrium) is a situation in which there is a correlating device such that, if all players follow the advice of the correlating device, no player can do better by switching to an alternative strategy.
 
-Correlated equilibrium rather than Nash equilibrium is the appropriate equilibrium concept for cooperative game theory. Recent advances in algorithmic game theory are showing that correlated equilibrium is the better choice for game theory generally, based on computational feasibility. 
+A correlated equilibrium is more general than the well known Nash equilibrium. It turns out that correlated equilibria are computationally more practical to work with. Recent advances in algorithmic game theory indicate that based on computational feasibility correlated equilibrium is the better choice for game theory in general. 
+
 
 ## Self-interest axiom
 The self-interest axiom says that people seek to maximize their expected payoffs and believe that others do the same
@@ -172,6 +173,32 @@ Robert Aumann won the Nobel prize in 2005 (shared with Thomas Schelling) for con
 
 ## Genes, Culture, Groups, and Institutions
 According to gene-culture coevolution, human preferences and beliefs are the product of a dynamic whereby genes affect cultural evolution and culture affects genetic evolution, the two being tightly intertwined in the evolution of our species
+
+#### Reproductive leveling
+Reproductive leveling contributes to the evolution of altruism because it helps prevent altruists being starved of critical resources. Altruists do the right thing at some cost to their own self-regard; therefore, they can end up losing ground in evolutionary games.
+
+Individual differences in size, health, information, behavior, and other influences on access to scarce resources affect reproductive success. 
+
+Among some other primates and especially among humans, reproductive leveling attenuates this relationship. Because altruists receive lower payoffs than other group members, they benefit from reproductive leveling because this attenuates the within-group selective pressures working against them. 
+
+#### Parochialism
+Parochialism as defined in this book means religious intolerance, racism, xenophobia, which vary across cultures and over time.
+
+#### Punisher
+An altruistic group member that enforces group norms, possibly at some cost to their own self-interest. 
+
+#### Cooperative Nonpunisher
+A Cooperative Nonpunishers cooperates to the extent that they abide by group norms, but do not do their part in punishing defectors (free-riders or shirkers).
+
+#### Opportunists
+Opportunists are group members that normally cooperate and normally will do their part to do the dirty work as Punisher; however, when they see an opportunity to get away without having to do some work without being noticed, they attempt to do so. 
+
+#### Second-order free-rider
+This is where individuals who cooperate but _do not punish_ outcompete the Punishers. The math says that there must be enough Punishers in the group to tolerate Cooperative Nonpunishers. 
+
+
+--- 
+
 
 # Primers
 ## Agent-based modeling 

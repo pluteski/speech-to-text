@@ -169,13 +169,13 @@ In a world increasingly connected not just by trade in goods but also by the exc
 ___
 
 ** Part 0 : ** 
-[Overview of 14 key lessons of cooperative economics](https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-0.md.html).
+[Overview of 14 key lessons of cooperative economics](https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-0.html).
 
 ** Part 1 : ** 
-[Overview of competing alternatives](https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-2.md.html).
+[Overview of competing alternatives](https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-1.html).
 
 ** Part 2 : ** 
-[Failures of non-cooperative theory](https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-2.md.html).
+[Failures of non-cooperative theory](https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-2.html).
 
 
 ___

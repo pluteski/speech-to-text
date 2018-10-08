@@ -96,12 +96,12 @@ In the signaling model I want to associate with him because the fact that he has
 ___
 
 ** Part 0 : ** 
-[Overview of 14 key lessons of cooperative economics](https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-0.md.html).
+[Overview of 14 key lessons of cooperative economics](https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-0.html).
 
 ** Part 2 : ** 
-[Failures of non-cooperative theory](https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-2.md.html).
+[Failures of non-cooperative theory](https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-2.html).
 
 ** Part 3 : ** 
-[Evolutionary economics, rise of institutions, and the co-evolution of genes and culture](https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-3.md.html).
+[Evolutionary economics, rise of institutions, and the co-evolution of genes and culture](https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-3.html).
 
 ___

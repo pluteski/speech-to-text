@@ -57,11 +57,10 @@ Cooperation costs the cooperator c and benefits each member of the group b=n. We
 
 The punishment stage is decentralized -- individuals coordinate with other punishers to administer punishment.  Individuals that do not do their part in helping monitor compliance or to mete out punishment can also be punished for shirking their duty.
 
->> While size, strength, and vigor generally determine the outcome of animal disputes, victory often involving great cost even to the winner, in human societies, through the use of coordination, stealth and deadly weapons, even a small number of attackers can defeat the most formidable single enemy at very low fitness cost to the attackers.
-
+**Hunting and Warefare**
 Humans are excellent at clubbing and throwing projectile weapons compared to other animals.  
 
-They criticize the the classical economics “folk theorem” as relying on  fictive Rube Goldberg strategies. About this time in the book, the phrase "folk theorem" seems to be used almost spitefully, as if it is too ad hoc and unscientific.
+>> While size, strength, and vigor generally determine the outcome of animal disputes, victory often involving great cost even to the winner, in human societies, through the use of coordination, stealth and deadly weapons, even a small number of attackers can defeat the most formidable single enemy at very low fitness cost to the attackers.
 
 Here is outlined why non-cooperative game theory works so hard at ensuring the truthful operation of participants.
 

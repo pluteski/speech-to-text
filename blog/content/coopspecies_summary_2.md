@@ -152,6 +152,8 @@ A key message here is that while institutions and ethics matter, social norms an
 
 An implicit message here is that forcing human participants to work together through purely competitive means only -- that is, non-cooperative dynamics only, without the assistance of a correlating signal -- people will inevitably revert to behaviors such as what is seen in many of the noncooperative games.  Groups will also succumb to various social dilemmas. 
 
+They criticize the the classical economics “folk theorem” as relying on  fictive Rube Goldberg strategies. About this time in the book, the phrase "folk theorem" seems to be used almost spitefully, as if it is too ad hoc and unscientific. One thing for sure is that the authors think the classical economics models are not simpler than their version of cooperative economics.
+
 ___
 
 ** Part 0 : ** 

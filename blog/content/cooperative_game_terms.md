@@ -41,26 +41,42 @@ Also known as a coordinating signal, this is a mechanism that coordinates the be
 * Social emotions
 * Police force
 
+A correlating device is something that sends out signals, private or public, to the players of a game, indicating which strategy each should play. 
+
+A correlated equilibrium is a situation in which there is a correlating device such that, if all players follow the advice of the correlating device, no player can do better by switching to an alternative strategy.
+
+Correlated equilibrium rather than Nash equilibrium is the appropriate equilibrium concept for cooperative game theory. Recent advances in algorithmic game theory are showing that correlated equilibrium is the better choice for game theory generally, based on computational feasibility. 
+
 ## Self-interest axiom
 The self-interest axiom says that people seek to maximize their expected payoffs and believe that others do the same
 
 Sometimes this axiom is defended as being self-evident, with the fallback assertion being that natural selection could not have produced any other kind of preferences. 
 
-
 >>    “The first principle of economics is that every agent is actuated only by self interest” (1881). -- F. Y. Edgeworth, a founder of neoclassical economics
 
-Cooperative economics questions this assertion. 
+Cooperative economics questions this assertion, claiming that while self-interest is a good explanation of some human behavior, it cannot explain all human behavior.
 
-## Free riders
-A person free rides if he benefits from the contributions of other group members while himself contributing less or nothing at all.
 
-## Strong reciprocity
+## Alice, Bob, and Carol
+[Alice and Bob](https://en.wikipedia.org/wiki/Alice_and_Bob) are fictional characters commonly used as placeholder names in economics and game theory.
+
+## Free riders 
+A person free rides if he benefits from the contributions of other group members while himself contributing less or nothing at all. A **shirker** is an otherwise trustworthy group member who temporarily avoids performing their civic duty. Shirking is a milder form of free riding.
+
+## Reciprocity
+
+#### Strong reciprocity
 Strong reciprocity is when people sacrifice their own payoffs in order to cooperate with others, to reward the cooperation of others, and to punish free-riding, even when they cannot expect to gain from acting this way. 
 The term “strong” intended to distinguish this set of preferences from entirely amoral and self-regarding reciprocation that would not be undertaken in the absence of some payback. 
 
+#### Indirect reciprocity
+Indirect reciprocity occurs when Carole is likely to punish Alice when Alice has been unfair to Bob, and is likely to reward Alice when Alice has been nice to Bob. 
+
+#### Strategic reputation-building
+Strategic reputation-building occurs when Carole behaves cooperatively only when her actions are seen by others, and hence can help build a reputation for social behavior.
+
 ## Altruism
 Because the strong reciprocator would increase his game payoffs by not cooperating, the motives for behaving this way are considered to be "altruistic". This does not necessarily mean "kind" -- a group member that is punishing a second individual for violating group norms might use violent means to do so -- the altruism here is for the benefit of the group, not the individual being punished.
-
 
 ## Preferences, Beliefs, and Constraints
 The beliefs, preferences, and constraints model is a key tool in economics and decision theory. According to this approach, what individuals do when restricted to a specific set of feasible actions depends on their **desires** and **goals** on the one hand, and their **beliefs** on the other. 
@@ -86,14 +102,13 @@ A version of the beliefs, preferences, and constraints model, incorporating the 
 
 Self-interest need not be part of the preferences, beliefs, and constraints approach. Preferences could be altruistic or even masochistic.
 
-
 ## Social Preferences and Social Dilemmas
 Social preferences are defined as the concern for the well-being of others and a desire to uphold ethical norms.
 
 ## Self-regarding preferences
-Self-regarding preferences are based on states concerning oneself alone. 
+Self-regarding preferences are based on states concerning oneself alone. Self-regarding preference can be hard to detect, but can surface in some ways, for example by someone experiencing anxiety in a culturally unfamiliar interaction. 
 
-**Other-regarding** preferences are based at least in part on states that occur to others.  An other-regarding player cares about not only his own payoff, but that of his partner as well.
+**Other-regarding** preferences are based at least in part on states that occur to others, valuing the well-being of other people in the group. An other-regarding player cares about not only his own payoff, but that of other people as well.
 
 ## Ethics vs Morals
 Ethics and morals both relate to “right” and “wrong” conduct. Ethics refer to rules provided by an external source, such as workplace rules or religious principles. Morals refer to an individual's own principles regarding right and wrong. 
@@ -109,7 +124,30 @@ Ethics and morals both relate to “right” and “wrong” conduct. Ethics ref
 
 Having **social preference** means being “unselfish” and “non-self-interested”. 
 
-## Social dilemmas
+#### Examples of games 
+
+**dictator game**: Alice gives a certain amount of money to Bob, who has no say in the matter. 
+
+**third-party punishment game**
+
+Games typically have multiple variants that can tease out nuances in behavior. There is a variant on the dictator game that proceeds as follows: 
+
+1. Carole, the “third party,” has an endowment of 50 tokens and observes Alice’s transfer. 
+2. After this Carole can assign punishment points to Alice. 
+3. Each punishment point assigned to Alice costs Carole one token and Alice incurs a penalty of three tokens. 
+4. Because punishment is costly, a self-regarding Carole will never punish. 
+5. However, if there is a sharing norm, Carole may well punish Alice if she gives too little.
+
+**trust game** : 
+
+1. Alice is awarded a sum of money and given the opportunity to transfer any amount of it to Bob, knowing that the experimenter will triple the amount transferred (if Alice gives x, Bob receives 3x). 
+2. Bob then has the opportunity to return some of this augmented sum to Alice. 
+3. This ends the game. 
+
+Alice is sometimes called the “truster” or “investor,” and Bob the “trustee.”
+
+
+#### Social dilemmas
 These are interactions in which the uncoordinated actions of individuals result in an outcome that is Pareto inefficient, meaning that there exists some other feasible outcome such that at least one member could be better off while no member would be worse off. 
 
 Examples of social dilemmas modeled by game theorists are 
@@ -135,7 +173,8 @@ Robert Aumann won the Nobel prize in 2005 (shared with Thomas Schelling) for con
 ## Genes, Culture, Groups, and Institutions
 According to gene-culture coevolution, human preferences and beliefs are the product of a dynamic whereby genes affect cultural evolution and culture affects genetic evolution, the two being tightly intertwined in the evolution of our species
 
-# Agent-based modeling 
+# Primers
+## Agent-based modeling 
 This is a tool for analyzing complex dynamical systems as a complement to explicit mathematical analysis where the latter is either impossible or uninformative. 
 
 * In these models, the actors are individual agents who share many characteristics, but differ on key characteristics that affect their relative reproductive success, material payoffs or other results that affect the differential replication of distinct types of individuals. 
@@ -148,6 +187,14 @@ Such modeling (often called “**simulation**”) lies outside the two standard 
 
 * Deduction means proving theorems, that is, showing that certain mathematical conclusions follow from certain axioms.
 * Induction means finding lots of evidence and drawing conclusions 
+
+
+
+<bold><center>Figure A1: Structure of evolutionary game-based simulation</center></bold>
+<center>
+<img src="http://github.com/pluteski/speech-to-text/raw/master/blog/content/images/cooperative_species/cooperative_game_params.png" width="400" height="600" />
+</center>
+
 
 **Agent-based modeling** is like deduction in that it starts with a rigorously specified computer program, but it is like induction in that it treats the operation of the program as a set of data points from which generalizations can be made. 
 
@@ -165,30 +212,19 @@ How do we judge the empirical adequacy of an agent-based model?
 
 
 
-<center><bold>Figure A1: Structure of evolutionary game-based simulation</bold></center>
-<center>
-<img src="http://github.com/pluteski/speech-to-text/raw/master/blog/content/images/cooperative_species/cooperative_game_params.png" width="400" height="600" />
-</center>
-
-
-
-
-
-
 <center><bold>Figure A2: Structure of replication process.</center></bold>
 <center>
-![Figure A2: Structure of replication process.](http://github.com/pluteski/speech-to-text/raw/master/blog/content/images/cooperative_species/a2_replication_process.png)
+<img src="http://github.com/pluteski/speech-to-text/raw/master/blog/content/images/cooperative_species/a2_replication_process.png" width="640" height="480" />
 </center>
 
 
 
 
 
-
-
-# Game Theory
+## Game Theory
 Game theory is a mathematical tool for the study of strategic interactions where payoffs of individuals depend on their own actions and the actions taken by others. 
 
+#### On strategy
 A player's **strategy** is any of the options he or she can choose in a setting where the outcome depends not only on their own actions but on the action of others.
 
 A **pure** strategy determines all your moves during the game, and should therefore specify your moves for all possible other players' moves. 
@@ -199,19 +235,22 @@ A state is a **Nash equilibrium** if every player’s choice is a best response 
 
 A **dominant strategy** offers a higher payoff than any other strategy, no matter what the other players do. 
 
+A **non-strategic** behavior means that it would be considered non-rational according to neoclassical models based on non-cooperative game theory.
+
+#### Repeated games
 A **stage game** of the repeated game is repeated indefinitely, with a positive probability of terminating the process at the end of each period 
 
 The most important fact about the repeated game based on stage game G is that it can support cooperative equilibria in situations where G cannot.
 
+#### Adaptive agents in evolutionary games
+Adaptive agents in evolutionary games adopt behaviors in a manner similar to the way people come to have a particular accent or to speak a particular language, by repeated trial-and-error, possibly by supervised learning, more commonly by reinforcement learning.
 
-**Adaptive agents** in evolutionary games adopt behaviors in a manner similar to the way people come to have a particular accent or to speak a particular language. 
+Forward-looking payoff-based calculation is not entirely absent. For example those aspiring to upward mobility may adopt upper class accents. But in evolutionary theories of adaptive agent behavior, conscious optimizing is not the whole story. 
 
-Forward-looking payoff-based calculation is not entirely absent (e.g., those aspiring to upward mobility may adopt upper class accents) but conscious optimizing is not the whole story. 
-
-The answer to “why do you talk like that?” is generally: “because I was born where people talk like that” not “because I considered all the ways of speaking and decided that speaking this way best serves my personal goals.” [ although it may be for some individuals ]
+>>> **Example**: The answer to “why do you talk that way?” is generally “because this is how people talk where I come from” not “because I considered all the ways of speaking and decided that speaking this way best serves my personal goals,” although it may be for some individuals.
 
 
-# Dynamical Systems
+## Dynamical Systems
 
 There are two major types of dynamical systems:
 
@@ -222,12 +261,12 @@ An equilibrium of this dynamical system, also called a critical point or fixed p
 
 Very few dynamical systems, even simple ones in two dimensions, can be solved analytically, so the paths x(t) and y(t) cannot be written in closed form. Nevertheless, there are well-developed methods for determining when an equilibrium is stable, unstable, or neutrally stable, using tools from algebra and calculus
 
-### Markov Chain
+#### Markov Chain
 A finite Markov chain is a dynamical system that can be in any of n states (s<sub>1</sub>, …, s<sub>n</sub>), and if the system is in state i in time period t, it will be in state j in time period t+1 with probability p<sub>ij</sub> . Of course, for this to make sense, we must have p<sub>ij</sub> ≥ 0 for all i, j = 1, …, n, and Sum<sup>n</sup><sub>j=1</sub> (p<sub>ij</sub>) = 1. Statistical estimates of these probabilities, based on thousands of implementations of our model, for example, are the basis of our calculation of the vector field ... giving the movement of the population among the states indicating various frequencies of altruists and of parochials.
 
 When a Markov chain has the property that the average fraction of time in each state in the long run is independent from the starting state, we say the system is ergodic, and we call the resulting long-run distribution of probabilities the stationary distribution of the Markov chain.
 
-### The Replicator Dynamic
+#### The Replicator Dynamic
 
 The most natural dynamic to apply to an evolutionary game is the **replicator dynamic**
 
@@ -236,7 +275,21 @@ it can be shown that _every equilibrium of an evolutionary game under the replic
 Maynard Smith developed the stronger notion of an **evolutionarily stable strategy**: i.e., a whole population using that strategy cannot be invaded by a small group playing any other strategy. 
 
 
+___
 
+** Part 0 : ** 
+[Overview of 14 key lessons of cooperative economics](https://pluteski.github.io/speech-to-text/coopspecies_summary_0.md.html).
+
+** Part 1 : ** 
+[Overview of competing alternatives](https://pluteski.github.io/speech-to-text/coopspecies_summary_1.md.html).
+
+** Part 2 : ** 
+[Failures of non-cooperative theory](https://pluteski.github.io/speech-to-text/coopspecies_summary_2.md.html).
+
+** Part 3 : ** 
+[Evolutionary economics, rise of institutions, and the co-evolution of genes and culture](https://pluteski.github.io/speech-to-text/coopspecies_summary_2.md.html).
+
+___
 ≠ 
 ≥
 ≤

@@ -13,31 +13,31 @@ This is Part 0 of a summary overview of the book ["A Cooperative Species, Human 
 
 **This is for you if**:
 
-* You’ve always wanted to read this book but were intimidated by its [275 page length](http://library.uniteddiversity.coop/Cooperatives/A_Cooperative_Species-Human_Reciprocity_and_Its_Evolution.pdf)).
+* You’ve wanted to read this book but were intimidated by its [275 page length](http://library.uniteddiversity.coop/Cooperatives/A_Cooperative_Species-Human_Reciprocity_and_Its_Evolution.pdf)).
 * You are interested in how decentralized consensus is achieved in small to large groups of people.
-* You’re puzzled by how the way some people behave doesn’t seem to be in their self-interest, and want a better way to understand these seemingly irrational behaviors.
+* You’re puzzled by how the way some people behave doesn’t seem to be in their self-interest, and want to understand these seemingly irrational behaviors.
 * You have a deep interest in game theory and social psychology.
 * You've followed classical economics but somehow didn't really buy its explanation of how people really behave. 
 * You're interested in evolutionary economics and behavioral economics.
-* You enjoy listicles.
+* You enjoy listicles. This summary often breaks down key concepts into their constituents in bulleted list format for clarity and brevity. 
+* You're interested in the intersection of economics, psychology, and sociology.
 
 # Tl;dr
 
 The authors are keen to prove the following points: 
 
-* The way people behave is not fully explained by non-cooperative game theory. 
-* Cooperative game theory gives a fuller explanation. 
+* Cooperative economics gives a fuller explanation of how people behave in group decision-making settings than classical economics. 
 
-Assuming that the science is sound (which it seems to be) some key takeaways are the following: 
+Assuming that the science is sound there some key takeaways are the following: 
 
-* Cooperative behavior based on internalized social norms is an effective way of decentralizing key aspects of group consensus. 
-* The sometimes puzzling manner in which people behave in team situations can be explained by how group dynamics trigger social emotions, which in turn trigger cooperative behaviors in line with social norms. 
+* Mechanisms of cooperative economics provide an effective way of decentralizing group consensus. 
+* The sometimes puzzling manner in which people behave in teams can be explained by how group dynamics trigger social emotions tied to internalized group norms. 
 
 Co-operation is less likely in the following situations:
 
 * when there are many participants, 
 * when interactions are infrequent, 
-* when the time horizon is short or 
+* when the time horizon is short, or 
 * when others' actions cannot be clearly observed.
 
 Non-cooperative mechanisms are most suitable when:
@@ -58,16 +58,16 @@ While this is intended to be a summarization rather than an opinionated review, 
 ---
 
 # The book's message
-The key message of the books’ authors is that the way people behave is explained by better cooperative game theory.  
+The key message of the books’ authors is that the way people behave in every day life is explained most fully by cooperative economics.
 
-Much of the authors’ argument is academic in nature -- intended to add to a scientific body of knowledge.  The authors go into great detail about the evolutionary basis for their arguments. They delve deeply into population genetics, experimental economics, evolutionary game theory, archaeology, genetic inheritance and cultural transmission. There exist some excellent book reviews that address the scientific validity of the arguments. That won't be the focus here. 
+This is not to say that classical economics, behavioral economics, evolutionary economics do not predict it -- just that cooperative mechanisms resolve certain paradoxes and fill in gaps left by the prevailing ideas. 
 
 --- 
 
 # My key takeaways
 This document will focus more on core takeaways instead of methodology. If we assume that the book's claims are correct, then how can its lessons be used in today's world?  Many of its insights are (still) explained by the ‘conventional wisdom’, such as kinship, mutualism, and signaling, as well as by evolutionary theory, culture, and institutions. 
 
-This article lays the foundation and covers the main claims of the book. [The next part in this series, Part 1](https://pluteski.github.io/speech-to-text/coopspecies_summary_1.md.html) gives an overview of competing alternative explanations. [The next part, Part 2](https://pluteski.github.io/speech-to-text/coopspecies_summary_2.md.html) summarizes their arguments that human-level cooperation is impossible to model with only non-cooperative game theory. [The final part in this series, Part 3](https://pluteski.github.io/speech-to-text/coopspecies_summary_3.md.html) puts things into context with evolutionary game theory, and the rise of institutions. 
+This article covers the main claims of the book. [The next part in this series, Part 1](https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-1.html) gives an overview of competing alternative explanations. [Then, Part 2](https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-2.html) summarizes their arguments that human-level cooperation is impossible to model with only non-cooperative game theory. [The final part in this series, Part 3](https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-3.html) puts things into context with evolutionary game theory and the rise of institutions. 
 
 Because this is a summary overview of a lengthy but dense book, for the purpose of brevity many of the explanations will be terse with little elaboration.
 
@@ -79,25 +79,26 @@ The key takeaways are outlined below in the section "Key lessons of cooperative 
 
 Modeling the complex processes underlying human cooperation is a major challenge of contemporary science.
 
-Conventional wisdom in biology and economics is that the reasons why people cooperate so effectively and generously can be fully explained by far-sighted self-interest or to the desire to help close kin. Supposedly, the reason why people make sacrifices to uphold group norms and to help total strangers is just an extension of 
+Conventional wisdom in biology and economics is that the reasons why people cooperate so effectively and generously can be fully explained by far-sighted self-interest or to the desire to help close kin. Supposedly, the reason why people make sacrifices to uphold group norms and to help total strangers is just an extension of the following: 
 
-* enlightened self-interest
-* mutualistic form of helping based on the expectation of reciprocation in the future 
-* indirect reciprocity
-* virtue signaling
+* Enlightened self-interest.
+* Mutualistic form of helping based on the expectation of reciprocation in the future.
+* Indirect reciprocity.
+* Virtue signaling.
 
 This book argues that these cannot fully explain the full extent of human generosity -- or for that matter bitter vindictiveness.  
 
 
 >> Economic theory, favoring parsimony over realism, has sought to explain cooperation without reference to social preferences, and with a minimalist or fictive description of social institutions. This research trajectory, as we have seen, has produced significant insights. But it may have run its course.
 
+#### Role of social emotions
 Cooperation with fellow group members is essential to survival. Groups that protect the civic-minded from exploitation by the selfish are more effective and are able to compete better with less cooperative groups. Key to this process are the social emotions such as shame and guilt. 
 
 ## Ethics and Morals
 People internalize social norms in the form of morals.  However, moral judgment is not just relying upon rational thought or even deep seated intuition; rather it is based on social emotions that lay deeper still. For certain acts of altruistic kindness (or revenge), acting ethically is a personal goal rather than simply to prudent way to avoid punishment. 
 
 ## Decentralized Consensus and Execution 
-This turns out to be an excellent way to decentralize the means of coordinating the behavior of small groups as well as larger ones : 
+Internalizing norms and enforcing them using strategies that are triggered by social emotions turns out to be an excellent way to decentralize the means of coordinating the behavior of groups of people, both for small groups as well as larger ones. The key tasks that group decision-make requires include:
 
 * Generating proposals about what should be done next and what could be done better.
 * Deciding on what to do next and on rules of conduct. 
@@ -117,6 +118,9 @@ The authors emphasize this caveat repeatedly along the way -- cautioning that �
 Institutions proliferated because the groups that adopted them secured high levels of within-group cooperation. Groups develop their own lingo or signaling to improve group cohesiveness.  Groups having high within-group cooperation were very successful in competing with other groups. 
 
 Group-cohesiveness is a good predictor of within-group cooperation.  This seems to be a commonality of all cultures of the world. This also causes great conflicts when groups are merged or intermingle.  Emotional reasoning utilizes shortcuts that allow it to reason on-the-fly in real-time about complicated matters with incomplete and uncertain information. This tactic is bumping up against modern sensibilities about right and wrong.  
+
+#### Focus of the book
+Much of the authors’ argument is academic in nature -- intended to add to a scientific body of knowledge.  The authors go into great detail about the evolutionary basis for their arguments. They delve deeply into population genetics, experimental economics, evolutionary game theory, archaeology, genetic inheritance and cultural transmission. There exist some excellent book reviews that address the scientific validity of the arguments. That won't be the focus here. 
 
 --- 
 
@@ -156,8 +160,8 @@ Scientifically, simpler models are prefered over more complicated ones. It is us
 
 The book makes some fairly sound arguments that the non-cooperative models fail to explain two aspects of human cooperation:
 
-1. it takes place in groups far larger than the immediate family, and 
-2. it occurs in interactions that are unlikely to be repeated, where it is impossible to improve one’s reputation from cooperating.
+1. It happens in groups far larger than the immediate family, and 
+2. It happens in interactions that are unlikely to be repeated, where it is impossible to improve one’s reputation by cooperating.
 
 Experiments showed that a majority of subjects were conditional altruistic cooperators -- this means that they will cooperate if they feel assured that the other subjects will cooperate.  They make a strong case that this is not predicted by non-cooperative theories. 
 
@@ -271,7 +275,7 @@ In classical economics the term “**rationality**” is misused as a synonym fo
 * the preferences that lie behind their social behavior are consistent with the basic axioms of rationality, namely on transitivity (i.e., **consistency**) and **completeness**.
 * This is perfectly consistent with the fact that, as in the case of people with self-regarding preferences, they would consider the price.
 
-If you include the proper factors into the equation, otherwise ‘irrational’ behavior is actually rational.
+If you include the proper factors into the equation, behavior that seems to be ‘irrational’ is actually rational.
 
 ## Lesson 11: Though limited, culture and institutions matter greatly
 Experimental evidence accumulated in the 1990’s showing that many, perhaps most, individuals are not entirely self-regarding. 
@@ -317,7 +321,7 @@ Results from the ultimatum game, public goods game, and other social dilemma exp
 * People dislike unfair treatment.
 * People enjoy punishing those who violate norms of fairness.
 
-##### [On neuroeconomics](https://en.wikipedia.org/wiki/Neuroeconomics)
+#### [On neuroeconomics](https://en.wikipedia.org/wiki/Neuroeconomics)
 
 * Recent studies of brain functioning provide some support for this hedonic view of cooperative behavior. 
 * Using positron emission tomography (PET), fMRI, and other techniques, neuroscientists, economists and others have begun to study the activation of the different brain areas of subjects playing experimental games

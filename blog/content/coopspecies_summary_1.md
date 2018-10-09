@@ -10,7 +10,7 @@ Date:        2018-10-07
 # Overview
 This is part 1 of "14 lessons from [A Cooperative Species, Human Reciprocity and Its Evolution](https://press.princeton.edu/titles/9474.html)"  This part gives the highlights of evolutionary biology and places cooperative economics in context with competing theories. 
 
-[Here is Part 0](https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-0.html).
+In case you missed it here is the [previous entry in this series, **Part 0**](https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-0.html).
 
 
 
@@ -19,7 +19,7 @@ This is part 1 of "14 lessons from [A Cooperative Species, Human Reciprocity and
 
 >> “Selfish and contentious people will not cohere, and without coherence, nothing can be effected. … social and moral qualities would tend … be diffused throughout the world. Charles Darwin, The Descent of Man (1873)
 
-Which one do you think they agree? Yes, Darwin.
+With which do you think they agree? Yes, Darwin.
 
 Numerous advances in sociobiology also inform social behavior:
 

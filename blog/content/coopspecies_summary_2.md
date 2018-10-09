@@ -152,17 +152,17 @@ A key message here is that while institutions and ethics matter, social norms an
 
 An implicit message here is that forcing human participants to work together through purely competitive means only -- that is, non-cooperative dynamics only, without the assistance of a correlating signal -- people will inevitably revert to behaviors such as what is seen in many of the noncooperative games.  Groups will also succumb to various social dilemmas. 
 
-They criticize the the classical economics “folk theorem” as relying on  fictive Rube Goldberg strategies. About this time in the book, the phrase "folk theorem" seems to be used almost spitefully, as if it is too ad hoc and unscientific. One thing for sure is that the authors think the classical economics models are not simpler than their version of cooperative economics.
+They criticize the the classical economics “folk theorem” as relying on  fictive Rube Goldberg strategies. At this time in the book, the phrase "folk theorem" seems to be used almost spitefully, as if to say it is too ad hoc and unscientific. One thing for sure is that the authors think the classical economics models are not simpler than their version of cooperative economics.
 
 ___
 
 ** Part 0 : ** 
-[Overview of 14 key lessons of cooperative economics](https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-0.md.html).
+[Overview of 14 key lessons of cooperative economics](https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-0.html).
 
 ** Part 1 : ** 
-[Overview of competing alternatives](https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-2.md.html).
+[Overview of competing alternatives](https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-2.html).
 
 ** Part 3 : ** 
-[Evolutionary economics, rise of institutions, and the co-evolution of genes and culture](https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-3.md.html).
+[Evolutionary economics, rise of institutions, and the co-evolution of genes and culture](https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-3.html).
 
 ___

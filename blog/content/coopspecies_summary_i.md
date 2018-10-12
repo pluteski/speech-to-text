@@ -8,7 +8,7 @@ Date:        2018-10-11
 
 
 # 14 key lessons of cooperative economics - introduction
-This is the introduction to this series or articles, titled "14 Lessons of Cooperative Economics". These lessons were largely gleaned from the book ["A Cooperative Species, Human Reciprocity and Its Evolution"](https://press.princeton.edu/titles/9474.html) By Samuel Bowles & Herbert Gintis, 2011. 
+This is the introduction to a series of articles titled "14 Lessons of Cooperative Economics" gleaned from the book ["A Cooperative Species, Human Reciprocity and Its Evolution"](https://press.princeton.edu/titles/9474.html) By Samuel Bowles & Herbert Gintis, 2011. 
 
 **This is for you if**:
 
@@ -27,7 +27,7 @@ The authors are keen to prove the following points:
 
 * Cooperative economics gives a fuller explanation of how people behave in group decision-making settings than classical economics. 
 
-However, that is not the focus of this series. Others are better suited to debate the science behind their data. That said, assuming that the science **is** sound there my key takeaways are the following: 
+However, that is not the focus of this series. Others are better suited to debate the science. That said, assuming that the science **is** sound there my key takeaways are the following: 
 
 * Mechanisms of cooperative economics provide an effective way of decentralizing group consensus. 
 * The sometimes puzzling manner in which people behave in teams can be explained by how group dynamics trigger social emotions tied to internalized group norms. 

@@ -8,7 +8,7 @@ Date:        2018-10-09
 
 # 14 key lessons of cooperative economics
 
-This is the second part of a five part series of a summary overview of the book ["A Cooperative Species, Human Reciprocity and Its Evolution"](https://press.princeton.edu/titles/9474.html) By Samuel Bowles & Herbert Gintis, 2011. 
+This is the second part of a five part series based on lessons gleaned from the book ["A Cooperative Species, Human Reciprocity and Its Evolution"](https://press.princeton.edu/titles/9474.html) By Samuel Bowles & Herbert Gintis, 2011. 
 
 The [previous part](https://pluteski.github.io/speech-to-text/intro-to-key-lessons-from-a-cooperative-species.html) summarizes the highlights of the book and lists the 14 key lessons. 
 
@@ -17,9 +17,9 @@ Now we delve into each of the 14 lessons in turn.
 --- 
 # Caveats
 
-The authors stress that their take on cooperative economics is an **explanatory** model of how people behave, not a **prescriptive** one saying how they **should** behave. If you're looking for a model of how people **should** behave in order to better their situation, this is not necessarily it.  If you're looking to understand how people actually do behave, this is a better model than classical economics.
+The authors stress that their take on cooperative economics is an **explanatory** model of how people behave, not a **prescriptive** one saying how they **should** behave. If you're looking for a model of how people **should** behave in order to better their situation, this is not necessarily it.  If you're looking to understand how people actually do behave, this is arguably a better model than classical economics. Classical economists themselves have largely conceded this point and some are openly admitting this in public.
 
-The authors emphasize this caveat repeatedly along the way -- cautioning that “altruist” does not necessarily mean “kinder and gentler”.  This is no less evident now as the mixing of cultures and ancestries continues in many of the more open societies around the world. 
+The authors repeatedly caution that “altruist” does not necessarily mean “kinder and gentler”.  This is no less evident now as the mixing of cultures and ancestries continues in many of the more open societies around the world. 
 
 >> “individual motives and group-level institutions that account for cooperation among humans include not only the most elevated, including a concern for others, fair-mindedness, and democratic accountability of leaders, but also the most wicked, such as vengeance, racism, religious bigotry, and hostility toward outsiders.”
 
@@ -32,8 +32,8 @@ A book of this scope has so much to impart it is all I can do to summarize the a
 
 Much of the authors’ argument is academic in nature -- intended to add to a scientific body of knowledge.  The authors go into great detail about the evolutionary basis for their arguments. They delve deeply into population genetics, experimental economics, evolutionary game theory, archaeology, genetic inheritance and cultural transmission. There exist some excellent book reviews that address the scientific validity of the arguments. That won't be the focus here. 
 
-#### Focus of this overview
-I do my best to simply distill the key points of the book; however, even by my act of distilling I impart some bias in the way of choosing what to emphasize. I was particularly interested in the following aspects:
+#### Scope of these articles 
+I try to simply distill the key points of the book leaving explanations elaborations and interpretations to future musings.  However, even by my act of (hopefully mostly if not entirely unbiased) distilling I impart at least a little bias if only in the way of choosing what to emphasize. Full disclosure on this point -- coming in to writing this article, I was particularly interested in the following aspects of the book:
 
 1. the difference between non-cooperative (that is, purely competitive) economics and cooperative economics.
 2. how decentralized coordination is explained by non-cooperative and cooperative economics.
@@ -42,6 +42,28 @@ I do my best to simply distill the key points of the book; however, even by my a
 5. the relation to computer science and algorithms, and what this bodes for the future of artificial intelligence and machine learning.
 6. the difference between groups comprised of humans and groups comprised of nonhumans, such as corporations, governments, and algorithmic autonomous agents.
 7. the dramatic difference in behavior of human groups when they are forced to cooperate under the constraints of anonymity, time constraints, and poor communication.
+
+### Politics
+Both authors have done work that they themselves would describe as marxist.
+
+I for one am not marxist. Nor have I ever found any part of its message compelling. I would consider marxism to be more of a political idealogy than a social science.  However, marxism is a charged label, so it makes sense to be clear about my motives. 
+
+Just because this book is written by someone who is an avowed marxist and has given that idealogy serious consideration elsewhere in their professional life does not dissade me from being open to learning lessons from this book. That said, it would be naive to think that just because I claim to be a free-thinking open-minded individualist, that others might not label me as a marxist just for giving this much consideration to the words of avowed marxists. 
+
+This book seems to avoid overt political messaging and claims to base its claims on scientific evidence -- and to my mind seems to succeed in that regard.  I definitely noticed a socialist leaning in several parts of the book. However, on my numerous readings I cannot remember encountering any paragraph was overtly political much less marxist. Having a socialist bent makes sense, being that the book is about cooperation as an alternative to classical economics. However, when people think "anti-capitalist", they often think "marxist". 
+
+Remember though that this book is arguing the case for an alternative way to **decentralize consensus**.  I did not interpret any part of the book as recommending a top-down command economy
+
+The conclusions are about decentralizing decision-making, not concentrating it.
+
+If it had not been for the huge amount of reading that I had done on behavioral economics and algorithmic game theory, I would not have considered reading this book.  However, the conclusions of behavioral economics and algorithmic game theory **demanded** that I do so. 
+
+I came to this book because algorithm theory pointed me in this direction. The evidence I've gleaned from theoretical computer science and algorithmic game theory indicates (to me and increasingly many others) that non-cooperative game theory is fundamentally limited. It has proven enormously successful in certain settings. However many of those settings require computational horsepower that is not only unavailable to most human beings in natural settings, but also beyond the capability of their computers. 
+
+>> “If your laptop can’t find it then neither can the market“ -- [Kamal Jain](https://agtb.wordpress.com/2009/11/27/economists-and-complexity/)
+
+Recently, algorithmic game theorists and theoretical computer scientists have been surfacing algorithms that are more practical than the ones traditionally utilized by non-cooperative game theory and classical economics. This has important ramifications for both human actors as well as autonomous algorithmic agents. The "social norms" described in this book are potentially useful for people who want to better understand group behavior; however, in addition to that they are potentially algorithm designers who can borrow techniques that people have found to be useful. 
+
 
 --- 
 

@@ -10,7 +10,7 @@ Date:        2018-10-09
 
 This is the second part of a five part series of a summary overview of the book ["A Cooperative Species, Human Reciprocity and Its Evolution"](https://press.princeton.edu/titles/9474.html) By Samuel Bowles & Herbert Gintis, 2011. 
 
-The [previous part](https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-i.html) summarizes the highlights of the book and lists the 14 key lessons. 
+The [previous part](https://pluteski.github.io/speech-to-text/intro-to-key-lessons-from-a-cooperative-species.html) summarizes the highlights of the book and lists the 14 key lessons. 
 
 Now we delve into each of the 14 lessons in turn. 
 

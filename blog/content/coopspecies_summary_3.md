@@ -10,7 +10,9 @@ Date:        2018-10-08
 
 This is part 3 of "14 lessons from [A Cooperative Species](https://press.princeton.edu/titles/9474.html) By Samuel Bowles & Herbert Gintis, 2011. 
 
-[Part 0 gives the highlights of the 14 lessons.](https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-0.html)
+[Part i presents the key takeaways](https://pluteski.github.io/speech-to-text/intro-to-key-lessons-from-a-cooperative-species.html).
+
+[Part 0 explores each of the 14 lessons.](https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-0.html)
 
 [Part 1 gives a broad brush introduction to competing theories.](https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-1.html)
 
@@ -165,6 +167,9 @@ Social preferences such as a concern for the well-being of others and for fair p
 >> In a world increasingly connected not just by trade in goods but also by the exchange of violence, information, viruses, and emissions, the importance of social preferences in underwriting human cooperation, even survival, may now be greater even than it was among that small group of foragers that began the exodus from Africa 55,000 years ago to spread this particular cooperative species to the far corners of the world.
 
 ___
+
+** Part i : ** 
+[Introduction](https://pluteski.github.io/speech-to-text/intro-to-key-lessons-from-a-cooperative-species.html).
 
 ** Part 0 : ** 
 [Overview of 14 key lessons of cooperative economics](https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-0.html).

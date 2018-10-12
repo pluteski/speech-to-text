@@ -10,7 +10,10 @@ Date:        2018-10-07
 # Overview
 This is part 1 of "14 lessons from [A Cooperative Species, Human Reciprocity and Its Evolution](https://press.princeton.edu/titles/9474.html)"  This part gives the highlights of evolutionary biology and places cooperative economics in context with competing theories. 
 
-In case you missed it here is the [previous entry in this series, **Part 0**](https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-0.html).
+[Part i presents the key takeaways](https://pluteski.github.io/speech-to-text/intro-to-key-lessons-from-a-cooperative-species.html).
+
+[Part 0 explores each of the 14 lessons.](https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-0.html)
+
 
 
 
@@ -96,6 +99,8 @@ The two models differ in a subtle way.
 
 
 ___
+** Part i : ** 
+[Introduction](https://pluteski.github.io/speech-to-text/intro-to-key-lessons-from-a-cooperative-species.html).
 
 ** Part 0 : ** 
 [Overview of 14 key lessons of cooperative economics](https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-0.html).

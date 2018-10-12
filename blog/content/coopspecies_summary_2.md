@@ -13,7 +13,9 @@ Date:        2018-10-08
 # Overview
 This is Part 2 of "14 lessons from [A Cooperative Species]"(https://press.princeton.edu/titles/9474.html) By Samuel Bowles & Herbert Gintis, 2011.  This part argues that noncooperative game theory falls short in explaining human behavior.
 
-[Part 0 gives the highlights of the 14 lessons.](https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-0.html)
+[Part i presents the key takeaways](https://pluteski.github.io/speech-to-text/intro-to-key-lessons-from-a-cooperative-species.html).
+
+[Part 0 explores each of the 14 lessons.](https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-0.html)
 
 [Part 1 gives a broad brush introduction to competing theories.](https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-1.html)
 
@@ -155,6 +157,9 @@ An implicit message here is that forcing human participants to work together thr
 They criticize the the classical economics “folk theorem” as relying on  fictive Rube Goldberg strategies. At this time in the book, the phrase "folk theorem" seems to be used almost spitefully, as if to say it is too ad hoc and unscientific. One thing for sure is that the authors think the classical economics models are not simpler than their version of cooperative economics.
 
 ___
+
+** Part i : ** 
+[Introduction](https://pluteski.github.io/speech-to-text/intro-to-key-lessons-from-a-cooperative-species.html).
 
 ** Part 0 : ** 
 [Overview of 14 key lessons of cooperative economics](https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-0.html).

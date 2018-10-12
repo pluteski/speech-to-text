@@ -267,6 +267,8 @@ Examples:
 * Cross-cultural experiments indicate that social interactions that trigger aversive response vary across societies. 
 
 ___
+** Part i : ** 
+[Introduction](https://pluteski.github.io/speech-to-text/intro-to-key-lessons-from-a-cooperative-species.html).
 
 ** Part 1 : ** 
 [Overview of competing alternatives](https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-1.html).

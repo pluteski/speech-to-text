@@ -70,8 +70,6 @@ This article covers the main claims of the book. [The next part in this series, 
 
 Because this is a summary overview of a lengthy but dense book, for the purpose of brevity many of the explanations will be terse with little elaboration.
 
-The key takeaways are outlined below in the section "Key lessons of cooperative economics." 
-
 --- 
 
 # Summary of key concepts
@@ -106,6 +104,8 @@ Internalizing norms and enforcing them using strategies that are triggered by so
 
 Humans utilize sophisticated means of transitioning between self-interested non-cooperative behavior and altruistic cooperative behavior, layering different strategies upon each other to handle situations that require one, or the other, or a mixture of both. We do it so effortlessly that we take it for granted.  It is not as simple as many scientists and economists would like to make it out to be -- and so it is not as favored as explanations that rely on a (supposedly) simpler form of game theory. But, when the supposedly simpler forms of game theory have to be twisted and turned into devices approaching Rube Goldberg machines in complexity, they end up being more complicated explanation after all. 
 
+# The 14 Lessons
+
 * Lesson 1: People are naturally cooperative
 * Lesson 2: Institutions are important but limited
 * Lesson 3: Altruism is red in tooth and claw
@@ -116,7 +116,7 @@ Humans utilize sophisticated means of transitioning between self-interested non-
 * Lesson 8: Free-Riders Undermine Cooperation
 * Lesson 9: Effective Punishment Depends on Legitimacy
 * Lesson 10: Social Preferences Are Not Irrational
-* Lesson 11: Though limited, culture and institutions matter greatly
+* Lesson 11: Though limited, culture matters 
 * Lesson 12: Behavior Is Conditioned on Group Membership
 * Lesson 13: People Enjoy Cooperating and Punishing Free-Riders
 * Lesson 14: "internalized" does not imply "innate"
@@ -127,7 +127,6 @@ ___
 
 ** Part 0 : ** 
 [The 14 lessons](https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-0.html).
-
 
 ** Part 1 : ** 
 [Overview of competing alternatives](https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-1.html).

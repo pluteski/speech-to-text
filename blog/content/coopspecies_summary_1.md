@@ -16,7 +16,6 @@ This is part 1 of "14 lessons from [A Cooperative Species, Human Reciprocity and
 
 
 
-
 # Evolution of sociobiology
 >> “I shall argue that a predominant quality to be expected in a successful gene is ruthless selfishness. This gene for selfishness will usually give rise to selfishness in individual behavior.” -- Richard Dawkins, The Selfish Gene (1976)
 

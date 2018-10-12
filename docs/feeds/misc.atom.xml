@@ -1,39 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Plutoware delimited - misc</title><link href="https://pluteski.github.io/speech-to-text/" rel="alternate"></link><link href="https://pluteski.github.io/speech-to-text/feeds/misc.atom.xml" rel="self"></link><id>https://pluteski.github.io/speech-to-text/</id><updated>2018-10-08T00:00:00-07:00</updated><entry><title>Key Lessons from A Cooperative Species, Part 0.</title><link href="https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-0.html" rel="alternate"></link><published>2018-10-08T00:00:00-07:00</published><updated>2018-10-08T00:00:00-07:00</updated><author><name>Mark Plutowski</name></author><id>tag:pluteski.github.io,2018-10-08:/speech-to-text/key-lessons-from-a-cooperative-species-part-0.html</id><summary type="html">&lt;h1&gt;14 key lessons of cooperative economics&lt;/h1&gt;
-&lt;p&gt;This is Part 0 of a summary overview of the book &lt;a href="https://press.princeton.edu/titles/9474.html"&gt;"A Cooperative Species, Human Reciprocity and Its Evolution"&lt;/a&gt; By Samuel Bowles &amp;amp; Herbert Gintis, 2011. &lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Plutoware delimited - misc</title><link href="https://pluteski.github.io/speech-to-text/" rel="alternate"></link><link href="https://pluteski.github.io/speech-to-text/feeds/misc.atom.xml" rel="self"></link><id>https://pluteski.github.io/speech-to-text/</id><updated>2018-10-11T00:00:00-07:00</updated><entry><title>Intro to Key Lessons from A Cooperative Species.</title><link href="https://pluteski.github.io/speech-to-text/intro-to-key-lessons-from-a-cooperative-species.html" rel="alternate"></link><published>2018-10-11T00:00:00-07:00</published><updated>2018-10-11T00:00:00-07:00</updated><author><name>Mark Plutowski</name></author><id>tag:pluteski.github.io,2018-10-11:/speech-to-text/intro-to-key-lessons-from-a-cooperative-species.html</id><summary type="html">&lt;h1&gt;14 key lessons of cooperative economics - introduction&lt;/h1&gt;
+&lt;p&gt;This is the introduction to this series or articles, titled "14 Lessons of Cooperative Economics". These lessons were largely gleaned from the book &lt;a href="https://press.princeton.edu/titles/9474.html"&gt;"A Cooperative Species, Human Reciprocity and Its Evolution"&lt;/a&gt; By Samuel Bowles &amp;amp; Herbert Gintis, 2011. &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;This is for you if&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;You’ve wanted to read this book but were intimidated by its &lt;a href="http://library.uniteddiversity.coop/Cooperatives/A_Cooperative_Species-Human_Reciprocity_and_Its_Evolution.pdf"&gt;275 page …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h1&gt;14 key lessons of cooperative economics&lt;/h1&gt;
-&lt;p&gt;This is Part 0 of a summary overview of the book &lt;a href="https://press.princeton.edu/titles/9474.html"&gt;"A Cooperative Species, Human Reciprocity and Its Evolution"&lt;/a&gt; By Samuel Bowles &amp;amp; Herbert Gintis, 2011. &lt;/p&gt;
+&lt;li&gt;You …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h1&gt;14 key lessons of cooperative economics - introduction&lt;/h1&gt;
+&lt;p&gt;This is the introduction to this series or articles, titled "14 Lessons of Cooperative Economics". These lessons were largely gleaned from the book &lt;a href="https://press.princeton.edu/titles/9474.html"&gt;"A Cooperative Species, Human Reciprocity and Its Evolution"&lt;/a&gt; By Samuel Bowles &amp;amp; Herbert Gintis, 2011. &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;This is for you if&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;You’ve wanted to read this book but were intimidated by its &lt;a href="http://library.uniteddiversity.coop/Cooperatives/A_Cooperative_Species-Human_Reciprocity_and_Its_Evolution.pdf"&gt;275 page length&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;You are interested in how decentralized consensus is achieved in small to large groups of people.&lt;/li&gt;
 &lt;li&gt;You’re puzzled by how the way some people behave doesn’t seem to be in their self-interest, and want to understand these seemingly irrational behaviors.&lt;/li&gt;
 &lt;li&gt;You have a deep interest in game theory and social psychology.&lt;/li&gt;
 &lt;li&gt;You've followed classical economics but somehow didn't really buy its explanation of how people really behave. &lt;/li&gt;
 &lt;li&gt;You're interested in evolutionary economics and behavioral economics.&lt;/li&gt;
-&lt;li&gt;You enjoy listicles. This summary often breaks down key concepts into their constituents in bulleted list format for clarity and brevity. &lt;/li&gt;
+&lt;li&gt;You are interested in how decentralized consensus is achieved in small to large groups of people.&lt;/li&gt;
 &lt;li&gt;You're interested in the intersection of economics, psychology, and sociology.&lt;/li&gt;
+&lt;li&gt;You enjoy listicles. This summary often breaks down key concepts into their constituents in bulleted list format for clarity and brevity. &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1&gt;Tl;dr&lt;/h1&gt;
 &lt;p&gt;The authors are keen to prove the following points: &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Cooperative economics gives a fuller explanation of how people behave in group decision-making settings than classical economics. &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Assuming that the science is sound there some key takeaways are the following: &lt;/p&gt;
+&lt;p&gt;However, that is not the focus of this series. Others are better suited to debate the science behind their data. That said, assuming that the science &lt;strong&gt;is&lt;/strong&gt; sound there my key takeaways are the following: &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Mechanisms of cooperative economics provide an effective way of decentralizing group consensus. &lt;/li&gt;
 &lt;li&gt;The sometimes puzzling manner in which people behave in teams can be explained by how group dynamics trigger social emotions tied to internalized group norms. &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Co-operation is less likely in the following situations:&lt;/p&gt;
+&lt;p&gt;Another set of key takeaways is that co-operation is less likely in the following situations:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;when there are many participants, &lt;/li&gt;
 &lt;li&gt;when interactions are infrequent, &lt;/li&gt;
 &lt;li&gt;when the time horizon is short, or &lt;/li&gt;
 &lt;li&gt;when others' actions cannot be clearly observed.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Non-cooperative mechanisms are most suitable when:&lt;/p&gt;
+&lt;p&gt;In other words, people who are guided by moral reasoning will change their behavior when they are thrust into situations where that moral reasoning is less effective and possibly risky.&lt;/p&gt;
+&lt;p&gt;Non-cooperative mechanisms (that is to say, purely competitive, "self-interested" mechanisms) are most suitable when:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Interactions are infrequent.&lt;/li&gt;
 &lt;li&gt;Participants are not human.&lt;/li&gt;
@@ -42,8 +43,7 @@
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h1&gt;Background&lt;/h1&gt;
-&lt;p&gt;&lt;a href="https://pluteski.github.io/speech-to-text/glossary-of-cooperative-games.html"&gt;Key terminology is defined in this document&lt;/a&gt;, which also contains mini-primers on Game Theory, Agent Based Modeling, Evolutionary Economics, and Dynamical Systems. &lt;/p&gt;
-&lt;p&gt;While this is intended to be a summarization rather than an opinionated review, for what it's worth here is a &lt;a href="https://pluteski.github.io/speech-to-text/my-background.html"&gt;backgrounder on my own preferences, beliefs, and interests&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;In the interest of making this more succinct, the reader is asked to look up key terminology, &lt;a href="https://pluteski.github.io/speech-to-text/glossary-of-cooperative-games.html"&gt;which is defined in this document&lt;/a&gt;. That document provides a glossary of terms, as well as some mini-primers on Game Theory, Agent Based Modeling, Evolutionary Economics, and Dynamical Systems. This choice makes these articles less self-contained; however, I deemed that preferable to the much greater length that would have been required to introduce each term, boring many of the intended audience. &lt;/p&gt;
 &lt;hr&gt;
 &lt;h1&gt;The book's message&lt;/h1&gt;
 &lt;p&gt;The key message of the books’ authors is that the way people behave in every day life is explained most fully by cooperative economics.&lt;/p&gt;
@@ -53,7 +53,7 @@
 &lt;p&gt;This document will focus more on core takeaways instead of methodology. If we assume that the book's claims are correct, then how can its lessons be used in today's world?  Many of its insights are (still) explained by the ‘conventional wisdom’, such as kinship, mutualism, and signaling, as well as by evolutionary theory, culture, and institutions. &lt;/p&gt;
 &lt;p&gt;This article covers the main claims of the book. &lt;a href="https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-1.html"&gt;The next part in this series, Part 1&lt;/a&gt; gives an overview of competing alternative explanations. &lt;a href="https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-2.html"&gt;Then, Part 2&lt;/a&gt; summarizes their arguments that human-level cooperation is impossible to model with only non-cooperative game theory. &lt;a href="https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-3.html"&gt;The final part in this series, Part 3&lt;/a&gt; puts things into context with evolutionary game theory and the rise of institutions. &lt;/p&gt;
 &lt;p&gt;Because this is a summary overview of a lengthy but dense book, for the purpose of brevity many of the explanations will be terse with little elaboration.&lt;/p&gt;
-&lt;p&gt;The key takeaways are outlined below in the section "Key lessons of cooperative economics" &lt;/p&gt;
+&lt;p&gt;The key takeaways are outlined below in the section "Key lessons of cooperative economics." &lt;/p&gt;
 &lt;hr&gt;
 &lt;h1&gt;Summary of key concepts&lt;/h1&gt;
 &lt;p&gt;Modeling the complex processes underlying human cooperation is a major challenge of contemporary science.&lt;/p&gt;
@@ -83,9 +83,39 @@
 &lt;li&gt;Enforcing the plans and rules. &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Humans utilize sophisticated means of transitioning between self-interested non-cooperative behavior and altruistic cooperative behavior, layering different strategies upon each other to handle situations that require one, or the other, or a mixture of both. We do it so effortlessly that we take it for granted.  It is not as simple as many scientists and economists would like to make it out to be -- and so it is not as favored as explanations that rely on a (supposedly) simpler form of game theory. But, when the supposedly simpler forms of game theory have to be twisted and turned into devices approaching Rube Goldberg machines in complexity, they end up being more complicated explanation after all. &lt;/p&gt;
+&lt;p&gt;Lesson 1: People are naturally cooperative
+Lesson 2: Institutions are important but limited
+Lesson 3: Altruism is red in tooth and claw
+Lesson 4: The three habits of highly effective groups
+Lesson 5: Society is based on psychology
+Lesson 6: Social preferences exist and are not due to self-interest alone
+Lesson 7: Strong Reciprocity Is Common
+Lesson 8: Free-Riders Undermine Cooperation
+Lesson 9: Effective Punishment Depends on Legitimacy
+Lesson 10: Social Preferences Are Not Irrational
+Lesson 11: Though limited, culture and institutions matter greatly
+Lesson 12: Behavior Is Conditioned on Group Membership
+Lesson 13: People Enjoy Cooperating and Punishing Free-Riders
+Lesson 14: "internalized" does not imply "innate"&lt;/p&gt;
+&lt;p&gt;Each of these is explored in the next part.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt; Part 0 : &lt;/strong&gt; 
+&lt;a href="https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-0.html"&gt;The 14 lessons&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt; Part 1 : &lt;/strong&gt; 
+&lt;a href="https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-1.html"&gt;Overview of competing alternatives&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt; Part 2 : &lt;/strong&gt; 
+&lt;a href="https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-2.html"&gt;Failures of non-cooperative theory&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt; Part 3 : &lt;/strong&gt; 
+&lt;a href="https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-3.html"&gt;Evolutionary economics, rise of institutions, and the co-evolution of genes and culture&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;</content></entry><entry><title>Key Lessons from A Cooperative Species, Part 0.</title><link href="https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-0.html" rel="alternate"></link><published>2018-10-09T00:00:00-07:00</published><updated>2018-10-09T00:00:00-07:00</updated><author><name>Mark Plutowski</name></author><id>tag:pluteski.github.io,2018-10-09:/speech-to-text/key-lessons-from-a-cooperative-species-part-0.html</id><summary type="html">&lt;h1&gt;14 key lessons of cooperative economics&lt;/h1&gt;
+&lt;p&gt;This is the second part of a five part series of a summary overview of the book &lt;a href="https://press.princeton.edu/titles/9474.html"&gt;"A Cooperative Species, Human Reciprocity and Its Evolution"&lt;/a&gt; By Samuel Bowles &amp;amp; Herbert Gintis, 2011. &lt;/p&gt;
+&lt;p&gt;The &lt;a href="https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-i.html"&gt;previous part&lt;/a&gt; summarizes the highlights of the book and lists the 14 …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;14 key lessons of cooperative economics&lt;/h1&gt;
+&lt;p&gt;This is the second part of a five part series of a summary overview of the book &lt;a href="https://press.princeton.edu/titles/9474.html"&gt;"A Cooperative Species, Human Reciprocity and Its Evolution"&lt;/a&gt; By Samuel Bowles &amp;amp; Herbert Gintis, 2011. &lt;/p&gt;
+&lt;p&gt;The &lt;a href="https://pluteski.github.io/speech-to-text/key-lessons-from-a-cooperative-species-part-i.html"&gt;previous part&lt;/a&gt; summarizes the highlights of the book and lists the 14 key lessons. &lt;/p&gt;
+&lt;p&gt;Now we delve into each of the 14 lessons in turn. &lt;/p&gt;
 &lt;hr&gt;
 &lt;h1&gt;Caveats&lt;/h1&gt;
-&lt;p&gt;The authors stress that this is an &lt;strong&gt;explanatory&lt;/strong&gt; model of how people behave, not a &lt;strong&gt;prescriptive&lt;/strong&gt; one saying how they should behave. &lt;/p&gt;
+&lt;p&gt;The authors stress that their take on cooperative economics is an &lt;strong&gt;explanatory&lt;/strong&gt; model of how people behave, not a &lt;strong&gt;prescriptive&lt;/strong&gt; one saying how they &lt;strong&gt;should&lt;/strong&gt; behave. If you're looking for a model of how people &lt;strong&gt;should&lt;/strong&gt; behave in order to better their situation, this is not necessarily it.  If you're looking to understand how people actually do behave, this is a better model than classical economics.&lt;/p&gt;
 &lt;p&gt;The authors emphasize this caveat repeatedly along the way -- cautioning that “altruist” does not necessarily mean “kinder and gentler”.  This is no less evident now as the mixing of cultures and ancestries continues in many of the more open societies around the world. &lt;/p&gt;
 &lt;blockquote&gt;
 &lt;blockquote&gt;
@@ -95,10 +125,22 @@
 &lt;p&gt;Institutions proliferated because the groups that adopted them secured high levels of within-group cooperation. Groups develop their own lingo or signaling to improve group cohesiveness.  Groups having high within-group cooperation were very successful in competing with other groups. &lt;/p&gt;
 &lt;p&gt;Group-cohesiveness is a good predictor of within-group cooperation.  This seems to be a commonality of all cultures of the world. This also causes great conflicts when groups are merged or intermingle.  Emotional reasoning utilizes shortcuts that allow it to reason on-the-fly in real-time about complicated matters with incomplete and uncertain information. This tactic is bumping up against modern sensibilities about right and wrong.  &lt;/p&gt;
 &lt;h4&gt;Focus of the book&lt;/h4&gt;
+&lt;p&gt;A book of this scope has so much to impart it is all I can do to summarize the authors' message while keeping this document relatively brief;  I try to do so with a minimum of explanation much less interpretation otherwise this document would explode in length.  I'll reserve my own opinions to separate documents. Most explanations had to be cut to minimize the length. &lt;/p&gt;
 &lt;p&gt;Much of the authors’ argument is academic in nature -- intended to add to a scientific body of knowledge.  The authors go into great detail about the evolutionary basis for their arguments. They delve deeply into population genetics, experimental economics, evolutionary game theory, archaeology, genetic inheritance and cultural transmission. There exist some excellent book reviews that address the scientific validity of the arguments. That won't be the focus here. &lt;/p&gt;
+&lt;h4&gt;Focus of this overview&lt;/h4&gt;
+&lt;p&gt;I do my best to simply distill the key points of the book; however, even by my act of distilling I impart some bias in the way of choosing what to emphasize. I was particularly interested in the following aspects:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;the difference between non-cooperative (that is, purely competitive) economics and cooperative economics.&lt;/li&gt;
+&lt;li&gt;how decentralized coordination is explained by non-cooperative and cooperative economics.&lt;/li&gt;
+&lt;li&gt;how much of this we take for granted because it is such a matter of common sense, such that much less of this is addressed in the typical education curriculum than classical economics.&lt;/li&gt;
+&lt;li&gt;the relevance of these lessons to small group dynamics, including workplace teamwork and household family groups.&lt;/li&gt;
+&lt;li&gt;the relation to computer science and algorithms, and what this bodes for the future of artificial intelligence and machine learning.&lt;/li&gt;
+&lt;li&gt;the difference between groups comprised of humans and groups comprised of nonhumans, such as corporations, governments, and algorithmic autonomous agents.&lt;/li&gt;
+&lt;li&gt;the dramatic difference in behavior of human groups when they are forced to cooperate under the constraints of anonymity, time constraints, and poor communication.&lt;/li&gt;
+&lt;/ol&gt;
 &lt;hr&gt;
 &lt;h1&gt;The great experiment bumps up against limits&lt;/h1&gt;
-&lt;p&gt;Or, "&lt;strong&gt;The invisible hand meets the prisoner’s dilemma&lt;/strong&gt;"&lt;/p&gt;
+&lt;h5&gt;The invisible hand meets the prisoner’s dilemma&lt;/h5&gt;
 &lt;blockquote&gt;
 &lt;blockquote&gt;
 &lt;p&gt;“Americans. . . are fond of explaining almost all the actions of their lives by the principle of self-interest” -- Alexis de Tocqueville, Democracy in America, 1835&lt;/p&gt;
@@ -211,17 +253,20 @@
 &lt;/ul&gt;
 &lt;p&gt;If you include the proper factors into the equation, behavior that seems to be ‘irrational’ is actually rational.&lt;/p&gt;
 &lt;h2&gt;Lesson 11: Though limited, culture and institutions matter greatly&lt;/h2&gt;
-&lt;p&gt;Experimental evidence accumulated in the 1990’s showing that many, perhaps most, individuals are not entirely self-regarding. &lt;/p&gt;
+&lt;p&gt;This may seem redundant with Lesson 2 -- however, whereas that lesson presents the evidence that culture and institutions are not the sole source of ethics, this lesson emphasizes that on the other hand, social preferences and moral reasoning cannot displace culture and institution.&lt;/p&gt;
+&lt;p&gt;Experimental evidence accumulated in the 1990’s showing that many, perhaps most, individuals are not entirely self-regarding. This lead to some musings that perhaps economists just need to replace the Econ with a unit of population that more closely matched average human behavior. &lt;/p&gt;
 &lt;blockquote&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Could Homo economicus simply be replaced by Homo sociologicus, Homo altruisticus, or, as we once suggested, Homo reciprocans?&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;The book doubts that such a universal model will prove viable because institutions serve as cues for appropriate behaviors.&lt;/p&gt;
+&lt;p&gt;The book doubts that such a universal model will prove viable. While there are some norms that seem to be universal over cultures across the globe, there are important behaviors that seem to be extremely sensitive to cultural learning. &lt;/p&gt;
+&lt;p&gt;Institutions serve as cues for appropriate behaviors.&lt;/p&gt;
 &lt;p&gt;As an example they give the competitive gift giving that serves as a means of establishing status and subordinacy in New Guinea societies.&lt;/p&gt;
-&lt;p&gt;Again, in experiments examining culture effects, not a single group behaved according to the self-interest axiom.&lt;/p&gt;
+&lt;p&gt;In experiments examining culture effects, not a single group behaved according to the self-interest axiom. However, the way the group behaved, while cooperative, was markedly different from group behavior in other parts of the world.  &lt;/p&gt;
 &lt;p&gt;Where voluntary public goods provision was customary in real life behavior in the experiment mirrored the real life system. For example, among Orma herders in Kenya those having more contributed more.&lt;/p&gt;
 &lt;p&gt;By contrast, in the ultimatum game, for which there apparently was no everyday life analogue, the wealthy behaved like the other Orma, meaning they did not seem to be influenced by culture or institution, instead behaving according to more deeply internalized norms.&lt;/p&gt;
+&lt;p&gt;I think the authors emphasize this to caution those who think that their model can be applied universally and that it would be a mistake to try to do so.&lt;/p&gt;
 &lt;h2&gt;Lesson 12: Behavior Is Conditioned on Group Membership&lt;/h2&gt;
 &lt;p&gt;Those who condition their behavior on the group membership of the other may do this because group membership is thought to provide information about the other’s likely behavior. Or perhaps instead, group membership may matter because people would like to help or to interact with members of some groups more than others. &lt;/p&gt;
 &lt;ul&gt;
@@ -304,8 +349,8 @@
 &lt;h2&gt;Irrelevant solutions&lt;/h2&gt;
 &lt;p&gt;It is plausible that with the assistant of information tools, individuals could coordinate given full knowledge of the game and the choices of the other players. But when knowledge is imperfect or private and the choices of the other players are not known the noncooperative algorithms fail miserably. Providing the human players with tools to collect and process the available data is not enough -- agents need to be omniscient mind-readers.&lt;/p&gt;
 &lt;p&gt;It turns out that we now know that Nash equilibrium are extremely difficult to find and maintain except in the simplest of cases. &lt;/p&gt;
-&lt;p&gt;The problem with achieving a Nash equilibrium is that individuals may have heterogeneous and incompatible beliefs concerning how other players will behave.&lt;/p&gt;
-&lt;p&gt;Individuals may also have incorrect ideas about what other players believe concerning the individuals own behavior. Therefore, individuals may choose best responses to strategies that the other players in fact are not playing, resulting in game play that is far from any Nash equilibrium. &lt;/p&gt;
+&lt;p&gt;The problem with achieving a Nash equilibrium is that individuals may have differing beliefs about how other players will behave, and moreover, these beliefs may simply be incompatible.  When this is the case, achieving coordination much less true cooperation would be akin to a miracle. &lt;/p&gt;
+&lt;p&gt;Individuals may also have incorrect ideas about what other players believe concerning the individuals own behavior. Therefore, individuals may choose best responses to strategies that the other players in fact are not playing, resulting in game play that is very far from any Nash equilibrium. &lt;/p&gt;
 &lt;h2&gt;Fatal flaws of the Econ's approach&lt;/h2&gt;
 &lt;p&gt;If there is a Nash equilibrium with private signals, individuals have no particular incentive to play the strategies that implement the equilibrium, because many other strategies have the same payoffs as the equilibrium payoffs. &lt;/p&gt;
 &lt;p&gt;Moreover, the equilibrium exists only if private signals are very close to being public, so all individuals receive nearly the same signal concerning the behavior of any given group member. &lt;/p&gt;

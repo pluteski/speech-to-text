@@ -70,9 +70,9 @@ It is plausible that with the assistant of information tools, individuals could 
 
 It turns out that we now know that Nash equilibrium are extremely difficult to find and maintain except in the simplest of cases. 
 
-The problem with achieving a Nash equilibrium is that individuals may have heterogeneous and incompatible beliefs concerning how other players will behave.
+The problem with achieving a Nash equilibrium is that individuals may have differing beliefs about how other players will behave, and moreover, these beliefs may simply be incompatible.  When this is the case, achieving coordination much less true cooperation would be akin to a miracle. 
 
-Individuals may also have incorrect ideas about what other players believe concerning the individuals own behavior. Therefore, individuals may choose best responses to strategies that the other players in fact are not playing, resulting in game play that is far from any Nash equilibrium. 
+Individuals may also have incorrect ideas about what other players believe concerning the individuals own behavior. Therefore, individuals may choose best responses to strategies that the other players in fact are not playing, resulting in game play that is very far from any Nash equilibrium. 
 
 
 ## Fatal flaws of the Econ's approach

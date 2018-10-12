@@ -106,21 +106,20 @@ Internalizing norms and enforcing them using strategies that are triggered by so
 
 Humans utilize sophisticated means of transitioning between self-interested non-cooperative behavior and altruistic cooperative behavior, layering different strategies upon each other to handle situations that require one, or the other, or a mixture of both. We do it so effortlessly that we take it for granted.  It is not as simple as many scientists and economists would like to make it out to be -- and so it is not as favored as explanations that rely on a (supposedly) simpler form of game theory. But, when the supposedly simpler forms of game theory have to be twisted and turned into devices approaching Rube Goldberg machines in complexity, they end up being more complicated explanation after all. 
 
-Lesson 1: People are naturally cooperative
-Lesson 2: Institutions are important but limited
-Lesson 3: Altruism is red in tooth and claw
-Lesson 4: The three habits of highly effective groups
-Lesson 5: Society is based on psychology
-Lesson 6: Social preferences exist and are not due to self-interest alone
-Lesson 7: Strong Reciprocity Is Common
-Lesson 8: Free-Riders Undermine Cooperation
-Lesson 9: Effective Punishment Depends on Legitimacy
-Lesson 10: Social Preferences Are Not Irrational
-Lesson 11: Though limited, culture and institutions matter greatly
-Lesson 12: Behavior Is Conditioned on Group Membership
-Lesson 13: People Enjoy Cooperating and Punishing Free-Riders
-Lesson 14: "internalized" does not imply "innate"
-
+* Lesson 1: People are naturally cooperative
+* Lesson 2: Institutions are important but limited
+* Lesson 3: Altruism is red in tooth and claw
+* Lesson 4: The three habits of highly effective groups
+* Lesson 5: Society is based on psychology
+* Lesson 6: Social preferences exist and are not due to self-interest alone
+* Lesson 7: Strong Reciprocity Is Common
+* Lesson 8: Free-Riders Undermine Cooperation
+* Lesson 9: Effective Punishment Depends on Legitimacy
+* Lesson 10: Social Preferences Are Not Irrational
+* Lesson 11: Though limited, culture and institutions matter greatly
+* Lesson 12: Behavior Is Conditioned on Group Membership
+* Lesson 13: People Enjoy Cooperating and Punishing Free-Riders
+* Lesson 14: "internalized" does not imply "innate"
 
 Each of these is explored in the next part.
 

@@ -219,6 +219,8 @@ By contrast, in the ultimatum game, for which there apparently was no everyday l
 
 I think the authors emphasize this to caution those who think that their model can be applied universally and that it would be a mistake to try to do so.
 
+One implication would be that economists may not be able to rely as heavily upon a single universal model for explaining the behavior of small groups of people in contexts dominated by social preference. One of the appealing aspects of the non-cooperative models is their supposed universality.
+
 ## Lesson 12: Behavior Is Conditioned on Group Membership
 
 Those who condition their behavior on the group membership of the other may do this because group membership is thought to provide information about the other’s likely behavior. Or perhaps instead, group membership may matter because people would like to help or to interact with members of some groups more than others. 

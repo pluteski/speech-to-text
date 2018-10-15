@@ -1,16 +1,15 @@
-Title:  Preamble to Key Lessons from A Cooperative Species.
-Subtitle:    14 Lessons from "A Cooperative Species, Human Reciprocity and Its Evolution" By Samuel Bowles & Herbert Gintis, 2011.
+Title:  Key Lessons from A Cooperative Species: Synopsis
+Subtitle:    Key Lessons from "A Cooperative Species, Human Reciprocity and Its Evolution" By Samuel Bowles & Herbert Gintis, 2011.
 Project:     Life in Motion
 Author:      Mark Plutowski
 Affiliation: Economics in Motion
 Web:         https://pluteski.github.io
-Date:        2018-10-11
+Date:        2018-10-15
 
 
-# Preamble to 14 key lessons of cooperative economics
-This article introduces a series of articles titled "14 Lessons of Cooperative Economics", gleaned from the book ["A Cooperative Species, Human Reciprocity and Its Evolution"](https://press.princeton.edu/titles/9474.html) By Samuel Bowles & Herbert Gintis, 2011. The objective is to provide a [steelmanning](https://en.wikipedia.org/wiki/Straw_man#Steelmanning) of the book's arguments. 
+# Synopsis of key lessons of cooperative economics
+This article is a synopsis of a series of articles titled "Key Lessons of Cooperative Economics", based on the book ["A Cooperative Species, Human Reciprocity and Its Evolution"](https://press.princeton.edu/titles/9474.html) By Samuel Bowles & Herbert Gintis, 2011. The objective is to provide a [steelmanning](https://en.wikipedia.org/wiki/Straw_man#Steelmanning) of the book's arguments. 
 
-# Synopsis
 This book is about many things, but this series of articles focuses on (a) the lessons it has regarding cooperative games, and (b) lessons it has regarding how people behave in small teamwork settings. 
 
 

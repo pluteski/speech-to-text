@@ -4,7 +4,7 @@ Project:     Life in Motion
 Author:      Mark Plutowski
 Affiliation: Economics in Motion
 Web:         https://pluteski.github.io
-Date:        2018-10-08
+Date:        2018-10-11
 
 
 # Lessons from cooperative economics, Part 2

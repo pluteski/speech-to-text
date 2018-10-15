@@ -1,12 +1,12 @@
 Title:  Key Lessons from A Cooperative Species, Part 0.
-Subtitle:    14 Lessons from "A Cooperative Species, Human Reciprocity and Its Evolution" By Samuel Bowles & Herbert Gintis, 2011.
+Subtitle:    Key Lessons from "A Cooperative Species, Human Reciprocity and Its Evolution" By Samuel Bowles & Herbert Gintis, 2011.
 Project:     Life in Motion
 Author:      Mark Plutowski
 Affiliation: Economics in Motion
 Web:         https://pluteski.github.io
-Date:        2018-10-09
+Date:        2018-10-13
 
-# 14 key lessons of cooperative economics
+# Key lessons of cooperative economics
 
 This is the second part of a five part series based on lessons gleaned from the book ["A Cooperative Species, Human Reciprocity and Its Evolution"](https://press.princeton.edu/titles/9474.html) By Samuel Bowles & Herbert Gintis, 2011. 
 

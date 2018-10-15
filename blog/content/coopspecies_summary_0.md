@@ -28,9 +28,12 @@ Institutions proliferated because the groups that adopted them secured high leve
 Group-cohesiveness is a good predictor of within-group cooperation.  This seems to be a commonality of all cultures of the world. This also causes great conflicts when groups are merged or intermingle.  Emotional reasoning utilizes shortcuts that allow it to reason on-the-fly in real-time about complicated matters with incomplete and uncertain information. This tactic is bumping up against modern sensibilities about right and wrong.  
 
 #### Focus of the book
-A book of this scope has so much to impart it is all I can do to summarize the authors' message while keeping this document relatively brief;  I try to do so with a minimum of explanation much less interpretation otherwise this document would explode in length.  I'll reserve my own opinions to separate documents. Most explanations had to be cut to minimize the length. 
+This book has such sweeping scope that in order to summarize the book's core message while keeping this document relatively brief I found that I needed to use a minimum of explanation much less interpretation otherwise this document would explode in length.  I'll reserve my own opinions to separate documents. Most explanations had to be cut to minimize the length. 
 
 Much of the authors’ argument is academic in nature -- intended to add to a scientific body of knowledge.  The authors go into great detail about the evolutionary basis for their arguments. They delve deeply into population genetics, experimental economics, evolutionary game theory, archaeology, genetic inheritance and cultural transmission. There exist some excellent book reviews that address the scientific validity of the arguments. That won't be the focus here. 
+
+Also not part of the agenda here is policy debate or debate on the philosophy of economics. 
+
 
 #### Scope of these articles 
 I try to simply distill the key points of the book leaving explanations elaborations and interpretations to future musings.  However, even by my act of (hopefully mostly if not entirely unbiased) distilling I impart at least a little bias if only in the way of choosing what to emphasize. Full disclosure on this point -- coming in to writing this article, I was particularly interested in the following aspects of the book:
@@ -171,7 +174,7 @@ The experimental public goods game is an n-person prisoner’s dilemma.
 
 Part of the reason for the difference is that people have an intrinsic motivation to punish shirkers.
 
-This is not simply an instrumental desire to alter the shirker's behavior, or to affect the distribution of payoffs to either reduce unfairness or enhance one’s own relative payoffs
+This is not simply an instrumental desire to alter the shirker's behavior, or to affect the distribution of payoffs to either reduce unfairness or enhance one’s own relative payoffs.
 
 Subjects not only punished shirkers when it was **non-strategic**, that is, not in their own self-interest, they _enjoyed_ meting out punishment, expressing a desire for retribution.
 
